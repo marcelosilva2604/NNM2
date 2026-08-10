@@ -1,0 +1,53 @@
+{
+  "aggregation_shift": {
+    "region_to_state": {
+      "median": 0.00078,
+      "max": 0.003,
+      "units": 27
+    },
+    "municipality_to_region": {
+      "median": 0.00261,
+      "max": 0.49519,
+      "units": 510
+    }
+  },
+  "state_multiplicity": {
+    "raw_p_below_0.05": 10,
+    "bh_survivors": 1,
+    "bh_states": [
+      "RJ"
+    ],
+    "bonferroni_survivors": 1,
+    "bonferroni_states": [
+      "RJ"
+    ]
+  },
+  "region_departures": {
+    "canonical_global_dispersion": 9,
+    "exposure_dependent_dispersion": 17
+  },
+  "states_resolved_from_region_model": 24,
+  "rho_posterior_below_0.5": 0.929,
+  "unpooled_sign_split": {
+    "municipality": {
+      "classified": 384,
+      "falling": 289,
+      "rising": 95
+    },
+    "immediate region": {
+      "classified": 83,
+      "falling": 78,
+      "rising": 5
+    },
+    "state": {
+      "classified": 19,
+      "falling": 19,
+      "rising": 0
+    },
+    "macro-region": {
+      "classified": 5,
+      "falling": 5,
+      "rising": 0
+    }
+  }
+}

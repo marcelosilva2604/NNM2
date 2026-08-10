@@ -1,0 +1,50 @@
+Unit slope against the national drift
+============================================================
+
+=== STATE (n = 27) ===
+  Ahead of the country                    0  (0.0%)
+  Changed, in line with the country      21  (77.8%)
+  Lagging the country                     0  (0.0%)
+  No determination                        6  (22.2%)
+
+  credibly different from the national drift in either direction: 0 of 27
+
+  all 27 states, ordered by slope (least to most improvement):
+UF  b_mean  b_lo95  b_hi95  delta_mean  delta_lo95  delta_hi95                             label
+TO -0.0115 -0.0293  0.0144      0.0118     -0.0049      0.0379                  No determination
+RR -0.0143 -0.0307  0.0092      0.0089     -0.0067      0.0329                  No determination
+ES -0.0146 -0.0302  0.0074      0.0086     -0.0067      0.0312                  No determination
+RJ -0.0155 -0.0306  0.0048      0.0077     -0.0075      0.0282                  No determination
+MT -0.0177 -0.0334  0.0019      0.0055     -0.0097      0.0249                  No determination
+SP -0.0190 -0.0342 -0.0011      0.0042     -0.0107      0.0225 Changed, in line with the country
+AC -0.0198 -0.0374  0.0011      0.0034     -0.0141      0.0240                  No determination
+PB -0.0207 -0.0369 -0.0027      0.0025     -0.0137      0.0210 Changed, in line with the country
+PA -0.0211 -0.0370 -0.0036      0.0021     -0.0133      0.0196 Changed, in line with the country
+MG -0.0215 -0.0375 -0.0038      0.0018     -0.0145      0.0189 Changed, in line with the country
+PE -0.0218 -0.0376 -0.0049      0.0014     -0.0145      0.0179 Changed, in line with the country
+AL -0.0221 -0.0382 -0.0051      0.0011     -0.0150      0.0182 Changed, in line with the country
+MS -0.0223 -0.0394 -0.0047      0.0009     -0.0163      0.0184 Changed, in line with the country
+SC -0.0227 -0.0397 -0.0052      0.0005     -0.0169      0.0183 Changed, in line with the country
+RS -0.0232 -0.0398 -0.0071      0.0000     -0.0161      0.0165 Changed, in line with the country
+BA -0.0234 -0.0391 -0.0076     -0.0001     -0.0158      0.0160 Changed, in line with the country
+AM -0.0250 -0.0426 -0.0095     -0.0018     -0.0193      0.0140 Changed, in line with the country
+GO -0.0254 -0.0431 -0.0094     -0.0022     -0.0200      0.0135 Changed, in line with the country
+RN -0.0256 -0.0440 -0.0091     -0.0023     -0.0206      0.0138 Changed, in line with the country
+SE -0.0257 -0.0452 -0.0087     -0.0025     -0.0213      0.0141 Changed, in line with the country
+MA -0.0267 -0.0449 -0.0114     -0.0035     -0.0216      0.0116 Changed, in line with the country
+PR -0.0283 -0.0478 -0.0122     -0.0051     -0.0246      0.0105 Changed, in line with the country
+CE -0.0284 -0.0474 -0.0129     -0.0052     -0.0241      0.0100 Changed, in line with the country
+PI -0.0288 -0.0490 -0.0131     -0.0056     -0.0259      0.0098 Changed, in line with the country
+AP -0.0299 -0.0526 -0.0126     -0.0067     -0.0296      0.0099 Changed, in line with the country
+RO -0.0330 -0.0568 -0.0165     -0.0098     -0.0335      0.0057 Changed, in line with the country
+DF -0.0379 -0.0668 -0.0188     -0.0147     -0.0433      0.0029 Changed, in line with the country
+
+=== REGION (n = 510) ===
+  Ahead of the country                    8  (1.6%)
+  Changed, in line with the country      78  (15.3%)
+  Lagging the country                     1  (0.2%)
+  No determination                      423  (82.9%)
+
+  credibly different from the national drift in either direction: 9 of 510
+
+  of the 424 regions not separable from zero, 1 are still separable from the national drift

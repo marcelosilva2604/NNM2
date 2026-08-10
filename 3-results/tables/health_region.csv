@@ -1,0 +1,2 @@
+level,units,median_deaths_per_unit,classified,pct_classified,rising_hierarchical,median_posterior_sd,median_mde,divergences,worst_rhat,units_fitted,classified_unpooled,pct_unpooled,rising_unpooled
+health region,433,152,75,17.3,0,0.0169,0.0331,0,1.0049,433,78,18.0,7

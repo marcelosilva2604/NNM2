@@ -1,0 +1,6 @@
+variant,classified_slope,pct_slope,median_sd_slope,median_sd_level,divergences,gamma_a,classified_residual,pct_residual,gamma_b,delta_nicu,delta_ubs,between_nicu,between_ubs,within_nicu,within_ubs
+base,89,17.5,0.0175,0.0929,0,,,,,,,,,,
+level,85,16.7,0.0175,0.0914,0,-0.1552 (-0.1913 to -0.1182),,,,,,,,,
+slope,89,17.5,0.0174,0.0931,0,,11.0,2.2,-0.0023 (-0.0068 to 0.0018),,,,,,
+timevar,103,20.2,0.0174,0.0929,0,,,,,-0.0174 (-0.0367 to 0.0021),0.0400 (0.0146 to 0.0648),,,,
+mundlak,103,20.2,0.0174,0.0935,0,,,,,,,-0.0253 (-0.0523 to 0.0001),0.0396 (0.0097 to 0.0696),-0.0072 (-0.0356 to 0.0215),0.0322 (-0.0157 to 0.0796)

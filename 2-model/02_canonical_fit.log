@@ -1,0 +1,57 @@
+Paper 2 canonical fit
+============================================================
+panel rows            : 5,610
+immediate regions     : 510
+states                : 27
+years                 : 2014-2024
+deaths (avoidable)    : 117,578
+deaths (four groups)  : 245,796
+births                : 30,462,542
+interval convention   : 95%
+seed                  : 20260803
+
+============================================================
+MODEL: rate
+============================================================
+[rate] divergences        : 0
+[rate] worst r-hat        : 1.0065
+[rate] lowest bulk ESS    : 685
+
+                         mean       sd eti95_lb eti95_ub  ess_bulk  ess_tail r_hat mcse_mean  mcse_sd
+mu_a                   -5.485    0.054     -5.6     -5.4       685      1153  1.01    0.0021   0.0016
+mu_b                 -0.02227  0.00247   -0.027   -0.017      3167      3994  1.00   4.4e-05  3.5e-05
+sigma_a_state           0.262    0.043     0.19     0.36      1219      2302  1.00    0.0012   0.0011
+sigma_a_region         0.2213   0.0091      0.2     0.24      1796      2887  1.00   0.00021  0.00015
+sigma_b_state          0.0078   0.0035   0.0012    0.015       889       976  1.00   0.00011  8.6e-05
+sigma_b_region        0.02002  0.00201    0.016    0.024      2501      3452  1.00     4e-05  2.9e-05
+between_state_share     0.146    0.103   0.0031     0.38       878       999  1.00    0.0032   0.0027
+alpha                   56.39     4.05       49       65      7137      6237  1.00     0.047    0.036
+
+[rate] regions                    : 510
+[rate] classified at 95%          : 86 (16.9%)
+[rate] prob_direction >= 0.95     : 154 (30.2%)
+[rate] median minimum detectable  : 0.0343 per year
+[rate] naive sign error rate      : 13.1%
+
+============================================================
+MODEL: share
+============================================================
+[share] divergences        : 0
+[share] worst r-hat        : 1.0031
+[share] lowest bulk ESS    : 806
+
+                        mean       sd eti95_lb eti95_ub  ess_bulk  ess_tail r_hat mcse_mean  mcse_sd
+mu_a                   0.018    0.068    -0.11     0.15       851      1343  1.00    0.0023   0.0018
+mu_b                 -0.0282  0.00367   -0.035   -0.021      3609      3625  1.00   6.2e-05  4.9e-05
+sigma_a_state          0.326    0.055     0.24     0.45      1529      2185  1.00    0.0014   0.0012
+sigma_a_region        0.3213   0.0128      0.3     0.35      1790      3027  1.00    0.0003  0.00022
+sigma_b_state         0.0111   0.0056   0.0011    0.023       806      1130  1.00   0.00019  0.00013
+sigma_b_region        0.0361  0.00276    0.031    0.042      2683      3948  1.00   5.3e-05  3.8e-05
+between_state_share    0.101    0.082  0.00083     0.31       807      1136  1.00    0.0025   0.0023
+kappa                  148.7     15.4      120      180      7174      6711  1.00      0.18     0.15
+
+[share] regions                    : 510
+[share] classified at 95%          : 67 (13.1%)
+[share] prob_direction >= 0.95     : 105 (20.6%)
+[share] median minimum detectable  : 0.0570 per year
+[share] naive sign error rate      : 18.7%

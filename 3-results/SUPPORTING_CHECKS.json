@@ -1,0 +1,88 @@
+{
+  "coding_quality": {
+    "illdef_share_first": 0.0569,
+    "illdef_share_last": 0.0541,
+    "illdef_share_min": 0.0511,
+    "illdef_share_max": 0.0596,
+    "n_regions_tested": 510,
+    "spearman_illdef_trend_vs_slope": -0.093,
+    "spearman_p": 0.0367
+  },
+  "outcome_definition": {
+    "avoidable": {
+      "units_fitted": 510,
+      "classified": 83,
+      "pct": 16.3,
+      "median_deaths_per_unit": 115
+    },
+    "four_group": {
+      "units_fitted": 510,
+      "classified": 52,
+      "pct": 10.2,
+      "median_deaths_per_unit": 230
+    },
+    "all_neonatal": {
+      "units_fitted": 510,
+      "classified": 53,
+      "pct": 10.4,
+      "median_deaths_per_unit": 245
+    }
+  },
+  "common_national_shock": {
+    "regions_used": 142,
+    "min_deaths": 200,
+    "common_variance_share": 0.0067
+  },
+  "linearity": {
+    "units_tested": 510,
+    "reject_linear_pct": 13.3,
+    "by_quintile": [
+      {
+        "quintile": 1,
+        "median_deaths": 39.0,
+        "reject_pct": 4.8,
+        "curvature_pct": 5.8
+      },
+      {
+        "quintile": 2,
+        "median_deaths": 78.0,
+        "reject_pct": 14.7,
+        "curvature_pct": 9.8
+      },
+      {
+        "quintile": 3,
+        "median_deaths": 117.5,
+        "reject_pct": 7.7,
+        "curvature_pct": 13.5
+      },
+      {
+        "quintile": 4,
+        "median_deaths": 194.5,
+        "reject_pct": 13.3,
+        "curvature_pct": 15.3
+      },
+      {
+        "quintile": 5,
+        "median_deaths": 408.0,
+        "reject_pct": 26.5,
+        "curvature_pct": 22.5
+      }
+    ]
+  },
+  "winners_curse": {
+    "median_abs_slope_resolved": 0.039,
+    "median_abs_slope_unresolved": 0.0204,
+    "inflation_ratio": 1.91
+  },
+  "between_state_heterogeneity": {
+    "states": 27,
+    "pooled_slope": -0.02085,
+    "Q": 114.7,
+    "df": 26,
+    "p_value": "4.17e-13",
+    "tau": 0.0112,
+    "tau_pct_per_decade": 11.8,
+    "I2_pct": 77.3,
+    "states_classified_unpooled": 19
+  }
+}

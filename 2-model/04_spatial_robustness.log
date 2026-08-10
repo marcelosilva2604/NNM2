@@ -1,0 +1,17 @@
+Spatial robustness of the classification rate
+============================================================
+[nopool] classified 77/510 (15.1%)  median SD 0.0322  divergences 0  worst r-hat 1.0570
+[exch] loaded cached posterior
+[exch] classified 84/510 (16.5%)  median SD 0.0176  divergences 0  worst r-hat 1.0036
+[bym2] loaded cached posterior
+[bym2] classified 89/510 (17.5%)  median SD 0.0174  divergences 0  worst r-hat 1.0038
+
+BYM2 spatial share of slope variation (rho):
+           mean      sd eti95_lb eti95_ub  ess_bulk  ess_tail r_hat mcse_mean mcse_sd
+rho        0.22    0.16    0.011      0.6       173       257  1.03     0.011  0.0082
+sigma_b  0.0219  0.0023    0.018    0.027       665      1097  1.00   9.1e-05   7e-05
+
+ prior  classified    share  median_sd  median_mde  divergences
+nopool          77 0.150980   0.032246    0.063201            0
+  exch          84 0.164706   0.017551    0.034400            0
+  bym2          89 0.174510   0.017424    0.034151            0

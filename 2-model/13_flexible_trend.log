@@ -1,0 +1,10 @@
+Flexible trend shapes
+============================================================
+[linear] {'trend': 'linear', 'classified': 89, 'pct': 17.5, 'median_sd': 0.0175, 'alpha': 56.4, 'divergences': 0, 'worst_rhat': 1.0026}
+[quadratic] {'trend': 'quadratic', 'classified': 83, 'pct': 16.3, 'median_sd': 0.0174, 'alpha': 59.1, 'divergences': 0, 'worst_rhat': 1.0028}
+[rw] {'trend': 'rw', 'classified': 84, 'pct': 16.5, 'median_sd': 0.0174, 'alpha': 56.4, 'divergences': 0, 'worst_rhat': 1.0025}
+
+    trend  classified  pct  median_sd  alpha  divergences  worst_rhat
+   linear          89 17.5     0.0175   56.4            0      1.0026
+quadratic          83 16.3     0.0174   59.1            0      1.0028
+       rw          84 16.5     0.0174   56.4            0      1.0025

@@ -1,0 +1,36 @@
+Stability of the classification count across seeds
+============================================================
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88
+  ],
+  "counts": [
+    86,
+    87,
+    88,
+    86,
+    85,
+    84,
+    85,
+    83
+  ],
+  "mean": 85.5,
+  "sd": 1.6,
+  "min": 83,
+  "max": 88,
+  "range_pct_of_510": 0.98,
+  "regions_classified_in_every_run": 78,
+  "regions_classified_in_no_run": 417,
+  "regions_that_flip_between_runs": 15,
+  "boundary_population_canonical_band_0.01": 64,
+  "boundary_population_canonical_band_0.02": 110
+}
+
+Interpretation: 78 regions are classified under every seed and 417 under none; only 15 change status between runs, and 64 regions sit within 0.01 of the decision threshold in the canonical fit. The instability is concentrated at the boundary and is a property of the binary rule, not of the estimate.

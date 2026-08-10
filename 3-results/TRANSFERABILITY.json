@@ -1,0 +1,61 @@
+{
+  "threshold_rule": {
+    "quintiles": [
+      {
+        "exposure_quintile": 1,
+        "median_avoidable_deaths_per_unit_year": 3.5,
+        "power_vs_national_drift": 0.061,
+        "type_S": 0.1181,
+        "type_M": 5.48
+      },
+      {
+        "exposure_quintile": 2,
+        "median_avoidable_deaths_per_unit_year": 7.1,
+        "power_vs_national_drift": 0.074,
+        "type_S": 0.0933,
+        "type_M": 3.79
+      },
+      {
+        "exposure_quintile": 3,
+        "median_avoidable_deaths_per_unit_year": 10.7,
+        "power_vs_national_drift": 0.095,
+        "type_S": 0.0455,
+        "type_M": 3.13
+      },
+      {
+        "exposure_quintile": 4,
+        "median_avoidable_deaths_per_unit_year": 17.7,
+        "power_vs_national_drift": 0.114,
+        "type_S": 0.0223,
+        "type_M": 2.66
+      },
+      {
+        "exposure_quintile": 5,
+        "median_avoidable_deaths_per_unit_year": 37.1,
+        "power_vs_national_drift": 0.235,
+        "type_S": 0.0083,
+        "type_M": 1.8
+      }
+    ],
+    "lowest": {
+      "deaths_per_unit_year": 3.5,
+      "power": 0.061
+    },
+    "median": {
+      "deaths_per_unit_year": 10.7,
+      "power": 0.095
+    },
+    "highest": {
+      "deaths_per_unit_year": 37.1,
+      "power": 0.235
+    },
+    "max_observed_exposure": 37.1
+  },
+  "completeness_bound": {
+    "national_drift_mu_b": -0.02227,
+    "displacement_if_capture_improves_1pct_per_year": 0.00995,
+    "displacement_as_share_of_national_drift": 0.447,
+    "capture_growth_that_would_erase_the_drift_pct_per_year": 2.25,
+    "affects_precision": false
+  }
+}

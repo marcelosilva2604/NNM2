@@ -1,0 +1,112 @@
+Design analysis, two arms
+======================================================================
+
+national drift mu_b        : -0.02227
+between-unit slope SD (tau): 0.02147
+per-region alpha           : median 69.4, range 41.4 to 285.7
+
+                          arm  exposure_quintile    n  power  type_S  type_M  true_slope_x_national
+      A: fixed 0.0x, unpooled                  1 2080  0.048  0.0000     NaN                    0.0
+      A: fixed 0.0x, unpooled                  2 2040  0.050  0.0000     NaN                    0.0
+      A: fixed 0.0x, unpooled                  3 2080  0.045  0.0000     NaN                    0.0
+      A: fixed 0.0x, unpooled                  4 1960  0.048  0.0000     NaN                    0.0
+      A: fixed 0.0x, unpooled                  5 2040  0.040  0.0000     NaN                    0.0
+      A: fixed 0.5x, unpooled                  1 2080  0.058  0.3000   10.01                    0.5
+      A: fixed 0.5x, unpooled                  2 2040  0.053  0.2569    7.43                    0.5
+      A: fixed 0.5x, unpooled                  3 2080  0.059  0.2295    6.32                    0.5
+      A: fixed 0.5x, unpooled                  4 1960  0.073  0.1538    5.00                    0.5
+      A: fixed 0.5x, unpooled                  5 2040  0.100  0.0739    3.23                    0.5
+      A: fixed 1.0x, unpooled                  1 2080  0.061  0.1181    5.48                    1.0
+      A: fixed 1.0x, unpooled                  2 2040  0.074  0.0933    3.79                    1.0
+      A: fixed 1.0x, unpooled                  3 2080  0.095  0.0455    3.13                    1.0
+      A: fixed 1.0x, unpooled                  4 1960  0.114  0.0223    2.66                    1.0
+      A: fixed 1.0x, unpooled                  5 2040  0.235  0.0083    1.80                    1.0
+      A: fixed 2.0x, unpooled                  1 2080  0.104  0.0185    2.75                    2.0
+      A: fixed 2.0x, unpooled                  2 2040  0.182  0.0000    2.13                    2.0
+      A: fixed 2.0x, unpooled                  3 2080  0.227  0.0085    1.77                    2.0
+      A: fixed 2.0x, unpooled                  4 1960  0.350  0.0015    1.50                    2.0
+      A: fixed 2.0x, unpooled                  5 2040  0.624  0.0000    1.17                    2.0
+B: drawn slopes, hierarchical                  1 2080  0.026  0.0182    1.05                    NaN
+B: drawn slopes, hierarchical                  2 2040  0.101  0.0049    0.99                    NaN
+B: drawn slopes, hierarchical                  3 2080  0.174  0.0166    1.00                    NaN
+B: drawn slopes, hierarchical                  4 1960  0.249  0.0123    0.99                    NaN
+B: drawn slopes, hierarchical                  5 2040  0.427  0.0034    0.98                    NaN
+
+{
+  "arm_A_power_at_1x_by_quintile": [
+    {
+      "exposure_quintile": 1,
+      "power": 0.061,
+      "type_S": 0.1181,
+      "type_M": 5.48
+    },
+    {
+      "exposure_quintile": 2,
+      "power": 0.074,
+      "type_S": 0.0933,
+      "type_M": 3.79
+    },
+    {
+      "exposure_quintile": 3,
+      "power": 0.095,
+      "type_S": 0.0455,
+      "type_M": 3.13
+    },
+    {
+      "exposure_quintile": 4,
+      "power": 0.114,
+      "type_S": 0.0223,
+      "type_M": 2.66
+    },
+    {
+      "exposure_quintile": 5,
+      "power": 0.235,
+      "type_S": 0.0083,
+      "type_M": 1.8
+    }
+  ],
+  "arm_A_mean_power_at_1x": 0.116,
+  "arm_A_null_declaration_rate": 0.0462,
+  "arm_B_power_by_quintile": [
+    {
+      "exposure_quintile": 1,
+      "power": 0.026,
+      "type_S": 0.0182,
+      "type_M": 1.05
+    },
+    {
+      "exposure_quintile": 2,
+      "power": 0.101,
+      "type_S": 0.0049,
+      "type_M": 0.99
+    },
+    {
+      "exposure_quintile": 3,
+      "power": 0.174,
+      "type_S": 0.0166,
+      "type_M": 1.0
+    },
+    {
+      "exposure_quintile": 4,
+      "power": 0.249,
+      "type_S": 0.0123,
+      "type_M": 0.99
+    },
+    {
+      "exposure_quintile": 5,
+      "power": 0.427,
+      "type_S": 0.0034,
+      "type_M": 0.98
+    }
+  ],
+  "arm_B_mean_power": 0.195,
+  "arm_B_classification_count": {
+    "mean": 99.1,
+    "sd": 15.9,
+    "min": 69,
+    "max": 122
+  },
+  "arm_B_divergences_total": 0,
+  "tau": 0.02147,
+  "alpha_median": 69.4
+}

@@ -1,0 +1,44 @@
+{
+  "n_simulations_per_unit_per_scenario": 20,
+  "national_drift": -0.02227,
+  "dispersion_alpha": 56.4,
+  "power_at_national_size_change_by_quintile": [
+    {
+      "exposure_quintile": 1,
+      "median_deaths": 39,
+      "power": 0.064,
+      "type_S": 0.1429,
+      "type_M": 5.29
+    },
+    {
+      "exposure_quintile": 2,
+      "median_deaths": 78,
+      "power": 0.078,
+      "type_S": 0.0692,
+      "type_M": 3.68
+    },
+    {
+      "exposure_quintile": 3,
+      "median_deaths": 117,
+      "power": 0.097,
+      "type_S": 0.0498,
+      "type_M": 3.15
+    },
+    {
+      "exposure_quintile": 4,
+      "median_deaths": 194,
+      "power": 0.118,
+      "type_S": 0.0087,
+      "type_M": 2.71
+    },
+    {
+      "exposure_quintile": 5,
+      "median_deaths": 408,
+      "power": 0.165,
+      "type_S": 0.003,
+      "type_M": 2.06
+    }
+  ],
+  "overall_power_at_national_size_change": 0.104,
+  "false_positive_rate_when_truth_is_zero": 0.0514
+}

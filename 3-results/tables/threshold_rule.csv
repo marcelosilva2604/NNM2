@@ -1,0 +1,6 @@
+exposure_quintile,median_avoidable_deaths_per_unit_year,power_vs_national_drift,type_S,type_M
+1,3.5,0.061,0.1181,5.48
+2,7.1,0.074,0.0933,3.79
+3,10.7,0.095,0.0455,3.13
+4,17.7,0.114,0.0223,2.66
+5,37.1,0.235,0.0083,1.8

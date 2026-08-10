@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88
+  ],
+  "counts": [
+    86,
+    87,
+    88,
+    86,
+    85,
+    84,
+    85,
+    83
+  ],
+  "mean": 85.5,
+  "sd": 1.6,
+  "min": 83,
+  "max": 88,
+  "range_pct_of_510": 0.98,
+  "regions_classified_in_every_run": 78,
+  "regions_classified_in_no_run": 417,
+  "regions_that_flip_between_runs": 15,
+  "boundary_population_canonical_band_0.01": 64,
+  "boundary_population_canonical_band_0.02": 110
+}

@@ -1,0 +1,34 @@
+# Input data. Not versioned: the SIM and SINASC records are public at DATASUS and the
+# scripts in 1-data/ rebuild every derived panel from them. See README.
+data/raw/
+data/processed/
+data/ref/*.geojson
+data/ref/*.pdf
+*.csv.gz
+*.dbc
+*.dbf
+
+# Sampled posteriors: 5.2 GB, with single files above GitHub's 100 MB limit. Reproducible
+# by re-running the scripts in 2-model/, which carry a fixed seed.
+2-model/*.nc
+2-model/*.pkl
+
+# Not published while the paper is under review
+4-manuscript/
+0-plan/
+*_local.md
+_archive_*/
+
+# Stray console dumps: not part of the documented pipeline, and they carry local paths
+*.out
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# System
+.DS_Store
+Icon?
