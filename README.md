@@ -4,14 +4,14 @@ Analysis code for a study of whether routine vital registration can detect chang
 avoidable neonatal mortality at the spatial scale where care is organised, Brazil
 2014-2024.
 
-The paper asks a question borrowed from hospital quality profiling and never before put to
-a national civil registration system: not *how many deaths were there*, but *how much
+The paper asks a question borrowed from hospital quality profiling and rarely put to a
+national civil registration system: not *how many deaths were there*, but *how much
 change could this registry have detected at all*. The answer is computed at four nested
 spatial scales plus the SUS health-planning geography, and reported as a design analysis
 (power, type S and type M errors) rather than as a list of significant places.
 
-The manuscript is under review. This repository holds the code and the derived results; it
-does not hold the manuscript text.
+The manuscript is not yet published. This repository holds the code and the derived
+results; it does not hold the manuscript text.
 
 ---
 
@@ -28,7 +28,7 @@ audit notebooks, **committed with their outputs**; and the two municipality cros
 | `data/raw/`, `data/processed/` | The source records are public and it is better to fetch them than to mirror them | SIM and SINASC via DATASUS, https://datasus.saude.gov.br |
 | `2-model/*.nc` (5.2 GB of posteriors) | Single files reach 1 GB, against GitHub's 100 MB limit | Re-run the scripts in `2-model/`; each carries a fixed seed |
 | `data/ref/*.geojson` | Boundary files, 28 MB, and freely available | IBGE |
-| Manuscript, supplement, cover letter | Not published while the paper is under review | |
+| Manuscript, supplement, cover letter | Not published until the paper is | |
 
 The notebooks are versioned **executed** on purpose. Since the posteriors are not here, a
 cleared notebook would prove nothing; with outputs, you can read every assertion and its
@@ -182,8 +182,11 @@ rediscover it.
   the two agree. But health regions were repactuated during the decade in several states,
   so the unit is held fixed at a definition that did not hold throughout. This is
   unavoidable for a within-unit trend.
-- **Terminal-year maturity.** No extraction date or completeness flag is recorded, and an
-  under-complete 2024 would bias every slope toward apparent improvement.
+- **Terminal-year maturity.** The SIM and SINASC files for 2014-2024 were the Ministry of
+  Health's final releases at the time of download (the Ministry had moved on to the 2025
+  files). An under-complete terminal year would bias every slope toward apparent
+  improvement, which is why this is recorded here; no completeness flag is carried in the
+  extract itself.
 - **Non-linearity** is real: a region's own series rejects the log-linear fit in 13.3% of
   cases overall and 26.5% in the highest-exposure quintile. The classification count is
   robust to trend shape, but the linear summary remains a simplification where the study
@@ -202,5 +205,17 @@ Brasil 2010 for the development index; and the DATASUS territorial base (Decembe
 the municipality-to-health-region crosswalk, whose provenance is documented in
 `data/ref/muni_regiao_saude_PROVENANCE.md`.
 
-All source records are aggregate and anonymised, and no individual can be identified from
-them.
+The SIM extract is publicly available, de-identified mortality microdata (one record per
+death, no direct personal identifiers); SINASC, CNES and Atlas Brasil enter as aggregate
+counts by municipality and year. Every result is aggregated at municipality-year level or
+coarser.
+
+---
+
+## Licence and citation
+
+Code is released under the MIT Licence (see `LICENSE`). The derived result tables and
+JSON summaries in `3-results/` and the reference tables in `data/ref/` may be reused
+with attribution to this repository and to the paper once it is published. The source
+records belong to the Brazilian Ministry of Health (SIM, SINASC, CNES via DATASUS) and
+to IBGE, under their own terms.
