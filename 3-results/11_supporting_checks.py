@@ -89,6 +89,18 @@ def check_coding(region):
     merged = trends.merge(slopes, on="rgi_id")
     rho = stats.spearmanr(merged.illdef_trend, merged.b_mean)
 
+    # Percentile bootstrap over regions for the correlation, 10,000 resamples, fixed seed.
+    # The journal asks for an interval rather than a p-value; the Fisher transformation is
+    # only approximate for Spearman, so the interval is resampled instead.
+    rng = np.random.default_rng(20260904)
+    x, y = merged.illdef_trend.values, merged.b_mean.values
+    n = len(x)
+    boot = np.empty(10_000)
+    for i in range(boot.size):
+        idx = rng.integers(0, n, n)
+        boot[i] = stats.spearmanr(x[idx], y[idx]).statistic
+    lo, hi = np.percentile(boot, [2.5, 97.5])
+
     return {
         "illdef_share_first": round(float(by_year.iloc[0]), 4),
         "illdef_share_last": round(float(by_year.iloc[-1]), 4),
@@ -96,6 +108,9 @@ def check_coding(region):
         "illdef_share_max": round(float(by_year.max()), 4),
         "n_regions_tested": int(len(merged)),
         "spearman_illdef_trend_vs_slope": round(float(rho.statistic), 3),
+        "spearman_ci_lo": round(float(lo), 3),
+        "spearman_ci_hi": round(float(hi), 3),
+        "spearman_bootstrap": {"resamples": int(boot.size), "seed": 20260904, "method": "percentile"},
         "spearman_p": round(float(rho.pvalue), 4),
     }
 

@@ -6,6 +6,13 @@
     "illdef_share_max": 0.0596,
     "n_regions_tested": 510,
     "spearman_illdef_trend_vs_slope": -0.093,
+    "spearman_ci_lo": -0.174,
+    "spearman_ci_hi": -0.006,
+    "spearman_bootstrap": {
+      "resamples": 10000,
+      "seed": 20260904,
+      "method": "percentile"
+    },
     "spearman_p": 0.0367
   },
   "outcome_definition": {
