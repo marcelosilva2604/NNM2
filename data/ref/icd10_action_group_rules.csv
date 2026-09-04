@@ -1,0 +1,28 @@
+icd10,group,description
+A50,prenatal,Congenital syphilis
+P00-P02,prenatal,"Fetus and newborn affected by maternal conditions, maternal complications of pregnancy, complications of placenta, cord and membranes"
+P04,prenatal,Fetus and newborn affected by noxious influences transmitted via placenta or breast milk
+P05,prenatal,Slow fetal growth and fetal malnutrition
+P07,prenatal,Disorders related to short gestation and low birthweight
+P08,prenatal,Disorders related to long gestation and high birthweight
+P55,prenatal,Haemolytic disease of fetus and newborn
+P03,delivery,Fetus and newborn affected by other complications of labour and delivery
+P10-P15,delivery,Birth trauma
+P20-P21,delivery,Intrauterine hypoxia and birth asphyxia
+"P06, P09",newborn,Other P0x codes not listed above
+P22-P28,newborn,Respiratory disorders specific to the perinatal period
+P29,newborn,Cardiovascular disorders originating in the perinatal period
+P35-P39,newborn,Infections specific to the perinatal period
+P50-P54,newborn,Haemorrhagic disorders of fetus and newborn
+P56-P61,newborn,Other haemolytic and haematological disorders (P55 excluded)
+P70-P74,newborn,Transitory endocrine and metabolic disorders
+P75-P78,newborn,Digestive system disorders of fetus and newborn
+P80-P83,newborn,Conditions involving the integument and temperature regulation
+P90-P95,newborn,Other disorders originating in the perinatal period (P96 excluded)
+P97-P99,newborn,Other P codes
+Q00-Q99,malformation,"Congenital malformations, deformations and chromosomal abnormalities"
+P96,illdef,"Other conditions originating in the perinatal period, including P96.9 unspecified"
+R00-R99,illdef,"Symptoms, signs and abnormal findings not elsewhere classified"
+V01-Y98,illdef,External causes of morbidity and mortality
+all other chapters,illdef,"A (except A50), B, C, D, E, F, G, H, I, J, K, L, M, N"
+missing or < 3 characters,illdef,Unusable code

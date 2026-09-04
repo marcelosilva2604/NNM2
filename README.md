@@ -55,6 +55,7 @@ re-running is cheap and deleting one file forces a genuine refit.
 
 | Step | Script | Produces |
 |---|---|---|
+| 0 | `1-data/00_cause_grouping.py` | ICD-10 to action-group rule table, observed-code list, municipality-year cause panel (asserted identical to the one used) |
 | 1 | `1-data/01_build_panel.py` | region-year and municipality-year panels, build report |
 | 2 | `1-data/02_build_adjacency.py` | contiguity graph for the spatial prior |
 | 3 | `1-data/03_build_covariates.py` | region-year covariates |
@@ -76,11 +77,15 @@ re-running is cheap and deleting one file forces a genuine refit.
 `3-results/10_design_analysis.py` is superseded by step 14 and no longer feeds the paper; it
 is kept only so the earlier single-arm result can be reproduced.
 
-**One honest gap in the rebuild path.** Step 1 consumes four intermediates
-(`muni_year_cause_panel.csv`, `nascidos_muni_ano.csv`, `cnes_muni_ano.csv`,
-`idhm_muni.csv`) that were produced by an earlier pipeline which is not part of this
-repository. No script here derives them from `data/raw`, so a rebuild starts from those
-intermediates rather than from the DATASUS downloads.
+**The rebuild path, and what is still upstream.** Step 0
+(`1-data/00_cause_grouping.py`) now derives the cause panel
+(`muni_year_cause_panel.csv`) from the SIM extract in `data/raw`: it applies the ICD-10 to
+action-group mapping documented in `data/ref/ICD10_ACTION_GROUPS.md`, drops the 196
+records whose residence code is a state-level "municipality unknown" code, and asserts
+that the rebuilt panel is identical to the one the analysis used. Three other
+intermediates consumed by step 1 (`nascidos_muni_ano.csv`, `cnes_muni_ano.csv`,
+`idhm_muni.csv`) are still produced by an earlier pipeline outside this repository; they
+are aggregations of public SINASC, CNES and Atlas Brasil tables by municipality and year.
 
 ## Checking without refitting
 
@@ -160,8 +165,10 @@ rediscover it.
 
 ## What this project does not establish
 
-- The **ICD-10 to action-group mapping** was inherited from the source cause panel and is
-  not re-derived here. Totals can be verified; the mapping cannot.
+- The **ICD-10 to action-group mapping** is published (`data/ref/ICD10_ACTION_GROUPS.md`,
+  `icd10_action_group_rules.csv`, `icd10_codes_observed_2014_2024.csv`) and re-applied by
+  step 0, but it assigns avoidability by cause code, following the Brazilian avoidable-causes
+  list, and was not validated against medical records.
 - **Birth under-registration**, concentrated in parts of the North, would inflate
   denominators and mimic improvement. Not addressed.
 - **Death-count completeness** is a larger threat than the birth denominator. It is bounded
