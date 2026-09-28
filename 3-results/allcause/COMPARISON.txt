@@ -47,10 +47,10 @@ spearman illdef trend vs slope                         -0.093                   
 states separable from national drift                   0                                   0
 regions separable (leading/lagging)                    9 (8/1)                             0 (0/0)  *
 arm A mean power at 1x national, %                     11.6                                7.7  *
-arm A power by quintile, %                             ERR TypeError                       ERR TypeError
+arm A power by quintile, %                             [6.1, 7.4, 9.5, 11.4, 23.5]         [4.9, 6.4, 5.7, 7.9, 13.8]  *
 arm A null declaration rate, %                         4.6                                 4.9  *
 arm B mean power, %                                    19.5                                5.3  *
-arm B power by quintile, %                             ERR TypeError                       ERR TypeError
+arm B power by quintile, %                             [2.6, 10.1, 17.4, 24.9, 42.7]       [0.0, 0.8, 2.1, 4.5, 18.9]  *
 arm B classification count mean (min-max)              99.1 (69-122)                       26.9 (14-44)  *
 tau (between-region slope SD)                          0.02147                             0.00897  *
 arm A type S at 1x by quintile                         [0.1181, 0.0933, 0.0455, 0.0223, 0.0083]  [0.28, 0.1298, 0.2222, 0.15, 0.0249]  *

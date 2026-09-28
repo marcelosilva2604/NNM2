@@ -3,35 +3,35 @@
     "quintiles": [
       {
         "exposure_quintile": 1,
-        "median_avoidable_deaths_per_unit_year": 7.9,
+        "median_deaths_per_unit_year": 7.9,
         "power_vs_national_drift": 0.049,
         "type_S": 0.28,
         "type_M": 9.64
       },
       {
         "exposure_quintile": 2,
-        "median_avoidable_deaths_per_unit_year": 15.0,
+        "median_deaths_per_unit_year": 15.0,
         "power_vs_national_drift": 0.064,
         "type_S": 0.1298,
         "type_M": 7.01
       },
       {
         "exposure_quintile": 3,
-        "median_avoidable_deaths_per_unit_year": 22.3,
+        "median_deaths_per_unit_year": 22.3,
         "power_vs_national_drift": 0.057,
         "type_S": 0.2222,
         "type_M": 5.78
       },
       {
         "exposure_quintile": 4,
-        "median_avoidable_deaths_per_unit_year": 36.6,
+        "median_deaths_per_unit_year": 36.6,
         "power_vs_national_drift": 0.079,
         "type_S": 0.15,
         "type_M": 4.57
       },
       {
         "exposure_quintile": 5,
-        "median_avoidable_deaths_per_unit_year": 79.1,
+        "median_deaths_per_unit_year": 79.1,
         "power_vs_national_drift": 0.138,
         "type_S": 0.0249,
         "type_M": 2.57

@@ -62,7 +62,7 @@ def threshold_rule():
     table = pd.DataFrame(
         {
             "exposure_quintile": exposure.index,
-            "median_avoidable_deaths_per_unit_year": exposure.values,
+            "median_deaths_per_unit_year": exposure.values,
             "power_vs_national_drift": arm_a.power.values,
             "type_S": arm_a.type_S.values,
             "type_M": arm_a.type_M.values,

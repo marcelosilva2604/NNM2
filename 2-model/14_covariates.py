@@ -219,10 +219,22 @@ def main():
     slp = table[table.variant == "slope"].iloc[0]
 
     tv = table[table.variant == "timevar"].iloc[0]
+    log += ["", table.to_string(index=False), ""]
+    if OUTCOME != "avoidable":
+        # The narrative below was written for the avoidable outcome and its signs. For
+        # any other outcome the coefficients are printed without interpretation; the
+        # outcome-aware reading is generated in 4-manuscript/build_supplement.py (S3).
+        log += [f"Reading: written for the avoidable outcome only; this run is {OUTCOME}. "
+                f"Coefficients: gamma_a {lvl.gamma_a}; gamma_b {slp.gamma_b}; "
+                f"delta_nicu {tv.delta_nicu}; delta_ubs {tv.delta_ubs}. Counts: base "
+                f"{int(base.classified_slope)}, level {int(lvl.classified_slope)}, slope "
+                f"{int(slp.classified_slope)}, timevar {int(tv.classified_slope)}."]
+        text = "\n".join(log)
+        (OUT / "14_covariates.log").write_text(text + "\n")
+        print()
+        print(text)
+        return
     log += [
-        "",
-        table.to_string(index=False),
-        "",
         "Reading:",
         f"  LEVEL: the static index predicts the level strongly (gamma_a "
         f"{lvl.gamma_a}) and moves level precision from {base.median_sd_level} to "

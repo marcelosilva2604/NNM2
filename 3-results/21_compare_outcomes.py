@@ -105,10 +105,10 @@ def rows_for(model, res):
     def d2():
         return json.loads((res / "DESIGN_TWO_ARM.json").read_text())
     out["arm A mean power at 1x national, %"] = safe(lambda: round(100 * d2()["arm_A_mean_power_at_1x"], 1))
-    out["arm A power by quintile, %"] = safe(lambda: [round(100 * p, 1) for p in d2()["arm_A_power_at_1x_by_quintile"]])
+    out["arm A power by quintile, %"] = safe(lambda: [round(100 * q["power"], 1) for q in d2()["arm_A_power_at_1x_by_quintile"]])
     out["arm A null declaration rate, %"] = safe(lambda: round(100 * d2()["arm_A_null_declaration_rate"], 1))
     out["arm B mean power, %"] = safe(lambda: round(100 * d2()["arm_B_mean_power"], 1))
-    out["arm B power by quintile, %"] = safe(lambda: [round(100 * p, 1) for p in d2()["arm_B_power_by_quintile"]])
+    out["arm B power by quintile, %"] = safe(lambda: [round(100 * q["power"], 1) for q in d2()["arm_B_power_by_quintile"]])
     out["arm B classification count mean (min-max)"] = safe(
         lambda: f"{d2()['arm_B_classification_count']['mean']} ({d2()['arm_B_classification_count']['min']}-{d2()['arm_B_classification_count']['max']})")
     out["tau (between-region slope SD)"] = safe(lambda: d2()["tau"])
