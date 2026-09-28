@@ -1,0 +1,78 @@
+{
+  "arm_A_power_at_1x_by_quintile": [
+    {
+      "exposure_quintile": 1,
+      "power": 0.049,
+      "type_S": 0.28,
+      "type_M": 9.64
+    },
+    {
+      "exposure_quintile": 2,
+      "power": 0.064,
+      "type_S": 0.1298,
+      "type_M": 7.01
+    },
+    {
+      "exposure_quintile": 3,
+      "power": 0.057,
+      "type_S": 0.2222,
+      "type_M": 5.78
+    },
+    {
+      "exposure_quintile": 4,
+      "power": 0.079,
+      "type_S": 0.15,
+      "type_M": 4.57
+    },
+    {
+      "exposure_quintile": 5,
+      "power": 0.138,
+      "type_S": 0.0249,
+      "type_M": 2.57
+    }
+  ],
+  "arm_A_mean_power_at_1x": 0.077,
+  "arm_A_null_declaration_rate": 0.0492,
+  "arm_B_power_by_quintile": [
+    {
+      "exposure_quintile": 1,
+      "power": 0.0,
+      "type_S": 0.0,
+      "type_M": 0.68
+    },
+    {
+      "exposure_quintile": 2,
+      "power": 0.008,
+      "type_S": 0.0625,
+      "type_M": 1.18
+    },
+    {
+      "exposure_quintile": 3,
+      "power": 0.021,
+      "type_S": 0.0455,
+      "type_M": 1.07
+    },
+    {
+      "exposure_quintile": 4,
+      "power": 0.045,
+      "type_S": 0.0222,
+      "type_M": 1.08
+    },
+    {
+      "exposure_quintile": 5,
+      "power": 0.189,
+      "type_S": 0.0104,
+      "type_M": 1.0
+    }
+  ],
+  "arm_B_mean_power": 0.053,
+  "arm_B_classification_count": {
+    "mean": 26.9,
+    "sd": 7.0,
+    "min": 14,
+    "max": 44
+  },
+  "arm_B_divergences_total": 0,
+  "tau": 0.00897,
+  "alpha_median": 127.9
+}

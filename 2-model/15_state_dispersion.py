@@ -29,6 +29,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -39,9 +40,11 @@ import statsmodels.api as sm
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 SEED = 20260803
 DRAWS = 2000
@@ -52,7 +55,7 @@ TARGET_ACCEPT = 0.99
 
 def load():
     d = pd.read_csv(PROC / "panel_region_year.csv")
-    st = d.groupby(["UF", "year"], as_index=False)[["avoidable", "births"]].sum()
+    st = d.groupby(["UF", "year"], as_index=False)[[OUTCOME, "births"]].sum()
     st["t"] = st.year - d.year.mean()
     states = np.sort(st.UF.unique())
     st["idx"] = st.UF.map({s: i for i, s in enumerate(states)})
@@ -82,7 +85,7 @@ def build(df, n_states, log_exp_c, dispersion):
             "y",
             mu=pm.math.exp(a[idx] + b[idx] * df.t.values + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 
@@ -91,7 +94,7 @@ def unpooled_contrasts(st, mean_year):
     """Each state against the rest of the country, using each fit's own dispersion."""
     def fit(x):
         f = sm.GLM(
-            x.avoidable, sm.add_constant(x[["t"]]),
+            x[OUTCOME], sm.add_constant(x[["t"]]),
             family=sm.families.Poisson(), offset=np.log(x.births),
         ).fit(scale="X2")
         return float(f.params["t"]), float(f.bse["t"])
@@ -99,7 +102,7 @@ def unpooled_contrasts(st, mean_year):
     rows = []
     for uf, x in st.groupby("UF"):
         b, se = fit(x)
-        rest = st[st.UF != uf].groupby("year", as_index=False)[["avoidable", "births"]].sum()
+        rest = st[st.UF != uf].groupby("year", as_index=False)[[OUTCOME, "births"]].sum()
         rest["t"] = rest.year - mean_year
         bn, sen = fit(rest)
         diff = b - bn

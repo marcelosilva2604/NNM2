@@ -24,6 +24,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -33,9 +34,11 @@ import statsmodels.api as sm
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 MACRO = {
     "AC": "North", "AM": "North", "AP": "North", "PA": "North", "RO": "North",
@@ -50,16 +53,16 @@ MACRO = {
 
 def unpooled(frame, key, mean_year):
     """Quasi-Poisson slope per unit, t on n-2 residual df, the study's standard."""
-    g = frame.groupby([key, "year"], as_index=False)[["avoidable", "births"]].sum()
+    g = frame.groupby([key, "year"], as_index=False)[[OUTCOME, "births"]].sum()
     g["t"] = g.year - mean_year
     g = g[g.births > 0]
     rows = []
     for unit, x in g.groupby(key):
-        if x.avoidable.sum() == 0:
+        if x[OUTCOME].sum() == 0:
             continue
         try:
             f = sm.GLM(
-                x.avoidable, sm.add_constant(x[["t"]]),
+                x[OUTCOME], sm.add_constant(x[["t"]]),
                 family=sm.families.Poisson(), offset=np.log(x.births),
             ).fit(scale="X2")
             b, se = float(f.params["t"]), float(f.bse["t"])
@@ -78,7 +81,7 @@ def aggregation_shift(panel, mean_year):
     for coarse, fine, label in [("UF", "rgi_id", "region_to_state"),
                                 ("rgi_id", "CODMUNRES", "municipality_to_region")]:
         fine_fits = unpooled(panel, fine, mean_year).set_index("unit").b
-        weights = panel.groupby(fine).avoidable.sum()
+        weights = panel.groupby(fine)[OUTCOME].sum()
         coarse_fits = unpooled(panel, coarse, mean_year).set_index("unit").b
         gaps = []
         for c, g in panel.groupby(coarse):

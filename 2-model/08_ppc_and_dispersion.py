@@ -19,6 +19,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -27,9 +28,11 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 SEED = 20260803
 DRAWS = 2000
@@ -96,7 +99,7 @@ def build(df, n_regions, n_states, sor, log_exp_c, dispersion):
             "y",
             mu=pm.math.exp(a[r_idx] + b[r_idx] * t + np.log(df.births.values)),
             alpha=alpha_obs,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 
@@ -133,7 +136,7 @@ def fit(df, regions, states, sor, log_exp_c, dispersion):
 
 def ppc_report(idata, df, label):
     """Pearson residual check by exposure quintile, and coverage of the predictive intervals."""
-    y = df.avoidable.values
+    y = df[OUTCOME].values
     rep = idata["posterior_predictive"]["y"]
     rep = rep.stack(sample=("chain", "draw")).values  # (obs, sample)
 
@@ -150,7 +153,7 @@ def ppc_report(idata, df, label):
     # the wrong divisor and would be read as overdispersed.
     resid_df = len(df) - 2 * df.rgi_id.nunique()
     scale = len(df) / resid_df
-    pooled = df.groupby("rgi_id").avoidable.transform("sum")
+    pooled = df.groupby("rgi_id")[OUTCOME].transform("sum")
     q = pd.qcut(pooled, 5, labels=False) + 1
     tab = (
         pd.DataFrame({"q": q, "chi2": pearson**2, "cov": covered, "mu": mean})

@@ -21,6 +21,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -29,9 +30,11 @@ import statsmodels.api as sm
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 
 def unpooled_slope(frame, outcome):
@@ -138,14 +141,14 @@ def check_shock(region, min_deaths=200):
 
     A large common component would mean the model is missing a shared temporal effect.
     """
-    big = region.groupby("rgi_id").avoidable.sum()
+    big = region.groupby("rgi_id")[OUTCOME].sum()
     keep = big[big >= min_deaths].index
     sub = region[region.rgi_id.isin(keep)].copy()
 
     resid = {}
     for rgi, g in sub.groupby("rgi_id"):
         g = g.sort_values("year")
-        rate = np.log((g.avoidable.values + 0.5) / g.births.values)
+        rate = np.log((g[OUTCOME].values + 0.5) / g.births.values)
         fitted = np.polyval(np.polyfit(g.year.values, rate, 1), g.year.values)
         resid[rgi] = pd.Series(rate - fitted, index=g.year.values)
     matrix = pd.DataFrame(resid)  # years x regions
@@ -164,19 +167,19 @@ def check_linearity(region):
     """How often a unit's own series rejects the straight line, by exposure quintile."""
     rows = []
     for rgi, g in region.groupby("rgi_id"):
-        if g.avoidable.sum() < 10:
+        if g[OUTCOME].sum() < 10:
             continue
         g = g.sort_values("year")
         x = sm.add_constant(g[["t"]])
         lin = sm.GLM(
-            g.avoidable, x, family=sm.families.Poisson(), offset=np.log(g.births)
+            g[OUTCOME], x, family=sm.families.Poisson(), offset=np.log(g.births)
         ).fit()
         p_gof = 1 - stats.chi2.cdf(float(lin.pearson_chi2), lin.df_resid)
 
         quad = g[["t"]].copy()
         quad["t2"] = quad.t**2
         q = sm.GLM(
-            g.avoidable,
+            g[OUTCOME],
             sm.add_constant(quad),
             family=sm.families.Poisson(),
             offset=np.log(g.births),
@@ -186,7 +189,7 @@ def check_linearity(region):
         rows.append(
             {
                 "rgi_id": rgi,
-                "deaths": int(g.avoidable.sum()),
+                "deaths": int(g[OUTCOME].sum()),
                 "reject_linear": p_gof < 0.05,
                 "curvature": p_curv < 0.05,
             }
@@ -228,9 +231,9 @@ def check_heterogeneity(region):
     state's own series and its own dispersion, so neither shrinkage nor the prior can
     manufacture or conceal heterogeneity.
     """
-    state = region.groupby(["UF", "year"], as_index=False)[["avoidable", "births"]].sum()
+    state = region.groupby(["UF", "year"], as_index=False)[[OUTCOME, "births"]].sum()
     state["t"] = state.year - region.year.mean()
-    fits = by_unit(state, "UF", "avoidable")
+    fits = by_unit(state, "UF", OUTCOME)
 
     w = 1 / fits.se**2
     pooled = float((w * fits.b).sum() / w.sum())

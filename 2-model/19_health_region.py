@@ -34,6 +34,7 @@ Run:
 
 import json
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -44,10 +45,12 @@ import statsmodels.api as sm
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
 REF = ROOT / "data" / "ref"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 # Identical to 09_aggregation_ladder.py. Do not tune these independently: the whole point
 # of this fit is that only the partition differs from the immediate-region rung.
@@ -72,10 +75,11 @@ def panel():
         "municipality_years_unmapped": int(len(unmapped)),
         "births_unmapped": int(unmapped.births.sum()),
         "avoidable_deaths_unmapped": int(unmapped.avoidable.sum()),
+        "outcome_deaths_unmapped": int(unmapped[OUTCOME].sum()),
     }
 
     merged = merged.dropna(subset=["regsaud_id"])
-    g = merged.groupby(["regsaud_id", "year"], as_index=False)[["avoidable", "births"]].sum()
+    g = merged.groupby(["regsaud_id", "year"], as_index=False)[[OUTCOME, "births"]].sum()
     g = g.rename(columns={"regsaud_id": "unit"})
     g = g[g.births > 0].copy()
     # Centring uses the municipality panel's mean year, exactly as the ladder does, so the
@@ -98,7 +102,7 @@ def build(df, n_units, unit_idx):
             mu=pm.math.exp(a[unit_idx] + b[unit_idx] * df.t.values
                            + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 
@@ -107,10 +111,10 @@ def unpooled(df):
     """Quasi-Poisson per unit, t on n-2 residual df: the study's standard everywhere."""
     n_fit = n_cls = n_rising = 0
     for _, g in df.groupby("unit"):
-        if g.avoidable.sum() == 0 or g.births.sum() == 0:
+        if g[OUTCOME].sum() == 0 or g.births.sum() == 0:
             continue
         try:
-            f = sm.GLM(g.avoidable, sm.add_constant(g[["t"]]),
+            f = sm.GLM(g[OUTCOME], sm.add_constant(g[["t"]]),
                        family=sm.families.Poisson(), offset=np.log(g.births)).fit(scale="X2")
             b, se = float(f.params["t"]), float(f.bse["t"])
         except Exception:  # noqa: BLE001
@@ -148,7 +152,7 @@ def main():
     lo, hi = np.quantile(b, 0.025, axis=1), np.quantile(b, 0.975, axis=1)
     sd = b.std(axis=1)
     cls = (lo > 0) | (hi < 0)
-    deaths = df.groupby("unit").avoidable.sum().loc[units].values
+    deaths = df.groupby("unit")[OUTCOME].sum().loc[units].values
 
     pd.DataFrame({"regsaud_id": units, "deaths": deaths, "b_mean": b.mean(axis=1),
                   "b_sd": sd, "b_lo95": lo, "b_hi95": hi, "classified_95": cls}

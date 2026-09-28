@@ -1,0 +1,11 @@
+Model,index,mean,eti95_lb,eti95_ub,ess_bulk,r_hat,divergences
+rate,mu_b,-0.00833,-0.011,-0.0052,4919,1.00,0
+rate,sigma_b_state,0.00517,0.0021,0.0087,2782,1.00,0
+rate,sigma_b_region,0.0073,0.0015,0.011,913,1.00,0
+rate,between_state_share,0.36,0.056,0.93,1051,1.00,0
+rate,alpha,104.3,92,120,7684,1.00,0
+share,mu_b,-0.0282,-0.035,-0.021,3609,1.00,0
+share,sigma_b_state,0.0111,0.0011,0.023,806,1.00,0
+share,sigma_b_region,0.0361,0.031,0.042,2683,1.00,0
+share,between_state_share,0.101,0.00083,0.31,807,1.00,0
+share,kappa,148.7,120,180,7174,1.00,0

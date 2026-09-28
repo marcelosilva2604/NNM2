@@ -14,6 +14,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -22,8 +23,10 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
+OUT = model_dir(ROOT)
 
 SEED = 20260803
 DRAWS = 2000
@@ -36,7 +39,7 @@ def load():
     """Collapse the region panel to state-year."""
     df = pd.read_csv(PROC / "panel_region_year.csv")
     state = (
-        df.groupby(["UF", "year"], as_index=False)[["avoidable", "births", "deaths_total"]]
+        df.groupby(["UF", "year"], as_index=False)[[OUTCOME, "births"]]
         .sum()
         .sort_values(["UF", "year"])
         .reset_index(drop=True)
@@ -71,7 +74,7 @@ def build(df, n_states):
                 + np.log(df.births.values)
             ),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 

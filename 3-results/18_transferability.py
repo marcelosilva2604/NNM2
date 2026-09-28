@@ -22,6 +22,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -29,9 +30,11 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 N_YEARS = 11  # 2014-2024 inclusive
 
@@ -46,7 +49,7 @@ def threshold_rule():
     """
     panel = pd.read_csv(PROC / "panel_region_year.csv")
     regions = np.sort(panel.rgi_id.unique())
-    pooled = panel.groupby("rgi_id").avoidable.sum().loc[regions].values
+    pooled = panel.groupby("rgi_id")[OUTCOME].sum().loc[regions].values
     quint = pd.qcut(pooled, 5, labels=False) + 1
 
     per_year = pd.DataFrame({"quintile": quint, "deaths_per_year": pooled / N_YEARS})

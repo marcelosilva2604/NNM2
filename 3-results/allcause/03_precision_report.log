@@ -1,0 +1,68 @@
+Paper 2 precision report
+============================================================
+
+============================================================
+RATE
+============================================================
+[rate] national drift mu_b            : -0.0083 per year  (8.7 % change in all-cause neonatal deaths per birth per decade)
+[rate] median minimum detectable      : 0.0154 per year  (16.7 % change in all-cause neonatal deaths per birth per decade)
+[rate] detection floor / national     : 1.85x
+[rate] naive sign error rate          : 16.6%  (84 of 510 regions)
+
+ threshold  regions    share  expected_sign_errors
+     0.900      195 0.382353              9.876375
+     0.950      102 0.200000              2.861375
+     0.975       43 0.084314              0.603625
+
+ROPE SENSITIVITY (tolerance as a multiple of the national drift)
+ tolerance_x_national  rope_halfwidth  drifting  credibly_flat  conclusive  indeterminate_share
+                 0.25        0.002081        20              0          20             0.960784
+                 0.50        0.004163        10              0          10             0.980392
+                 1.00        0.008325         0              0           0             1.000000
+                 2.00        0.016651         0             24          24             0.952941
+                 3.00        0.024976         0            298         298             0.415686
+                 4.00        0.033301         0            486         486             0.047059
+
+MULTIPLICITY
+[rate] classified at 95%   : 43
+[rate] surviving BH-FDR 5% : 0
+[rate] Bonferroni 5%       : 0
+
+============================================================
+SHARE
+============================================================
+[share] national drift mu_b            : -0.0282 per year  (7.0 pp of avoidable share per decade)
+[share] median minimum detectable      : 0.0570 per year  (13.8 pp of avoidable share per decade)
+[share] detection floor / national     : 2.02x
+[share] naive sign error rate          : 18.7%  (95 of 510 regions)
+
+ threshold  regions    share  expected_sign_errors
+     0.900      178 0.349020              7.484375
+     0.950      105 0.205882              2.029625
+     0.975       67 0.131373              0.637875
+
+ROPE SENSITIVITY (tolerance as a multiple of the national drift)
+ tolerance_x_national  rope_halfwidth  drifting  credibly_flat  conclusive  indeterminate_share
+                 0.25        0.007061        44              0          44             0.913725
+                 0.50        0.014122        26              0          26             0.949020
+                 1.00        0.028245        17              0          17             0.966667
+                 2.00        0.056490         7             24          31             0.939216
+                 3.00        0.084735         3            254         257             0.496078
+                 4.00        0.112980         1            457         458             0.101961
+
+MULTIPLICITY
+[share] classified at 95%   : 67
+[share] surviving BH-FDR 5% : 16
+[share] Bonferroni 5%       : 10
+
+============================================================
+JOINT CLASSIFICATION (primary rate vs avoidable rate)
+  resolved by both        : 31
+  resolved by rate only   : 12
+  resolved by share only  : 55
+  agreement among resolved: 31.6%
+
+classified_95_share  False  True 
+classified_95_rate               
+False                  412     55
+True                    12     31

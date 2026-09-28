@@ -35,6 +35,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -45,9 +46,11 @@ import statsmodels.api as sm
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 RNG = np.random.default_rng(20260806)
 SEED = 20260806
@@ -87,7 +90,7 @@ def setup():
 
     level = (
         panel.groupby("rgi_id")
-        .apply(lambda g: np.log(g.avoidable.sum() / g.births.sum()), include_groups=False)
+        .apply(lambda g: np.log(g[OUTCOME].sum() / g.births.sum()), include_groups=False)
         .loc[regions]
         .values
     )
@@ -174,7 +177,7 @@ def summarise(records, label):
 
 def main():
     panel, regions, states, sor, mu_b, tau, alpha, level = setup()
-    pooled = panel.groupby("rgi_id").avoidable.sum().loc[regions].values
+    pooled = panel.groupby("rgi_id")[OUTCOME].sum().loc[regions].values
     quint = pd.qcut(pooled, 5, labels=False) + 1
     n_regions = len(regions)
 

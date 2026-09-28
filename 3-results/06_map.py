@@ -1,19 +1,14 @@
-"""The figure the paper is built on: the same country, the same decade, two zoom levels.
+"""Map trend resolution at state and immediate-region geographic scales.
 
-Panel A shows the 27 states, the level at which Brazil and international comparisons
-report neonatal mortality. Most states resolve, and the map reads as a country that knows
-what is happening to it.
-
-Panel B shows the 510 immediate regions, closer to the level at which care is organised
-and delivered. Most of the map goes grey.
-
-Both panels use the same likelihood, the same estimand, the same 95% criterion and the
-same colour scale. Only the unit of analysis changes.
+Panel A presents estimates from the state model. Panel B presents estimates from the
+three-level immediate-region model. Both panels use the same outcome, 95% classification
+criterion, and colour scale.
 
 Run:
     .venv/bin/python 3-results/06_map.py
 """
 
+import sys
 from pathlib import Path
 
 import geopandas as gpd
@@ -21,18 +16,54 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
 import numpy as np
 import pandas as pd
 from matplotlib.colors import TwoSlopeNorm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
 REF = ROOT / "data" / "ref"
-MODEL = ROOT / "2-model"
-FIGS = ROOT / "3-results" / "figures"
+MODEL = model_dir(ROOT)
+FIGS = results_dir(ROOT) / "figures"
+FIGS.mkdir(parents=True, exist_ok=True)
 
 CACHE = PROC / "region_geometry.gpkg"
 GREY = "#e3e3e3"
+CALIBRI_DIR = Path("/Applications/Microsoft Word.app/Contents/Resources/DFonts")
+CALIBRI_FILES = [
+    CALIBRI_DIR / "Calibri.ttf",
+    CALIBRI_DIR / "Calibrib.ttf",
+    CALIBRI_DIR / "Calibrii.ttf",
+    CALIBRI_DIR / "Calibriz.ttf",
+]
+for font_path in CALIBRI_FILES:
+    if not font_path.exists():
+        raise FileNotFoundError(f"Required PPE figure font not found: {font_path}")
+    font_manager.fontManager.addfont(font_path)
+
+resolved_font = Path(
+    font_manager.findfont("Calibri", fallback_to_default=False)
+).resolve()
+if resolved_font.name.lower() != "calibri.ttf":
+    raise RuntimeError(f"Calibri regular did not resolve correctly: {resolved_font}")
+
+plt.rcParams.update(
+    {
+        "figure.dpi": 300,
+        "savefig.dpi": 300,
+        "font.family": "Calibri",
+        "font.size": 12,
+        "axes.titlesize": 12,
+        "axes.labelsize": 12,
+        "xtick.labelsize": 12,
+        "ytick.labelsize": 12,
+        "legend.fontsize": 12,
+        "axes.grid": False,
+    }
+)
 
 
 def region_geometry():
@@ -66,23 +97,23 @@ def per_decade(slope):
 
 
 def panel(ax, gdf, norm, cmap, states_outline, title):
-    """Draw one zoom level: resolved units in colour, unresolved in grey."""
+    """Draw resolved units in colour and unresolved units in grey."""
     unresolved = gdf[~gdf.classified_95]
     resolved = gdf[gdf.classified_95]
 
     if len(unresolved):
-        unresolved.plot(color=GREY, linewidth=0.08, edgecolor="white", ax=ax)
+        unresolved.plot(color=GREY, linewidth=0.15, edgecolor="white", ax=ax)
     if len(resolved):
         resolved.plot(
             column="change_pct",
             cmap=cmap,
             norm=norm,
-            linewidth=0.08,
+            linewidth=0.15,
             edgecolor="white",
             ax=ax,
         )
-    states_outline.boundary.plot(ax=ax, linewidth=0.3, color="0.3")
-    ax.set_title(title, fontsize=8.5, loc="left")
+    states_outline.boundary.plot(ax=ax, linewidth=0.45, color="0.25")
+    ax.set_title(title, loc="left", fontweight="bold")
     ax.set_axis_off()
 
 
@@ -99,7 +130,7 @@ def main():
     states["change_pct"] = per_decade(states.b_mean)
     regions["change_pct"] = per_decade(regions.b_mean)
 
-    # One symmetric scale for both panels, so the two zoom levels are directly comparable.
+    # One symmetric scale permits direct comparison across geographic partitions.
     limit = float(
         np.percentile(
             np.abs(np.concatenate([states.change_pct, regions.change_pct])), 99
@@ -108,7 +139,7 @@ def main():
     norm = TwoSlopeNorm(vmin=-limit, vcenter=0.0, vmax=limit)
     cmap = "RdBu_r"
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.2, 4.2))
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 4.5))
 
     panel(
         axes[0],
@@ -116,8 +147,9 @@ def main():
         norm,
         cmap,
         states_geo,
-        f"A. By state (n = 27)\n{int(states.classified_95.sum())} of 27 resolved"
-        f" ({states.classified_95.mean():.0%})",
+        f"A. State model (n = 27)\n"
+        f"{int(states.classified_95.sum())} of 27 trends resolved"
+        f" ({states.classified_95.mean():.1%})",
     )
     panel(
         axes[1],
@@ -125,9 +157,9 @@ def main():
         norm,
         cmap,
         states_geo,
-        f"B. By immediate region (n = 510)\n"
-        f"{int(regions.classified_95.sum())} of 510 resolved"
-        f" ({regions.classified_95.mean():.0%})",
+        f"B. Three-level regional model (n = 510)\n"
+        f"{int(regions.classified_95.sum())} of 510 trends resolved"
+        f" ({regions.classified_95.mean():.1%})",
     )
 
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
@@ -135,24 +167,16 @@ def main():
         sm, ax=axes, orientation="horizontal", fraction=0.045, pad=0.02, aspect=40
     )
     cbar.set_label(
-        "Change in avoidable neonatal deaths per birth, 2014-2024 (%)", fontsize=7.5
+        f"Change in {LABEL} per livebirth, 2014–2024 (%)"
     )
-    cbar.ax.tick_params(labelsize=7)
+    cbar.ax.tick_params(labelsize=12)
 
-    # Grey is a category, not missing data, and the legend has to say which.
-    axes[1].scatter(
-        [],
-        [],
-        marker="s",
-        s=30,
-        color=GREY,
-        edgecolor="0.55",
-        linewidth=0.4,
-        label="No determination",
+    fig.savefig(
+        FIGS / "figure1_map.png",
+        dpi=300,
+        bbox_inches="tight",
+        facecolor="white",
     )
-    axes[1].legend(frameon=False, fontsize=7, loc="lower left", bbox_to_anchor=(0, 0.02))
-
-    fig.savefig(FIGS / "figure1_map.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
     print(

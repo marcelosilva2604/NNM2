@@ -21,6 +21,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -29,8 +30,10 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
+OUT = model_dir(ROOT)
 
 HDI_PROB = 0.95
 SEED = 20260803
@@ -130,7 +133,7 @@ def build(df, n_regions, n_states, state_of_region, W, prior):
             "y",
             mu=pm.math.exp(a[r_idx] + b[r_idx] * t + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 
@@ -212,7 +215,9 @@ def main():
             log.append(rho.to_string())
 
     table = pd.DataFrame(rows)
-    table.to_csv(ROOT / "3-results" / "tables" / "spatial_robustness.csv", index=False)
+    tables = results_dir(ROOT) / "tables"
+    tables.mkdir(parents=True, exist_ok=True)
+    table.to_csv(tables / "spatial_robustness.csv", index=False)
 
     log.append("")
     log.append(table.to_string(index=False))

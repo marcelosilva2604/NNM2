@@ -12,6 +12,8 @@ data/ref/*.pdf
 # by re-running the scripts in 2-model/, which carry a fixed seed.
 2-model/*.nc
 2-model/*.pkl
+2-model/**/*.nc
+2-model/**/*.pkl
 
 # Not published while the paper is under review
 4-manuscript/

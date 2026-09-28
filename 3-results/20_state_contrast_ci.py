@@ -14,13 +14,16 @@ Run:
     .venv/bin/python 3-results/20_state_contrast_ci.py
 """
 
+import sys
 from pathlib import Path
 
 import pandas as pd
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
-PATH = ROOT / "3-results" / "tables" / "state_dispersion.csv"
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
+PATH = results_dir(ROOT) / "tables" / "state_dispersion.csv"
 DF = 9  # 11 annual points, two parameters
 
 

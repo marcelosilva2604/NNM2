@@ -1,8 +1,11 @@
 # How much of Brazil's neonatal transition can the death registry actually resolve?
 
 Analysis code for a study of whether routine vital registration can detect change in
-avoidable neonatal mortality at the spatial scale where care is organised, Brazil
-2014-2024.
+neonatal mortality at the spatial scale where care is organised, Brazil 2014-2024. The
+primary outcome is all-cause neonatal mortality; the subset classified as avoidable through
+care at delivery or in the neonatal period (Brazilian list of avoidable causes) is the
+secondary outcome. The pipeline runs on either outcome through one switch (see "Two
+outcomes, one switch"), and the derived results for both are versioned.
 
 The paper asks a question borrowed from hospital quality profiling and rarely put to a
 national civil registration system: not *how many deaths were there*, but *how much
@@ -87,6 +90,33 @@ intermediates consumed by step 1 (`nascidos_muni_ano.csv`, `cnes_muni_ano.csv`,
 `idhm_muni.csv`) are still produced by an earlier pipeline outside this repository; they
 are aggregations of public SINASC, CNES and Atlas Brasil tables by municipality and year.
 
+## Two outcomes, one switch
+
+`src/outcome.py` reads the environment variable `NNM2_OUTCOME`:
+
+| Value | Outcome | Where the scripts write |
+|---|---|---|
+| `avoidable` (default) | avoidable neonatal deaths, Brazilian list | `2-model/`, `3-results/`, `notebooks/` |
+| `deaths_total` | all-cause neonatal deaths | `2-model/allcause/`, `3-results/allcause/`, `notebooks/allcause/` |
+
+Every model and result script imports the column name and the output folders from that
+module, so the two runs never overwrite each other. `run_allcause.sh` runs the whole
+pipeline for all-cause in order (about two and a half hours of sampling on a laptop);
+`3-results/21_compare_outcomes.py` prints every headline quantity side by side, and
+`3-results/allcause/COMPARISON.txt` is that output as committed. The avoidable share of
+the four action groups (the beta-binomial `share` model) does not depend on the switch.
+
+The notebooks read their expected values from `notebooks/expected_<outcome>.json`; for a
+new outcome, run them once with an empty file, then `notebooks/harvest_expected.py` writes
+the recomputed values into it and a second run asserts against them. The supplement is
+generated from the artefacts by `4-manuscript/build_supplement.py` (not versioned, with the
+manuscript) and checked cell by cell by `verify_supplement.py`.
+
+History: the version submitted in September 2026 used the avoidable outcome as primary.
+It was rejected without review because that outcome is not standard in the perinatal
+literature; the all-cause version replaced it on 28 September 2026 with the design
+unchanged.
+
 ## Checking without refitting
 
 ```bash
@@ -160,6 +190,10 @@ rediscover it.
     national drift. Capture that grows geometrically displaces the fitted slope by
     log(1 + r), so the rate that erases the drift is exp(|mu_b|) - 1 = 2.25%. Corrected,
     and the calculation moved into `18_transferability.py`.
+12. The hand-written supplement said the spread of the classification count across
+    trend shapes (six regions) was "no wider than" the spread across sampling seeds
+    (five). It was wider. Caught when the supplement became generated from the artefacts
+    (`4-manuscript/build_supplement.py`); the main text never made the claim.
 
 ---
 
@@ -173,8 +207,10 @@ rediscover it.
   denominators and mimic improvement. Not addressed.
 - **Death-count completeness** is a larger threat than the birth denominator. It is bounded
   arithmetically in the paper, not measured: capture improving at 1% a year displaces a
-  slope by +0.010 per year, 45% of the national drift, and 2.25% a year would erase that
-  drift. Because the displacement is additive in the mean, it moves where a slope sits
+  slope by +0.010 per year. For the avoidable outcome that is 45% of the national drift
+  and 2.25% a year would erase it; for the all-cause outcome, whose national drift is
+  −0.0083 per year, the same displacement exceeds the drift and 0.84% a year would erase
+  it. Because the displacement is additive in the mean, it moves where a slope sits
   without changing how precisely it is estimated, so the detectability result survives it
   while the direction of the national decline does not.
 - **The health-region partition is a December 2024 vintage applied retrospectively.** The
@@ -188,7 +224,8 @@ rediscover it.
   improvement, which is why this is recorded here; no completeness flag is carried in the
   extract itself.
 - **Non-linearity** is real: a region's own series rejects the log-linear fit in 13.3% of
-  cases overall and 26.5% in the highest-exposure quintile. The classification count is
+  cases overall and 26.5% in the highest-exposure quintile for the avoidable outcome
+  (11.2% and 16.7% for all-cause). The classification count is
   robust to trend shape, but the linear summary remains a simplification where the study
   can actually resolve.
 - The **macro-region rung** of the ladder is uninterpretable at five units and is reported

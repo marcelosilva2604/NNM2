@@ -10,6 +10,15 @@ those artefacts, recompute every published quantity from them, and assert the va
 against the manuscript. An assertion that fails is the point: it means the text and the
 artefacts have diverged.
 
+Outcome selection. The pipeline runs on one of two outcomes (see src/outcome.py):
+avoidable neonatal deaths (default) or all-cause neonatal deaths
+(NNM2_OUTCOME=deaths_total). The published values the notebooks assert against live in
+`notebooks/expected_<outcome>.json`, keyed by the label of each check, so the same
+notebook source serves both outcomes. Under a non-default outcome the notebooks are
+written to `notebooks/<tag>/` and read the artefacts from `2-model/<tag>/` and
+`3-results/<tag>/`. A label absent from the JSON is reported as SKIP rather than failing,
+so an outcome whose expected values have not been filled in yet still executes.
+
 Three notebooks:
     01_data_and_panel        what the data are and how the panel was built
     02_models_and_results    the fitted models and every headline number
@@ -17,13 +26,28 @@ Three notebooks:
 
 Run:
     .venv/bin/python notebooks/build_notebooks.py
+    NNM2_OUTCOME=deaths_total .venv/bin/python notebooks/build_notebooks.py
 """
 
+import json
+import sys
 from pathlib import Path
 
 import nbformat as nbf
 
 HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, TAG, LABEL  # noqa: E402
+
+OUT_DIR = HERE / TAG if TAG else HERE
+EXPECTED = HERE / f"expected_{TAG or 'avoidable'}.json"
+E = json.loads(EXPECTED.read_text())
+
+
+def e(label):
+    """Expected value for use in prose; a visible placeholder while the JSON is unfilled."""
+    return E.get(label, "?")
 
 
 def nb(cells):
@@ -46,17 +70,36 @@ def code(text):
 
 PREAMBLE = """
 import json
+import os
+import sys
 from pathlib import Path
 
 import arviz as az
 import numpy as np
 import pandas as pd
 
-ROOT = Path.cwd().parent if Path.cwd().name == "notebooks" else Path.cwd()
-PROC, MODEL, RES = ROOT / "data/processed", ROOT / "2-model", ROOT / "3-results"
+# The notebook may live in notebooks/ or notebooks/<tag>/; climb to the project root.
+ROOT = Path.cwd().resolve()
+while not (ROOT / "src" / "outcome.py").exists():
+    if ROOT.parent == ROOT:
+        raise FileNotFoundError("project root with src/outcome.py not found above cwd")
+    ROOT = ROOT.parent
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, TAG, LABEL, model_dir, results_dir
 
-def check(label, computed, published, tol=1e-9):
+PROC, MODEL, RES = ROOT / "data/processed", model_dir(ROOT), results_dir(ROOT)
+EXPECTED = ROOT / "notebooks" / f"expected_{TAG or 'avoidable'}.json"
+E = json.loads(EXPECTED.read_text())
+print(f"outcome  : {OUTCOME} ({LABEL})")
+print(f"artefacts: {MODEL.relative_to(ROOT)}  {RES.relative_to(ROOT)}")
+print(f"expected : {EXPECTED.name} ({len(E)} published values)")
+
+def check(label, computed, tol=1e-9):
     "Recompute a published value and fail loudly if the manuscript no longer matches."
+    if label not in E:
+        print(f"SKIP      {label}: no expected value yet (recomputed={computed})")
+        return
+    published = E[label]
     ok = abs(float(computed) - float(published)) <= tol
     print(f"{'OK  ' if ok else 'MISMATCH'}  {label}: manuscript={published}  recomputed={computed}")
     assert ok, f"{label}: manuscript says {published}, artefacts say {computed}"
@@ -84,7 +127,7 @@ The two decisions that matter and are easy to get wrong:
 1. **The universe is the birth series, not the death series.** A region-year with births
    and no deaths is an observed zero. The archived earlier version of this project keyed
    the panel on deaths, which silently dropped 21,128 municipality-years (34% of the
-   total) — all of them zero-death, and concentrated in exactly the small units the
+   total), all of them zero-death, and concentrated in exactly the small units the
    study is about. That is informative missingness and it biased the reliability tiers.
 
 2. **The cause grouping was inherited, not re-derived.** The four action groups come
@@ -108,19 +151,19 @@ print(f"zero-death municipality-years retained: {(muni.deaths_total == 0).sum():
 Every figure below appears in the Study data paragraph of the manuscript.
 """),
         code("""
-check("neonatal deaths", panel.deaths_total.sum(), 260023)
-check("live births", panel.births.sum(), 30462542)
-check("avoidable deaths", panel.avoidable.sum(), 117578)
-check("immediate regions", panel.rgi_id.nunique(), 510)
-check("states", panel.UF.nunique(), 27)
-check("panel rows", len(panel), 5610)
+check("neonatal deaths", panel.deaths_total.sum())
+check("live births", panel.births.sum())
+check("avoidable deaths", panel.avoidable.sum())
+check("immediate regions", panel.rgi_id.nunique())
+check("states", panel.UF.nunique())
+check("panel rows", len(panel))
 """),
         md("""
 ## Exposure over the decade
 
 Two facts carry weight later. Avoidable mortality per birth fell substantially while
-all-cause neonatal mortality barely moved, and the number of births — the exposure that
-every unit's precision depends on — fell by a fifth.
+all-cause neonatal mortality barely moved, and the number of births, the exposure that
+every unit's precision depends on, fell by a fifth.
 """),
         code("""
 by_year = panel.groupby("year").agg(births=("births", "sum"),
@@ -130,25 +173,27 @@ by_year["avoidable_per_1000"] = (1000 * by_year.avoidable / by_year.births).roun
 by_year["nmr_per_1000"] = (1000 * by_year.deaths / by_year.births).round(2)
 display(by_year)
 
-check("avoidable per 1000, 2014", by_year.avoidable_per_1000.iloc[0], 4.25)
-check("avoidable per 1000, 2024", by_year.avoidable_per_1000.iloc[-1], 3.44)
-check("NMR 2014", by_year.nmr_per_1000.iloc[0], 8.89)
-check("NMR 2024", by_year.nmr_per_1000.iloc[-1], 8.32)
-check("births change (%)", round(100 * (by_year.births.iloc[-1] / by_year.births.iloc[0] - 1), 1), -20.0)
+check("avoidable per 1000, 2014", by_year.avoidable_per_1000.iloc[0])
+check("avoidable per 1000, 2024", by_year.avoidable_per_1000.iloc[-1])
+check("NMR 2014", by_year.nmr_per_1000.iloc[0])
+check("NMR 2024", by_year.nmr_per_1000.iloc[-1])
+check("births change (%)", round(100 * (by_year.births.iloc[-1] / by_year.births.iloc[0] - 1), 1))
 """),
-        md("""
+        md(f"""
 ## Exposure per unit, which is what precision depends on
 
-The median immediate region accumulated 115 avoidable deaths across the whole decade.
-The median municipality accumulated 7. No statistical method creates events that did
+The median immediate region accumulated {e('median deaths per immediate region')}
+{LABEL} across the whole decade. The median municipality accumulated
+{e('median deaths per municipality')}. No statistical method creates events that did
 not occur, so these two numbers largely determine everything that follows.
 """),
         code("""
 for label, frame, key in [("immediate region", panel, "rgi_id"),
                           ("municipality", muni.dropna(subset=["rgi_id"]), "CODMUNRES")]:
-    pooled = frame.groupby(key).avoidable.sum()
+    pooled = frame.groupby(key)[OUTCOME].sum()
     print(f"{label:18} n={len(pooled):>5,}  median={int(pooled.median()):>5}  "
           f">=50: {(pooled >= 50).sum():>4}   >=400: {(pooled >= 400).sum():>4}")
+    check(f"median deaths per {label}", int(pooled.median()))
 """),
         md("""
 ## Crosswalk loss, disclosed in Methods
@@ -159,7 +204,7 @@ outcome is lost; 980 births are.
         code("""
 report = (PROC / "panel_build_report.txt").read_text()
 print("\\n".join(l for l in report.splitlines() if "unmatched" in l.lower() or "CROSSWALK" in l))
-check("births lost to the crosswalk", muni.births.sum() - panel.births.sum(), 980)
+check("births lost to the crosswalk", muni.births.sum() - panel.births.sum())
 """),
     ])
 
@@ -189,8 +234,8 @@ cls = classified(b)
 mu_b = float(rate.posterior["mu_b"].mean())
 print(f"national drift: {mu_b:+.4f} per year "
       f"= {100 * (np.exp(mu_b * 10) - 1):.1f}% per decade")
-check("regions classified", cls.sum(), 86)
-check("national drift, % per decade", round(100 * (np.exp(mu_b * 10) - 1), 1), -20.0)
+check("regions classified", cls.sum())
+check("national drift, % per decade", round(100 * (np.exp(mu_b * 10) - 1), 1))
 """),
         md("""
 ## The aggregation ladder
@@ -209,18 +254,17 @@ ladder = pd.read_csv(RES / "tables/aggregation_ladder.csv")
 display(ladder[["level", "units", "median_deaths_per_unit",
                 "classified", "pct_classified", "classified_unpooled", "pct_unpooled"]])
 
-for lvl, hier, unp in [("municipality", 61, 384), ("immediate region", 81, 83),
-                       ("state", 21, 19), ("macro-region", 0, 5)]:
+for lvl in ["municipality", "immediate region", "state", "macro-region"]:
     row = ladder[ladder.level == lvl].iloc[0]
-    check(f"{lvl}: hierarchical", row.classified, hier)
-    check(f"{lvl}: unpooled", row.classified_unpooled, unp)
+    check(f"{lvl}: hierarchical", row.classified)
+    check(f"{lvl}: unpooled", row.classified_unpooled)
 """),
         md("""
 ### Why the macro-region rung is uninterpretable
 
 With five units the model cannot separate the national mean from the unit deviations.
-Each unit's marginal posterior inherits the hyperparameter uncertainty, so none resolves
-— while unpooled, all five resolve with intervals far from zero. The rung is reported
+Each unit's marginal posterior inherits the hyperparameter uncertainty, so none resolves,
+while unpooled, all five resolve with intervals far from zero. The rung is reported
 for completeness, and as a symptom of the design at k = 5 rather than a statement about
 macro-regions. Dropping it silently would be selective reporting.
 """),
@@ -231,19 +275,21 @@ print(f"per-unit posterior SD : {bm.std(axis=1).round(4)}")
 print(f"national drift SD     : {float(macro.posterior['mu_b'].std()):.4f}")
 print("-> almost all of each unit's uncertainty is the national parameter's own.")
 """),
-        md("""
-## No unit is worsening, at any level
+        md(f"""
+## Direction among classified units
 
-Reading point estimates at face value, 10 regions look like they are getting worse. None
-survives its own interval. This is the contrast Figure 1 draws.
+Reading point estimates at face value, {e('regions with a positive point estimate')}
+regions look like they are getting worse. The checks below count how many of them
+survive their own interval, at region and at state level. This is the contrast Figure 1
+draws.
 """),
         code("""
 srate = pd.read_csv(MODEL / "slopes_rate.csv")
 sstate = pd.read_csv(MODEL / "slopes_state.csv")
-check("regions with a positive point estimate", (srate.b_mean > 0).sum(), 10)
-check("regions classified AND positive", ((srate.b_mean > 0) & srate.classified_95).sum(), 0)
-check("states classified", sstate.classified_95.sum(), 21)
-check("states classified AND positive", ((sstate.b_mean > 0) & sstate.classified_95).sum(), 0)
+check("regions with a positive point estimate", (srate.b_mean > 0).sum())
+check("regions classified AND positive", ((srate.b_mean > 0) & srate.classified_95).sum())
+check("states classified", sstate.classified_95.sum())
+check("states classified AND positive", ((sstate.b_mean > 0) & sstate.classified_95).sum())
 """),
         md("""
 ## Departure from the national trajectory
@@ -253,7 +299,7 @@ unit falling behind?* compares its slope to the national drift, and only the sec
 identifies a place to act on.
 
 The second contrast is taken **against the shrinkage target**, so it is not an
-independent test — the prior has already pulled every unit toward `mu_b`. That is why
+independent test: the prior has already pulled every unit toward `mu_b`. That is why
 heterogeneity is also tested outside the model, by Cochran's Q on unpooled state slopes
 with each state's own dispersion, where neither shrinkage nor the prior can create or
 conceal it. The two answers differ, and reporting only the first would be misleading.
@@ -261,17 +307,17 @@ conceal it. The two answers differ, and reporting only the first would be mislea
         code("""
 vs_state = pd.read_csv(RES / "tables/vs_national_state.csv")
 vs_reg   = pd.read_csv(RES / "tables/vs_national_region.csv")
-check("states separable from the national drift", (vs_state.lagging | vs_state.leading).sum(), 0)
-check("regions separable", (vs_reg.lagging | vs_reg.leading).sum(), 9)
-check("regions ahead", vs_reg.leading.sum(), 8)
-check("regions lagging", vs_reg.lagging.sum(), 1)
+check("states separable from the national drift", (vs_state.lagging | vs_state.leading).sum())
+check("regions separable", (vs_reg.lagging | vs_reg.leading).sum())
+check("regions ahead", vs_reg.leading.sum())
+check("regions lagging", vs_reg.lagging.sum())
 
 het = json.load(open(RES / "SUPPORTING_CHECKS.json"))["between_state_heterogeneity"]
 print(f"\\nOutside the model: Q={het['Q']} on {het['df']} df, p={het['p_value']}, "
       f"I2={het['I2_pct']}%, tau={het['tau']}/yr")
-check("Cochran Q", het["Q"], 114.7, tol=0.05)
+check("Cochran Q", het["Q"], tol=0.05)
 """),
-        md("""
+        md(f"""
 ## Design analysis
 
 The classification rate depends on Brazil's own distribution of true slopes and on the
@@ -285,42 +331,54 @@ setting where that procedure can be evaluated, since a common true slope would d
 between-unit variance to zero and make it trivially confident.
 
 Read type S and type M alongside power. Unpooled, a declaration is not only rare but
-unreliable: in the smallest regions the sign is wrong in about one declaration in nine and
-the magnitude is exaggerated more than fivefold. Under the hierarchical procedure the sign
-error falls below 2% everywhere and the magnitude is essentially unbiased.
+unreliable: in the smallest regions the sign is wrong in
+{e('arm A, type S in lowest stratum (%)')}% of declarations and the magnitude is
+exaggerated {e('arm A, type M in lowest stratum')}-fold. Under the hierarchical
+procedure the sign error does not exceed {e('arm B, max type S (%)')}% in any stratum
+and the median magnitude ratio stays between {e('arm B, min type M')} and
+{e('arm B, max type M')}.
 """),
         code("""
 two = pd.read_csv(RES / "tables/design_two_arm.csv")
 display(two)
 
 d = json.load(open(RES / "DESIGN_TWO_ARM.json"))
-check("arm A, mean power at a national-sized change", d["arm_A_mean_power_at_1x"], 0.116)
-check("arm A, declaration rate under a true zero", d["arm_A_null_declaration_rate"], 0.046, tol=0.0005)
-check("arm B, mean power", d["arm_B_mean_power"], 0.195)
-check("arm B, mean classification count", d["arm_B_classification_count"]["mean"], 99.1, tol=0.05)
+check("arm A, mean power at a national-sized change", d["arm_A_mean_power_at_1x"])
+check("arm A, declaration rate under a true zero", d["arm_A_null_declaration_rate"], tol=0.0005)
+check("arm B, mean power", d["arm_B_mean_power"])
+check("arm B, mean classification count", d["arm_B_classification_count"]["mean"], tol=0.05)
 print("\\narm B classification range:", d["arm_B_classification_count"]["min"],
-      "to", d["arm_B_classification_count"]["max"], "- contains the observed 86")
+      "to", d["arm_B_classification_count"]["max"], "- compare with the observed count above")
+
+a1 = two[two.arm.str.startswith("A") & (two.true_slope_x_national == 1.0)].sort_values("exposure_quintile")
+bb = two[two.arm.str.startswith("B")].sort_values("exposure_quintile")
+check("arm A, type S in lowest stratum (%)", round(100 * float(a1.type_S.iloc[0]), 1), tol=0.05)
+check("arm A, type M in lowest stratum", round(float(a1.type_M.iloc[0]), 2), tol=0.005)
+check("arm B, max type S (%)", round(100 * float(bb.type_S.max()), 1), tol=0.05)
+check("arm B, min type M", round(float(bb.type_M.min()), 2), tol=0.005)
+check("arm B, max type M", round(float(bb.type_M.max()), 2), tol=0.005)
 """),
-        md("""
+        md(f"""
 ## Certifying change is not the same as certifying stability
 
-At a tolerance equal to the national drift, no region can be certified stable. That is
-**arithmetic before it is empirical**: only one region in the country has a posterior
-standard deviation small enough to be certified stable at that tolerance *even if its
-true slope were exactly zero*. The manuscript states this precondition, because without
-it the result reads as a discovery about Brazil rather than about precision.
+At a tolerance equal to the national drift, {e('stable at 1x')} of 510 regions can be
+certified stable. That is **arithmetic before it is empirical**:
+{e('regions precise enough to ever be certified stable at 1x')} of 510 regions have a
+posterior standard deviation small enough to be certified stable at that tolerance *even
+if the true slope were exactly zero*. The manuscript states this precondition, because
+without it the result reads as a discovery about Brazil rather than about precision.
 """),
         code("""
 rope = pd.read_csv(RES / "tables/rope_curve_rate.csv")
 display(rope)
 
 at1 = rope[rope.tolerance_x_national == 1.0].iloc[0]
-check("changing at a tolerance of 1x", at1.drifting, 9)
-check("stable at 1x", at1.credibly_flat, 0)
-check("indeterminate at 1x (%)", round(100 * at1.indeterminate_share, 1), 98.2)
+check("changing at a tolerance of 1x", at1.drifting)
+check("stable at 1x", at1.credibly_flat)
+check("indeterminate at 1x (%)", round(100 * at1.indeterminate_share, 1))
 
 eligible = (srate.b_sd < abs(mu_b) / 1.96).sum()
-check("regions precise enough to ever be certified stable at 1x", eligible, 1)
+check("regions precise enough to ever be certified stable at 1x", eligible)
 """),
     ])
 
@@ -338,68 +396,80 @@ artefact of a modelling choice rather than a property of the data, one of the ch
 below should show it.
 """),
         code(PREAMBLE),
-        md("""
+        md(f"""
 ## Is the indeterminacy manufactured by the prior?
 
-No. Removing pooling entirely *lowers* the classification rate; a spatial prior raises it
-by about one percentage point. Shrinkage is costing classifications here, not creating
-them, so the pessimistic reading is not self-inflicted.
+No pooling classifies {e('nopool')} of 510 regions, an exchangeable prior {e('exch')}
+and the BYM2 spatial prior {e('bym2')}. When the unpooled count is the lowest of the
+three, shrinkage is costing classifications rather than creating them, and the
+pessimistic reading is not self-inflicted.
 
 Note the honest counterweight in the same table: the minimum detectable slope is
-strongly prior-dependent (0.0344 pooled against 0.0632 unpooled, that is 1.54 against
-2.84 times the national drift). The manuscript quotes both.
+strongly prior-dependent ({e('median MDE, exchangeable')} per year pooled against
+{e('median MDE, no pooling')} unpooled). The manuscript quotes both.
 """),
         code("""
 rob = pd.read_csv(RES / "tables/spatial_robustness.csv")
 display(rob)
-for prior, n in [("nopool", 77), ("exch", 84), ("bym2", 89)]:
-    check(f"{prior}", rob[rob.prior == prior].classified.iloc[0], n)
+for prior in ["nopool", "exch", "bym2"]:
+    check(f"{prior}", rob[rob.prior == prior].classified.iloc[0])
+check("median MDE, no pooling", round(float(rob[rob.prior == "nopool"].median_mde.iloc[0]), 4), tol=5e-5)
+check("median MDE, exchangeable", round(float(rob[rob.prior == "exch"].median_mde.iloc[0]), 4), tol=5e-5)
 """),
-        md("""
+        md(f"""
 ## Does the result depend on summarising each region by a straight line?
 
-A fair question, because a region's own series rejects the log-linear fit in 13.3% of
-cases overall and 26.5% in the highest-exposure quintile — which is where the study
-actually makes determinations. It does not: a per-region quadratic and a national
-second-order random walk move the count by less than the seeds do.
+A fair question, because a region's own series rejects the log-linear fit in
+{e('linear trend rejected overall (%)')}% of cases overall and
+{e('linear trend rejected, highest quintile (%)')}% in the highest-exposure quintile,
+which is where the study actually makes determinations. The counts under a per-region
+quadratic and a national second-order random walk are below; the yardstick for whether
+they matter is the seed-to-seed spread in the next section.
 """),
         code("""
 shape = pd.read_csv(RES / "tables/trend_shape.csv")
 display(shape)
-for tr, n in [("linear", 89), ("quadratic", 83), ("rw", 84)]:
-    check(f"trend={tr}", shape[shape.trend == tr].classified.iloc[0], n)
+for tr in ["linear", "quadratic", "rw"]:
+    check(f"trend={tr}", shape[shape.trend == tr].classified.iloc[0])
+
+lin = json.load(open(RES / "SUPPORTING_CHECKS.json"))["linearity"]
+check("linear trend rejected overall (%)", lin["reject_linear_pct"], tol=0.05)
+check("linear trend rejected, highest quintile (%)", lin["by_quintile"][-1]["reject_pct"], tol=0.05)
 """),
-        md("""
+        md(f"""
 ## How stable is the count itself?
 
-Eight refits of the identical specification. The spread is small and, more importantly,
-it lives entirely at the decision boundary: 78 regions classify under every seed, 417
-under none, and only 15 ever change status. This is a property of thresholding a
-continuous quantity, not of the estimate, which is why the probability of direction is
-reported alongside the count.
+Eight refits of the identical specification. The spread lives at the decision boundary:
+{e('always classified')} regions classify under every seed,
+{e('never classified')} under none, and {e('changing status')} change status between
+runs. This is a property of thresholding a continuous quantity, not of the estimate,
+which is why the probability of direction is reported alongside the count.
 """),
         code("""
 seeds = json.load(open(RES / "SEED_STABILITY.json"))
 print(f"counts across 8 seeds: {seeds['counts']}")
 print(f"mean {seeds['mean']}, sd {seeds['sd']}, range {seeds['min']}-{seeds['max']} "
       f"({seeds['range_pct_of_510']}% of 510)")
-check("always classified", seeds["regions_classified_in_every_run"], 78)
-check("never classified", seeds["regions_classified_in_no_run"], 417)
-check("changing status", seeds["regions_that_flip_between_runs"], 15)
+check("always classified", seeds["regions_classified_in_every_run"])
+check("never classified", seeds["regions_classified_in_no_run"])
+check("changing status", seeds["regions_that_flip_between_runs"])
 """),
-        md("""
+        md(f"""
 ## Is the variance function doing the work?
 
 Partly, and this one changed a conclusion. A single dispersion parameter imposes the same
 relative variability on every unit whatever its size. The posterior predictive check
-shows the consequence: adequate fit overall, but a gradient across exposure, with the
-model predicting too much variability in the largest units.
+shows the consequence: adequate fit overall, but a gradient across exposure
+(chi-square per residual degree of freedom {e('PPC gradient, lowest quintile')} in the
+lowest exposure quintile against {e('PPC gradient, highest quintile')} in the highest).
 
-Letting dispersion depend on exposure flattens the gradient and barely moves the
-classification count — but it widens the spread of precision across units from 1.86-fold
-to 3.4-fold. An earlier draft of this paper claimed precision was nearly independent of
-unit size. That claim was an artefact of the simpler variance function and has been
-removed.
+Letting dispersion depend on exposure flattens the gradient and moves the classification
+count from {e('classified, single dispersion')} to
+{e('classified, exposure-dependent dispersion')}, but it widens the spread of precision
+across units from {e('precision ratio, single dispersion')}-fold to
+{e('precision ratio, exposure-dependent dispersion')}-fold. An earlier draft of this
+paper claimed precision was nearly independent of unit size. That claim was an artefact
+of the simpler variance function and has been removed.
 
 Note the residual-degrees-of-freedom divisor below. Dividing by the number of
 observations instead, as a first version of this check did, makes a correctly specified
@@ -407,23 +477,29 @@ model look overdispersed.
 """),
         code("""
 panel = pd.read_csv(PROC / "panel_region_year.csv").sort_values(["rgi_id", "year"]).reset_index(drop=True)
-y = panel.avoidable.values
+y = panel[OUTCOME].values
 resid_df = len(panel) - 2 * panel.rgi_id.nunique()
 
 for tag in ("global", "exposure"):
     idata = az.from_netcdf(MODEL / f"idata_disp_{tag}.nc")
     rep = idata["posterior_predictive"]["y"].stack(sample=("chain", "draw")).values
     pearson2 = (y - rep.mean(axis=1)) ** 2 / np.maximum(rep.var(axis=1), 1e-9)
-    q = pd.qcut(panel.groupby("rgi_id").avoidable.transform("sum"), 5, labels=False) + 1
+    q = pd.qcut(panel.groupby("rgi_id")[OUTCOME].transform("sum"), 5, labels=False) + 1
     byq = pd.Series(pearson2).groupby(q).mean() * (len(panel) / resid_df)
     print(f"{tag:9} overall {pearson2.sum() / resid_df:.3f}   by quintile {byq.round(2).tolist()}")
     overall = float(pearson2.sum() / resid_df)   # recomputed, not restated
     if tag == "global":
-        check("global dispersion, overall chi2/df", round(overall, 3), 0.945)
-        check("PPC gradient, lowest quintile", round(float(byq.iloc[0]), 2), 1.04)
-        check("PPC gradient, highest quintile", round(float(byq.iloc[-1]), 2), 0.78)
+        check("global dispersion, overall chi2/df", round(overall, 3))
+        check("PPC gradient, lowest quintile", round(float(byq.iloc[0]), 2))
+        check("PPC gradient, highest quintile", round(float(byq.iloc[-1]), 2))
     else:
-        check("exposure dispersion, overall chi2/df", round(overall, 3), 0.992)
+        check("exposure dispersion, overall chi2/df", round(overall, 3))
+
+disp = pd.read_csv(RES / "tables/dispersion_comparison.csv", index_col=0)
+check("classified, single dispersion", int(disp.loc["global", "classified"]))
+check("classified, exposure-dependent dispersion", int(disp.loc["exposure", "classified"]))
+check("precision ratio, single dispersion", float(disp.loc["global", "sd_ratio_max_min"]), tol=0.005)
+check("precision ratio, exposure-dependent dispersion", float(disp.loc["exposure", "sd_ratio_max_min"]), tol=0.005)
 """),
         md("""
 ## Can covariates rescue trend detectability?
@@ -436,9 +512,10 @@ rather than asserted. The distinction the design turns on:
   change in the underlying data, because part of the resulting claim came from the
   covariate rather than from the deaths.
 
-In this study the slope coefficient turned out to include zero, so there is nothing for
-the covariate to assert and the residual reduces to the departure-from-national contrast
-already reported. Its count is that same quantity, not an independent result.
+Where the slope coefficient's interval includes zero, as it did for the avoidable
+outcome, there is nothing for the covariate to assert and the residual reduces to the
+departure-from-national contrast already reported. Its count is that same quantity, not
+an independent result.
 
 Note also the static index has, by construction, **zero within-region variance**, so it
 cannot carry information about the direction of change within a region.
@@ -448,16 +525,16 @@ path = RES / "tables/covariate_models.csv"
 if path.exists():
     cov = pd.read_csv(path)
     display(cov)
-    for variant, published in [("base", 89), ("level", 85), ("slope", 89), ("timevar", 103)]:
+    for variant in ["base", "level", "slope", "timevar"]:
         check(f"covariate: {variant}",
-              int(cov[cov.variant == variant].classified_slope.iloc[0]), published)
+              int(cov[cov.variant == variant].classified_slope.iloc[0]))
     print("\\nWithin-region share of covariate variance (from covariates_report.txt):")
     print("\\n".join(l for l in (PROC / "covariates_report.txt").read_text().splitlines()
                      if "within-region" in l))
 else:
     print("covariate models not yet fitted; run 2-model/14_covariates.py")
 """),
-        md("""
+        md(f"""
 ## Multiplicity, and attribution at state level
 
 Two results that were computed and, in an earlier draft, not reported. Both are now in
@@ -467,11 +544,13 @@ The classification criterion makes 510 simultaneous decisions. Hierarchical shri
 damps multiplicity, which is why the primary criterion is uncorrected, but the size of
 the drop under explicit control bounds how much any single classification can carry.
 
-Attribution at state level depended entirely on the variance function. Under one shared
-dispersion no state separated from the national drift; that specification imposes a
-common floor on relative variability whatever the unit's size, and the dependence of
-dispersion on exposure is strong. Under a fitted exposure-dependent dispersion six states
-separate, and unpooled ten do, nesting the same six.
+Attribution at state level depends on the variance function. Under one shared
+dispersion, {e('states departing, single dispersion')} states separated from the
+national drift; that specification imposes a common floor on relative variability
+whatever the unit's size, and the dependence of dispersion on exposure is strong. Under
+a fitted exposure-dependent dispersion {e('states departing, exposure-dependent dispersion')}
+states separate, and unpooled {e('states departing, unpooled')} do; the last check
+confirms the model's set is nested in the unpooled set.
 """),
         code("""
 prec = (RES / "03_precision_report.log").read_text()
@@ -479,25 +558,25 @@ print("\\n".join(l for l in prec.splitlines() if "BH-FDR" in l or "Bonferroni" i
 
 bh = {l.split(":")[0].split("]")[0].strip("["): int(l.split(":")[1])
       for l in prec.splitlines() if "surviving BH-FDR" in l}
-check("regions surviving BH-FDR, rate", bh["rate"], 10)
-check("regions surviving BH-FDR, share", bh["share"], 16)
+check("regions surviving BH-FDR, rate", bh["rate"])
+check("regions surviving BH-FDR, share", bh["share"])
 
 sd = pd.read_csv(RES / "tables/state_dispersion.csv")
-check("states departing, single dispersion", sd.departs_global.sum(), 0)
-check("states departing, exposure-dependent dispersion", sd.departs_exposure.sum(), 6)
-check("states departing, unpooled", sd.departs_unpooled.sum(), 10)
-check("the six are nested in the ten", int((sd.departs_exposure & ~sd.departs_unpooled).sum()), 0)
+check("states departing, single dispersion", sd.departs_global.sum())
+check("states departing, exposure-dependent dispersion", sd.departs_exposure.sum())
+check("states departing, unpooled", sd.departs_unpooled.sum())
+check("the model set is nested in the unpooled set", int((sd.departs_exposure & ~sd.departs_unpooled).sum()))
 print(f"\\nRio de Janeiro: own {sd[sd.UF=='RJ'].slope_own.iloc[0]:.4f}, "
       f"single-dispersion model {sd[sd.UF=='RJ'].b_global.iloc[0]:.4f}, "
       f"t={sd[sd.UF=='RJ'].t.iloc[0]:.1f}")
 """),
         md("""
-## Alternative explanations that were tested and rejected
+## Alternative explanations that were tested
 
-Each of these would, if true, undercut the central claim. None does. The p-value on the
-coding-quality correlation is nominally significant and is reported rather than omitted;
-the effect is far too small to account for the findings, and it points in the direction
-of *faster* apparent improvement where coding deteriorated.
+Each of these would, if it held, undercut the central claim. The coding-quality
+correlation is reported with its bootstrap interval rather than omitted; read its size
+against the national drift, and note that a negative sign means apparent improvement
+where coding deteriorated, the opposite of the artefact that would inflate the decline.
 """),
         code("""
 s = json.load(open(RES / "SUPPORTING_CHECKS.json"))
@@ -506,10 +585,10 @@ print(json.dumps(s["outcome_definition"], indent=2))
 print(json.dumps(s["common_national_shock"], indent=2))
 print(json.dumps(s["winners_curse"], indent=2))
 
-check("avoidable, unpooled (%)", s["outcome_definition"]["avoidable"]["pct"], 16.3)
-check("all-cause neonatal, unpooled (%)", s["outcome_definition"]["all_neonatal"]["pct"], 10.4)
-check("common national shock share", s["common_national_shock"]["common_variance_share"], 0.0067)
-check("winner's curse ratio", s["winners_curse"]["inflation_ratio"], 1.91)
+check("avoidable, unpooled (%)", s["outcome_definition"]["avoidable"]["pct"])
+check("all-cause neonatal, unpooled (%)", s["outcome_definition"]["all_neonatal"]["pct"])
+check("common national shock share", s["common_national_shock"]["common_variance_share"])
+check("winner's curse ratio", s["winners_curse"]["inflation_ratio"])
 """),
         md("""
 ## The two quantities the Discussion adds
@@ -529,22 +608,22 @@ t = json.load(open(RES / "TRANSFERABILITY.json"))
 print(json.dumps(t, indent=2))
 
 thr = t["threshold_rule"]
-check("threshold rule, lowest exposure (deaths/unit-year)", thr["lowest"]["deaths_per_unit_year"], 3.5)
-check("threshold rule, lowest exposure power", 100 * thr["lowest"]["power"], 6.1, tol=0.05)
-check("threshold rule, median exposure (deaths/unit-year)", thr["median"]["deaths_per_unit_year"], 10.7)
-check("threshold rule, median exposure power", 100 * thr["median"]["power"], 9.5, tol=0.05)
-check("threshold rule, highest exposure (deaths/unit-year)", thr["highest"]["deaths_per_unit_year"], 37.1)
-check("threshold rule, highest exposure power", 100 * thr["highest"]["power"], 23.5, tol=0.05)
+check("threshold rule, lowest exposure (deaths/unit-year)", thr["lowest"]["deaths_per_unit_year"])
+check("threshold rule, lowest exposure power", 100 * thr["lowest"]["power"], tol=0.05)
+check("threshold rule, median exposure (deaths/unit-year)", thr["median"]["deaths_per_unit_year"])
+check("threshold rule, median exposure power", 100 * thr["median"]["power"], tol=0.05)
+check("threshold rule, highest exposure (deaths/unit-year)", thr["highest"]["deaths_per_unit_year"])
+check("threshold rule, highest exposure power", 100 * thr["highest"]["power"], tol=0.05)
 
 cb = t["completeness_bound"]
-check("capture drift displacement at 1%/yr", cb["displacement_if_capture_improves_1pct_per_year"], 0.010, tol=5e-5)
-check("displacement as share of national drift (%)", 100 * cb["displacement_as_share_of_national_drift"], 45, tol=0.5)
-check("capture growth erasing the drift (%/yr)", cb["capture_growth_that_would_erase_the_drift_pct_per_year"], 2.25, tol=0.005)
+check("capture drift displacement at 1%/yr", cb["displacement_if_capture_improves_1pct_per_year"], tol=5e-5)
+check("displacement as share of national drift (%)", 100 * cb["displacement_as_share_of_national_drift"], tol=0.5)
+check("capture growth erasing the drift (%/yr)", cb["capture_growth_that_would_erase_the_drift_pct_per_year"], tol=0.005)
 
 # The power column must be the same one the design analysis committed, not a re-derivation.
 d = pd.read_csv(RES / "tables/design_two_arm.csv")
 a1 = d[d.arm.str.startswith("A") & (d.true_slope_x_national == 1.0)].sort_values("exposure_quintile")
-assert list(a1.power) == [q["power_vs_national_drift"] for q in thr["quintiles"]], \
+assert list(a1.power) == [q["power_vs_national_drift"] for q in thr["quintiles"]], \\
     "threshold rule drifted from the committed design table"
 print()
 print("OK    threshold rule power column matches design_two_arm.csv")
@@ -554,22 +633,23 @@ print("OK    threshold rule power column matches design_two_arm.csv")
 
 The ladder uses IBGE's immediate region, an economic geography. The health system plans in
 *regiões de saúde*. If the resolving power were an artefact of an administratively
-irrelevant partition, the planning partition would relieve it. It does not: more deaths per
-unit, marginally narrower intervals, the same conclusion.
+irrelevant partition, the planning partition would relieve it. The counts for both
+partitions are below; the question is whether the classified share moves materially
+once the extra deaths per unit are taken into account.
 """),
         code("""
 h = json.load(open(RES / "HEALTH_REGION.json"))
 print(json.dumps(h, indent=2))
 
-check("health regions with data", h["units"], 433)
-check("median avoidable deaths per health region", h["median_deaths_per_unit"], 152)
-check("health regions classified", h["classified"], 75)
-check("health regions classified (%)", h["pct_classified"], 17.3, tol=0.05)
-check("health regions classified, unpooled", h["classified_unpooled"], 78)
-check("health regions rising, hierarchical", h["rising_hierarchical"], 0)
-check("unmapped municipality codes", h["crosswalk_provenance"]["municipality_codes_unmapped"], 23)
-check("unmapped births", h["crosswalk_provenance"]["births_unmapped"], 980)
-check("unmapped avoidable deaths", h["crosswalk_provenance"]["avoidable_deaths_unmapped"], 0)
+check("health regions with data", h["units"])
+check("median deaths per health region", h["median_deaths_per_unit"])
+check("health regions classified", h["classified"])
+check("health regions classified (%)", h["pct_classified"], tol=0.05)
+check("health regions classified, unpooled", h["classified_unpooled"])
+check("health regions rising, hierarchical", h["rising_hierarchical"])
+check("unmapped municipality codes", h["crosswalk_provenance"]["municipality_codes_unmapped"])
+check("unmapped births", h["crosswalk_provenance"]["births_unmapped"])
+check("unmapped avoidable deaths", h["crosswalk_provenance"]["avoidable_deaths_unmapped"])
 
 # The comparison must be read from the committed ladder, not retyped.
 lad = pd.read_csv(RES / "tables/aggregation_ladder.csv").set_index("level")
@@ -580,14 +660,15 @@ print("OK    immediate-region comparison matches aggregation_ladder.csv")
 # The crosswalk must fail on exactly the codes the immediate-region crosswalk fails on.
 print(f"exposure gain: {100 * (h['median_deaths_per_unit'] / h['comparison_immediate_region']['median_deaths_per_unit'] - 1):.0f}%")
 """),
-        md("""
+        md(f"""
 ## What remains open
 
 Stated here so it is not mistaken for something that was checked.
 
 - **Non-linearity is real and unresolved as a descriptive matter.** The flexible-trend
-  fits show the *count* is robust, but 26.5% of the highest-exposure regions still reject
-  a straight line. The paper reports the linear summary and says so.
+  fits show the *count* is robust, but
+  {e('linear trend rejected, highest quintile (%)')}% of the highest-exposure regions
+  still reject a straight line. The paper reports the linear summary and says so.
 - **Birth under-registration** in parts of the North would inflate denominators and mimic
   improvement. Not addressed here; carried as a limitation.
 - **The cause grouping was inherited** from the source panel and is not re-derived in
@@ -597,14 +678,16 @@ Stated here so it is not mistaken for something that was checked.
 
 
 def main():
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"outcome {OUTCOME} ({LABEL}); expected values from {EXPECTED.name} ({len(E)} entries)")
     for name, builder in [
         ("01_data_and_panel", notebook_01),
         ("02_models_and_results", notebook_02),
         ("03_robustness", notebook_03),
     ]:
-        path = HERE / f"{name}.ipynb"
+        path = OUT_DIR / f"{name}.ipynb"
         nbf.write(builder(), path)
-        print(f"wrote {path.relative_to(HERE.parent)}")
+        print(f"wrote {path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

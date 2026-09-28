@@ -1,0 +1,32 @@
+{
+  "level": "health region",
+  "units": 433,
+  "median_deaths_per_unit": 329,
+  "classified": 16,
+  "pct_classified": 3.7,
+  "rising_hierarchical": 0,
+  "median_posterior_sd": 0.0074,
+  "median_mde": 0.0146,
+  "divergences": 0,
+  "worst_rhat": 1.0059,
+  "units_fitted": 433,
+  "classified_unpooled": 56,
+  "pct_unpooled": 12.9,
+  "rising_unpooled": 14,
+  "crosswalk_provenance": {
+    "municipality_codes_unmapped": 23,
+    "municipality_years_unmapped": 166,
+    "births_unmapped": 980,
+    "avoidable_deaths_unmapped": 0,
+    "outcome_deaths_unmapped": 0
+  },
+  "comparison_immediate_region": {
+    "units": 510,
+    "median_deaths_per_unit": 245,
+    "classified": 19,
+    "pct_classified": 3.7,
+    "median_posterior_sd": 0.0083,
+    "classified_unpooled": 53,
+    "pct_unpooled": 10.4
+  }
+}

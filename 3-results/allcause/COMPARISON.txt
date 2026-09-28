@@ -1,0 +1,78 @@
+quantity                                               avoidable                           all-cause
+-----------------------------------------------------------------------------------------------------------------------------
+regions resolved, three-level (of 510)                 86                                  43  *
+regions resolved, %                                    16.9                                8.4  *
+regions resolved AND rising                            0                                   0
+regions with positive point estimate                   10                                  11  *
+median posterior SD of slope                           0.0175                              0.0079  *
+median MDE (1.96 SD)                                   0.0343                              0.0154  *
+regions surviving BH-FDR 5%                            10                                  0  *
+naive sign error % (1 - prob_direction > ...)          0.0                                 0.0
+national slope mu_b (per year)                         -0.02227                            -0.00833  *
+national change per decade, %                          -20.0                               -8.0  *
+capture +1%/yr displaces slope by                      0.00995                             0.00995
+displacement as % of national slope                    44.7                                119.5  *
+capture growth erasing the drift, %/yr                 2.25                                0.84  *
+threshold rule, lowest: deaths/unit-year               3.5                                 7.9  *
+threshold rule, lowest: power %                        6.1                                 4.9  *
+threshold rule, median: deaths/unit-year               10.7                                22.3  *
+threshold rule, median: power %                        9.5                                 5.7  *
+threshold rule, highest: deaths/unit-year              37.1                                79.1  *
+threshold rule, highest: power %                       23.5                                13.8  *
+ladder municipality: median deaths/unit                7                                   14  *
+ladder municipality: hierarchical                      61 (1.1%)                           4 (0.1%)  *
+ladder municipality: unpooled                          384 of 5197 (7.4%)                  313 of 5481 (5.7%)  *
+ladder immediate region: median deaths/unit            115                                 245  *
+ladder immediate region: hierarchical                  81 (15.9%)                          19 (3.7%)  *
+ladder immediate region: unpooled                      83 of 510 (16.3%)                   53 of 510 (10.4%)  *
+ladder state: median deaths/unit                       3052                                5480  *
+ladder state: hierarchical                             21 (77.8%)                          8 (29.6%)  *
+ladder state: unpooled                                 19 of 27 (70.4%)                    10 of 27 (37.0%)  *
+ladder macro-region: median deaths/unit                17106                               33595  *
+ladder macro-region: hierarchical                      0 (0.0%)                            0 (0.0%)
+ladder macro-region: unpooled                          5 of 5 (100.0%)                     3 of 5 (60.0%)  *
+ladder worst R-hat                                     1.0056                              1.0059  *
+states resolved (state model, of 27)                   21                                  9  *
+states resolved AND rising                             0                                   0
+states departing, single dispersion                    0                                   0
+states departing, exposure dispersion                  6: DF, ES, RJ, RO, SP, TO           1: RJ  *
+states departing, unpooled                             10: CE, DF, ES, MA, PI, PR, RJ, RO, SP, TO  3: PA, PI, RJ  *
+RJ own slope / rest / contrast                         -0.0014 / -0.0217 / 0.0203          0.0029 / -0.0071 / 0.0100  *
+Cochran Q (26 df) / I2 % / tau                         114.7 / 77.3 / 0.0112               82.1 / 68.3 / 0.0056  *
+common national shock share %                          0.67                                0.96  *
+linear trend rejected overall %                        13.3                                11.2  *
+linear trend rejected, top quintile %                  26.5                                16.7  *
+winner's curse ratio                                   1.91                                2.08  *
+spearman illdef trend vs slope                         -0.093                              -0.022  *
+states separable from national drift                   0                                   0
+regions separable (leading/lagging)                    9 (8/1)                             0 (0/0)  *
+arm A mean power at 1x national, %                     11.6                                7.7  *
+arm A power by quintile, %                             ERR TypeError                       ERR TypeError
+arm A null declaration rate, %                         4.6                                 4.9  *
+arm B mean power, %                                    19.5                                5.3  *
+arm B power by quintile, %                             ERR TypeError                       ERR TypeError
+arm B classification count mean (min-max)              99.1 (69-122)                       26.9 (14-44)  *
+tau (between-region slope SD)                          0.02147                             0.00897  *
+arm A type S at 1x by quintile                         [0.1181, 0.0933, 0.0455, 0.0223, 0.0083]  [0.28, 0.1298, 0.2222, 0.15, 0.0249]  *
+arm A type M at 1x by quintile                         [5.48, 3.79, 3.13, 2.66, 1.8]       [9.64, 7.01, 5.78, 4.57, 2.57]  *
+arm B type S by quintile                               [0.0182, 0.0049, 0.0166, 0.0123, 0.0034]  [0.0, 0.0625, 0.0455, 0.0222, 0.0104]  *
+arm B type M by quintile                               [1.05, 0.99, 1.0, 0.99, 0.98]       [0.68, 1.18, 1.07, 1.08, 1.0]  *
+ROPE rate at 1x: changing / stable / indeterminate %   9 / 0 / 98.2                        0 / 0 / 100.0  *
+ROPE rate at 2x: changing / stable                     2 / 76                              0 / 24  *
+regions precise enough to be certified stable at 1x    1                                   0  *
+prior nopool: classified / median MDE                  77 / 0.0632014648183981             46 / 0.0434975144464892  *
+prior exch: classified / median MDE                    84 / 0.0343995567177604             42 / 0.0154610907153795  *
+prior bym2: classified / median MDE                    89 / 0.0341511814773189             62 / 0.014307807318433  *
+trend linear: classified                               89                                  44  *
+trend quadratic: classified                            83                                  44  *
+trend rw: classified                                   84                                  42  *
+seeds: counts                                          [86, 87, 88, 86, 85, 84, 85, 83]    [45, 42, 42, 42, 41, 44, 45, 43]  *
+seeds: always / never / flip                           78 / 417 / 15                       39 / 462 / 9  *
+dispersion global -> exposure: classified              89 -> 90                            44 -> 37  *
+dispersion: SD ratio max/min global -> exposure        1.86 -> 3.4                         1.5 -> 4.34  *
+covariates: base / level / slope / timevar / mundlak   89 / 85 / 89 / 103 / 103            44 / 40 / 69 / 38 / 48  *
+health regions: median deaths / classified / unpooled  152 / 75 (17.3%) / 78 (18.0%)       329 / 16 (3.7%) / 56 (12.9%)  *
+health regions: rising hierarchical / unpooled         0 / 7                               0 / 14  *
+share outcome: classified                              67                                  67
+joint: both / rate only / share only                   43 / 43 / 24                        9 / 34 / 58  *
+exposure-dep. dispersion coefficient                   see 08 log                          see 08 log

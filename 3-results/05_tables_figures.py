@@ -10,6 +10,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -17,13 +18,16 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
 import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, TAG, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 TABLES = OUT / "tables"
 FIGS = OUT / "figures"
 
@@ -36,15 +40,38 @@ LABELS = {
     "illdef": "Ill-defined",
 }
 
+CALIBRI_DIR = Path("/Applications/Microsoft Word.app/Contents/Resources/DFonts")
+CALIBRI_FILES = [
+    CALIBRI_DIR / "Calibri.ttf",
+    CALIBRI_DIR / "Calibrib.ttf",
+    CALIBRI_DIR / "Calibrii.ttf",
+    CALIBRI_DIR / "Calibriz.ttf",
+]
+for font_path in CALIBRI_FILES:
+    if not font_path.exists():
+        raise FileNotFoundError(f"Required PPE figure font not found: {font_path}")
+    font_manager.fontManager.addfont(font_path)
+
+resolved_font = Path(
+    font_manager.findfont("Calibri", fallback_to_default=False)
+).resolve()
+if resolved_font.name.lower() != "calibri.ttf":
+    raise RuntimeError(f"Calibri regular did not resolve correctly: {resolved_font}")
+
 plt.rcParams.update(
     {
         "figure.dpi": 300,
-        "font.size": 8,
+        "savefig.dpi": 300,
+        "font.family": "Calibri",
+        "font.size": 12,
+        "axes.titlesize": 12,
+        "axes.labelsize": 12,
+        "xtick.labelsize": 12,
+        "ytick.labelsize": 12,
+        "legend.fontsize": 12,
         "axes.spines.top": False,
         "axes.spines.right": False,
-        "axes.grid": True,
-        "grid.alpha": 0.25,
-        "grid.linewidth": 0.5,
+        "axes.grid": False,
     }
 )
 
@@ -123,31 +150,88 @@ def table3_robustness():
 
 def figure1_rope():
     """Conclusiveness as a function of the tolerance, for both estimands."""
-    fig, axes = plt.subplots(1, 2, figsize=(6.9, 2.8), sharey=True)
-    for ax, kind, title in zip(
-        axes, ("rate", "share"), ("Avoidable death rate", "Avoidable share")
-    ):
-        c = pd.read_csv(TABLES / f"rope_curve_{kind}.csv")
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.8), sharey=True)
+    if TAG:
+        # All-cause primary: panel A is this run's rate; panel B is the avoidable rate from
+        # the avoidable run, the secondary outcome the main text reports. Each panel's
+        # tolerance is a multiple of its own national slope.
+        panels = (
+            ("A. All-cause neonatal mortality rate", TABLES / "rope_curve_rate.csv"),
+            ("B. Avoidable neonatal mortality rate",
+             ROOT / "3-results" / "tables" / "rope_curve_rate.csv"),
+        )
+    else:
+        panels = (
+            ("A. Avoidable neonatal mortality rate", TABLES / "rope_curve_rate.csv"),
+            ("B. Avoidable share", TABLES / "rope_curve_share.csv"),
+        )
+    for ax, (title, path) in zip(axes, panels):
+        c = pd.read_csv(path)
         x = c.tolerance_x_national
-        ax.plot(x, 100 * c.drifting / 510, "o-", lw=1.4, ms=4, label="Changing")
-        ax.plot(x, 100 * c.credibly_flat / 510, "s-", lw=1.4, ms=4, label="Stable")
+        ax.plot(
+            x,
+            100 * c.drifting / 510,
+            color="#0072B2",
+            marker="o",
+            linestyle="-",
+            lw=2.0,
+            ms=5.5,
+            label="Changing",
+        )
+        ax.plot(
+            x,
+            100 * c.credibly_flat / 510,
+            color="#D55E00",
+            marker="s",
+            linestyle="--",
+            lw=2.0,
+            ms=5.5,
+            label="Stable",
+        )
         ax.plot(
             x,
             100 * c.indeterminate_share,
-            "^-",
-            lw=1.8,
-            ms=4,
-            color="0.2",
+            color="0.15",
+            marker="^",
+            linestyle="-.",
+            lw=2.2,
+            ms=5.5,
             label="Indeterminate",
         )
-        ax.axvline(1.0, color="0.6", ls=":", lw=1)
-        ax.set_title(title, fontsize=8)
-        ax.set_xlabel("Tolerance (multiples of the national drift)")
+        ax.axvline(
+            1.0,
+            color="0.45",
+            linestyle=":",
+            lw=1.5,
+            label="1 × slope magnitude",
+        )
+        ax.set_title(title, loc="left", fontweight="bold")
         ax.set_ylim(-2, 102)
+        ax.set_yticks(np.arange(0, 101, 20))
+        ax.set_xticks(x)
+        tick_labels = ax.set_xticklabels([f"{value:g}" for value in x])
+        tick_labels[0].set_horizontalalignment("right")
+        tick_labels[1].set_horizontalalignment("left")
     axes[0].set_ylabel("% of the 510 immediate regions")
-    axes[0].legend(frameon=False, fontsize=7, loc="center left")
-    fig.tight_layout()
-    fig.savefig(FIGS / "figure3_tolerance_curve.png", bbox_inches="tight")
+    fig.supxlabel("Tolerance (multiples of national slope magnitude)", y=0.14)
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles,
+        labels,
+        frameon=False,
+        loc="lower center",
+        bbox_to_anchor=(0.5, -0.005),
+        ncol=4,
+        handlelength=2.0,
+        columnspacing=1.1,
+    )
+    fig.tight_layout(rect=(0, 0.22, 1, 1), w_pad=1.2)
+    fig.savefig(
+        FIGS / "figure3_tolerance_curve.png",
+        dpi=300,
+        bbox_inches="tight",
+        facecolor="white",
+    )
     plt.close(fig)
 
 
@@ -156,7 +240,7 @@ def figure2_precision(panel):
     slopes = pd.read_csv(MODEL / "slopes_rate.csv")
     pooled = (
         panel.groupby("rgi_id")
-        .agg(deaths=("avoidable", "sum"))
+        .agg(deaths=(OUTCOME, "sum"))
         .reset_index()
         .merge(slopes, on="rgi_id")
     )
@@ -175,9 +259,9 @@ def figure2_precision(panel):
     )
     ax.set_xscale("log")
     ax.set_yscale("log")
-    ax.set_xlabel("Avoidable deaths in the region, 2014-2024")
+    ax.set_xlabel(f"{LABEL[0].upper() + LABEL[1:]} in the region, 2014-2024")
     ax.set_ylabel("Posterior SD of the slope")
-    ax.legend(frameon=False, fontsize=7)
+    ax.legend(frameon=False)
 
     ax = axes[1]
     q = pd.qcut(pooled.deaths, 5, labels=False)
@@ -192,9 +276,9 @@ def figure2_precision(panel):
     )
     ax.set_xticks(range(len(grouped)))
     ax.set_xticklabels(
-        [f"{int(r.lo)}-\n{int(r.hi)}" for _, r in grouped.iterrows()], fontsize=6.5
+        [f"{int(r.lo)}-\n{int(r.hi)}" for _, r in grouped.iterrows()]
     )
-    ax.set_xlabel("Avoidable deaths in the region (quintile)")
+    ax.set_xlabel(f"{LABEL[0].upper() + LABEL[1:]} in the region (quintile)")
     ax.set_ylabel("% classified")
     fig.tight_layout()
     fig.savefig(FIGS / "figure2_precision.png", bbox_inches="tight")
@@ -216,6 +300,12 @@ def main():
 
     rate = pd.read_csv(MODEL / "slopes_rate.csv")
     share = pd.read_csv(MODEL / "slopes_share.csv")
+    # The BH flag is written by 03_precision_report.py to tables/bh_<kind>.csv; the
+    # avoidable slopes file also carries it from an earlier run, the all-cause one does not.
+    for name, frame in (("rate", rate), ("share", share)):
+        if "bh_fdr05" not in frame.columns:
+            bh = pd.read_csv(TABLES / f"bh_{name}.csv")[["rgi_id", "bh_fdr05"]]
+            frame["bh_fdr05"] = frame.merge(bh, on="rgi_id", how="left").bh_fdr05.fillna(False).values
     rope_rate = pd.read_csv(TABLES / "rope_curve_rate.csv")
 
     numbers = {

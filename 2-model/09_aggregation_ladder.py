@@ -18,6 +18,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -26,9 +27,11 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 SEED = 20260803
 DRAWS = 1500
@@ -61,7 +64,7 @@ def panels():
         ("state", "UF"),
         ("macro-region", "macro"),
     ]:
-        g = muni.groupby([key, "year"], as_index=False)[["avoidable", "births"]].sum()
+        g = muni.groupby([key, "year"], as_index=False)[[OUTCOME, "births"]].sum()
         g = g.rename(columns={key: "unit"})
         g = g[g.births > 0].copy()
         g["t"] = g.year - muni.year.mean()
@@ -83,7 +86,7 @@ def build(df, n_units, unit_idx):
             mu=pm.math.exp(a[unit_idx] + b[unit_idx] * df.t.values
                            + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 
@@ -113,7 +116,7 @@ def run_level(name, df):
     sd = b.std(axis=1)
     cls = (lo > 0) | (hi < 0)
 
-    deaths = df.groupby("unit").avoidable.sum().loc[units].values
+    deaths = df.groupby("unit")[OUTCOME].sum().loc[units].values
     pd.DataFrame(
         {"unit": units, "deaths": deaths, "b_mean": b.mean(axis=1), "b_sd": sd,
          "b_lo95": lo, "b_hi95": hi, "classified_95": cls}
@@ -171,11 +174,11 @@ def unpooled_ladder():
         n_cls = 0
         n_fit = 0
         for unit, g in df.groupby("unit"):
-            if g.avoidable.sum() == 0 or g.births.sum() == 0:
+            if g[OUTCOME].sum() == 0 or g.births.sum() == 0:
                 continue
             try:
                 f = sm.GLM(
-                    g.avoidable,
+                    g[OUTCOME],
                     sm.add_constant(g[["t"]]),
                     family=sm.families.Poisson(),
                     offset=np.log(g.births),

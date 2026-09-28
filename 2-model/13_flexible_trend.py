@@ -23,6 +23,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -31,9 +32,11 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 SEED = 20260803
 DRAWS = 2000
@@ -112,7 +115,7 @@ def build(df, n_regions, n_states, sor, n_years, shape):
             "y",
             mu=pm.math.exp(eta + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 

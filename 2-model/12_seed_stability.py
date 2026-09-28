@@ -19,6 +19,7 @@ Run:
 """
 
 import json
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -27,9 +28,11 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PROC = ROOT / "data" / "processed"
-OUT = ROOT / "2-model"
-RES = ROOT / "3-results"
+OUT = model_dir(ROOT)
+RES = results_dir(ROOT)
 
 SEEDS = (11, 22, 33, 44, 55, 66, 77, 88)
 DRAWS = 2000
@@ -73,7 +76,7 @@ def build(df, n_regions, n_states, sor):
             mu=pm.math.exp(a[df.region_idx.values] + b[df.region_idx.values] * df.t.values
                            + np.log(df.births.values)),
             alpha=alpha,
-            observed=df.avoidable.values,
+            observed=df[OUTCOME].values,
         )
     return model
 

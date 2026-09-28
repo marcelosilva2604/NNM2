@@ -13,6 +13,7 @@ Run:
     .venv/bin/python 3-results/07_vs_national.py
 """
 
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -20,8 +21,10 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 LEVELS = {
     "state": ("idata_state.nc", "slopes_state.csv", "UF"),

@@ -1,0 +1,4 @@
+trend,classified,pct,median_sd,alpha,divergences,worst_rhat
+linear,44,8.6,0.0078,104.3,0,1.0036
+quadratic,44,8.6,0.0077,104.7,0,1.0035
+rw,42,8.2,0.0077,105.0,0,1.0036

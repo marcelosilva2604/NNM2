@@ -23,6 +23,7 @@ Run:
 """
 
 import pickle
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -31,8 +32,10 @@ import pandas as pd
 import pymc as pm
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, model_dir, results_dir  # noqa: E402
 PANEL = ROOT / "data" / "processed" / "panel_region_year.csv"
-OUT = ROOT / "2-model"
+OUT = model_dir(ROOT)
 
 HDI_PROB = 0.95
 SEED = 20260803
@@ -113,7 +116,7 @@ def build_model(df, n_regions, n_states, state_of_region, kind):
                 "y",
                 mu=pm.math.exp(eta + offset),
                 alpha=alpha,
-                observed=df.avoidable.values,
+                observed=df[OUTCOME].values,
             )
         elif kind == "share":
             n = pm.Data("n_trials", df.four_group.values)
@@ -269,6 +272,7 @@ def main():
         f"states                : {len(states):,}",
         f"years                 : {df.year.min()}-{df.year.max()}",
         f"deaths (avoidable)    : {df.avoidable.sum():,}",
+        f"outcome modelled     : {OUTCOME} ({LABEL})",
         f"deaths (four groups)  : {df.four_group.sum():,}",
         f"births                : {df.births.sum():,}",
         f"interval convention   : {HDI_PROB:.0%}",

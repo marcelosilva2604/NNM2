@@ -1,0 +1,41 @@
+Posterior predictive checks and exposure-dependent dispersion
+======================================================================
+
+[global] posterior predictive check
+  overall Pearson chi2/df : 0.955
+  overall 95% coverage    : 0.977
+
+ q  mean_fitted  chi2_over_df  coverage
+ 1        7.864         1.151     0.972
+ 2       15.025         1.024     0.975
+ 3       22.497         0.923     0.976
+ 4       37.265         1.015     0.968
+ 5      149.756         0.662     0.994
+
+  classified at 95%       : 44/510
+  median posterior SD     : 0.0078
+  SD dynamic range        : 1.5x
+
+[exposure] posterior predictive check
+  overall Pearson chi2/df : 1.011
+  overall 95% coverage    : 0.973
+
+ q  mean_fitted  chi2_over_df  coverage
+ 1        7.869         1.092     0.972
+ 2       15.013         0.993     0.978
+ 3       22.483         0.932     0.973
+ 4       37.252         1.093     0.964
+ 5      149.309         0.948     0.978
+
+  classified at 95%       : 37/510
+  median posterior SD     : 0.0098
+  SD dynamic range        : 4.34x
+
+  dispersion as a function of exposure:
+                  mean     sd eti95_lb eti95_ub  ess_bulk  ess_tail r_hat mcse_mean mcse_sd
+log_alpha0       4.935  0.137      4.7      5.2      5733      5097  1.00    0.0018  0.0014
+log_alpha_slope  0.742  0.122     0.51     0.99      5850      4791  1.00    0.0016  0.0012
+
+          classified  pct  median_sd  sd_ratio_max_min  divergences
+global          44.0  8.6     0.0078              1.50          0.0
+exposure        37.0  7.3     0.0098              4.34          0.0

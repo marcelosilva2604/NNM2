@@ -4,8 +4,14 @@ A notebook whose cells have never run is documentation, not evidence. Executing 
 here means every assertion in them has actually passed against the artefacts on disk at
 the time of the run.
 
+The outcome follows NNM2_OUTCOME (see src/outcome.py). The kernel inherits this process's
+environment, so the notebooks read the same outcome and the same artefact folders as the
+scripts that produced them. Under a non-default outcome the notebooks live in
+notebooks/<tag>/ and are executed there.
+
 Run:
     .venv/bin/python notebooks/run_notebooks.py
+    NNM2_OUTCOME=deaths_total .venv/bin/python notebooks/run_notebooks.py
 """
 
 import sys
@@ -15,13 +21,18 @@ import nbformat as nbf
 from nbclient import NotebookClient
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+from src.outcome import OUTCOME, TAG  # noqa: E402
+
+NB_DIR = HERE / TAG if TAG else HERE
 
 failed = []
 for name in ("01_data_and_panel", "02_models_and_results", "03_robustness"):
-    path = HERE / f"{name}.ipynb"
+    path = NB_DIR / f"{name}.ipynb"
     notebook = nbf.read(path, as_version=4)
     client = NotebookClient(
-        notebook, timeout=1800, kernel_name="python3", resources={"metadata": {"path": str(HERE)}}
+        notebook, timeout=1800, kernel_name="python3",
+        resources={"metadata": {"path": str(NB_DIR)}},
     )
     try:
         client.execute()
@@ -30,7 +41,7 @@ for name in ("01_data_and_panel", "02_models_and_results", "03_robustness"):
         status = f"FAILED: {type(exc).__name__}: {str(exc)[:300]}"
         failed.append(name)
     nbf.write(notebook, path)
-    print(f"{name}: {status}")
+    print(f"[{OUTCOME}] {name}: {status}")
 
 # A failed assertion is the alarm this suite exists for; it must set the exit code so
 # anything automated can gate on it.

@@ -16,6 +16,7 @@ Run:
     .venv/bin/python 3-results/03_precision_report.py
 """
 
+import sys
 from pathlib import Path
 
 import arviz as az
@@ -24,8 +25,10 @@ import pandas as pd
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
-MODEL = ROOT / "2-model"
-OUT = ROOT / "3-results"
+sys.path.insert(0, str(ROOT))
+from src.outcome import OUTCOME, LABEL, TAG, model_dir, results_dir  # noqa: E402
+MODEL = model_dir(ROOT)
+OUT = results_dir(ROOT)
 
 # The national change over the decade, used to anchor the tolerance grid in something
 # interpretable rather than in an arbitrary width on the logit scale.
@@ -73,7 +76,7 @@ def precision_block(idata, slopes, kind):
             stats.logistic.cdf(stats.logistic.ppf(p0) + x * YEARS_SPAN) - p0
         )
     else:
-        unit = "% change in avoidable deaths per birth per decade"
+        unit = f"% change in {LABEL} per birth per decade"
         to_units = lambda x: 100 * (np.exp(x * YEARS_SPAN) - 1)
 
     lines = [
@@ -155,8 +158,22 @@ def fdr_column(slopes, kind):
     )
 
 
+def secondary_slopes(share_slopes):
+    """The secondary outcome the main text reports, as slopes with a classification column.
+
+    Avoidable primary (the submitted version): the secondary is the avoidable share of the
+    four action groups, fitted in the same run. All-cause primary: the secondary is the
+    avoidable rate itself, read from the avoidable run in 2-model/, so the joint table
+    compares the two rates the new main text reports.
+    """
+    if TAG:
+        return pd.read_csv(ROOT / "2-model" / "slopes_rate.csv"), "avoidable rate"
+    return share_slopes, "share"
+
+
 def joint_table(rate_slopes, share_slopes):
     """Cross-classify the two estimands; they do not select the same regions."""
+    share_slopes, secondary_label = secondary_slopes(share_slopes)
     merged = rate_slopes[["rgi_id", "classified_95", "b_mean"]].merge(
         share_slopes[["rgi_id", "classified_95", "b_mean"]],
         on="rgi_id",
@@ -171,7 +188,7 @@ def joint_table(rate_slopes, share_slopes):
 
     return "\n".join(
         [
-            "JOINT CLASSIFICATION (rate vs share)",
+            f"JOINT CLASSIFICATION (primary rate vs {secondary_label})",
             f"  resolved by both        : {both}",
             f"  resolved by rate only   : {only_rate}",
             f"  resolved by share only  : {only_share}",
