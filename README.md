@@ -23,7 +23,7 @@ hierarchical pooling, and a scaled BYM2 spatial prior, and evaluates power and w
 
 | Item | Reason | How to obtain |
 |---|---|---|
-| `data/raw/`, `data/processed/` | The source records are public | SIM and SINASC from DATASUS, https://datasus.saude.gov.br |
+| `data/raw/`, `data/processed/` | The source records are public | SIM (https://dadosabertos.saude.gov.br/dataset/sim) and SINASC (https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc) from the Portal de Dados Abertos do SUS, Ministry of Health |
 | `2-model/**/*.nc` (sampled posteriors) | Several GB, above GitHub's file limit | Re-run the scripts in `2-model/`; each uses a fixed seed |
 | `data/ref/*.geojson` | Boundary files | IBGE |
 
