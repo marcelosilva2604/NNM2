@@ -1,0 +1,19 @@
+# Source records are public at DATASUS; the scripts in 1-data/ rebuild every derived panel.
+data/raw/
+data/processed/
+data/ref/*.geojson
+*.csv.gz
+*.dbc
+*.dbf
+
+# Sampled posteriors (GBs): reproducible from the fixed seeds in 2-model/
+2-model/*.nc
+2-model/**/*.nc
+2-model/*.pkl
+2-model/**/*.pkl
+
+*.out
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

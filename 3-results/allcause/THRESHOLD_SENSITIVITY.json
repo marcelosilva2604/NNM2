@@ -1,0 +1,52 @@
+[
+  {
+    "variant": "baseline",
+    "simulated_deaths_per_unit_year_50pct": 944.7701623044363,
+    "simulated_deaths_per_unit_year_80pct": 2084.295596114039,
+    "false_declaration_rate_null": 0.0491,
+    "max_power_reached": 1.0,
+    "max_power_at_deaths_per_unit_year": 13558.0,
+    "analytic_50pct": 914.1,
+    "analytic_80pct": 2012.2
+  },
+  {
+    "variant": "dispersion size x0.5 (more overdispersion)",
+    "simulated_deaths_per_unit_year_50pct": 1263.1982550915345,
+    "simulated_deaths_per_unit_year_80pct": 3017.7371823312887,
+    "false_declaration_rate_null": 0.0492,
+    "max_power_reached": 1.0,
+    "max_power_at_deaths_per_unit_year": 19117.0,
+    "analytic_50pct": 1242.1,
+    "analytic_80pct": 2857.4
+  },
+  {
+    "variant": "dispersion size x2 (less overdispersion)",
+    "simulated_deaths_per_unit_year_50pct": 776.4969464753092,
+    "simulated_deaths_per_unit_year_80pct": 1688.9721113950561,
+    "false_declaration_rate_null": 0.0494,
+    "max_power_reached": 1.0,
+    "max_power_at_deaths_per_unit_year": 9622.0,
+    "analytic_50pct": 767.0,
+    "analytic_80pct": 1638.6
+  },
+  {
+    "variant": "AR(1) latent SD 0.03, rho 0.5",
+    "simulated_deaths_per_unit_year_50pct": 1656.0737228776316,
+    "simulated_deaths_per_unit_year_80pct": null,
+    "false_declaration_rate_null": 0.0937,
+    "max_power_reached": 0.73,
+    "max_power_at_deaths_per_unit_year": 26429.0,
+    "analytic_50pct": null,
+    "analytic_80pct": null
+  },
+  {
+    "variant": "AR(1) latent SD 0.06, rho 0.5",
+    "simulated_deaths_per_unit_year_50pct": null,
+    "simulated_deaths_per_unit_year_80pct": null,
+    "false_declaration_rate_null": 0.1244,
+    "max_power_reached": 0.425,
+    "max_power_at_deaths_per_unit_year": 19117.0,
+    "analytic_50pct": null,
+    "analytic_80pct": null
+  }
+]

@@ -1,0 +1,10 @@
+scenario,procedure,mean,std,min,max,count
+hetagg,HIER,20.42,8.72,7,82,120
+hetagg,NB,52.11,6.0,33,68,120
+hetagg,QP,46.13,6.12,31,61,120
+hetnull,HIER,4.99,2.59,0,15,120
+hetnull,NB,42.74,5.88,24,56,120
+hetnull,QP,38.94,6.29,23,56,120
+null0,HIER,0.04,0.2,0,1,120
+null0,NB,25.19,5.08,15,44,120
+null0,QP,24.98,5.08,12,41,120

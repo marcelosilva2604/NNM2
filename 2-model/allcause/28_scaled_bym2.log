@@ -1,0 +1,24 @@
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, z_a_state, z_a_region, sigma_b_state, z_b_state, sigma_b, rho, phi, theta, alpha]
+ICAR scaling factor s = 1.8086
+Sampling 4 chains for 3_000 tune and 2_000 draw iterations (12_000 + 8_000 draws total) took 478 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+sampling seconds: 485
+                   mean       sd eti89_lb eti89_ub  ess_bulk  ess_tail r_hat mcse_mean  mcse_sd
+mu_b           -0.00815  0.00128    -0.01  -0.0061      3951      4602  1.00     2e-05  1.6e-05
+sigma_b          0.0099   0.0032   0.0049    0.015       110       259  1.02    0.0003  0.00023
+sigma_b_state    0.0032   0.0019  0.00039   0.0064       611      1262  1.00   7.7e-05  5.2e-05
+rho                0.57     0.27     0.11     0.95       124       122  1.02     0.024    0.012
+alpha             104.2      6.3       95      110      5741      5152  1.00     0.083    0.061
+classified: 62  declines: 62  increases: 0
+Traceback (most recent call last):
+  File "<path> doutorado/artigo 2/2-model/28_scaled_bym2.py", line 106, in <module>
+    main()
+  File "<path> doutorado/artigo 2/2-model/28_scaled_bym2.py", line 98, in main
+    " worst r-hat (b):", float(az.rhat(idata, var_names=["b"]).to_array().max()))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<path> doutorado/artigo 2/.venv/lib/python3.12/site-packages/xarray/core/common.py", line 306, in __getattr__
+    raise AttributeError(
+AttributeError: 'DataTree' object has no attribute 'to_array'. Did you mean: 'to_zarr'?

@@ -1,0 +1,8 @@
+Aggregation ladder
+======================================================================
+
+           level  units  median_deaths_per_unit  classified  pct_classified  median_posterior_sd  median_mde  divergences  worst_rhat  units_fitted  classified_unpooled  pct_unpooled
+    municipality   5570                      14           4             0.1               0.0114      0.0223            0      1.0059          5481                  313           5.7
+immediate region    510                     245          19             3.7               0.0083      0.0163            0      1.0053           510                   53          10.4
+           state     27                    5480           8            29.6               0.0035      0.0068            0      1.0011            27                   10          37.0
+    macro-region      5                   33595           0             0.0               0.0124      0.0244            4      1.0012             5                    3          60.0

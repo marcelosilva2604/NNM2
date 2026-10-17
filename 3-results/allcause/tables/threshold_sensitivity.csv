@@ -1,0 +1,6 @@
+variant,simulated_deaths_per_unit_year_50pct,simulated_deaths_per_unit_year_80pct,false_declaration_rate_null,max_power_reached,max_power_at_deaths_per_unit_year,analytic_50pct,analytic_80pct
+baseline,944.7701623044363,2084.295596114039,0.0491,1.0,13558.0,914.1,2012.2
+dispersion size x0.5 (more overdispersion),1263.1982550915345,3017.7371823312887,0.0492,1.0,19117.0,1242.1,2857.4
+dispersion size x2 (less overdispersion),776.4969464753092,1688.9721113950561,0.0494,1.0,9622.0,767.0,1638.6
+"AR(1) latent SD 0.03, rho 0.5",1656.0737228776316,,0.0937,0.73,26429.0,,
+"AR(1) latent SD 0.06, rho 0.5",,,0.1244,0.425,19117.0,,

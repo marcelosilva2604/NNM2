@@ -1,0 +1,35 @@
+{
+  "regions": 510,
+  "deaths_per_region_year_min_median_max": [
+    3.0,
+    22.272727272727273,
+    2091.5454545454545
+  ],
+  "regions_at_or_above_benchmark": 1,
+  "regions_at_or_above_benchmark_ids": [
+    {
+      "rgi_id": 350001,
+      "UF": "SP",
+      "deaths_per_year": 2091.5454545454545,
+      "classified_decline": false
+    }
+  ],
+  "posterior_sd_min_median_max": [
+    0.006048660322163592,
+    0.007866958800285512,
+    0.00897311262238904
+  ],
+  "posterior_sd_max_over_min": 1.4834876062571452,
+  "classified_declines": 43,
+  "classified_declines_below_median_deaths": 10,
+  "classified_declines_in_northeast": 33,
+  "regions_in_northeast": 154,
+  "p_decline_ge_0.975": 43,
+  "p_decline_ge_0.95": 102,
+  "p_decline_ge_0.90": 195,
+  "p_decline_le_0.5": 8,
+  "mean_posterior_mean_sign_disagrees_with_p_decline_gt_half": 3,
+  "stored_prob_direction_is_max_side": true,
+  "expected_wrong_sign_if_p_decline_ge_0.975_regions_declared": 0.6036250000000001,
+  "spearman_deaths_vs_posterior_sd": -0.7509804301744429
+}

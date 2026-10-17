@@ -1,0 +1,25 @@
+{
+  "states": {
+    "ladder_fit": 8,
+    "state_model": 9,
+    "state_model_exposure_dispersion": 11,
+    "state_components_of_region_model": 13,
+    "unpooled": 10
+  },
+  "regions": {
+    "ladder_fit": 19,
+    "primary_fit": 43,
+    "primary_fit_bh_fdr05": 0,
+    "ppc_refit_global": 44,
+    "exposure_dispersion": 37,
+    "covariate_base": 44,
+    "trend_linear": 44,
+    "prior_exch": 42,
+    "prior_nopool_bayesian": 46,
+    "prior_bym2": 62,
+    "unpooled_quasipoisson": 53,
+    "covariate_slope": 69,
+    "seeds_min": 41,
+    "seeds_max": 45
+  }
+}

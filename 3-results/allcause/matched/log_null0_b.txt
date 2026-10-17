@@ -1,0 +1,133 @@
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 42 seconds.
+null0 rep 95: 47s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 42 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 96: 47s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 38 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 97: 43s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 45 seconds.
+null0 rep 98: 50s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 37 seconds.
+null0 rep 99: 43s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 44 seconds.
+null0 rep 100: 49s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 38 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 101: 43s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 46 seconds.
+null0 rep 102: 51s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 43 seconds.
+null0 rep 103: 48s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 31 seconds.
+null0 rep 104: 37s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 34 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 105: 39s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 35 seconds.
+null0 rep 106: 41s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 41 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 107: 47s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 45 seconds.
+null0 rep 108: 51s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 42 seconds.
+null0 rep 109: 47s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 42 seconds.
+null0 rep 110: 48s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 49 seconds.
+null0 rep 111: 55s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 44 seconds.
+null0 rep 112: 49s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 33 seconds.
+null0 rep 113: 38s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 31 seconds.
+null0 rep 114: 37s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 33 seconds.
+null0 rep 115: 39s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 38 seconds.
+null0 rep 116: 44s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 34 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 117: 39s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 32 seconds.
+null0 rep 118: 37s, divergences 0
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [mu_a, mu_b, sigma_a_state, sigma_a_region, sigma_b_state, sigma_b_region, z_a_state, z_a_region, z_b_state, z_b_region]
+Sampling 4 chains for 2_000 tune and 1_500 draw iterations (8_000 + 6_000 draws total) took 39 seconds.
+The rhat statistic is larger than 1.01 for some parameters. This indicates problems during sampling. See https://arxiv.org/abs/1903.08008 for details
+null0 rep 119: 45s, divergences 0

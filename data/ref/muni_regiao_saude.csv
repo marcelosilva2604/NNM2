@@ -1,0 +1,5573 @@
+cod6,regsaud_id,regsaud_nome
+110002,11001,Vale do Jamari - RO
+110013,11001,Vale do Jamari - RO
+110026,11001,Vale do Jamari - RO
+110040,11001,Vale do Jamari - RO
+110045,11001,Vale do Jamari - RO
+110060,11001,Vale do Jamari - RO
+110070,11001,Vale do Jamari - RO
+110094,11001,Vale do Jamari - RO
+110140,11001,Vale do Jamari - RO
+110004,11002,CafÃ© - RO
+110009,11002,CafÃ© - RO
+110018,11002,CafÃ© - RO
+110120,11002,CafÃ© - RO
+110147,11002,CafÃ© - RO
+110148,11002,CafÃ© - RO
+110011,11003,Central - RO
+110012,11003,Central - RO
+110015,11003,Central - RO
+110025,11003,Central - RO
+110032,11003,Central - RO
+110034,11003,Central - RO
+110100,11003,Central - RO
+110130,11003,Central - RO
+110143,11003,Central - RO
+110155,11003,Central - RO
+110160,11003,Central - RO
+110170,11003,Central - RO
+110175,11003,Central - RO
+110180,11003,Central - RO
+110010,11004,Madeira-MamorÃ© - RO
+110020,11004,Madeira-MamorÃ© - RO
+110033,11004,Madeira-MamorÃ© - RO
+110080,11004,Madeira-MamorÃ© - RO
+110110,11004,Madeira-MamorÃ© - RO
+110001,11005,Zona da Mata - RO
+110014,11005,Zona da Mata - RO
+110028,11005,Zona da Mata - RO
+110029,11005,Zona da Mata - RO
+110037,11005,Zona da Mata - RO
+110050,11005,Zona da Mata - RO
+110090,11005,Zona da Mata - RO
+110145,11005,Zona da Mata - RO
+110003,11006,Cone Sul - RO
+110005,11006,Cone Sul - RO
+110006,11006,Cone Sul - RO
+110007,11006,Cone Sul - RO
+110030,11006,Cone Sul - RO
+110092,11006,Cone Sul - RO
+110146,11006,Cone Sul - RO
+110008,11007,Vale do GuaporÃ© - RO
+110149,11007,Vale do GuaporÃ© - RO
+110150,11007,Vale do GuaporÃ© - RO
+120005,12001,Alto Acre - AC
+120010,12001,Alto Acre - AC
+120025,12001,Alto Acre - AC
+120070,12001,Alto Acre - AC
+120001,12002,Baixo Acre e Purus - AC
+120013,12002,Baixo Acre e Purus - AC
+120017,12002,Baixo Acre e Purus - AC
+120032,12002,Baixo Acre e Purus - AC
+120034,12002,Baixo Acre e Purus - AC
+120038,12002,Baixo Acre e Purus - AC
+120040,12002,Baixo Acre e Purus - AC
+120043,12002,Baixo Acre e Purus - AC
+120045,12002,Baixo Acre e Purus - AC
+120050,12002,Baixo Acre e Purus - AC
+120080,12002,Baixo Acre e Purus - AC
+120020,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120030,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120033,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120035,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120039,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120042,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+120060,12003,JuruÃ¡ e TarauacÃ¡/Envira - AC
+130030,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130040,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130110,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130115,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130185,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130255,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130260,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130310,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130353,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130356,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130360,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130380,13001,"Manaus, Entorno e Alto Rio Negro - AM"
+130008,13002,Rio Negro e SolimÃµes - AM
+130010,13002,Rio Negro e SolimÃµes - AM
+130063,13002,Rio Negro e SolimÃµes - AM
+130083,13002,Rio Negro e SolimÃµes - AM
+130120,13002,Rio Negro e SolimÃµes - AM
+130130,13002,Rio Negro e SolimÃµes - AM
+130250,13002,Rio Negro e SolimÃµes - AM
+130320,13002,Rio Negro e SolimÃµes - AM
+130014,13003,Rio Madeira - AM
+130080,13003,Rio Madeira - AM
+130170,13003,Rio Madeira - AM
+130270,13003,Rio Madeira - AM
+130330,13003,Rio Madeira - AM
+130190,13004,MÃ©dio Amazonas - AM
+130200,13004,MÃ©dio Amazonas - AM
+130395,13004,MÃ©dio Amazonas - AM
+130400,13004,MÃ©dio Amazonas - AM
+130430,13004,MÃ©dio Amazonas - AM
+130440,13004,MÃ©dio Amazonas - AM
+130050,13005,Baixo Amazonas - AM
+130068,13005,Baixo Amazonas - AM
+130290,13005,Baixo Amazonas - AM
+130300,13005,Baixo Amazonas - AM
+130340,13005,Baixo Amazonas - AM
+130070,13006,Regional Purus - AM
+130090,13006,Regional Purus - AM
+130240,13006,Regional Purus - AM
+130350,13006,Regional Purus - AM
+130410,13006,Regional Purus - AM
+130100,13007,Regional JuruÃ¡ - AM
+130140,13007,Regional JuruÃ¡ - AM
+130150,13007,Regional JuruÃ¡ - AM
+130165,13007,Regional JuruÃ¡ - AM
+130180,13007,Regional JuruÃ¡ - AM
+130195,13007,Regional JuruÃ¡ - AM
+130002,13008,TriÃ¢ngulo - AM
+130210,13008,TriÃ¢ngulo - AM
+130220,13008,TriÃ¢ngulo - AM
+130280,13008,TriÃ¢ngulo - AM
+130420,13008,TriÃ¢ngulo - AM
+130426,13008,TriÃ¢ngulo - AM
+130006,13009,Alto SolimÃµes - AM
+130020,13009,Alto SolimÃµes - AM
+130060,13009,Alto SolimÃµes - AM
+130160,13009,Alto SolimÃµes - AM
+130230,13009,Alto SolimÃµes - AM
+130370,13009,Alto SolimÃµes - AM
+130390,13009,Alto SolimÃµes - AM
+130406,13009,Alto SolimÃµes - AM
+130423,13009,Alto SolimÃµes - AM
+140002,14001,Centro Norte - RR
+140005,14001,Centro Norte - RR
+140010,14001,Centro Norte - RR
+140015,14001,Centro Norte - RR
+140017,14001,Centro Norte - RR
+140030,14001,Centro Norte - RR
+140040,14001,Centro Norte - RR
+140045,14001,Centro Norte - RR
+140070,14001,Centro Norte - RR
+140020,14002,Sul - RR
+140023,14002,Sul - RR
+140028,14002,Sul - RR
+140047,14002,Sul - RR
+140050,14002,Sul - RR
+140060,14002,Sul - RR
+150034,15001,Araguaia - PA
+150125,15001,Araguaia - PA
+150270,15001,Araguaia - PA
+150276,15001,Araguaia - PA
+150304,15001,Araguaia - PA
+150543,15001,Araguaia - PA
+150555,15001,Araguaia - PA
+150613,15001,Araguaia - PA
+150616,15001,Araguaia - PA
+150658,15001,Araguaia - PA
+150670,15001,Araguaia - PA
+150730,15001,Araguaia - PA
+150775,15001,Araguaia - PA
+150808,15001,Araguaia - PA
+150840,15001,Araguaia - PA
+150040,15002,Baixo Amazonas - PA
+150050,15002,Baixo Amazonas - PA
+150145,15002,Baixo Amazonas - PA
+150285,15002,Baixo Amazonas - PA
+150300,15002,Baixo Amazonas - PA
+150390,15002,Baixo Amazonas - PA
+150475,15002,Baixo Amazonas - PA
+150480,15002,Baixo Amazonas - PA
+150510,15002,Baixo Amazonas - PA
+150530,15002,Baixo Amazonas - PA
+150565,15002,Baixo Amazonas - PA
+150600,15002,Baixo Amazonas - PA
+150680,15002,Baixo Amazonas - PA
+150797,15002,Baixo Amazonas - PA
+150013,15003,CarajÃ¡s - PA
+150157,15003,CarajÃ¡s - PA
+150175,15003,CarajÃ¡s - PA
+150215,15003,CarajÃ¡s - PA
+150277,15003,CarajÃ¡s - PA
+150293,15003,CarajÃ¡s - PA
+150295,15003,CarajÃ¡s - PA
+150370,15003,CarajÃ¡s - PA
+150420,15003,CarajÃ¡s - PA
+150497,15003,CarajÃ¡s - PA
+150549,15003,CarajÃ¡s - PA
+150553,15003,CarajÃ¡s - PA
+150563,15003,CarajÃ¡s - PA
+150618,15003,CarajÃ¡s - PA
+150715,15003,CarajÃ¡s - PA
+150745,15003,CarajÃ¡s - PA
+150750,15003,CarajÃ¡s - PA
+150178,15004,Lago de TucuruÃ­ - PA
+150309,15004,Lago de TucuruÃ­ - PA
+150380,15004,Lago de TucuruÃ­ - PA
+150506,15004,Lago de TucuruÃ­ - PA
+150795,15004,Lago de TucuruÃ­ - PA
+150810,15004,Lago de TucuruÃ­ - PA
+150080,15006,Metropolitana I - PA
+150140,15006,Metropolitana I - PA
+150150,15006,Metropolitana I - PA
+150442,15006,Metropolitana I - PA
+150635,15006,Metropolitana I - PA
+150020,15007,Metropolitana II - PA
+150190,15007,Metropolitana II - PA
+150260,15007,Metropolitana II - PA
+150275,15007,Metropolitana II - PA
+150650,15007,Metropolitana II - PA
+150700,15007,Metropolitana II - PA
+150710,15007,Metropolitana II - PA
+150800,15007,Metropolitana II - PA
+150820,15007,Metropolitana II - PA
+150095,15008,Metropolitana III - PA
+150230,15008,Metropolitana III - PA
+150240,15008,Metropolitana III - PA
+150290,15008,Metropolitana III - PA
+150307,15008,Metropolitana III - PA
+150320,15008,Metropolitana III - PA
+150340,15008,Metropolitana III - PA
+150345,15008,Metropolitana III - PA
+150350,15008,Metropolitana III - PA
+150405,15008,Metropolitana III - PA
+150410,15008,Metropolitana III - PA
+150430,15008,Metropolitana III - PA
+150440,15008,Metropolitana III - PA
+150495,15008,Metropolitana III - PA
+150550,15008,Metropolitana III - PA
+150660,15008,Metropolitana III - PA
+150720,15008,Metropolitana III - PA
+150740,15008,Metropolitana III - PA
+150746,15008,Metropolitana III - PA
+150760,15008,Metropolitana III - PA
+150796,15008,Metropolitana III - PA
+150812,15008,Metropolitana III - PA
+150090,15009,Rio CaetÃ©s - PA
+150160,15009,Rio CaetÃ©s - PA
+150170,15009,Rio CaetÃ©s - PA
+150195,15009,Rio CaetÃ©s - PA
+150220,15009,Rio CaetÃ©s - PA
+150500,15009,Rio CaetÃ©s - PA
+150540,15009,Rio CaetÃ©s - PA
+150560,15009,Rio CaetÃ©s - PA
+150610,15009,Rio CaetÃ©s - PA
+150611,15009,Rio CaetÃ©s - PA
+150620,15009,Rio CaetÃ©s - PA
+150655,15009,Rio CaetÃ©s - PA
+150690,15009,Rio CaetÃ©s - PA
+150747,15009,Rio CaetÃ©s - PA
+150803,15009,Rio CaetÃ©s - PA
+150830,15009,Rio CaetÃ©s - PA
+150100,15010,TapajÃ³s - PA
+150360,15010,TapajÃ³s - PA
+150375,15010,TapajÃ³s - PA
+150503,15010,TapajÃ³s - PA
+150619,15010,TapajÃ³s - PA
+150805,15010,TapajÃ³s - PA
+150010,15011,Tocantins - PA
+150120,15011,Tocantins - PA
+150130,15011,Tocantins - PA
+150210,15011,Tocantins - PA
+150330,15011,Tocantins - PA
+150400,15011,Tocantins - PA
+150460,15011,Tocantins - PA
+150470,15011,Tocantins - PA
+150520,15011,Tocantins - PA
+150060,15012,Xingu - PA
+150085,15012,Xingu - PA
+150172,15012,Xingu - PA
+150445,15012,Xingu - PA
+150548,15012,Xingu - PA
+150590,15012,Xingu - PA
+150780,15012,Xingu - PA
+150815,15012,Xingu - PA
+150835,15012,Xingu - PA
+150030,15013,MarajÃ³ I - PA
+150200,15013,MarajÃ³ I - PA
+150250,15013,MarajÃ³ I - PA
+150490,15013,MarajÃ³ I - PA
+150570,15013,MarajÃ³ I - PA
+150630,15013,MarajÃ³ I - PA
+150640,15013,MarajÃ³ I - PA
+150770,15013,MarajÃ³ I - PA
+150790,15013,MarajÃ³ I - PA
+150070,15014,MarajÃ³ II - PA
+150110,15014,MarajÃ³ II - PA
+150180,15014,MarajÃ³ II - PA
+150280,15014,MarajÃ³ II - PA
+150310,15014,MarajÃ³ II - PA
+150450,15014,MarajÃ³ II - PA
+150580,15014,MarajÃ³ II - PA
+160005,16001,Ãrea Central - AP
+160015,16001,Ãrea Central - AP
+160021,16001,Ãrea Central - AP
+160023,16001,Ãrea Central - AP
+160025,16001,Ãrea Central - AP
+160030,16001,Ãrea Central - AP
+160053,16001,Ãrea Central - AP
+160010,16002,Ãrea Norte - AP
+160020,16002,Ãrea Norte - AP
+160050,16002,Ãrea Norte - AP
+160055,16002,Ãrea Norte - AP
+160070,16002,Ãrea Norte - AP
+160027,16003,Ãrea Sudoeste - AP
+160040,16003,Ãrea Sudoeste - AP
+160060,16003,Ãrea Sudoeste - AP
+160080,16003,Ãrea Sudoeste - AP
+170130,17001,MÃ©dio Norte Araguaia - TO
+170210,17001,MÃ©dio Norte Araguaia - TO
+170215,17001,MÃ©dio Norte Araguaia - TO
+170300,17001,MÃ©dio Norte Araguaia - TO
+170307,17001,MÃ©dio Norte Araguaia - TO
+170384,17001,MÃ©dio Norte Araguaia - TO
+170388,17001,MÃ©dio Norte Araguaia - TO
+170650,17001,MÃ©dio Norte Araguaia - TO
+170770,17001,MÃ©dio Norte Araguaia - TO
+170900,17001,MÃ©dio Norte Araguaia - TO
+171395,17001,MÃ©dio Norte Araguaia - TO
+171488,17001,MÃ©dio Norte Araguaia - TO
+171630,17001,MÃ©dio Norte Araguaia - TO
+171720,17001,MÃ©dio Norte Araguaia - TO
+171886,17001,MÃ©dio Norte Araguaia - TO
+172208,17001,MÃ©dio Norte Araguaia - TO
+172210,17001,MÃ©dio Norte Araguaia - TO
+170030,17002,Bico do Papagaio - TO
+170100,17002,Bico do Papagaio - TO
+170105,17002,Bico do Papagaio - TO
+170220,17002,Bico do Papagaio - TO
+170255,17002,Bico do Papagaio - TO
+170290,17002,Bico do Papagaio - TO
+170380,17002,Bico do Papagaio - TO
+170382,17002,Bico do Papagaio - TO
+170389,17002,Bico do Papagaio - TO
+170740,17002,Bico do Papagaio - TO
+171070,17002,Bico do Papagaio - TO
+171245,17002,Bico do Papagaio - TO
+171280,17002,Bico do Papagaio - TO
+171380,17002,Bico do Papagaio - TO
+171430,17002,Bico do Papagaio - TO
+171830,17002,Bico do Papagaio - TO
+171855,17002,Bico do Papagaio - TO
+171880,17002,Bico do Papagaio - TO
+172000,17002,Bico do Papagaio - TO
+172010,17002,Bico do Papagaio - TO
+172020,17002,Bico do Papagaio - TO
+172030,17002,Bico do Papagaio - TO
+172080,17002,Bico do Papagaio - TO
+172120,17002,Bico do Papagaio - TO
+170040,17003,Sudeste - TO
+170240,17003,Sudeste - TO
+170270,17003,Sudeste - TO
+170555,17003,Sudeste - TO
+170560,17003,Sudeste - TO
+170700,17003,Sudeste - TO
+171215,17003,Sudeste - TO
+171515,17003,Sudeste - TO
+171525,17003,Sudeste - TO
+171620,17003,Sudeste - TO
+171780,17003,Sudeste - TO
+171800,17003,Sudeste - TO
+171865,17003,Sudeste - TO
+172090,17003,Sudeste - TO
+172093,17003,Sudeste - TO
+170230,17004,Cerrado Tocantins Araguaia - TO
+170305,17004,Cerrado Tocantins Araguaia - TO
+170320,17004,Cerrado Tocantins Araguaia - TO
+170330,17004,Cerrado Tocantins Araguaia - TO
+170360,17004,Cerrado Tocantins Araguaia - TO
+170410,17004,Cerrado Tocantins Araguaia - TO
+170550,17004,Cerrado Tocantins Araguaia - TO
+170600,17004,Cerrado Tocantins Araguaia - TO
+170830,17004,Cerrado Tocantins Araguaia - TO
+170930,17004,Cerrado Tocantins Araguaia - TO
+171050,17004,Cerrado Tocantins Araguaia - TO
+171090,17004,Cerrado Tocantins Araguaia - TO
+171110,17004,Cerrado Tocantins Araguaia - TO
+171180,17004,Cerrado Tocantins Araguaia - TO
+171570,17004,Cerrado Tocantins Araguaia - TO
+171650,17004,Cerrado Tocantins Araguaia - TO
+171665,17004,Cerrado Tocantins Araguaia - TO
+171670,17004,Cerrado Tocantins Araguaia - TO
+171840,17004,Cerrado Tocantins Araguaia - TO
+171850,17004,Cerrado Tocantins Araguaia - TO
+171888,17004,Cerrado Tocantins Araguaia - TO
+172125,17004,Cerrado Tocantins Araguaia - TO
+172130,17004,Cerrado Tocantins Araguaia - TO
+170035,17005,Ilha do Bananal - TO
+170070,17005,Ilha do Bananal - TO
+170200,17005,Ilha do Bananal - TO
+170386,17005,Ilha do Bananal - TO
+170625,17005,Ilha do Bananal - TO
+170730,17005,Ilha do Bananal - TO
+170765,17005,Ilha do Bananal - TO
+170820,17005,Ilha do Bananal - TO
+170950,17005,Ilha do Bananal - TO
+171150,17005,Ilha do Bananal - TO
+171575,17005,Ilha do Bananal - TO
+171660,17005,Ilha do Bananal - TO
+171884,17005,Ilha do Bananal - TO
+171889,17005,Ilha do Bananal - TO
+172025,17005,Ilha do Bananal - TO
+172049,17005,Ilha do Bananal - TO
+172085,17005,Ilha do Bananal - TO
+172097,17005,Ilha do Bananal - TO
+170110,17006,Capim Dourado - TO
+170825,17006,Capim Dourado - TO
+171195,17006,Capim Dourado - TO
+171200,17006,Capim Dourado - TO
+171240,17006,Capim Dourado - TO
+171320,17006,Capim Dourado - TO
+171330,17006,Capim Dourado - TO
+171510,17006,Capim Dourado - TO
+171870,17006,Capim Dourado - TO
+171875,17006,Capim Dourado - TO
+171900,17006,Capim Dourado - TO
+172015,17006,Capim Dourado - TO
+172100,17006,Capim Dourado - TO
+172110,17006,Capim Dourado - TO
+170025,17007,CantÃ£o - TO
+170190,17007,CantÃ£o - TO
+170310,17007,CantÃ£o - TO
+170390,17007,CantÃ£o - TO
+170460,17007,CantÃ£o - TO
+170610,17007,CantÃ£o - TO
+170710,17007,CantÃ£o - TO
+170720,17007,CantÃ£o - TO
+171190,17007,CantÃ£o - TO
+171250,17007,CantÃ£o - TO
+171370,17007,CantÃ£o - TO
+171500,17007,CantÃ£o - TO
+171610,17007,CantÃ£o - TO
+171750,17007,CantÃ£o - TO
+171845,17007,CantÃ£o - TO
+170370,17008,Amor Perfeito - TO
+170510,17008,Amor Perfeito - TO
+170755,17008,Amor Perfeito - TO
+170980,17008,Amor Perfeito - TO
+171270,17008,Amor Perfeito - TO
+171360,17008,Amor Perfeito - TO
+171420,17008,Amor Perfeito - TO
+171550,17008,Amor Perfeito - TO
+171700,17008,Amor Perfeito - TO
+171790,17008,Amor Perfeito - TO
+171820,17008,Amor Perfeito - TO
+171890,17008,Amor Perfeito - TO
+172065,17008,Amor Perfeito - TO
+210005,21001,AÃ§ailÃ¢ndia - MA
+210203,21001,AÃ§ailÃ¢ndia - MA
+210232,21001,AÃ§ailÃ¢ndia - MA
+210325,21001,AÃ§ailÃ¢ndia - MA
+210542,21001,AÃ§ailÃ¢ndia - MA
+211085,21001,AÃ§ailÃ¢ndia - MA
+211153,21001,AÃ§ailÃ¢ndia - MA
+211285,21001,AÃ§ailÃ¢ndia - MA
+210040,21002,Bacabal - MA
+210120,21002,Bacabal - MA
+210207,21002,Bacabal - MA
+210215,21002,Bacabal - MA
+210355,21002,Bacabal - MA
+210590,21002,Bacabal - MA
+210635,21002,Bacabal - MA
+210740,21002,Bacabal - MA
+210810,21002,Bacabal - MA
+211140,21002,Bacabal - MA
+211300,21002,Bacabal - MA
+210050,21003,Balsas - MA
+210140,21003,Balsas - MA
+210407,21003,Balsas - MA
+210409,21003,Balsas - MA
+210410,21003,Balsas - MA
+210610,21003,Balsas - MA
+210725,21003,Balsas - MA
+210950,21003,Balsas - MA
+210970,21003,Balsas - MA
+211080,21003,Balsas - MA
+211157,21003,Balsas - MA
+211160,21003,Balsas - MA
+211200,21003,Balsas - MA
+210095,21004,Barra do Corda - MA
+210160,21004,Barra do Corda - MA
+210408,21004,Barra do Corda - MA
+210480,21004,Barra do Corda - MA
+210535,21004,Barra do Corda - MA
+210547,21004,Barra do Corda - MA
+210010,21005,Caxias - MA
+210030,21005,Caxias - MA
+210220,21005,Caxias - MA
+210300,21005,Caxias - MA
+210340,21005,Caxias - MA
+210390,21005,Caxias - MA
+211107,21005,Caxias - MA
+210015,21006,Chapadinha - MA
+210080,21006,Chapadinha - MA
+210090,21006,Chapadinha - MA
+210210,21006,Chapadinha - MA
+210320,21006,Chapadinha - MA
+210630,21006,Chapadinha - MA
+210640,21006,Chapadinha - MA
+210667,21006,Chapadinha - MA
+210805,21006,Chapadinha - MA
+211010,21006,Chapadinha - MA
+211023,21006,Chapadinha - MA
+211060,21006,Chapadinha - MA
+211250,21006,Chapadinha - MA
+210043,21007,CodÃ³ - MA
+210330,21007,CodÃ³ - MA
+210360,21007,CodÃ³ - MA
+210845,21007,CodÃ³ - MA
+211150,21007,CodÃ³ - MA
+211210,21007,CodÃ³ - MA
+210060,21008,Imperatriz - MA
+210235,21008,Imperatriz - MA
+210255,21008,Imperatriz - MA
+210280,21008,Imperatriz - MA
+210375,21008,Imperatriz - MA
+210405,21008,Imperatriz - MA
+210455,21008,Imperatriz - MA
+210530,21008,Imperatriz - MA
+210550,21008,Imperatriz - MA
+210598,21008,Imperatriz - MA
+210700,21008,Imperatriz - MA
+210900,21008,Imperatriz - MA
+210955,21008,Imperatriz - MA
+211105,21008,Imperatriz - MA
+211176,21008,Imperatriz - MA
+211180,21008,Imperatriz - MA
+210070,21009,Itapecuru Mirim - MA
+210100,21009,Itapecuru Mirim - MA
+210173,21009,Itapecuru Mirim - MA
+210270,21009,Itapecuru Mirim - MA
+210540,21009,Itapecuru Mirim - MA
+210663,21009,Itapecuru Mirim - MA
+210675,21009,Itapecuru Mirim - MA
+210720,21009,Itapecuru Mirim - MA
+210880,21009,Itapecuru Mirim - MA
+210930,21009,Itapecuru Mirim - MA
+211040,21009,Itapecuru Mirim - MA
+211260,21009,Itapecuru Mirim - MA
+211270,21009,Itapecuru Mirim - MA
+211290,21009,Itapecuru Mirim - MA
+210193,21010,Pedreiras - MA
+210400,21010,Pedreiras - MA
+210520,21010,Pedreiras - MA
+210570,21010,Pedreiras - MA
+210580,21010,Pedreiras - MA
+210594,21010,Pedreiras - MA
+210596,21010,Pedreiras - MA
+210600,21010,Pedreiras - MA
+210820,21010,Pedreiras - MA
+210890,21010,Pedreiras - MA
+211163,21010,Pedreiras - MA
+211167,21010,Pedreiras - MA
+211223,21010,Pedreiras - MA
+210083,21011,Pinheiro - MA
+210130,21011,Pinheiro - MA
+210190,21011,Pinheiro - MA
+210310,21011,Pinheiro - MA
+210312,21011,Pinheiro - MA
+210370,21011,Pinheiro - MA
+210490,21011,Pinheiro - MA
+210680,21011,Pinheiro - MA
+210825,21011,Pinheiro - MA
+210840,21011,Pinheiro - MA
+210860,21011,Pinheiro - MA
+210905,21011,Pinheiro - MA
+210927,21011,Pinheiro - MA
+210980,21011,Pinheiro - MA
+211178,21011,Pinheiro - MA
+211240,21011,Pinheiro - MA
+211245,21011,Pinheiro - MA
+210275,21012,Presidente Dutra - MA
+210380,21012,Presidente Dutra - MA
+210420,21012,Presidente Dutra - MA
+210440,21012,Presidente Dutra - MA
+210450,21012,Presidente Dutra - MA
+210460,21012,Presidente Dutra - MA
+210462,21012,Presidente Dutra - MA
+210470,21012,Presidente Dutra - MA
+210560,21012,Presidente Dutra - MA
+210910,21012,Presidente Dutra - MA
+210975,21012,Presidente Dutra - MA
+211030,21012,Presidente Dutra - MA
+211070,21012,Presidente Dutra - MA
+211125,21012,Presidente Dutra - MA
+211174,21012,Presidente Dutra - MA
+211230,21012,Presidente Dutra - MA
+210110,21013,RosÃ¡rio - MA
+210125,21013,RosÃ¡rio - MA
+210170,21013,RosÃ¡rio - MA
+210237,21013,RosÃ¡rio - MA
+210500,21013,RosÃ¡rio - MA
+210510,21013,RosÃ¡rio - MA
+210710,21013,RosÃ¡rio - MA
+210920,21013,RosÃ¡rio - MA
+210940,21013,RosÃ¡rio - MA
+210960,21013,RosÃ¡rio - MA
+211020,21013,RosÃ¡rio - MA
+211027,21013,RosÃ¡rio - MA
+210047,21014,Santa InÃªs - MA
+210177,21014,Santa InÃªs - MA
+210200,21014,Santa InÃªs - MA
+210465,21014,Santa InÃªs - MA
+210515,21014,Santa InÃªs - MA
+210690,21014,Santa InÃªs - MA
+210850,21014,Santa InÃªs - MA
+210870,21014,Santa InÃªs - MA
+210990,21014,Santa InÃªs - MA
+211000,21014,Santa InÃªs - MA
+211102,21014,Santa InÃªs - MA
+211172,21014,Santa InÃªs - MA
+211227,21014,Santa InÃªs - MA
+210150,21015,SÃ£o JoÃ£o dos Patos - MA
+210180,21015,SÃ£o JoÃ£o dos Patos - MA
+210230,21015,SÃ£o JoÃ£o dos Patos - MA
+210350,21015,SÃ£o JoÃ£o dos Patos - MA
+210545,21015,SÃ£o JoÃ£o dos Patos - MA
+210592,21015,SÃ£o JoÃ£o dos Patos - MA
+210670,21015,SÃ£o JoÃ£o dos Patos - MA
+210730,21015,SÃ£o JoÃ£o dos Patos - MA
+210770,21015,SÃ£o JoÃ£o dos Patos - MA
+210790,21015,SÃ£o JoÃ£o dos Patos - MA
+210800,21015,SÃ£o JoÃ£o dos Patos - MA
+211065,21015,SÃ£o JoÃ£o dos Patos - MA
+211110,21015,SÃ£o JoÃ£o dos Patos - MA
+211190,21015,SÃ£o JoÃ£o dos Patos - MA
+211195,21015,SÃ£o JoÃ£o dos Patos - MA
+210020,21016,SÃ£o LuÃ­s - MA
+210750,21016,SÃ£o LuÃ­s - MA
+210945,21016,SÃ£o LuÃ­s - MA
+211120,21016,SÃ£o LuÃ­s - MA
+211130,21016,SÃ£o LuÃ­s - MA
+210660,21017,Timon - MA
+210780,21017,Timon - MA
+211090,21017,Timon - MA
+211220,21017,Timon - MA
+210135,21018,Viana - MA
+210240,21018,Viana - MA
+210250,21018,Viana - MA
+210650,21018,Viana - MA
+210745,21018,Viana - MA
+210760,21018,Viana - MA
+210830,21018,Viana - MA
+211050,21018,Viana - MA
+211100,21018,Viana - MA
+211170,21018,Viana - MA
+211280,21018,Viana - MA
+210055,21019,ZÃ© Doca - MA
+210087,21019,ZÃ© Doca - MA
+210197,21019,ZÃ© Doca - MA
+210260,21019,ZÃ© Doca - MA
+210290,21019,ZÃ© Doca - MA
+210315,21019,ZÃ© Doca - MA
+210317,21019,ZÃ© Doca - MA
+210430,21019,ZÃ© Doca - MA
+210467,21019,ZÃ© Doca - MA
+210565,21019,ZÃ© Doca - MA
+210620,21019,ZÃ© Doca - MA
+210632,21019,ZÃ© Doca - MA
+210637,21019,ZÃ© Doca - MA
+210735,21019,ZÃ© Doca - MA
+210923,21019,ZÃ© Doca - MA
+211003,21019,ZÃ© Doca - MA
+211400,21019,ZÃ© Doca - MA
+220105,22001,Carnaubais - PI
+220177,22001,Carnaubais - PI
+220194,22001,Carnaubais - PI
+220202,22001,Carnaubais - PI
+220205,22001,Carnaubais - PI
+220220,22001,Carnaubais - PI
+220260,22001,Carnaubais - PI
+220271,22001,Carnaubais - PI
+220527,22001,Carnaubais - PI
+220551,22001,Carnaubais - PI
+220675,22001,Carnaubais - PI
+220695,22001,Carnaubais - PI
+220990,22001,Carnaubais - PI
+221040,22001,Carnaubais - PI
+221065,22001,Carnaubais - PI
+220045,22002,Chapada das Mangabeiras - PI
+220110,22002,Chapada das Mangabeiras - PI
+220130,22002,Chapada das Mangabeiras - PI
+220190,22002,Chapada das Mangabeiras - PI
+220290,22002,Chapada das Mangabeiras - PI
+220300,22002,Chapada das Mangabeiras - PI
+220310,22002,Chapada das Mangabeiras - PI
+220320,22002,Chapada das Mangabeiras - PI
+220323,22002,Chapada das Mangabeiras - PI
+220440,22002,Chapada das Mangabeiras - PI
+220552,22002,Chapada das Mangabeiras - PI
+220660,22002,Chapada das Mangabeiras - PI
+220665,22002,Chapada das Mangabeiras - PI
+220740,22002,Chapada das Mangabeiras - PI
+220760,22002,Chapada das Mangabeiras - PI
+220870,22002,Chapada das Mangabeiras - PI
+220885,22002,Chapada das Mangabeiras - PI
+220920,22002,Chapada das Mangabeiras - PI
+220930,22002,Chapada das Mangabeiras - PI
+220975,22002,Chapada das Mangabeiras - PI
+221062,22002,Chapada das Mangabeiras - PI
+220120,22003,Cocais - PI
+220150,22003,Cocais - PI
+220196,22003,Cocais - PI
+220217,22003,Cocais - PI
+220240,22003,Cocais - PI
+220342,22003,Cocais - PI
+220370,22003,Cocais - PI
+220540,22003,Cocais - PI
+220545,22003,Cocais - PI
+220557,22003,Cocais - PI
+220580,22003,Cocais - PI
+220585,22003,Cocais - PI
+220610,22003,Cocais - PI
+220635,22003,Cocais - PI
+220667,22003,Cocais - PI
+220680,22003,Cocais - PI
+220790,22003,Cocais - PI
+220830,22003,Cocais - PI
+220840,22003,Cocais - PI
+220850,22003,Cocais - PI
+220987,22003,Cocais - PI
+220997,22003,Cocais - PI
+221005,22003,Cocais - PI
+220010,22004,Entre Rios - PI
+220020,22004,Entre Rios - PI
+220030,22004,Entre Rios - PI
+220040,22004,Entre Rios - PI
+220050,22004,Entre Rios - PI
+220060,22004,Entre Rios - PI
+220140,22004,Entre Rios - PI
+220160,22004,Entre Rios - PI
+220273,22004,Entre Rios - PI
+220325,22004,Entre Rios - PI
+220330,22004,Entre Rios - PI
+220460,22004,Entre Rios - PI
+220525,22004,Entre Rios - PI
+220550,22004,Entre Rios - PI
+220554,22004,Entre Rios - PI
+220555,22004,Entre Rios - PI
+220558,22004,Entre Rios - PI
+220620,22004,Entre Rios - PI
+220630,22004,Entre Rios - PI
+220640,22004,Entre Rios - PI
+220672,22004,Entre Rios - PI
+220710,22004,Entre Rios - PI
+220750,22004,Entre Rios - PI
+220775,22004,Entre Rios - PI
+220779,22004,Entre Rios - PI
+220880,22004,Entre Rios - PI
+220945,22004,Entre Rios - PI
+220980,22004,Entre Rios - PI
+221050,22004,Entre Rios - PI
+221100,22004,Entre Rios - PI
+221110,22004,Entre Rios - PI
+220191,22005,PlanÃ­cie LitorÃ¢nea - PI
+220200,22005,PlanÃ­cie LitorÃ¢nea - PI
+220208,22005,PlanÃ­cie LitorÃ¢nea - PI
+220253,22005,PlanÃ­cie LitorÃ¢nea - PI
+220265,22005,PlanÃ­cie LitorÃ¢nea - PI
+220270,22005,PlanÃ­cie LitorÃ¢nea - PI
+220272,22005,PlanÃ­cie LitorÃ¢nea - PI
+220465,22005,PlanÃ­cie LitorÃ¢nea - PI
+220570,22005,PlanÃ­cie LitorÃ¢nea - PI
+220669,22005,PlanÃ­cie LitorÃ¢nea - PI
+220770,22005,PlanÃ­cie LitorÃ¢nea - PI
+220070,22006,Serra da Capivara - PI
+220192,22006,Serra da Capivara - PI
+220211,22006,Serra da Capivara - PI
+220245,22006,Serra da Capivara - PI
+220250,22006,Serra da Capivara - PI
+220285,22006,Serra da Capivara - PI
+220335,22006,Serra da Capivara - PI
+220345,22006,Serra da Capivara - PI
+220375,22006,Serra da Capivara - PI
+220455,22006,Serra da Capivara - PI
+220535,22006,Serra da Capivara - PI
+220553,22006,Serra da Capivara - PI
+220556,22006,Serra da Capivara - PI
+220793,22006,Serra da Capivara - PI
+220795,22006,Serra da Capivara - PI
+220955,22006,Serra da Capivara - PI
+221000,22006,Serra da Capivara - PI
+221035,22006,Serra da Capivara - PI
+221060,22006,Serra da Capivara - PI
+221135,22006,Serra da Capivara - PI
+220080,22007,Tabuleiros do Alto ParnaÃ­ba - PI
+220115,22007,Tabuleiros do Alto ParnaÃ­ba - PI
+220890,22007,Tabuleiros do Alto ParnaÃ­ba - PI
+221063,22007,Tabuleiros do Alto ParnaÃ­ba - PI
+221120,22007,Tabuleiros do Alto ParnaÃ­ba - PI
+220155,22008,Vale do CanindÃ© - PI
+220207,22008,Vale do CanindÃ© - PI
+220210,22008,Vale do CanindÃ© - PI
+220277,22008,Vale do CanindÃ© - PI
+220280,22008,Vale do CanindÃ© - PI
+220385,22008,Vale do CanindÃ© - PI
+220490,22008,Vale do CanindÃ© - PI
+220700,22008,Vale do CanindÃ© - PI
+220937,22008,Vale do CanindÃ© - PI
+220950,22008,Vale do CanindÃ© - PI
+220965,22008,Vale do CanindÃ© - PI
+220995,22008,Vale do CanindÃ© - PI
+221080,22008,Vale do CanindÃ© - PI
+221097,22008,Vale do CanindÃ© - PI
+220025,22009,Vale do Rio Guaribas - PI
+220027,22009,Vale do Rio Guaribas - PI
+220095,22009,Vale do Rio Guaribas - PI
+220180,22009,Vale do Rio Guaribas - PI
+220213,22009,Vale do Rio Guaribas - PI
+220340,22009,Vale do Rio Guaribas - PI
+220420,22009,Vale do Rio Guaribas - PI
+220430,22009,Vale do Rio Guaribas - PI
+220435,22009,Vale do Rio Guaribas - PI
+220480,22009,Vale do Rio Guaribas - PI
+220500,22009,Vale do Rio Guaribas - PI
+220650,22009,Vale do Rio Guaribas - PI
+220755,22009,Vale do Rio Guaribas - PI
+220800,22009,Vale do Rio Guaribas - PI
+220820,22009,Vale do Rio Guaribas - PI
+220910,22009,Vale do Rio Guaribas - PI
+220935,22009,Vale do Rio Guaribas - PI
+220940,22009,Vale do Rio Guaribas - PI
+220985,22009,Vale do Rio Guaribas - PI
+221020,22009,Vale do Rio Guaribas - PI
+221030,22009,Vale do Rio Guaribas - PI
+221037,22009,Vale do Rio Guaribas - PI
+221093,22009,Vale do Rio Guaribas - PI
+221150,22009,Vale do Rio Guaribas - PI
+221160,22009,Vale do Rio Guaribas - PI
+221170,22009,Vale do Rio Guaribas - PI
+220090,22010,Vale do Sambito - PI
+220117,22010,Vale do Sambito - PI
+220350,22010,Vale do Sambito - PI
+220400,22010,Vale do Sambito - PI
+220470,22010,Vale do Sambito - PI
+220559,22010,Vale do Sambito - PI
+220690,22010,Vale do Sambito - PI
+220810,22010,Vale do Sambito - PI
+220860,22010,Vale do Sambito - PI
+220915,22010,Vale do Sambito - PI
+220960,22010,Vale do Sambito - PI
+221038,22010,Vale do Sambito - PI
+221130,22010,Vale do Sambito - PI
+221140,22010,Vale do Sambito - PI
+220100,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220170,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220198,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220225,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220230,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220275,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220360,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220380,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220390,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220410,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220450,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220510,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220530,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220560,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220590,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220600,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220670,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220730,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220735,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220785,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220855,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220887,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220900,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220970,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+221010,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+221039,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+221090,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+221095,22011,Vale dos Rios PiauÃ­ e Itaueiras - PI
+220005,22012,Chapada Vale do Rio Itaim - PI
+220157,22012,Chapada Vale do Rio Itaim - PI
+220173,22012,Chapada Vale do Rio Itaim - PI
+220209,22012,Chapada Vale do Rio Itaim - PI
+220255,22012,Chapada Vale do Rio Itaim - PI
+220327,22012,Chapada Vale do Rio Itaim - PI
+220415,22012,Chapada Vale do Rio Itaim - PI
+220515,22012,Chapada Vale do Rio Itaim - PI
+220520,22012,Chapada Vale do Rio Itaim - PI
+220595,22012,Chapada Vale do Rio Itaim - PI
+220605,22012,Chapada Vale do Rio Itaim - PI
+220720,22012,Chapada Vale do Rio Itaim - PI
+220777,22012,Chapada Vale do Rio Itaim - PI
+220780,22012,Chapada Vale do Rio Itaim - PI
+220865,22012,Chapada Vale do Rio Itaim - PI
+221070,22012,Chapada Vale do Rio Itaim - PI
+230015,23001,1Âª RS FORTALEZA - CE
+230075,23001,1Âª RS FORTALEZA - CE
+230090,23001,1Âª RS FORTALEZA - CE
+230100,23001,1Âª RS FORTALEZA - CE
+230120,23001,1Âª RS FORTALEZA - CE
+230140,23001,1Âª RS FORTALEZA - CE
+230195,23001,1Âª RS FORTALEZA - CE
+230210,23001,1Âª RS FORTALEZA - CE
+230220,23001,1Âª RS FORTALEZA - CE
+230290,23001,1Âª RS FORTALEZA - CE
+230350,23001,1Âª RS FORTALEZA - CE
+230370,23001,1Âª RS FORTALEZA - CE
+230395,23001,1Âª RS FORTALEZA - CE
+230428,23001,1Âª RS FORTALEZA - CE
+230440,23001,1Âª RS FORTALEZA - CE
+230460,23001,1Âª RS FORTALEZA - CE
+230495,23001,1Âª RS FORTALEZA - CE
+230510,23001,1Âª RS FORTALEZA - CE
+230523,23001,1Âª RS FORTALEZA - CE
+230625,23001,1Âª RS FORTALEZA - CE
+230630,23001,1Âª RS FORTALEZA - CE
+230640,23001,1Âª RS FORTALEZA - CE
+230650,23001,1Âª RS FORTALEZA - CE
+230765,23001,1Âª RS FORTALEZA - CE
+230770,23001,1Âª RS FORTALEZA - CE
+230837,23001,1Âª RS FORTALEZA - CE
+230910,23001,1Âª RS FORTALEZA - CE
+230945,23001,1Âª RS FORTALEZA - CE
+230960,23001,1Âª RS FORTALEZA - CE
+230970,23001,1Âª RS FORTALEZA - CE
+230980,23001,1Âª RS FORTALEZA - CE
+231010,23001,1Âª RS FORTALEZA - CE
+231020,23001,1Âª RS FORTALEZA - CE
+231025,23001,1Âª RS FORTALEZA - CE
+231070,23001,1Âª RS FORTALEZA - CE
+231085,23001,1Âª RS FORTALEZA - CE
+231160,23001,1Âª RS FORTALEZA - CE
+231240,23001,1Âª RS FORTALEZA - CE
+231260,23001,1Âª RS FORTALEZA - CE
+231335,23001,1Âª RS FORTALEZA - CE
+231350,23001,1Âª RS FORTALEZA - CE
+231355,23001,1Âª RS FORTALEZA - CE
+231375,23001,1Âª RS FORTALEZA - CE
+231380,23001,1Âª RS FORTALEZA - CE
+230020,23011,5Âª RS SOBRAL - CE
+230050,23011,5Âª RS SOBRAL - CE
+230125,23011,5Âª RS SOBRAL - CE
+230205,23011,5Âª RS SOBRAL - CE
+230230,23011,5Âª RS SOBRAL - CE
+230260,23011,5Âª RS SOBRAL - CE
+230310,23011,5Âª RS SOBRAL - CE
+230340,23011,5Âª RS SOBRAL - CE
+230365,23011,5Âª RS SOBRAL - CE
+230390,23011,5Âª RS SOBRAL - CE
+230400,23011,5Âª RS SOBRAL - CE
+230410,23011,5Âª RS SOBRAL - CE
+230423,23011,5Âª RS SOBRAL - CE
+230425,23011,5Âª RS SOBRAL - CE
+230435,23011,5Âª RS SOBRAL - CE
+230450,23011,5Âª RS SOBRAL - CE
+230465,23011,5Âª RS SOBRAL - CE
+230470,23011,5Âª RS SOBRAL - CE
+230490,23011,5Âª RS SOBRAL - CE
+230500,23011,5Âª RS SOBRAL - CE
+230520,23011,5Âª RS SOBRAL - CE
+230530,23011,5Âª RS SOBRAL - CE
+230560,23011,5Âª RS SOBRAL - CE
+230565,23011,5Âª RS SOBRAL - CE
+230580,23011,5Âª RS SOBRAL - CE
+230590,23011,5Âª RS SOBRAL - CE
+230610,23011,5Âª RS SOBRAL - CE
+230655,23011,5Âª RS SOBRAL - CE
+230725,23011,5Âª RS SOBRAL - CE
+230780,23011,5Âª RS SOBRAL - CE
+230790,23011,5Âª RS SOBRAL - CE
+230800,23011,5Âª RS SOBRAL - CE
+230820,23011,5Âª RS SOBRAL - CE
+230860,23011,5Âª RS SOBRAL - CE
+230880,23011,5Âª RS SOBRAL - CE
+230890,23011,5Âª RS SOBRAL - CE
+230900,23011,5Âª RS SOBRAL - CE
+230930,23011,5Âª RS SOBRAL - CE
+230940,23011,5Âª RS SOBRAL - CE
+230990,23011,5Âª RS SOBRAL - CE
+231095,23011,5Âª RS SOBRAL - CE
+231100,23011,5Âª RS SOBRAL - CE
+231126,23011,5Âª RS SOBRAL - CE
+231170,23011,5Âª RS SOBRAL - CE
+231200,23011,5Âª RS SOBRAL - CE
+231220,23011,5Âª RS SOBRAL - CE
+231230,23011,5Âª RS SOBRAL - CE
+231280,23011,5Âª RS SOBRAL - CE
+231290,23011,5Âª RS SOBRAL - CE
+231320,23011,5Âª RS SOBRAL - CE
+231340,23011,5Âª RS SOBRAL - CE
+231360,23011,5Âª RS SOBRAL - CE
+231390,23011,5Âª RS SOBRAL - CE
+231395,23011,5Âª RS SOBRAL - CE
+231410,23011,5Âª RS SOBRAL - CE
+230010,23023,2Âª RS Cariri - CE
+230030,23023,2Âª RS Cariri - CE
+230060,23023,2Âª RS Cariri - CE
+230080,23023,2Âª RS Cariri - CE
+230130,23023,2Âª RS Cariri - CE
+230160,23023,2Âª RS Cariri - CE
+230170,23023,2Âª RS Cariri - CE
+230180,23023,2Âª RS Cariri - CE
+230190,23023,2Âª RS Cariri - CE
+230200,23023,2Âª RS Cariri - CE
+230250,23023,2Âª RS Cariri - CE
+230270,23023,2Âª RS Cariri - CE
+230320,23023,2Âª RS Cariri - CE
+230330,23023,2Âª RS Cariri - CE
+230360,23023,2Âª RS Cariri - CE
+230380,23023,2Âª RS Cariri - CE
+230420,23023,2Âª RS Cariri - CE
+230426,23023,2Âª RS Cariri - CE
+230430,23023,2Âª RS Cariri - CE
+230480,23023,2Âª RS Cariri - CE
+230540,23023,2Âª RS Cariri - CE
+230550,23023,2Âª RS Cariri - CE
+230570,23023,2Âª RS Cariri - CE
+230710,23023,2Âª RS Cariri - CE
+230720,23023,2Âª RS Cariri - CE
+230730,23023,2Âª RS Cariri - CE
+230740,23023,2Âª RS Cariri - CE
+230750,23023,2Âª RS Cariri - CE
+230810,23023,2Âª RS Cariri - CE
+230830,23023,2Âª RS Cariri - CE
+230840,23023,2Âª RS Cariri - CE
+230850,23023,2Âª RS Cariri - CE
+230920,23023,2Âª RS Cariri - CE
+230950,23023,2Âª RS Cariri - CE
+231060,23023,2Âª RS Cariri - CE
+231090,23023,2Âª RS Cariri - CE
+231110,23023,2Âª RS Cariri - CE
+231120,23023,2Âª RS Cariri - CE
+231135,23023,2Âª RS Cariri - CE
+231190,23023,2Âª RS Cariri - CE
+231195,23023,2Âª RS Cariri - CE
+231210,23023,2Âª RS Cariri - CE
+231325,23023,2Âª RS Cariri - CE
+231370,23023,2Âª RS Cariri - CE
+231400,23023,2Âª RS Cariri - CE
+230040,23024,3Âª RS SertÃ£o Central - CE
+230150,23024,3Âª RS SertÃ£o Central - CE
+230185,23024,3Âª RS SertÃ£o Central - CE
+230240,23024,3Âª RS SertÃ£o Central - CE
+230280,23024,3Âª RS SertÃ£o Central - CE
+230300,23024,3Âª RS SertÃ£o Central - CE
+230393,23024,3Âª RS SertÃ£o Central - CE
+230526,23024,3Âª RS SertÃ£o Central - CE
+230533,23024,3Âª RS SertÃ£o Central - CE
+230660,23024,3Âª RS SertÃ£o Central - CE
+230763,23024,3Âª RS SertÃ£o Central - CE
+230835,23024,3Âª RS SertÃ£o Central - CE
+231030,23024,3Âª RS SertÃ£o Central - CE
+231040,23024,3Âª RS SertÃ£o Central - CE
+231050,23024,3Âª RS SertÃ£o Central - CE
+231130,23024,3Âª RS SertÃ£o Central - CE
+231140,23024,3Âª RS SertÃ£o Central - CE
+231270,23024,3Âª RS SertÃ£o Central - CE
+231300,23024,3Âª RS SertÃ£o Central - CE
+231330,23024,3Âª RS SertÃ£o Central - CE
+230070,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230110,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230427,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230445,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230535,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230600,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230620,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230670,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230680,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230690,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230700,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230760,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+230870,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231000,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231080,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231123,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231150,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231180,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231250,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+231310,23025,4Âª RS Litoral Leste/Jaguaribe - CE
+240120,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240140,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240180,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240220,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240350,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240420,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240615,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240620,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240630,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240660,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240770,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240780,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240790,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240820,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240830,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240910,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240920,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240980,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241150,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241220,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241320,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241330,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241350,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241420,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241470,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241480,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+241500,24001,1Âª RegiÃ£o de SaÃºde - SÃ£o JosÃ© de Mipibu - RN
+240100,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240110,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240130,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240145,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240230,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240370,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240430,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240440,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240520,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240760,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240800,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+241105,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+241335,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+241460,24002,2Âª RegiÃ£o de SaÃºde - MossorÃ³ - RN
+240030,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240160,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240185,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240190,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240260,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240410,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240450,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240460,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240510,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240550,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240580,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240670,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240720,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240750,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240880,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240895,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240950,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240960,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240970,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241010,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241040,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241090,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241160,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241255,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241390,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+241440,24003,3Âª RegiÃ£o de SaÃºde - JoÃ£o CÃ¢mara - RN
+240010,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240165,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240200,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240240,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240270,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240300,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240310,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240340,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240380,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240480,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240560,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240570,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240610,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240650,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240850,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240890,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241140,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241142,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241180,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241210,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241240,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241300,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241340,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241415,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+241430,24004,4Âª RegiÃ£o de SaÃºde - CaicÃ³ - RN
+240150,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240170,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240210,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240280,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240500,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240530,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240540,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240640,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240680,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240933,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241030,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241110,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241120,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241170,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241230,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241260,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241270,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241290,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241310,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241370,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+241400,24005,5Âª RegiÃ£o de SaÃºde - Santa Cruz - RN
+240040,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240050,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240060,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240090,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240290,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240320,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240330,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240390,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240400,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240490,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240590,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240600,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240690,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240700,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240725,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240730,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240740,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240840,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240860,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240930,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240940,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241000,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241020,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241050,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241060,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241070,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241080,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241100,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241190,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241250,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241355,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241360,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241380,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241410,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241450,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241475,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+241490,24006,6Âª RegiÃ£o de SaÃºde - Pau dos Ferros - RN
+240325,24007,7Âª RegiÃ£o de SaÃºde - Metropolitana - RN
+240360,24007,7Âª RegiÃ£o de SaÃºde - Metropolitana - RN
+240710,24007,7Âª RegiÃ£o de SaÃºde - Metropolitana - RN
+240810,24007,7Âª RegiÃ£o de SaÃºde - Metropolitana - RN
+241200,24007,7Âª RegiÃ£o de SaÃºde - Metropolitana - RN
+240020,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240070,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240080,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240250,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240375,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240470,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240485,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240870,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+240990,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+241025,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+241280,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+241445,24008,8Âª RegiÃ£o de SaÃºde - AÃ§u - RN
+250060,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250180,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250300,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250320,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250460,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250490,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250750,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250860,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250910,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+251190,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+251276,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+251370,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+251530,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+251597,25001,1Âª RegiÃ£o Mata AtlÃ¢ntica - PB
+250050,25002,2Âª RegiÃ£o - PB
+250080,25002,2Âª RegiÃ£o - PB
+250100,25002,2Âª RegiÃ£o - PB
+250150,25002,2Âª RegiÃ£o - PB
+250190,25002,2Âª RegiÃ£o - PB
+250270,25002,2Âª RegiÃ£o - PB
+250350,25002,2Âª RegiÃ£o - PB
+250360,25002,2Âª RegiÃ£o - PB
+250415,25002,2Âª RegiÃ£o - PB
+250520,25002,2Âª RegiÃ£o - PB
+250570,25002,2Âª RegiÃ£o - PB
+250580,25002,2Âª RegiÃ£o - PB
+250630,25002,2Âª RegiÃ£o - PB
+250820,25002,2Âª RegiÃ£o - PB
+250855,25002,2Âª RegiÃ£o - PB
+250980,25002,2Âª RegiÃ£o - PB
+251160,25002,2Âª RegiÃ£o - PB
+251170,25002,2Âª RegiÃ£o - PB
+251180,25002,2Âª RegiÃ£o - PB
+251274,25002,2Âª RegiÃ£o - PB
+251560,25002,2Âª RegiÃ£o - PB
+251590,25002,2Âª RegiÃ£o - PB
+251593,25002,2Âª RegiÃ£o - PB
+251600,25002,2Âª RegiÃ£o - PB
+251640,25002,2Âª RegiÃ£o - PB
+250030,25003,3Âª RegiÃ£o - PB
+250040,25003,3Âª RegiÃ£o - PB
+250057,25003,3Âª RegiÃ£o - PB
+250090,25003,3Âª RegiÃ£o - PB
+250110,25003,3Âª RegiÃ£o - PB
+250120,25003,3Âª RegiÃ£o - PB
+250600,25003,3Âª RegiÃ£o - PB
+250830,25003,3Âª RegiÃ£o - PB
+250933,25003,3Âª RegiÃ£o - PB
+250950,25003,3Âª RegiÃ£o - PB
+251270,25003,3Âª RegiÃ£o - PB
+251510,25003,3Âª RegiÃ£o - PB
+250153,25004,4Âª RegiÃ£o - PB
+250160,25004,4Âª RegiÃ£o - PB
+250500,25004,4Âª RegiÃ£o - PB
+250510,25004,4Âª RegiÃ£o - PB
+250535,25004,4Âª RegiÃ£o - PB
+250620,25004,4Âª RegiÃ£o - PB
+251010,25004,4Âª RegiÃ£o - PB
+251030,25004,4Âª RegiÃ£o - PB
+251110,25004,4Âª RegiÃ£o - PB
+251140,25004,4Âª RegiÃ£o - PB
+251540,25004,4Âª RegiÃ£o - PB
+251615,25004,4Âª RegiÃ£o - PB
+250073,25005,5Âª RegiÃ£o - PB
+250390,25005,5Âª RegiÃ£o - PB
+250407,25005,5Âª RegiÃ£o - PB
+250470,25005,5Âª RegiÃ£o - PB
+250485,25005,5Âª RegiÃ£o - PB
+250650,25005,5Âª RegiÃ£o - PB
+250970,25005,5Âª RegiÃ£o - PB
+251060,25005,5Âª RegiÃ£o - PB
+251065,25005,5Âª RegiÃ£o - PB
+251220,25005,5Âª RegiÃ£o - PB
+251400,25005,5Âª RegiÃ£o - PB
+251410,25005,5Âª RegiÃ£o - PB
+251480,25005,5Âª RegiÃ£o - PB
+251520,25005,5Âª RegiÃ£o - PB
+251550,25005,5Âª RegiÃ£o - PB
+251630,25005,5Âª RegiÃ£o - PB
+251740,25005,5Âª RegiÃ£o - PB
+250115,25006,6Âª RegiÃ£o - PB
+250340,25006,6Âª RegiÃ£o - PB
+250355,25006,6Âª RegiÃ£o - PB
+250420,25006,6Âª RegiÃ£o - PB
+250450,25006,6Âª RegiÃ£o - PB
+250540,25006,6Âª RegiÃ£o - PB
+250550,25006,6Âª RegiÃ£o - PB
+250590,25006,6Âª RegiÃ£o - PB
+250780,25006,6Âª RegiÃ£o - PB
+250870,25006,6Âª RegiÃ£o - PB
+250880,25006,6Âª RegiÃ£o - PB
+250939,25006,6Âª RegiÃ£o - PB
+251070,25006,6Âª RegiÃ£o - PB
+251080,25006,6Âª RegiÃ£o - PB
+251260,25006,6Âª RegiÃ£o - PB
+251300,25006,6Âª RegiÃ£o - PB
+251340,25006,6Âª RegiÃ£o - PB
+251380,25006,6Âª RegiÃ£o - PB
+251440,25006,6Âª RegiÃ£o - PB
+251460,25006,6Âª RegiÃ£o - PB
+251470,25006,6Âª RegiÃ£o - PB
+251490,25006,6Âª RegiÃ£o - PB
+251670,25006,6Âª RegiÃ£o - PB
+251710,25006,6Âª RegiÃ£o - PB
+250020,25007,7Âª RegiÃ£o - PB
+250210,25007,7Âª RegiÃ£o - PB
+250260,25007,7Âª RegiÃ£o - PB
+250440,25007,7Âª RegiÃ£o - PB
+250480,25007,7Âª RegiÃ£o - PB
+250530,25007,7Âª RegiÃ£o - PB
+250560,25007,7Âª RegiÃ£o - PB
+250660,25007,7Âª RegiÃ£o - PB
+250700,25007,7Âª RegiÃ£o - PB
+251020,25007,7Âª RegiÃ£o - PB
+251040,25007,7Âª RegiÃ£o - PB
+251100,25007,7Âª RegiÃ£o - PB
+251130,25007,7Âª RegiÃ£o - PB
+251335,25007,7Âª RegiÃ£o - PB
+251350,25007,7Âª RegiÃ£o - PB
+251360,25007,7Âª RegiÃ£o - PB
+251430,25007,7Âª RegiÃ£o - PB
+251570,25007,7Âª RegiÃ£o - PB
+250200,25008,8Âª RegiÃ£o - PB
+250230,25008,8Âª RegiÃ£o - PB
+250280,25008,8Âª RegiÃ£o - PB
+250290,25008,8Âª RegiÃ£o - PB
+250430,25008,8Âª RegiÃ£o - PB
+250740,25008,8Âª RegiÃ£o - PB
+250937,25008,8Âª RegiÃ£o - PB
+251280,25008,8Âª RegiÃ£o - PB
+251390,25008,8Âª RegiÃ£o - PB
+251465,25008,8Âª RegiÃ£o - PB
+250070,25009,9Âª RegiÃ£o - PB
+250205,25009,9Âª RegiÃ£o - PB
+250220,25009,9Âª RegiÃ£o - PB
+250240,25009,9Âª RegiÃ£o - PB
+250330,25009,9Âª RegiÃ£o - PB
+250370,25009,9Âª RegiÃ£o - PB
+250410,25009,9Âª RegiÃ£o - PB
+250960,25009,9Âª RegiÃ£o - PB
+251203,25009,9Âª RegiÃ£o - PB
+251207,25009,9Âª RegiÃ£o - PB
+251330,25009,9Âª RegiÃ£o - PB
+251365,25009,9Âª RegiÃ£o - PB
+251450,25009,9Âª RegiÃ£o - PB
+251680,25009,9Âª RegiÃ£o - PB
+251690,25009,9Âª RegiÃ£o - PB
+250077,25010,10Âª RegiÃ£o - PB
+250840,25010,10Âª RegiÃ£o - PB
+250915,25010,10Âª RegiÃ£o - PB
+251000,25010,10Âª RegiÃ£o - PB
+251320,25010,10Âª RegiÃ£o - PB
+251398,25010,10Âª RegiÃ£o - PB
+251420,25010,10Âª RegiÃ£o - PB
+251620,25010,10Âª RegiÃ£o - PB
+251720,25010,10Âª RegiÃ£o - PB
+250010,25011,11Âª RegiÃ£o - PB
+250670,25011,11Âª RegiÃ£o - PB
+250800,25011,11Âª RegiÃ£o - PB
+250900,25011,11Âª RegiÃ£o - PB
+251230,25011,11Âª RegiÃ£o - PB
+251455,25011,11Âª RegiÃ£o - PB
+251660,25011,11Âª RegiÃ£o - PB
+250380,25012,12Âª RegiÃ£o - PB
+250640,25012,12Âª RegiÃ£o - PB
+250680,25012,12Âª RegiÃ£o - PB
+250690,25012,12Âª RegiÃ£o - PB
+250720,25012,12Âª RegiÃ£o - PB
+250760,25012,12Âª RegiÃ£o - PB
+250790,25012,12Âª RegiÃ£o - PB
+250940,25012,12Âª RegiÃ£o - PB
+251120,25012,12Âª RegiÃ£o - PB
+251150,25012,12Âª RegiÃ£o - PB
+251275,25012,12Âª RegiÃ£o - PB
+251310,25012,12Âª RegiÃ£o - PB
+251445,25012,12Âª RegiÃ£o - PB
+251500,25012,12Âª RegiÃ£o - PB
+250375,25013,13Âª RegiÃ£o - PB
+250810,25013,13Âª RegiÃ£o - PB
+251090,25013,13Âª RegiÃ£o - PB
+251210,25013,13Âª RegiÃ£o - PB
+251392,25013,13Âª RegiÃ£o - PB
+251396,25013,13Âª RegiÃ£o - PB
+250140,25014,14Âª RegiÃ£o - PB
+250403,25014,14Âª RegiÃ£o - PB
+250523,25014,14Âª RegiÃ£o - PB
+250527,25014,14Âª RegiÃ£o - PB
+250710,25014,14Âª RegiÃ£o - PB
+250730,25014,14Âª RegiÃ£o - PB
+250890,25014,14Âª RegiÃ£o - PB
+250905,25014,14Âª RegiÃ£o - PB
+250930,25014,14Âª RegiÃ£o - PB
+251272,25014,14Âª RegiÃ£o - PB
+251290,25014,14Âª RegiÃ£o - PB
+250053,25015,15Âª RegiÃ£o - PB
+250130,25015,15Âª RegiÃ£o - PB
+250157,25015,15Âª RegiÃ£o - PB
+250170,25015,15Âª RegiÃ£o - PB
+250250,25015,15Âª RegiÃ£o - PB
+250310,25015,15Âª RegiÃ£o - PB
+250435,25015,15Âª RegiÃ£o - PB
+250625,25015,15Âª RegiÃ£o - PB
+250990,25015,15Âª RegiÃ£o - PB
+251250,25015,15Âª RegiÃ£o - PB
+251278,25015,15Âª RegiÃ£o - PB
+251315,25015,15Âª RegiÃ£o - PB
+251394,25015,15Âª RegiÃ£o - PB
+251700,25015,15Âª RegiÃ£o - PB
+250135,25016,16Âª RegiÃ£o - PB
+250215,25016,16Âª RegiÃ£o - PB
+250400,25016,16Âª RegiÃ£o - PB
+250610,25016,16Âª RegiÃ£o - PB
+250770,25016,16Âª RegiÃ£o - PB
+250850,25016,16Âª RegiÃ£o - PB
+250920,25016,16Âª RegiÃ£o - PB
+251050,25016,16Âª RegiÃ£o - PB
+251200,25016,16Âª RegiÃ£o - PB
+251240,25016,16Âª RegiÃ£o - PB
+251385,25016,16Âª RegiÃ£o - PB
+251580,25016,16Âª RegiÃ£o - PB
+251610,25016,16Âª RegiÃ£o - PB
+251650,25016,16Âª RegiÃ£o - PB
+251675,25016,16Âª RegiÃ£o - PB
+260010,26001,Afogados da Ingazeira - PE
+260250,26001,Afogados da Ingazeira - PE
+260390,26001,Afogados da Ingazeira - PE
+260690,26001,Afogados da Ingazeira - PE
+260710,26001,Afogados da Ingazeira - PE
+260770,26001,Afogados da Ingazeira - PE
+261153,26001,Afogados da Ingazeira - PE
+261280,26001,Afogados da Ingazeira - PE
+261360,26001,Afogados da Ingazeira - PE
+261440,26001,Afogados da Ingazeira - PE
+261460,26001,Afogados da Ingazeira - PE
+261590,26001,Afogados da Ingazeira - PE
+260120,26002,Arcoverde - PE
+260280,26002,Arcoverde - PE
+260510,26002,Arcoverde - PE
+260660,26002,Arcoverde - PE
+260700,26002,Arcoverde - PE
+260805,26002,Arcoverde - PE
+260915,26002,Arcoverde - PE
+261080,26002,Arcoverde - PE
+261100,26002,Arcoverde - PE
+261410,26002,Arcoverde - PE
+261480,26002,Arcoverde - PE
+261580,26002,Arcoverde - PE
+261600,26002,Arcoverde - PE
+260030,26003,Caruaru - PE
+260060,26003,Caruaru - PE
+260080,26003,Caruaru - PE
+260130,26003,Caruaru - PE
+260170,26003,Caruaru - PE
+260190,26003,Caruaru - PE
+260230,26003,Caruaru - PE
+260260,26003,Caruaru - PE
+260310,26003,Caruaru - PE
+260350,26003,Caruaru - PE
+260410,26003,Caruaru - PE
+260500,26003,Caruaru - PE
+260580,26003,Caruaru - PE
+260640,26003,Caruaru - PE
+260670,26003,Caruaru - PE
+260800,26003,Caruaru - PE
+260840,26003,Caruaru - PE
+261020,26003,Caruaru - PE
+261090,26003,Caruaru - PE
+261120,26003,Caruaru - PE
+261170,26003,Caruaru - PE
+261200,26003,Caruaru - PE
+261240,26003,Caruaru - PE
+261250,26003,Caruaru - PE
+261270,26003,Caruaru - PE
+261300,26003,Caruaru - PE
+261310,26003,Caruaru - PE
+261330,26003,Caruaru - PE
+261470,26003,Caruaru - PE
+261500,26003,Caruaru - PE
+261540,26003,Caruaru - PE
+261620,26003,Caruaru - PE
+260050,26004,Garanhuns - PE
+260100,26004,Garanhuns - PE
+260210,26004,Garanhuns - PE
+260240,26004,Garanhuns - PE
+260320,26004,Garanhuns - PE
+260330,26004,Garanhuns - PE
+260370,26004,Garanhuns - PE
+260380,26004,Garanhuns - PE
+260470,26004,Garanhuns - PE
+260600,26004,Garanhuns - PE
+260650,26004,Garanhuns - PE
+260750,26004,Garanhuns - PE
+260825,26004,Garanhuns - PE
+260830,26004,Garanhuns - PE
+260860,26004,Garanhuns - PE
+260880,26004,Garanhuns - PE
+261010,26004,Garanhuns - PE
+261030,26004,Garanhuns - PE
+261230,26004,Garanhuns - PE
+261320,26004,Garanhuns - PE
+261510,26004,Garanhuns - PE
+260070,26005,Goiana - PE
+260360,26005,Goiana - PE
+260460,26005,Goiana - PE
+260550,26005,Goiana - PE
+260620,26005,Goiana - PE
+260765,26005,Goiana - PE
+260780,26005,Goiana - PE
+260900,26005,Goiana - PE
+261380,26005,Goiana - PE
+261530,26005,Goiana - PE
+260220,26006,Limoeiro - PE
+260270,26006,Limoeiro - PE
+260400,26006,Limoeiro - PE
+260415,26006,Limoeiro - PE
+260490,26006,Limoeiro - PE
+260540,26006,Limoeiro - PE
+260810,26006,Limoeiro - PE
+260845,26006,Limoeiro - PE
+260850,26006,Limoeiro - PE
+260890,26006,Limoeiro - PE
+260910,26006,Limoeiro - PE
+260950,26006,Limoeiro - PE
+260970,26006,Limoeiro - PE
+261050,26006,Limoeiro - PE
+261060,26006,Limoeiro - PE
+261210,26006,Limoeiro - PE
+261450,26006,Limoeiro - PE
+261550,26006,Limoeiro - PE
+261618,26006,Limoeiro - PE
+261630,26006,Limoeiro - PE
+260110,26007,Ouricuri - PE
+260200,26007,Ouricuri - PE
+260530,26007,Ouricuri - PE
+260630,26007,Ouricuri - PE
+260730,26007,Ouricuri - PE
+260990,26007,Ouricuri - PE
+261040,26007,Ouricuri - PE
+261245,26007,Ouricuri - PE
+261255,26007,Ouricuri - PE
+261430,26007,Ouricuri - PE
+261560,26007,Ouricuri - PE
+260040,26008,Palmares - PE
+260090,26008,Palmares - PE
+260140,26008,Palmares - PE
+260150,26008,Palmares - PE
+260420,26008,Palmares - PE
+260480,26008,Palmares - PE
+260520,26008,Palmares - PE
+260590,26008,Palmares - PE
+260795,26008,Palmares - PE
+260820,26008,Palmares - PE
+260870,26008,Palmares - PE
+260920,26008,Palmares - PE
+261000,26008,Palmares - PE
+261140,26008,Palmares - PE
+261150,26008,Palmares - PE
+261180,26008,Palmares - PE
+261190,26008,Palmares - PE
+261290,26008,Palmares - PE
+261340,26008,Palmares - PE
+261420,26008,Palmares - PE
+261485,26008,Palmares - PE
+261650,26008,Palmares - PE
+260020,26009,Petrolina - PE
+260300,26009,Petrolina - PE
+260515,26009,Petrolina - PE
+260875,26009,Petrolina - PE
+260980,26009,Petrolina - PE
+261110,26009,Petrolina - PE
+261260,26009,Petrolina - PE
+260005,26010,Recife - PE
+260105,26010,Recife - PE
+260290,26010,Recife - PE
+260345,26010,Recife - PE
+260440,26010,Recife - PE
+260450,26010,Recife - PE
+260545,26010,Recife - PE
+260610,26010,Recife - PE
+260680,26010,Recife - PE
+260720,26010,Recife - PE
+260760,26010,Recife - PE
+260775,26010,Recife - PE
+260790,26010,Recife - PE
+260940,26010,Recife - PE
+260960,26010,Recife - PE
+261070,26010,Recife - PE
+261130,26010,Recife - PE
+261160,26010,Recife - PE
+261370,26010,Recife - PE
+261640,26010,Recife - PE
+260160,26011,Salgueiro - PE
+260430,26011,Salgueiro - PE
+260930,26011,Salgueiro - PE
+261220,26011,Salgueiro - PE
+261400,26011,Salgueiro - PE
+261520,26011,Salgueiro - PE
+261610,26011,Salgueiro - PE
+260180,26012,Serra Talhada - PE
+260340,26012,Serra Talhada - PE
+260392,26012,Serra Talhada - PE
+260560,26012,Serra Talhada - PE
+260570,26012,Serra Talhada - PE
+260740,26012,Serra Talhada - PE
+261247,26012,Serra Talhada - PE
+261350,26012,Serra Talhada - PE
+261390,26012,Serra Talhada - PE
+261570,26012,Serra Talhada - PE
+270050,27001,1Âª RegiÃ£o de SaÃºde - AL
+270060,27001,1Âª RegiÃ£o de SaÃºde - AL
+270220,27001,1Âª RegiÃ£o de SaÃºde - AL
+270280,27001,1Âª RegiÃ£o de SaÃºde - AL
+270430,27001,1Âª RegiÃ£o de SaÃºde - AL
+270470,27001,1Âª RegiÃ£o de SaÃºde - AL
+270520,27001,1Âª RegiÃ£o de SaÃºde - AL
+270644,27001,1Âª RegiÃ£o de SaÃºde - AL
+270690,27001,1Âª RegiÃ£o de SaÃºde - AL
+270770,27001,1Âª RegiÃ£o de SaÃºde - AL
+270790,27001,1Âª RegiÃ£o de SaÃºde - AL
+270890,27001,1Âª RegiÃ£o de SaÃºde - AL
+270350,27002,2Âª RegiÃ£o de SaÃºde - AL
+270360,27002,2Âª RegiÃ£o de SaÃºde - AL
+270450,27002,2Âª RegiÃ£o de SaÃºde - AL
+270510,27002,2Âª RegiÃ£o de SaÃºde - AL
+270650,27002,2Âª RegiÃ£o de SaÃºde - AL
+270730,27002,2Âª RegiÃ£o de SaÃºde - AL
+270740,27002,2Âª RegiÃ£o de SaÃºde - AL
+270850,27002,2Âª RegiÃ£o de SaÃºde - AL
+270870,27002,2Âª RegiÃ£o de SaÃºde - AL
+270110,27003,3Âª RegiÃ£o de SaÃºde - AL
+270135,27003,3Âª RegiÃ£o de SaÃºde - AL
+270210,27003,3Âª RegiÃ£o de SaÃºde - AL
+270300,27003,3Âª RegiÃ£o de SaÃºde - AL
+270380,27003,3Âª RegiÃ£o de SaÃºde - AL
+270390,27003,3Âª RegiÃ£o de SaÃºde - AL
+270550,27003,3Âª RegiÃ£o de SaÃºde - AL
+270560,27003,3Âª RegiÃ£o de SaÃºde - AL
+270810,27003,3Âª RegiÃ£o de SaÃºde - AL
+270830,27003,3Âª RegiÃ£o de SaÃºde - AL
+270930,27003,3Âª RegiÃ£o de SaÃºde - AL
+270040,27004,4Âª RegiÃ£o de SaÃºde - AL
+270130,27004,4Âª RegiÃ£o de SaÃºde - AL
+270170,27004,4Âª RegiÃ£o de SaÃºde - AL
+270190,27004,4Âª RegiÃ£o de SaÃºde - AL
+270490,27004,4Âª RegiÃ£o de SaÃºde - AL
+270660,27004,4Âª RegiÃ£o de SaÃºde - AL
+270700,27004,4Âª RegiÃ£o de SaÃºde - AL
+270760,27004,4Âª RegiÃ£o de SaÃºde - AL
+270940,27004,4Âª RegiÃ£o de SaÃºde - AL
+270020,27005,5Âª RegiÃ£o de SaÃºde - AL
+270100,27005,5Âª RegiÃ£o de SaÃºde - AL
+270140,27005,5Âª RegiÃ£o de SaÃºde - AL
+270400,27005,5Âª RegiÃ£o de SaÃºde - AL
+270780,27005,5Âª RegiÃ£o de SaÃºde - AL
+270860,27005,5Âª RegiÃ£o de SaÃºde - AL
+270915,27005,5Âª RegiÃ£o de SaÃºde - AL
+270230,27006,6Âª RegiÃ£o de SaÃºde - AL
+270270,27006,6Âª RegiÃ£o de SaÃºde - AL
+270320,27006,6Âª RegiÃ£o de SaÃºde - AL
+270375,27006,6Âª RegiÃ£o de SaÃºde - AL
+270670,27006,6Âª RegiÃ£o de SaÃºde - AL
+270680,27006,6Âª RegiÃ£o de SaÃºde - AL
+270750,27006,6Âª RegiÃ£o de SaÃºde - AL
+270820,27006,6Âª RegiÃ£o de SaÃºde - AL
+270030,27007,7Âª RegiÃ£o de SaÃºde - AL
+270070,27007,7Âª RegiÃ£o de SaÃºde - AL
+270090,27007,7Âª RegiÃ£o de SaÃºde - AL
+270150,27007,7Âª RegiÃ£o de SaÃºde - AL
+270200,27007,7Âª RegiÃ£o de SaÃºde - AL
+270235,27007,7Âª RegiÃ£o de SaÃºde - AL
+270260,27007,7Âª RegiÃ£o de SaÃºde - AL
+270290,27007,7Âª RegiÃ£o de SaÃºde - AL
+270340,27007,7Âª RegiÃ£o de SaÃºde - AL
+270370,27007,7Âª RegiÃ£o de SaÃºde - AL
+270410,27007,7Âª RegiÃ£o de SaÃºde - AL
+270420,27007,7Âª RegiÃ£o de SaÃºde - AL
+270440,27007,7Âª RegiÃ£o de SaÃºde - AL
+270590,27007,7Âª RegiÃ£o de SaÃºde - AL
+270880,27007,7Âª RegiÃ£o de SaÃºde - AL
+270910,27007,7Âª RegiÃ£o de SaÃºde - AL
+270920,27007,7Âª RegiÃ£o de SaÃºde - AL
+270080,27008,8Âª RegiÃ£o de SaÃºde - AL
+270120,27008,8Âª RegiÃ£o de SaÃºde - AL
+270255,27008,8Âª RegiÃ£o de SaÃºde - AL
+270310,27008,8Âª RegiÃ£o de SaÃºde - AL
+270480,27008,8Âª RegiÃ£o de SaÃºde - AL
+270530,27008,8Âª RegiÃ£o de SaÃºde - AL
+270630,27008,8Âª RegiÃ£o de SaÃºde - AL
+270900,27008,8Âª RegiÃ£o de SaÃºde - AL
+270160,27009,9Âª RegiÃ£o de SaÃºde - AL
+270180,27009,9Âª RegiÃ£o de SaÃºde - AL
+270250,27009,9Âª RegiÃ£o de SaÃºde - AL
+270460,27009,9Âª RegiÃ£o de SaÃºde - AL
+270540,27009,9Âª RegiÃ£o de SaÃºde - AL
+270570,27009,9Âª RegiÃ£o de SaÃºde - AL
+270600,27009,9Âª RegiÃ£o de SaÃºde - AL
+270610,27009,9Âª RegiÃ£o de SaÃºde - AL
+270620,27009,9Âª RegiÃ£o de SaÃºde - AL
+270640,27009,9Âª RegiÃ£o de SaÃºde - AL
+270720,27009,9Âª RegiÃ£o de SaÃºde - AL
+270800,27009,9Âª RegiÃ£o de SaÃºde - AL
+270840,27009,9Âª RegiÃ£o de SaÃºde - AL
+270895,27009,9Âª RegiÃ£o de SaÃºde - AL
+270010,27010,10Âª RegiÃ£o de SaÃºde - AL
+270240,27010,10Âª RegiÃ£o de SaÃºde - AL
+270330,27010,10Âª RegiÃ£o de SaÃºde - AL
+270500,27010,10Âª RegiÃ£o de SaÃºde - AL
+270580,27010,10Âª RegiÃ£o de SaÃºde - AL
+270642,27010,10Âª RegiÃ£o de SaÃºde - AL
+270710,27010,10Âª RegiÃ£o de SaÃºde - AL
+280030,28001,Aracaju - SE
+280060,28001,Aracaju - SE
+280200,28001,Aracaju - SE
+280320,28001,Aracaju - SE
+280360,28001,Aracaju - SE
+280590,28001,Aracaju - SE
+280650,28001,Aracaju - SE
+280670,28001,Aracaju - SE
+280040,28002,EstÃ¢ncia - SE
+280067,28002,EstÃ¢ncia - SE
+280170,28002,EstÃ¢ncia - SE
+280210,28002,EstÃ¢ncia - SE
+280280,28002,EstÃ¢ncia - SE
+280300,28002,EstÃ¢ncia - SE
+280510,28002,EstÃ¢ncia - SE
+280630,28002,EstÃ¢ncia - SE
+280750,28002,EstÃ¢ncia - SE
+280760,28002,EstÃ¢ncia - SE
+280050,28003,Itabaiana - SE
+280100,28003,Itabaiana - SE
+280140,28003,Itabaiana - SE
+280230,28003,Itabaiana - SE
+280290,28003,Itabaiana - SE
+280370,28003,Itabaiana - SE
+280390,28003,Itabaiana - SE
+280410,28003,Itabaiana - SE
+280445,28003,Itabaiana - SE
+280500,28003,Itabaiana - SE
+280520,28003,Itabaiana - SE
+280600,28003,Itabaiana - SE
+280680,28003,Itabaiana - SE
+280700,28003,Itabaiana - SE
+280350,28004,Lagarto - SE
+280550,28004,Lagarto - SE
+280580,28004,Lagarto - SE
+280620,28004,Lagarto - SE
+280710,28004,Lagarto - SE
+280740,28004,Lagarto - SE
+280120,28005,Nossa Senhora da GlÃ³ria - SE
+280220,28005,Nossa Senhora da GlÃ³ria - SE
+280240,28005,Nossa Senhora da GlÃ³ria - SE
+280260,28005,Nossa Senhora da GlÃ³ria - SE
+280310,28005,Nossa Senhora da GlÃ³ria - SE
+280420,28005,Nossa Senhora da GlÃ³ria - SE
+280450,28005,Nossa Senhora da GlÃ³ria - SE
+280540,28005,Nossa Senhora da GlÃ³ria - SE
+280560,28005,Nossa Senhora da GlÃ³ria - SE
+280130,28006,Nossa Senhora do Socorro - SE
+280150,28006,Nossa Senhora do Socorro - SE
+280190,28006,Nossa Senhora do Socorro - SE
+280250,28006,Nossa Senhora do Socorro - SE
+280330,28006,Nossa Senhora do Socorro - SE
+280400,28006,Nossa Senhora do Socorro - SE
+280460,28006,Nossa Senhora do Socorro - SE
+280480,28006,Nossa Senhora do Socorro - SE
+280530,28006,Nossa Senhora do Socorro - SE
+280610,28006,Nossa Senhora do Socorro - SE
+280660,28006,Nossa Senhora do Socorro - SE
+280720,28006,Nossa Senhora do Socorro - SE
+280010,28007,PropriÃ¡ - SE
+280020,28007,PropriÃ¡ - SE
+280070,28007,PropriÃ¡ - SE
+280110,28007,PropriÃ¡ - SE
+280160,28007,PropriÃ¡ - SE
+280270,28007,PropriÃ¡ - SE
+280340,28007,PropriÃ¡ - SE
+280380,28007,PropriÃ¡ - SE
+280430,28007,PropriÃ¡ - SE
+280440,28007,PropriÃ¡ - SE
+280470,28007,PropriÃ¡ - SE
+280490,28007,PropriÃ¡ - SE
+280570,28007,PropriÃ¡ - SE
+280640,28007,PropriÃ¡ - SE
+280690,28007,PropriÃ¡ - SE
+280730,28007,PropriÃ¡ - SE
+290030,29001,Alagoinhas - BA
+290070,29001,Alagoinhas - BA
+290190,29001,Alagoinhas - BA
+290205,29001,Alagoinhas - BA
+290220,29001,Alagoinhas - BA
+290700,29001,Alagoinhas - BA
+290750,29001,Alagoinhas - BA
+290960,29001,Alagoinhas - BA
+291050,29001,Alagoinhas - BA
+291060,29001,Alagoinhas - BA
+291370,29001,Alagoinhas - BA
+291590,29001,Alagoinhas - BA
+291650,29001,Alagoinhas - BA
+291790,29001,Alagoinhas - BA
+292330,29001,Alagoinhas - BA
+292410,29001,Alagoinhas - BA
+292700,29001,Alagoinhas - BA
+292970,29001,Alagoinhas - BA
+290140,29002,Barreiras - BA
+290250,29002,Barreiras - BA
+290320,29002,Barreiras - BA
+290440,29002,Barreiras - BA
+290740,29002,Barreiras - BA
+290940,29002,Barreiras - BA
+290970,29002,Barreiras - BA
+291110,29002,Barreiras - BA
+291955,29002,Barreiras - BA
+292045,29002,Barreiras - BA
+292620,29002,Barreiras - BA
+292840,29002,Barreiras - BA
+292890,29002,Barreiras - BA
+293090,29002,Barreiras - BA
+293345,29002,Barreiras - BA
+290050,29003,Brumado - BA
+290200,29003,Brumado - BA
+290280,29003,Brumado - BA
+290410,29003,Brumado - BA
+290460,29003,Brumado - BA
+290755,29003,Brumado - BA
+290880,29003,Brumado - BA
+291010,29003,Brumado - BA
+291165,29003,Brumado - BA
+291220,29003,Brumado - BA
+291250,29003,Brumado - BA
+291720,29003,Brumado - BA
+291860,29003,Brumado - BA
+291950,29003,Brumado - BA
+291980,29003,Brumado - BA
+292030,29003,Brumado - BA
+292360,29003,Brumado - BA
+292670,29003,Brumado - BA
+292690,29003,Brumado - BA
+293100,29003,Brumado - BA
+290570,29004,CamaÃ§ari - BA
+290860,29004,CamaÃ§ari - BA
+291005,29004,CamaÃ§ari - BA
+292100,29004,CamaÃ§ari - BA
+292520,29004,CamaÃ§ari - BA
+293070,29004,CamaÃ§ari - BA
+290485,29005,Cruz das Almas - BA
+290490,29005,Cruz das Almas - BA
+290820,29005,Cruz das Almas - BA
+290980,29005,Cruz das Almas - BA
+291160,29005,Cruz das Almas - BA
+292060,29005,Cruz das Almas - BA
+292230,29005,Cruz das Almas - BA
+292900,29005,Cruz das Almas - BA
+292960,29005,Cruz das Almas - BA
+290110,29006,Feira de Santana - BA
+290150,29006,Feira de Santana - BA
+290170,29006,Feira de Santana - BA
+290260,29006,Feira de Santana - BA
+290640,29006,Feira de Santana - BA
+290685,29006,Feira de Santana - BA
+290850,29006,Feira de Santana - BA
+290890,29006,Feira de Santana - BA
+291080,29006,Feira de Santana - BA
+291125,29006,Feira de Santana - BA
+291330,29006,Feira de Santana - BA
+291380,29006,Feira de Santana - BA
+291400,29006,Feira de Santana - BA
+291450,29006,Feira de Santana - BA
+292210,29006,Feira de Santana - BA
+292273,29006,Feira de Santana - BA
+292405,29006,Feira de Santana - BA
+292465,29006,Feira de Santana - BA
+292595,29006,Feira de Santana - BA
+292630,29006,Feira de Santana - BA
+292750,29006,Feira de Santana - BA
+292830,29006,Feira de Santana - BA
+292880,29006,Feira de Santana - BA
+292930,29006,Feira de Santana - BA
+293040,29006,Feira de Santana - BA
+293110,29006,Feira de Santana - BA
+293140,29006,Feira de Santana - BA
+293170,29006,Feira de Santana - BA
+290420,29007,Guanambi - BA
+290500,29007,Guanambi - BA
+290520,29007,Guanambi - BA
+290660,29007,Guanambi - BA
+290710,29007,Guanambi - BA
+291077,29007,Guanambi - BA
+291170,29007,Guanambi - BA
+291200,29007,Guanambi - BA
+291340,29007,Guanambi - BA
+291733,29007,Guanambi - BA
+291740,29007,Guanambi - BA
+291875,29007,Guanambi - BA
+291940,29007,Guanambi - BA
+292020,29007,Guanambi - BA
+292105,29007,Guanambi - BA
+292180,29007,Guanambi - BA
+292340,29007,Guanambi - BA
+292450,29007,Guanambi - BA
+292640,29007,Guanambi - BA
+292680,29007,Guanambi - BA
+293000,29007,Guanambi - BA
+293105,29007,Guanambi - BA
+293260,29007,Guanambi - BA
+290270,29008,Ibotirama - BA
+290450,29008,Ibotirama - BA
+290475,29008,Ibotirama - BA
+291320,29008,Ibotirama - BA
+291410,29008,Ibotirama - BA
+292160,29008,Ibotirama - BA
+292225,29008,Ibotirama - BA
+292320,29008,Ibotirama - BA
+292370,29008,Ibotirama - BA
+290225,29009,IlhÃ©us - BA
+290630,29009,IlhÃ©us - BA
+291360,29009,IlhÃ©us - BA
+291490,29009,IlhÃ©us - BA
+292090,29009,IlhÃ©us - BA
+292805,29009,IlhÃ©us - BA
+293250,29009,IlhÃ©us - BA
+293270,29009,IlhÃ©us - BA
+290115,29010,IrecÃª - BA
+290300,29010,IrecÃª - BA
+290323,29010,IrecÃª - BA
+290530,29010,IrecÃª - BA
+290620,29010,IrecÃª - BA
+290760,29010,IrecÃª - BA
+291130,29010,IrecÃª - BA
+291240,29010,IrecÃª - BA
+291310,29010,IrecÃª - BA
+291460,29010,IrecÃª - BA
+291535,29010,IrecÃª - BA
+291835,29010,IrecÃª - BA
+291850,29010,IrecÃª - BA
+291915,29010,IrecÃª - BA
+292205,29010,IrecÃª - BA
+292560,29010,IrecÃª - BA
+292925,29010,IrecÃª - BA
+293240,29010,IrecÃª - BA
+293360,29010,IrecÃª - BA
+290130,29011,Itaberaba - BA
+290380,29011,Itaberaba - BA
+290405,29011,Itaberaba - BA
+291190,29011,Itaberaba - BA
+291260,29011,Itaberaba - BA
+291470,29011,Itaberaba - BA
+291500,29011,Itaberaba - BA
+291900,29011,Itaberaba - BA
+291960,29011,Itaberaba - BA
+292080,29011,Itaberaba - BA
+292285,29011,Itaberaba - BA
+292720,29011,Itaberaba - BA
+293280,29011,Itaberaba - BA
+293340,29011,Itaberaba - BA
+290090,29012,Itabuna - BA
+290240,29012,Itabuna - BA
+290330,29012,Itabuna - BA
+290470,29012,Itabuna - BA
+290560,29012,Itabuna - BA
+290800,29012,Itabuna - BA
+291100,29012,Itabuna - BA
+291150,29012,Itabuna - BA
+291210,29012,Itabuna - BA
+291270,29012,Itabuna - BA
+291480,29012,Itabuna - BA
+291540,29012,Itabuna - BA
+291550,29012,Itabuna - BA
+291620,29012,Itabuna - BA
+291660,29012,Itabuna - BA
+291855,29012,Itabuna - BA
+292070,29012,Itabuna - BA
+292390,29012,Itabuna - BA
+292780,29012,Itabuna - BA
+292935,29012,Itabuna - BA
+293220,29012,Itabuna - BA
+293230,29012,Itabuna - BA
+290480,29013,Itapetinga - BA
+291090,29013,Itapetinga - BA
+291230,29013,Itapetinga - BA
+291350,29013,Itapetinga - BA
+291580,29013,Itapetinga - BA
+291640,29013,Itapetinga - BA
+291680,29013,Itapetinga - BA
+291710,29013,Itapetinga - BA
+291970,29013,Itapetinga - BA
+292000,29013,Itapetinga - BA
+292270,29013,Itapetinga - BA
+292540,29013,Itapetinga - BA
+290510,29014,Jacobina - BA
+290550,29014,Jacobina - BA
+290687,29014,Jacobina - BA
+291750,29014,Jacobina - BA
+292010,29014,Jacobina - BA
+292120,29014,Jacobina - BA
+292140,29014,Jacobina - BA
+292170,29014,Jacobina - BA
+292335,29014,Jacobina - BA
+292480,29014,Jacobina - BA
+292593,29014,Jacobina - BA
+292937,29014,Jacobina - BA
+292980,29014,Jacobina - BA
+293060,29014,Jacobina - BA
+293130,29014,Jacobina - BA
+293245,29014,Jacobina - BA
+293305,29014,Jacobina - BA
+293310,29014,Jacobina - BA
+293315,29014,Jacobina - BA
+290060,29015,JequiÃ© - BA
+290195,29015,JequiÃ© - BA
+290310,29015,JequiÃ© - BA
+290370,29015,JequiÃ© - BA
+290430,29015,JequiÃ© - BA
+290950,29015,JequiÃ© - BA
+291000,29015,JequiÃ© - BA
+291290,29015,JequiÃ© - BA
+291390,29015,JequiÃ© - BA
+291420,29015,JequiÃ© - BA
+291430,29015,JequiÃ© - BA
+291510,29015,JequiÃ© - BA
+291520,29015,JequiÃ© - BA
+291570,29015,JequiÃ© - BA
+291670,29015,JequiÃ© - BA
+291690,29015,JequiÃ© - BA
+291760,29015,JequiÃ© - BA
+291800,29015,JequiÃ© - BA
+291830,29015,JequiÃ© - BA
+291870,29015,JequiÃ© - BA
+291905,29015,JequiÃ© - BA
+292040,29015,JequiÃ© - BA
+292050,29015,JequiÃ© - BA
+292280,29015,JequiÃ© - BA
+292490,29015,JequiÃ© - BA
+292790,29015,JequiÃ© - BA
+290590,29016,Juazeiro - BA
+290682,29016,Juazeiro - BA
+290720,29016,Juazeiro - BA
+290990,29016,Juazeiro - BA
+291840,29016,Juazeiro - BA
+292440,29016,Juazeiro - BA
+292600,29016,Juazeiro - BA
+293020,29016,Juazeiro - BA
+293077,29016,Juazeiro - BA
+293200,29016,Juazeiro - BA
+290020,29017,Paulo Afonso - BA
+290770,29017,Paulo Afonso - BA
+291140,29017,Paulo Afonso - BA
+291810,29017,Paulo Afonso - BA
+291990,29017,Paulo Afonso - BA
+292400,29017,Paulo Afonso - BA
+292420,29017,Paulo Afonso - BA
+292710,29017,Paulo Afonso - BA
+292760,29017,Paulo Afonso - BA
+290340,29018,Porto Seguro - BA
+291072,29018,Porto Seguro - BA
+291180,29018,Porto Seguro - BA
+291465,29018,Porto Seguro - BA
+291530,29018,Porto Seguro - BA
+291630,29018,Porto Seguro - BA
+292530,29018,Porto Seguro - BA
+292770,29018,Porto Seguro - BA
+290035,29019,Ribeira do Pombal - BA
+290160,29019,Ribeira do Pombal - BA
+290265,29019,Ribeira do Pombal - BA
+290780,29019,Ribeira do Pombal - BA
+290790,29019,Ribeira do Pombal - BA
+290920,29019,Ribeira do Pombal - BA
+291075,29019,Ribeira do Pombal - BA
+291185,29019,Ribeira do Pombal - BA
+292290,29019,Ribeira do Pombal - BA
+292305,29019,Ribeira do Pombal - BA
+292310,29019,Ribeira do Pombal - BA
+292380,29019,Ribeira do Pombal - BA
+292650,29019,Ribeira do Pombal - BA
+292660,29019,Ribeira do Pombal - BA
+293076,29019,Ribeira do Pombal - BA
+290650,29020,Salvador - BA
+291610,29020,Salvador - BA
+291920,29020,Salvador - BA
+291992,29020,Salvador - BA
+292740,29020,Salvador - BA
+292860,29020,Salvador - BA
+292920,29020,Salvador - BA
+292950,29020,Salvador - BA
+292975,29020,Salvador - BA
+293320,29020,Salvador - BA
+290390,29021,Santa Maria da VitÃ³ria - BA
+290610,29021,Santa Maria da VitÃ³ria - BA
+290810,29021,Santa Maria da VitÃ³ria - BA
+290910,29021,Santa Maria da VitÃ³ria - BA
+290930,29021,Santa Maria da VitÃ³ria - BA
+291735,29021,Santa Maria da VitÃ³ria - BA
+292810,29021,Santa Maria da VitÃ³ria - BA
+292820,29021,Santa Maria da VitÃ³ria - BA
+292905,29021,Santa Maria da VitÃ³ria - BA
+293015,29021,Santa Maria da VitÃ³ria - BA
+293030,29021,Santa Maria da VitÃ³ria - BA
+293075,29021,Santa Maria da VitÃ³ria - BA
+290100,29022,Santo AntÃ´nio de Jesus - BA
+290230,29022,Santo AntÃ´nio de Jesus - BA
+290730,29022,Santo AntÃ´nio de Jesus - BA
+290830,29022,Santo AntÃ´nio de Jesus - BA
+291020,29022,Santo AntÃ´nio de Jesus - BA
+291030,29022,Santo AntÃ´nio de Jesus - BA
+291685,29022,Santo AntÃ´nio de Jesus - BA
+291780,29022,Santo AntÃ´nio de Jesus - BA
+291820,29022,Santo AntÃ´nio de Jesus - BA
+291880,29022,Santo AntÃ´nio de Jesus - BA
+292130,29022,Santo AntÃ´nio de Jesus - BA
+292220,29022,Santo AntÃ´nio de Jesus - BA
+292240,29022,Santo AntÃ´nio de Jesus - BA
+292250,29022,Santo AntÃ´nio de Jesus - BA
+292575,29022,Santo AntÃ´nio de Jesus - BA
+292730,29022,Santo AntÃ´nio de Jesus - BA
+292850,29022,Santo AntÃ´nio de Jesus - BA
+292870,29022,Santo AntÃ´nio de Jesus - BA
+292910,29022,Santo AntÃ´nio de Jesus - BA
+292940,29022,Santo AntÃ´nio de Jesus - BA
+293210,29022,Santo AntÃ´nio de Jesus - BA
+293317,29022,Santo AntÃ´nio de Jesus - BA
+290010,29023,Seabra - BA
+290400,29023,Seabra - BA
+291300,29023,Seabra - BA
+291440,29023,Seabra - BA
+291930,29023,Seabra - BA
+292190,29023,Seabra - BA
+292303,29023,Seabra - BA
+292350,29023,Seabra - BA
+292430,29023,Seabra - BA
+292990,29023,Seabra - BA
+293080,29023,Seabra - BA
+290135,29024,Senhor do Bonfim - BA
+290180,29024,Senhor do Bonfim - BA
+290600,29024,Senhor do Bonfim - BA
+291085,29024,Senhor do Bonfim - BA
+291700,29024,Senhor do Bonfim - BA
+291770,29024,Senhor do Bonfim - BA
+292460,29024,Senhor do Bonfim - BA
+292525,29024,Senhor do Bonfim - BA
+293010,29024,Senhor do Bonfim - BA
+290040,29025,Serrinha - BA
+290210,29025,Serrinha - BA
+290327,29025,Serrinha - BA
+290360,29025,Serrinha - BA
+290680,29025,Serrinha - BA
+290840,29025,Serrinha - BA
+291070,29025,Serrinha - BA
+291910,29025,Serrinha - BA
+292150,29025,Serrinha - BA
+292265,29025,Serrinha - BA
+292580,29025,Serrinha - BA
+292590,29025,Serrinha - BA
+292610,29025,Serrinha - BA
+292800,29025,Serrinha - BA
+292895,29025,Serrinha - BA
+293050,29025,Serrinha - BA
+293150,29025,Serrinha - BA
+293190,29025,Serrinha - BA
+293300,29025,Serrinha - BA
+290080,29026,Teixeira de Freitas - BA
+290690,29026,Teixeira de Freitas - BA
+291280,29026,Teixeira de Freitas - BA
+291560,29026,Teixeira de Freitas - BA
+291600,29026,Teixeira de Freitas - BA
+291845,29026,Teixeira de Freitas - BA
+291890,29026,Teixeira de Freitas - BA
+292110,29026,Teixeira de Freitas - BA
+292200,29026,Teixeira de Freitas - BA
+292300,29026,Teixeira de Freitas - BA
+292550,29026,Teixeira de Freitas - BA
+293135,29026,Teixeira de Freitas - BA
+293325,29026,Teixeira de Freitas - BA
+290540,29027,ValenÃ§a - BA
+290580,29027,ValenÃ§a - BA
+291120,29027,ValenÃ§a - BA
+291345,29027,ValenÃ§a - BA
+291730,29027,ValenÃ§a - BA
+292260,29027,ValenÃ§a - BA
+292275,29027,ValenÃ§a - BA
+292467,29027,ValenÃ§a - BA
+293120,29027,ValenÃ§a - BA
+293160,29027,ValenÃ§a - BA
+293290,29027,ValenÃ§a - BA
+293350,29027,ValenÃ§a - BA
+290120,29028,VitÃ³ria da Conquista - BA
+290290,29028,VitÃ³ria da Conquista - BA
+290350,29028,VitÃ³ria da Conquista - BA
+290395,29028,VitÃ³ria da Conquista - BA
+290515,29028,VitÃ³ria da Conquista - BA
+290670,29028,VitÃ³ria da Conquista - BA
+290689,29028,VitÃ³ria da Conquista - BA
+290870,29028,VitÃ³ria da Conquista - BA
+290900,29028,VitÃ³ria da Conquista - BA
+291040,29028,VitÃ³ria da Conquista - BA
+291995,29028,VitÃ³ria da Conquista - BA
+292145,29028,VitÃ³ria da Conquista - BA
+292470,29028,VitÃ³ria da Conquista - BA
+292500,29028,VitÃ³ria da Conquista - BA
+292510,29028,VitÃ³ria da Conquista - BA
+292570,29028,VitÃ³ria da Conquista - BA
+292665,29028,VitÃ³ria da Conquista - BA
+293180,29028,VitÃ³ria da Conquista - BA
+293330,29028,VitÃ³ria da Conquista - BA
+310160,31001,Alfenas/Machado - MG
+310200,31001,Alfenas/Machado - MG
+310430,31001,Alfenas/Machado - MG
+310530,31001,Alfenas/Machado - MG
+310840,31001,Alfenas/Machado - MG
+311100,31001,Alfenas/Machado - MG
+311130,31001,Alfenas/Machado - MG
+311160,31001,Alfenas/Machado - MG
+311470,31001,Alfenas/Machado - MG
+311710,31001,Alfenas/Machado - MG
+312240,31001,Alfenas/Machado - MG
+312520,31001,Alfenas/Machado - MG
+313900,31001,Alfenas/Machado - MG
+314720,31001,Alfenas/Machado - MG
+315170,31001,Alfenas/Machado - MG
+316690,31001,Alfenas/Machado - MG
+310410,31002,GuaxupÃ© - MG
+310950,31002,GuaxupÃ© - MG
+312830,31002,GuaxupÃ© - MG
+312870,31002,GuaxupÃ© - MG
+313690,31002,GuaxupÃ© - MG
+314300,31002,GuaxupÃ© - MG
+314410,31002,GuaxupÃ© - MG
+316390,31002,GuaxupÃ© - MG
+310890,31003,ItajubÃ¡ - MG
+311720,31003,ItajubÃ¡ - MG
+311850,31003,ItajubÃ¡ - MG
+312110,31003,ItajubÃ¡ - MG
+312740,31003,ItajubÃ¡ - MG
+313240,31003,ItajubÃ¡ - MG
+313990,31003,ItajubÃ¡ - MG
+314040,31003,ItajubÃ¡ - MG
+314730,31003,ItajubÃ¡ - MG
+314910,31003,ItajubÃ¡ - MG
+315090,31003,ItajubÃ¡ - MG
+315100,31003,ItajubÃ¡ - MG
+316320,31003,ItajubÃ¡ - MG
+316540,31003,ItajubÃ¡ - MG
+317220,31003,ItajubÃ¡ - MG
+311460,31004,Lavras - MG
+313040,31004,Lavras - MG
+313080,31004,Lavras - MG
+313430,31004,Lavras - MG
+313450,31004,Lavras - MG
+313820,31004,Lavras - MG
+313870,31004,Lavras - MG
+314460,31004,Lavras - MG
+314990,31004,Lavras - MG
+315470,31004,Lavras - MG
+310140,31006,PoÃ§os de Caldas - MG
+310260,31006,PoÃ§os de Caldas - MG
+311030,31006,PoÃ§os de Caldas - MG
+312990,31006,PoÃ§os de Caldas - MG
+315180,31006,PoÃ§os de Caldas - MG
+315920,31006,PoÃ§os de Caldas - MG
+310790,31007,Pouso Alegre - MG
+310830,31007,Pouso Alegre - MG
+310910,31007,Pouso Alegre - MG
+310970,31007,Pouso Alegre - MG
+311050,31007,Pouso Alegre - MG
+311060,31007,Pouso Alegre - MG
+311360,31007,Pouso Alegre - MG
+311780,31007,Pouso Alegre - MG
+311790,31007,Pouso Alegre - MG
+311990,31007,Pouso Alegre - MG
+312440,31007,Pouso Alegre - MG
+312450,31007,Pouso Alegre - MG
+312510,31007,Pouso Alegre - MG
+312920,31007,Pouso Alegre - MG
+313060,31007,Pouso Alegre - MG
+313150,31007,Pouso Alegre - MG
+313360,31007,Pouso Alegre - MG
+313490,31007,Pouso Alegre - MG
+314340,31007,Pouso Alegre - MG
+314380,31007,Pouso Alegre - MG
+314440,31007,Pouso Alegre - MG
+314600,31007,Pouso Alegre - MG
+315250,31007,Pouso Alegre - MG
+315960,31007,Pouso Alegre - MG
+316230,31007,Pouso Alegre - MG
+316440,31007,Pouso Alegre - MG
+316557,31007,Pouso Alegre - MG
+316580,31007,Pouso Alegre - MG
+316740,31007,Pouso Alegre - MG
+316905,31007,Pouso Alegre - MG
+316910,31007,Pouso Alegre - MG
+316980,31007,Pouso Alegre - MG
+310120,31008,SÃ£o LourenÃ§o - MG
+310130,31008,SÃ£o LourenÃ§o - MG
+310490,31008,SÃ£o LourenÃ§o - MG
+311410,31008,SÃ£o LourenÃ§o - MG
+311480,31008,SÃ£o LourenÃ§o - MG
+311550,31008,SÃ£o LourenÃ§o - MG
+311770,31008,SÃ£o LourenÃ§o - MG
+312050,31008,SÃ£o LourenÃ§o - MG
+312080,31008,SÃ£o LourenÃ§o - MG
+312280,31008,SÃ£o LourenÃ§o - MG
+313300,31008,SÃ£o LourenÃ§o - MG
+313310,31008,SÃ£o LourenÃ§o - MG
+313590,31008,SÃ£o LourenÃ§o - MG
+313780,31008,SÃ£o LourenÃ§o - MG
+314190,31008,SÃ£o LourenÃ§o - MG
+314550,31008,SÃ£o LourenÃ§o - MG
+314760,31008,SÃ£o LourenÃ§o - MG
+315260,31008,SÃ£o LourenÃ§o - MG
+316370,31008,SÃ£o LourenÃ§o - MG
+316490,31008,SÃ£o LourenÃ§o - MG
+316640,31008,SÃ£o LourenÃ§o - MG
+316700,31008,SÃ£o LourenÃ§o - MG
+316780,31008,SÃ£o LourenÃ§o - MG
+317170,31008,SÃ£o LourenÃ§o - MG
+313290,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+313480,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+314320,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+315290,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+316470,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+316510,31009,SÃ£o SebastiÃ£o do ParaÃ­so - MG
+311070,31010,TrÃªs CoraÃ§Ãµes - MG
+311390,31010,TrÃªs CoraÃ§Ãµes - MG
+316080,31010,TrÃªs CoraÃ§Ãµes - MG
+316520,31010,TrÃªs CoraÃ§Ãµes - MG
+316930,31010,TrÃªs CoraÃ§Ãµes - MG
+310710,31011,TrÃªs Pontas - MG
+311870,31011,TrÃªs Pontas - MG
+313050,31011,TrÃªs Pontas - MG
+315830,31011,TrÃªs Pontas - MG
+316940,31011,TrÃªs Pontas - MG
+311090,31012,Varginha  - MG
+311900,31012,Varginha  - MG
+312360,31012,Varginha  - MG
+314260,31012,Varginha  - MG
+316200,31012,Varginha  - MG
+317070,31012,Varginha  - MG
+310163,31013,Barbacena - MG
+310210,31013,Barbacena - MG
+310290,31013,Barbacena - MG
+310560,31013,Barbacena - MG
+311220,31013,Barbacena - MG
+311320,31013,Barbacena - MG
+311630,31013,Barbacena - MG
+312150,31013,Barbacena - MG
+312940,31013,Barbacena - MG
+314660,31013,Barbacena - MG
+315440,31013,Barbacena - MG
+315730,31013,Barbacena - MG
+315870,31013,Barbacena - MG
+315940,31013,Barbacena - MG
+316620,31013,Barbacena - MG
+310590,31015,SÃ£o JoÃ£o Del Rei - MG
+310800,31015,SÃ£o JoÃ£o Del Rei - MG
+311520,31015,SÃ£o JoÃ£o Del Rei - MG
+311970,31015,SÃ£o JoÃ£o Del Rei - MG
+312300,31015,SÃ£o JoÃ£o Del Rei - MG
+313000,31015,SÃ£o JoÃ£o Del Rei - MG
+313740,31015,SÃ£o JoÃ£o Del Rei - MG
+313910,31015,SÃ£o JoÃ£o Del Rei - MG
+314450,31015,SÃ£o JoÃ£o Del Rei - MG
+315030,31015,SÃ£o JoÃ£o Del Rei - MG
+315270,31015,SÃ£o JoÃ£o Del Rei - MG
+315420,31015,SÃ£o JoÃ£o Del Rei - MG
+315610,31015,SÃ£o JoÃ£o Del Rei - MG
+315733,31015,SÃ£o JoÃ£o Del Rei - MG
+316250,31015,SÃ£o JoÃ£o Del Rei - MG
+316500,31015,SÃ£o JoÃ£o Del Rei - MG
+316530,31015,SÃ£o JoÃ£o Del Rei - MG
+316880,31015,SÃ£o JoÃ£o Del Rei - MG
+310620,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+310640,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+311000,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+313460,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+313660,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+314230,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+314480,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+315390,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+315460,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+315480,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+315670,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+315780,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+316830,31016,Belo Horizonte/Nova Lima/Santa Luzia   - MG
+310670,31017,Betim - MG
+310810,31017,Betim - MG
+310900,31017,Betim - MG
+312060,31017,Betim - MG
+312410,31017,Betim - MG
+312600,31017,Betim - MG
+313010,31017,Betim - MG
+313665,31017,Betim - MG
+314015,31017,Betim - MG
+314070,31017,Betim - MG
+315040,31017,Betim - MG
+315530,31017,Betim - MG
+316292,31017,Betim - MG
+311860,31018,Contagem - MG
+312980,31018,Contagem - MG
+316553,31018,Contagem - MG
+310480,31019,Curvelo - MG
+310920,31019,Curvelo - MG
+311910,31019,Curvelo - MG
+312090,31019,Curvelo - MG
+312570,31019,Curvelo - MG
+313110,31019,Curvelo - MG
+314250,31019,Curvelo - MG
+314360,31019,Curvelo - MG
+315320,31019,Curvelo - MG
+316060,31019,Curvelo - MG
+316935,31019,Curvelo - MG
+311380,31020,GuanhÃ£es - MG
+312260,31020,GuanhÃ£es - MG
+312310,31020,GuanhÃ£es - MG
+312800,31020,GuanhÃ£es - MG
+314060,31020,GuanhÃ£es - MG
+315600,31020,GuanhÃ£es - MG
+315680,31020,GuanhÃ£es - MG
+316610,31020,GuanhÃ£es - MG
+317180,31020,GuanhÃ£es - MG
+310540,31021,Itabira - MG
+310770,31021,Itabira - MG
+311535,31021,Itabira - MG
+312590,31021,Itabira - MG
+313170,31021,Itabira - MG
+313280,31021,Itabira - MG
+314370,31021,Itabira - MG
+314750,31021,Itabira - MG
+315720,31021,Itabira - MG
+315800,31021,Itabira - MG
+316050,31021,Itabira - MG
+316190,31021,Itabira - MG
+316480,31021,Itabira - MG
+313190,31022,Ouro Preto - MG
+314000,31022,Ouro Preto - MG
+314610,31022,Ouro Preto - MG
+310600,31023,JoÃ£o Monlevade - MG
+313620,31023,JoÃ£o Monlevade - MG
+314470,31023,JoÃ£o Monlevade - MG
+315570,31023,JoÃ£o Monlevade - MG
+316100,31023,JoÃ£o Monlevade - MG
+310020,31024,Sete Lagoas - MG
+310320,31024,Sete Lagoas - MG
+310500,31024,Sete Lagoas - MG
+310700,31024,Sete Lagoas - MG
+310960,31024,Sete Lagoas - MG
+310990,31024,Sete Lagoas - MG
+311250,31024,Sete Lagoas - MG
+311560,31024,Sete Lagoas - MG
+311890,31024,Sete Lagoas - MG
+312640,31024,Sete Lagoas - MG
+312720,31024,Sete Lagoas - MG
+313100,31024,Sete Lagoas - MG
+313570,31024,Sete Lagoas - MG
+313970,31024,Sete Lagoas - MG
+314350,31024,Sete Lagoas - MG
+314640,31024,Sete Lagoas - MG
+314690,31024,Sete Lagoas - MG
+314740,31024,Sete Lagoas - MG
+314960,31024,Sete Lagoas - MG
+315200,31024,Sete Lagoas - MG
+315360,31024,Sete Lagoas - MG
+315370,31024,Sete Lagoas - MG
+315850,31024,Sete Lagoas - MG
+316720,31024,Sete Lagoas - MG
+311787,31025,Vespasiano/Lagoa Santa - MG
+313760,31025,Vespasiano/Lagoa Santa - MG
+314110,31025,Vespasiano/Lagoa Santa - MG
+314930,31025,Vespasiano/Lagoa Santa - MG
+315900,31025,Vespasiano/Lagoa Santa - MG
+316295,31025,Vespasiano/Lagoa Santa - MG
+317120,31025,Vespasiano/Lagoa Santa - MG
+311350,31026,Diamantina/Itamarandiba - MG
+311680,31026,Diamantina/Itamarandiba - MG
+311810,31026,Diamantina/Itamarandiba - MG
+312010,31026,Diamantina/Itamarandiba - MG
+312100,31026,Diamantina/Itamarandiba - MG
+312160,31026,Diamantina/Itamarandiba - MG
+312540,31026,Diamantina/Itamarandiba - MG
+312550,31026,Diamantina/Itamarandiba - MG
+312760,31026,Diamantina/Itamarandiba - MG
+313250,31026,Diamantina/Itamarandiba - MG
+315330,31026,Diamantina/Itamarandiba - MG
+316590,31026,Diamantina/Itamarandiba - MG
+310445,31027,Turmalina/Minas Novas/Capelinha - MG
+311230,31027,Turmalina/Minas Novas/Capelinha - MG
+311610,31027,Turmalina/Minas Novas/Capelinha - MG
+313652,31027,Turmalina/Minas Novas/Capelinha - MG
+313835,31027,Turmalina/Minas Novas/Capelinha - MG
+314180,31027,Turmalina/Minas Novas/Capelinha - MG
+316970,31027,Turmalina/Minas Novas/Capelinha - MG
+317107,31027,Turmalina/Minas Novas/Capelinha - MG
+310740,31028,Bom Despacho - MG
+312320,31028,Bom Despacho - MG
+312470,31028,Bom Despacho - MG
+313880,31028,Bom Despacho - MG
+314050,31028,Bom Despacho - MG
+314240,31028,Bom Despacho - MG
+316660,31028,Bom Despacho - MG
+310510,31030,Formiga - MG
+311980,31030,Formiga - MG
+311995,31030,Formiga - MG
+312610,31030,Formiga - MG
+313030,31030,Formiga - MG
+314130,31030,Formiga - MG
+314650,31030,Formiga - MG
+316820,31030,Formiga - MG
+313220,31031,ItaÃºna - MG
+313370,31031,ItaÃºna - MG
+313380,31031,ItaÃºna - MG
+315060,31031,ItaÃºna - MG
+311760,31032,ParÃ¡ de Minas/Nova Serrana - MG
+313020,31032,ParÃ¡ de Minas/Nova Serrana - MG
+313830,31032,ParÃ¡ de Minas/Nova Serrana - MG
+314520,31032,ParÃ¡ de Minas/Nova Serrana - MG
+314580,31032,ParÃ¡ de Minas/Nova Serrana - MG
+314710,31032,ParÃ¡ de Minas/Nova Serrana - MG
+315140,31032,ParÃ¡ de Minas/Nova Serrana - MG
+316310,31032,ParÃ¡ de Minas/Nova Serrana - MG
+310780,31034,Caratinga - MG
+311340,31034,Caratinga - MG
+312385,31034,Caratinga - MG
+313055,31034,Caratinga - MG
+313090,31034,Caratinga - MG
+315015,31034,Caratinga - MG
+315725,31034,Caratinga - MG
+315935,31034,Caratinga - MG
+316095,31034,Caratinga - MG
+316447,31034,Caratinga - MG
+317005,31034,Caratinga - MG
+317057,31034,Caratinga - MG
+317115,31034,Caratinga - MG
+310300,31035,Coronel Fabriciano/TimÃ³teo - MG
+311940,31035,Coronel Fabriciano/TimÃ³teo - MG
+312000,31035,Coronel Fabriciano/TimÃ³teo - MG
+312180,31035,Coronel Fabriciano/TimÃ³teo - MG
+313500,31035,Coronel Fabriciano/TimÃ³teo - MG
+314030,31035,Coronel Fabriciano/TimÃ³teo - MG
+315053,31035,Coronel Fabriciano/TimÃ³teo - MG
+316870,31035,Coronel Fabriciano/TimÃ³teo - MG
+310180,31036,Governador Valadares - MG
+310220,31036,Governador Valadares - MG
+311265,31036,Governador Valadares - MG
+311920,31036,Governador Valadares - MG
+312220,31036,Governador Valadares - MG
+312370,31036,Governador Valadares - MG
+312580,31036,Governador Valadares - MG
+312690,31036,Governador Valadares - MG
+312730,31036,Governador Valadares - MG
+312750,31036,Governador Valadares - MG
+312770,31036,Governador Valadares - MG
+313320,31036,Governador Valadares - MG
+313507,31036,Governador Valadares - MG
+314010,31036,Governador Valadares - MG
+314420,31036,Governador Valadares - MG
+315750,31036,Governador Valadares - MG
+316160,31036,Governador Valadares - MG
+316165,31036,Governador Valadares - MG
+316300,31036,Governador Valadares - MG
+316550,31036,Governador Valadares - MG
+316770,31036,Governador Valadares - MG
+316840,31036,Governador Valadares - MG
+316950,31036,Governador Valadares - MG
+317150,31036,Governador Valadares - MG
+317190,31036,Governador Valadares - MG
+310050,31037,Ipatinga - MG
+310630,31037,Ipatinga - MG
+310880,31037,Ipatinga - MG
+310925,31037,Ipatinga - MG
+312250,31037,Ipatinga - MG
+312930,31037,Ipatinga - MG
+313115,31037,Ipatinga - MG
+313130,31037,Ipatinga - MG
+313610,31037,Ipatinga - MG
+314170,31037,Ipatinga - MG
+314435,31037,Ipatinga - MG
+314995,31037,Ipatinga - MG
+315895,31037,Ipatinga - MG
+316260,31037,Ipatinga - MG
+311570,31038,Mantena - MG
+312210,31038,Mantena - MG
+313180,31038,Mantena - MG
+313960,31038,Mantena - MG
+314150,31038,Mantena - MG
+314467,31038,Mantena - MG
+316105,31038,Mantena - MG
+316257,31038,Mantena - MG
+310110,31040,Resplendor - MG
+311840,31040,Resplendor - MG
+312083,31040,Resplendor - MG
+312737,31040,Resplendor - MG
+313410,31040,Resplendor - MG
+315430,31040,Resplendor - MG
+315950,31040,Resplendor - MG
+310150,31041,AlÃ©m ParaÃ­ba - MG
+312460,31041,AlÃ©m ParaÃ­ba - MG
+315110,31041,AlÃ©m ParaÃ­ba - MG
+316000,31041,AlÃ©m ParaÃ­ba - MG
+317210,31041,AlÃ©m ParaÃ­ba - MG
+311010,31042,Carangola - MG
+311210,31042,Carangola - MG
+311330,31042,Carangola - MG
+312200,31042,Carangola - MG
+312420,31042,Carangola - MG
+312530,31042,Carangola - MG
+312595,31042,Carangola - MG
+314587,31042,Carangola - MG
+314875,31042,Carangola - MG
+314900,31042,Carangola - MG
+316920,31042,Carangola - MG
+310440,31044,Leopoldina/Cataguases - MG
+310460,31044,Leopoldina/Cataguases - MG
+311530,31044,Leopoldina/Cataguases - MG
+312290,31044,Leopoldina/Cataguases - MG
+313260,31044,Leopoldina/Cataguases - MG
+313800,31044,Leopoldina/Cataguases - MG
+313840,31044,Leopoldina/Cataguases - MG
+314670,31044,Leopoldina/Cataguases - MG
+315410,31044,Leopoldina/Cataguases - MG
+315840,31044,Leopoldina/Cataguases - MG
+310310,31045,MuriaÃ© - MG
+310550,31045,MuriaÃ© - MG
+312490,31045,MuriaÃ© - MG
+314210,31045,MuriaÃ© - MG
+314220,31045,MuriaÃ© - MG
+314390,31045,MuriaÃ© - MG
+314820,31045,MuriaÃ© - MG
+315645,31045,MuriaÃ© - MG
+316140,31045,MuriaÃ© - MG
+316443,31045,MuriaÃ© - MG
+317140,31045,MuriaÃ© - MG
+310330,31046,Santos Dumont - MG
+314570,31046,Santos Dumont - MG
+316070,31046,Santos Dumont - MG
+310690,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+312130,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+312850,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+313980,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+314020,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+314950,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+315620,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+316290,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+316560,31047,SÃ£o JoÃ£o Nepomuceno/Bicas - MG
+310870,31048,UbÃ¡ - MG
+311670,31048,UbÃ¡ - MG
+312190,31048,UbÃ¡ - MG
+312330,31048,UbÃ¡ - MG
+312400,31048,UbÃ¡ - MG
+312840,31048,UbÃ¡ - MG
+312880,31048,UbÃ¡ - MG
+312900,31048,UbÃ¡ - MG
+314160,31048,UbÃ¡ - MG
+315130,31048,UbÃ¡ - MG
+315310,31048,UbÃ¡ - MG
+315580,31048,UbÃ¡ - MG
+315630,31048,UbÃ¡ - MG
+316150,31048,UbÃ¡ - MG
+316570,31048,UbÃ¡ - MG
+316730,31048,UbÃ¡ - MG
+316790,31048,UbÃ¡ - MG
+316900,31048,UbÃ¡ - MG
+316990,31048,UbÃ¡ - MG
+317200,31048,UbÃ¡ - MG
+311880,31050,CoraÃ§Ã£o de Jesus - MG
+313560,31050,CoraÃ§Ã£o de Jesus - MG
+313730,31050,CoraÃ§Ã£o de Jesus - MG
+316225,31050,CoraÃ§Ã£o de Jesus - MG
+316265,31050,CoraÃ§Ã£o de Jesus - MG
+310850,31051,Francisco SÃ¡ - MG
+311270,31051,Francisco SÃ¡ - MG
+312030,31051,Francisco SÃ¡ - MG
+312670,31051,Francisco SÃ¡ - MG
+312780,31051,Francisco SÃ¡ - MG
+313657,31051,Francisco SÃ¡ - MG
+311547,31052,JanaÃºba/Monte Azul - MG
+312430,31052,JanaÃºba/Monte Azul - MG
+312733,31052,JanaÃºba/Monte Azul - MG
+313505,31052,JanaÃºba/Monte Azul - MG
+313510,31052,JanaÃºba/Monte Azul - MG
+313925,31052,JanaÃºba/Monte Azul - MG
+314085,31052,JanaÃºba/Monte Azul - MG
+314100,31052,JanaÃºba/Monte Azul - MG
+314290,31052,JanaÃºba/Monte Azul - MG
+314505,31052,JanaÃºba/Monte Azul - MG
+314655,31052,JanaÃºba/Monte Azul - MG
+315220,31052,JanaÃºba/Monte Azul - MG
+315450,31052,JanaÃºba/Monte Azul - MG
+316695,31052,JanaÃºba/Monte Azul - MG
+317103,31052,JanaÃºba/Monte Azul - MG
+310825,31053,JanuÃ¡ria - MG
+311783,31053,JanuÃ¡ria - MG
+313210,31053,JanuÃ¡ria - MG
+313520,31053,JanuÃ¡ria - MG
+314915,31053,JanuÃ¡ria - MG
+310940,31055,Pirapora - MG
+312960,31055,Pirapora - MG
+313810,31055,Pirapora - MG
+315120,31055,Pirapora - MG
+315213,31055,Pirapora - MG
+315760,31055,Pirapora - MG
+317080,31055,Pirapora - MG
+312070,31057,Patos de Minas - MG
+312860,31057,Patos de Minas - MG
+312890,31057,Patos de Minas - MG
+313710,31057,Patos de Minas - MG
+313750,31057,Patos de Minas - MG
+314800,31057,Patos de Minas - MG
+315340,31057,Patos de Minas - MG
+316170,31057,Patos de Minas - MG
+316680,31057,Patos de Minas - MG
+317075,31057,Patos de Minas - MG
+317100,31057,Patos de Minas - MG
+310450,31058,UnaÃ­/Paracatu - MG
+310820,31058,UnaÃ­/Paracatu - MG
+310930,31058,UnaÃ­/Paracatu - MG
+310945,31058,UnaÃ­/Paracatu - MG
+311615,31058,UnaÃ­/Paracatu - MG
+312247,31058,UnaÃ­/Paracatu - MG
+312620,31058,UnaÃ­/Paracatu - MG
+314437,31058,UnaÃ­/Paracatu - MG
+314700,31058,UnaÃ­/Paracatu - MG
+315445,31058,UnaÃ­/Paracatu - MG
+317040,31058,UnaÃ­/Paracatu - MG
+317047,31058,UnaÃ­/Paracatu - MG
+310030,31059,ManhuaÃ§u - MG
+310205,31059,ManhuaÃ§u - MG
+311290,31059,ManhuaÃ§u - MG
+311600,31059,ManhuaÃ§u - MG
+311740,31059,ManhuaÃ§u - MG
+312352,31059,ManhuaÃ§u - MG
+313120,31059,ManhuaÃ§u - MG
+313770,31059,ManhuaÃ§u - MG
+313867,31059,ManhuaÃ§u - MG
+313940,31059,ManhuaÃ§u - MG
+313950,31059,ManhuaÃ§u - MG
+314053,31059,ManhuaÃ§u - MG
+314090,31059,ManhuaÃ§u - MG
+314400,31059,ManhuaÃ§u - MG
+315190,31059,ManhuaÃ§u - MG
+315350,31059,ManhuaÃ§u - MG
+315415,31059,ManhuaÃ§u - MG
+315790,31059,ManhuaÃ§u - MG
+315890,31059,ManhuaÃ§u - MG
+316255,31059,ManhuaÃ§u - MG
+316360,31059,ManhuaÃ§u - MG
+316760,31059,ManhuaÃ§u - MG
+316805,31059,ManhuaÃ§u - MG
+310040,31060,Ponte Nova - MG
+310230,31060,Ponte Nova - MG
+310250,31060,Ponte Nova - MG
+310570,31060,Ponte Nova - MG
+312170,31060,Ponte Nova - MG
+312270,31060,Ponte Nova - MG
+312820,31060,Ponte Nova - MG
+313550,31060,Ponte Nova - MG
+314585,31060,Ponte Nova - MG
+315020,31060,Ponte Nova - MG
+315210,31060,Ponte Nova - MG
+315400,31060,Ponte Nova - MG
+315490,31060,Ponte Nova - MG
+315500,31060,Ponte Nova - MG
+315740,31060,Ponte Nova - MG
+316010,31060,Ponte Nova - MG
+316340,31060,Ponte Nova - MG
+316400,31060,Ponte Nova - MG
+316556,31060,Ponte Nova - MG
+316630,31060,Ponte Nova - MG
+317050,31060,Ponte Nova - MG
+310370,31061,ViÃ§osa - MG
+311020,31061,ViÃ§osa - MG
+311170,31061,ViÃ§osa - MG
+314830,31061,ViÃ§osa - MG
+314880,31061,ViÃ§osa - MG
+315230,31061,ViÃ§osa - MG
+316380,31061,ViÃ§osa - MG
+316850,31061,ViÃ§osa - MG
+317130,31061,ViÃ§osa - MG
+310090,31062,Ãguas Formosas - MG
+310660,31062,Ãguas Formosas - MG
+312015,31062,Ãguas Formosas - MG
+312705,31062,Ãguas Formosas - MG
+313890,31062,Ãguas Formosas - MG
+314850,31062,Ãguas Formosas - MG
+315765,31062,Ãguas Formosas - MG
+317030,31062,Ãguas Formosas - MG
+310340,31064,AraÃ§uaÃ­ - MG
+310650,31064,AraÃ§uaÃ­ - MG
+311950,31064,AraÃ§uaÃ­ - MG
+312650,31064,AraÃ§uaÃ­ - MG
+313545,31064,AraÃ§uaÃ­ - MG
+317160,31064,AraÃ§uaÃ­ - MG
+311700,31065,Itaobim - MG
+313330,31065,Itaobim - MG
+313400,31065,Itaobim - MG
+314140,31065,Itaobim - MG
+314315,31065,Itaobim - MG
+315217,31065,Itaobim - MG
+311370,31066,Nanuque - MG
+314430,31066,Nanuque - MG
+316670,31066,Nanuque - MG
+311300,31067,Padre ParaÃ­so - MG
+311545,31067,Padre ParaÃ­so - MG
+313230,31067,Padre ParaÃ­so - MG
+314630,31067,Padre ParaÃ­so - MG
+310100,31068,Pedra azul - MG
+310270,31068,Pedra azul - MG
+312235,31068,Pedra azul - MG
+312245,31068,Pedra azul - MG
+314870,31068,Pedra azul - MG
+310400,31070,AraxÃ¡ - MG
+311150,31070,AraxÃ¡ - MG
+312950,31070,AraxÃ¡ - MG
+314920,31070,AraxÃ¡ - MG
+314980,31070,AraxÃ¡ - MG
+315300,31070,AraxÃ¡ - MG
+315770,31070,AraxÃ¡ - MG
+316810,31070,AraxÃ¡ - MG
+311455,31071,Frutal/Iturama - MG
+311690,31071,Frutal/Iturama - MG
+312700,31071,Frutal/Iturama - MG
+312710,31071,Frutal/Iturama - MG
+313340,31071,Frutal/Iturama - MG
+313440,31071,Frutal/Iturama - MG
+313862,31071,Frutal/Iturama - MG
+315070,31071,Frutal/Iturama - MG
+315160,31071,Frutal/Iturama - MG
+316130,31071,Frutal/Iturama - MG
+317043,31071,Frutal/Iturama - MG
+310070,31072,Uberaba - MG
+311140,31072,Uberaba - MG
+311730,31072,Uberaba - MG
+311820,31072,Uberaba - MG
+312125,31072,Uberaba - MG
+315690,31072,Uberaba - MG
+317010,31072,Uberaba - MG
+317110,31072,Uberaba - MG
+310980,31073,Ituiutaba - MG
+311110,31073,Ituiutaba - MG
+311180,31073,Ituiutaba - MG
+311260,31073,Ituiutaba - MG
+311580,31073,Ituiutaba - MG
+312910,31073,Ituiutaba - MG
+313140,31073,Ituiutaba - MG
+313420,31073,Ituiutaba - MG
+315980,31073,Ituiutaba - MG
+310010,31074,PatrocÃ­nio/Monte Carmelo - MG
+311930,31074,PatrocÃ­nio/Monte Carmelo - MG
+312350,31074,PatrocÃ­nio/Monte Carmelo - MG
+312480,31074,PatrocÃ­nio/Monte Carmelo - MG
+312790,31074,PatrocÃ­nio/Monte Carmelo - MG
+313160,31074,PatrocÃ­nio/Monte Carmelo - MG
+314310,31074,PatrocÃ­nio/Monte Carmelo - MG
+314810,31074,PatrocÃ­nio/Monte Carmelo - MG
+315640,31074,PatrocÃ­nio/Monte Carmelo - MG
+310350,31075,UberlÃ¢ndia/Araguari - MG
+310375,31075,UberlÃ¢ndia/Araguari - MG
+311500,31075,UberlÃ¢ndia/Araguari - MG
+313070,31075,UberlÃ¢ndia/Araguari - MG
+314280,31075,UberlÃ¢ndia/Araguari - MG
+314500,31075,UberlÃ¢ndia/Araguari - MG
+315280,31075,UberlÃ¢ndia/Araguari - MG
+316960,31075,UberlÃ¢ndia/Araguari - MG
+317020,31075,UberlÃ¢ndia/Araguari - MG
+313695,31076,Manga - MG
+313930,31076,Manga - MG
+314225,31076,Manga - MG
+314270,31076,Manga - MG
+316245,31076,Manga - MG
+310855,31077,JoÃ£o Pinheiro - MG
+313630,31077,JoÃ£o Pinheiro - MG
+313753,31077,JoÃ£o Pinheiro - MG
+311800,31078,Congonhas - MG
+312140,31078,Congonhas - MG
+312390,31078,Congonhas - MG
+313540,31078,Congonhas - MG
+314590,31078,Congonhas - MG
+316090,31078,Congonhas - MG
+311310,31079,Conselheiro Lafaiete - MG
+311490,31079,Conselheiro Lafaiete - MG
+311540,31079,Conselheiro Lafaiete - MG
+311830,31079,Conselheiro Lafaiete - MG
+312040,31079,Conselheiro Lafaiete - MG
+313390,31079,Conselheiro Lafaiete - MG
+313790,31079,Conselheiro Lafaiete - MG
+315080,31079,Conselheiro Lafaiete - MG
+315380,31079,Conselheiro Lafaiete - MG
+315520,31079,Conselheiro Lafaiete - MG
+315910,31079,Conselheiro Lafaiete - MG
+316600,31079,Conselheiro Lafaiete - MG
+310380,31082,SÃ£o Gotardo - MG
+311430,31082,SÃ£o Gotardo - MG
+314120,31082,SÃ£o Gotardo - MG
+315550,31082,SÃ£o Gotardo - MG
+315970,31082,SÃ£o Gotardo - MG
+316210,31082,SÃ£o Gotardo - MG
+316890,31082,SÃ£o Gotardo - MG
+310730,31083,BocaiÃºva - MG
+312380,31083,BocaiÃºva - MG
+312660,31083,BocaiÃºva - MG
+312825,31083,BocaiÃºva - MG
+313640,31083,BocaiÃºva - MG
+314545,31083,BocaiÃºva - MG
+311650,31084,Montes Claros  - MG
+312735,31084,Montes Claros  - MG
+313200,31084,Montes Claros  - MG
+313680,31084,Montes Claros  - MG
+314200,31084,Montes Claros  - MG
+314330,31084,Montes Claros  - MG
+310665,31085,Taiobeiras - MG
+312087,31085,Taiobeiras - MG
+313065,31085,Taiobeiras - MG
+314345,31085,Taiobeiras - MG
+314465,31085,Taiobeiras - MG
+315560,31085,Taiobeiras - MG
+316045,31085,Taiobeiras - MG
+316270,31085,Taiobeiras - MG
+316800,31085,Taiobeiras - MG
+317065,31085,Taiobeiras - MG
+310390,31086,DivinÃ³polis - MG
+311420,31086,DivinÃ³polis - MG
+311660,31086,DivinÃ³polis - MG
+312230,31086,DivinÃ³polis - MG
+313350,31086,DivinÃ³polis - MG
+314970,31086,DivinÃ³polis - MG
+316180,31086,DivinÃ³polis - MG
+316460,31086,DivinÃ³polis - MG
+310420,31087,Lagoa da Prata/Santo AntÃ´nio do Monte - MG
+313530,31087,Lagoa da Prata/Santo AntÃ´nio do Monte - MG
+313720,31087,Lagoa da Prata/Santo AntÃ´nio do Monte - MG
+314890,31087,Lagoa da Prata/Santo AntÃ´nio do Monte - MG
+316040,31087,Lagoa da Prata/Santo AntÃ´nio do Monte - MG
+311400,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+311450,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+314560,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+314770,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+315990,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+316120,31088,Oliveira/Santo AntÃ´nio do Amparo - MG
+310080,31089,Campo Belo - MG
+311040,31089,Campo Belo - MG
+311120,31089,Campo Belo - MG
+311190,31089,Campo Belo - MG
+311200,31089,Campo Belo - MG
+312020,31089,Campo Belo - MG
+315880,31089,Campo Belo - MG
+310280,31090,Lima Duarte - MG
+310360,31090,Lima Duarte - MG
+310680,31090,Lima Duarte - MG
+310720,31090,Lima Duarte - MG
+310750,31090,Lima Duarte - MG
+313850,31090,Lima Duarte - MG
+313860,31090,Lima Duarte - MG
+314540,31090,Lima Duarte - MG
+314780,31090,Lima Duarte - MG
+314940,31090,Lima Duarte - MG
+315590,31090,Lima Duarte - MG
+315727,31090,Lima Duarte - MG
+315930,31090,Lima Duarte - MG
+311240,31091,CÃ¡ssia - MG
+311510,31091,CÃ¡ssia - MG
+311640,31091,CÃ¡ssia - MG
+312120,31091,CÃ¡ssia - MG
+312970,31091,CÃ¡ssia - MG
+310190,31092,Passos - MG
+310760,31092,Passos - MG
+311440,31092,Passos - MG
+312630,31092,Passos - MG
+313375,31092,Passos - MG
+314510,31092,Passos - MG
+314790,31092,Passos - MG
+316220,31092,Passos - MG
+316294,31092,Passos - MG
+311280,31093,Piumhi - MG
+312340,31093,Piumhi - MG
+312810,31093,Piumhi - MG
+315050,31093,Piumhi - MG
+315150,31093,Piumhi - MG
+316430,31093,Piumhi - MG
+317060,31093,Piumhi - MG
+310170,31094,Almenara/Jacinto - MG
+310520,31094,Almenara/Jacinto - MG
+312560,31094,Almenara/Jacinto - MG
+313470,31094,Almenara/Jacinto - MG
+313580,31094,Almenara/Jacinto - MG
+313600,31094,Almenara/Jacinto - MG
+313650,31094,Almenara/Jacinto - MG
+314055,31094,Almenara/Jacinto - MG
+314675,31094,Almenara/Jacinto - MG
+315510,31094,Almenara/Jacinto - MG
+315660,31094,Almenara/Jacinto - MG
+315710,31094,Almenara/Jacinto - MG
+315810,31094,Almenara/Jacinto - MG
+316030,31094,Almenara/Jacinto - MG
+310240,31095,Serro - MG
+311750,31095,Serro - MG
+316020,31095,Serro - MG
+316650,31095,Serro - MG
+316710,31095,Serro - MG
+311080,31096,Itambacuri - MG
+312680,31096,Itambacuri - MG
+313270,31096,Itambacuri - MG
+314490,31096,Itambacuri - MG
+315000,31096,Itambacuri - MG
+316330,31096,Itambacuri - MG
+310610,31097,Juiz de Fora - MG
+311590,31097,Juiz de Fora - MG
+311620,31097,Juiz de Fora - MG
+311960,31097,Juiz de Fora - MG
+312500,31097,Juiz de Fora - MG
+312738,31097,Juiz de Fora - MG
+313670,31097,Juiz de Fora - MG
+314080,31097,Juiz de Fora - MG
+315010,31097,Juiz de Fora - MG
+315540,31097,Juiz de Fora - MG
+315860,31097,Juiz de Fora - MG
+316750,31097,Juiz de Fora - MG
+312707,31098,Salinas - MG
+314537,31098,Salinas - MG
+314625,31098,Salinas - MG
+315650,31098,Salinas - MG
+315700,31098,Salinas - MG
+315737,31098,Salinas - MG
+310285,31099,TeÃ³filo Otoni/Malacacheta - MG
+310470,31099,TeÃ³filo Otoni/Malacacheta - MG
+312675,31099,TeÃ³filo Otoni/Malacacheta - MG
+313700,31099,TeÃ³filo Otoni/Malacacheta - MG
+313920,31099,TeÃ³filo Otoni/Malacacheta - MG
+314530,31099,TeÃ³filo Otoni/Malacacheta - MG
+314535,31099,TeÃ³filo Otoni/Malacacheta - MG
+314620,31099,TeÃ³filo Otoni/Malacacheta - MG
+315240,31099,TeÃ³filo Otoni/Malacacheta - MG
+316555,31099,TeÃ³filo Otoni/Malacacheta - MG
+316860,31099,TeÃ³filo Otoni/Malacacheta - MG
+313005,31100,SÃ£o Francisco - MG
+315057,31100,SÃ£o Francisco - MG
+316110,31100,SÃ£o Francisco - MG
+316420,31100,SÃ£o Francisco - MG
+317052,31100,SÃ£o Francisco - MG
+310860,31101,BrasÃ­lia de Minas - MG
+311115,31101,BrasÃ­lia de Minas - MG
+312965,31101,BrasÃ­lia de Minas - MG
+313535,31101,BrasÃ­lia de Minas - MG
+313865,31101,BrasÃ­lia de Minas - MG
+313868,31101,BrasÃ­lia de Minas - MG
+314795,31101,BrasÃ­lia de Minas - MG
+316240,31101,BrasÃ­lia de Minas - MG
+317000,31101,BrasÃ­lia de Minas - MG
+317090,31101,BrasÃ­lia de Minas - MG
+310060,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+311205,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+312695,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+313655,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+314840,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+314860,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+315820,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+316280,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+316350,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+316410,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+316450,31102,PeÃ§anha/SÃ£o JoÃ£o Evangelista/Santa Maria do SuaÃ§uÃ­ - MG
+320010,32002,Metropolitana - ES
+320060,32002,Metropolitana - ES
+320115,32002,Metropolitana - ES
+320130,32002,Metropolitana - ES
+320170,32002,Metropolitana - ES
+320190,32002,Metropolitana - ES
+320220,32002,Metropolitana - ES
+320240,32002,Metropolitana - ES
+320245,32002,Metropolitana - ES
+320250,32002,Metropolitana - ES
+320270,32002,Metropolitana - ES
+320290,32002,Metropolitana - ES
+320313,32002,Metropolitana - ES
+320316,32002,Metropolitana - ES
+320334,32002,Metropolitana - ES
+320450,32002,Metropolitana - ES
+320455,32002,Metropolitana - ES
+320460,32002,Metropolitana - ES
+320500,32002,Metropolitana - ES
+320506,32002,Metropolitana - ES
+320510,32002,Metropolitana - ES
+320520,32002,Metropolitana - ES
+320530,32002,Metropolitana - ES
+320020,32004,Sul - ES
+320030,32004,Sul - ES
+320040,32004,Sul - ES
+320050,32004,Sul - ES
+320070,32004,Sul - ES
+320110,32004,Sul - ES
+320120,32004,Sul - ES
+320140,32004,Sul - ES
+320180,32004,Sul - ES
+320200,32004,Sul - ES
+320230,32004,Sul - ES
+320255,32004,Sul - ES
+320260,32004,Sul - ES
+320265,32004,Sul - ES
+320280,32004,Sul - ES
+320300,32004,Sul - ES
+320310,32004,Sul - ES
+320332,32004,Sul - ES
+320340,32004,Sul - ES
+320370,32004,Sul - ES
+320380,32004,Sul - ES
+320420,32004,Sul - ES
+320430,32004,Sul - ES
+320440,32004,Sul - ES
+320480,32004,Sul - ES
+320503,32004,Sul - ES
+320013,32005,Central Norte - ES
+320016,32005,Central Norte - ES
+320035,32005,Central Norte - ES
+320080,32005,Central Norte - ES
+320090,32005,Central Norte - ES
+320100,32005,Central Norte - ES
+320150,32005,Central Norte - ES
+320160,32005,Central Norte - ES
+320210,32005,Central Norte - ES
+320225,32005,Central Norte - ES
+320305,32005,Central Norte - ES
+320320,32005,Central Norte - ES
+320330,32005,Central Norte - ES
+320335,32005,Central Norte - ES
+320350,32005,Central Norte - ES
+320360,32005,Central Norte - ES
+320390,32005,Central Norte - ES
+320400,32005,Central Norte - ES
+320405,32005,Central Norte - ES
+320410,32005,Central Norte - ES
+320425,32005,Central Norte - ES
+320435,32005,Central Norte - ES
+320465,32005,Central Norte - ES
+320470,32005,Central Norte - ES
+320490,32005,Central Norte - ES
+320495,32005,Central Norte - ES
+320501,32005,Central Norte - ES
+320515,32005,Central Norte - ES
+320517,32005,Central Norte - ES
+330010,33001,Baia da Ilha Grande - RJ
+330260,33001,Baia da Ilha Grande - RJ
+330380,33001,Baia da Ilha Grande - RJ
+330020,33002,Baixada LitorÃ¢nea - RJ
+330023,33002,Baixada LitorÃ¢nea - RJ
+330025,33002,Baixada LitorÃ¢nea - RJ
+330070,33002,Baixada LitorÃ¢nea - RJ
+330130,33002,Baixada LitorÃ¢nea - RJ
+330187,33002,Baixada LitorÃ¢nea - RJ
+330452,33002,Baixada LitorÃ¢nea - RJ
+330520,33002,Baixada LitorÃ¢nea - RJ
+330550,33002,Baixada LitorÃ¢nea - RJ
+330022,33003,Centro-Sul - RJ
+330095,33003,Centro-Sul - RJ
+330180,33003,Centro-Sul - RJ
+330280,33003,Centro-Sul - RJ
+330290,33003,Centro-Sul - RJ
+330360,33003,Centro-Sul - RJ
+330370,33003,Centro-Sul - RJ
+330385,33003,Centro-Sul - RJ
+330540,33003,Centro-Sul - RJ
+330600,33003,Centro-Sul - RJ
+330620,33003,Centro-Sul - RJ
+330030,33004,MÃ©dio ParaÃ­ba - RJ
+330040,33004,MÃ©dio ParaÃ­ba - RJ
+330225,33004,MÃ©dio ParaÃ­ba - RJ
+330395,33004,MÃ©dio ParaÃ­ba - RJ
+330400,33004,MÃ©dio ParaÃ­ba - RJ
+330411,33004,MÃ©dio ParaÃ­ba - RJ
+330412,33004,MÃ©dio ParaÃ­ba - RJ
+330420,33004,MÃ©dio ParaÃ­ba - RJ
+330440,33004,MÃ©dio ParaÃ­ba - RJ
+330450,33004,MÃ©dio ParaÃ­ba - RJ
+330610,33004,MÃ©dio ParaÃ­ba - RJ
+330630,33004,MÃ©dio ParaÃ­ba - RJ
+330045,33005,Metropolitana I - RJ
+330170,33005,Metropolitana I - RJ
+330200,33005,Metropolitana I - RJ
+330227,33005,Metropolitana I - RJ
+330250,33005,Metropolitana I - RJ
+330285,33005,Metropolitana I - RJ
+330320,33005,Metropolitana I - RJ
+330350,33005,Metropolitana I - RJ
+330414,33005,Metropolitana I - RJ
+330455,33005,Metropolitana I - RJ
+330510,33005,Metropolitana I - RJ
+330555,33005,Metropolitana I - RJ
+330190,33006,Metropolitana II - RJ
+330270,33006,Metropolitana II - RJ
+330330,33006,Metropolitana II - RJ
+330430,33006,Metropolitana II - RJ
+330490,33006,Metropolitana II - RJ
+330560,33006,Metropolitana II - RJ
+330575,33006,Metropolitana II - RJ
+330015,33007,Noroeste - RJ
+330060,33007,Noroeste - RJ
+330090,33007,Noroeste - RJ
+330115,33007,Noroeste - RJ
+330205,33007,Noroeste - RJ
+330210,33007,Noroeste - RJ
+330220,33007,Noroeste - RJ
+330230,33007,Noroeste - RJ
+330300,33007,Noroeste - RJ
+330310,33007,Noroeste - RJ
+330410,33007,Noroeste - RJ
+330470,33007,Noroeste - RJ
+330513,33007,Noroeste - RJ
+330615,33007,Noroeste - RJ
+330093,33008,Norte - RJ
+330100,33008,Norte - RJ
+330140,33008,Norte - RJ
+330240,33008,Norte - RJ
+330415,33008,Norte - RJ
+330475,33008,Norte - RJ
+330480,33008,Norte - RJ
+330500,33008,Norte - RJ
+330050,33009,Serrana - RJ
+330080,33009,Serrana - RJ
+330110,33009,Serrana - RJ
+330120,33009,Serrana - RJ
+330150,33009,Serrana - RJ
+330160,33009,Serrana - RJ
+330185,33009,Serrana - RJ
+330245,33009,Serrana - RJ
+330340,33009,Serrana - RJ
+330390,33009,Serrana - RJ
+330460,33009,Serrana - RJ
+330515,33009,Serrana - RJ
+330530,33009,Serrana - RJ
+330570,33009,Serrana - RJ
+330580,33009,Serrana - RJ
+330590,33009,Serrana - RJ
+350390,35011,Alto do TietÃª - SP
+350660,35011,Alto do TietÃª - SP
+351570,35011,Alto do TietÃª - SP
+351830,35011,Alto do TietÃª - SP
+351880,35011,Alto do TietÃª - SP
+352310,35011,Alto do TietÃª - SP
+353060,35011,Alto do TietÃª - SP
+353980,35011,Alto do TietÃª - SP
+354500,35011,Alto do TietÃª - SP
+354680,35011,Alto do TietÃª - SP
+355250,35011,Alto do TietÃª - SP
+350900,35012,Franco da Rocha - SP
+350920,35012,Franco da Rocha - SP
+351630,35012,Franco da Rocha - SP
+351640,35012,Franco da Rocha - SP
+352850,35012,Franco da Rocha - SP
+351300,35013,Mananciais - SP
+351500,35013,Mananciais - SP
+351510,35013,Mananciais - SP
+352220,35013,Mananciais - SP
+352620,35013,Mananciais - SP
+354995,35013,Mananciais - SP
+355280,35013,Mananciais - SP
+355645,35013,Mananciais - SP
+350570,35014,Rota dos Bandeirantes - SP
+351060,35014,Rota dos Bandeirantes - SP
+352250,35014,Rota dos Bandeirantes - SP
+352500,35014,Rota dos Bandeirantes - SP
+353440,35014,Rota dos Bandeirantes - SP
+353910,35014,Rota dos Bandeirantes - SP
+354730,35014,Rota dos Bandeirantes - SP
+351380,35015,Grande ABC - SP
+352940,35015,Grande ABC - SP
+354330,35015,Grande ABC - SP
+354410,35015,Grande ABC - SP
+354780,35015,Grande ABC - SP
+354870,35015,Grande ABC - SP
+354880,35015,Grande ABC - SP
+355030,35016,SÃ£o Paulo - SP
+350280,35021,Central do DRS II - SP
+350420,35021,Central do DRS II - SP
+350620,35021,Central do DRS II - SP
+350640,35021,Central do DRS II - SP
+351820,35021,Central do DRS II - SP
+351890,35021,Central do DRS II - SP
+353286,35021,Central do DRS II - SP
+353330,35021,Central do DRS II - SP
+354440,35021,Central do DRS II - SP
+354805,35021,Central do DRS II - SP
+355630,35021,Central do DRS II - SP
+350210,35022,Lagos do DRS II - SP
+351100,35022,Lagos do DRS II - SP
+351780,35022,Lagos do DRS II - SP
+352044,35022,Lagos do DRS II - SP
+352300,35022,Lagos do DRS II - SP
+352650,35022,Lagos do DRS II - SP
+353010,35022,Lagos do DRS II - SP
+353210,35022,Lagos do DRS II - SP
+353320,35022,Lagos do DRS II - SP
+353740,35022,Lagos do DRS II - SP
+355230,35022,Lagos do DRS II - SP
+355255,35022,Lagos do DRS II - SP
+350110,35023,ConsÃ³rcios do DRS II - SP
+350440,35023,ConsÃ³rcios do DRS II - SP
+350510,35023,ConsÃ³rcios do DRS II - SP
+350650,35023,ConsÃ³rcios do DRS II - SP
+350770,35023,ConsÃ³rcios do DRS II - SP
+350775,35023,ConsÃ³rcios do DRS II - SP
+350810,35023,ConsÃ³rcios do DRS II - SP
+351190,35023,ConsÃ³rcios do DRS II - SP
+351250,35023,ConsÃ³rcios do DRS II - SP
+351650,35023,ConsÃ³rcios do DRS II - SP
+351710,35023,ConsÃ³rcios do DRS II - SP
+352725,35023,ConsÃ³rcios do DRS II - SP
+352770,35023,ConsÃ³rcios do DRS II - SP
+353730,35023,ConsÃ³rcios do DRS II - SP
+353770,35023,ConsÃ³rcios do DRS II - SP
+354840,35023,ConsÃ³rcios do DRS II - SP
+355520,35023,ConsÃ³rcios do DRS II - SP
+350170,35031,Central do DRS III - SP
+350320,35031,Central do DRS III - SP
+350670,35031,Central do DRS III - SP
+351685,35031,Central do DRS III - SP
+353205,35031,Central do DRS III - SP
+354370,35031,Central do DRS III - SP
+354690,35031,Central do DRS III - SP
+355475,35031,Central do DRS III - SP
+351370,35032,CoraÃ§Ã£o do DRS III - SP
+351430,35032,CoraÃ§Ã£o do DRS III - SP
+351930,35032,CoraÃ§Ã£o do DRS III - SP
+354070,35032,CoraÃ§Ã£o do DRS III - SP
+354290,35032,CoraÃ§Ã£o do DRS III - SP
+354890,35032,CoraÃ§Ã£o do DRS III - SP
+350740,35033,Noroeste do DRS III - SP
+351010,35033,Noroeste do DRS III - SP
+351400,35033,Noroeste do DRS III - SP
+351960,35033,Noroeste do DRS III - SP
+352270,35033,Noroeste do DRS III - SP
+352930,35033,Noroeste do DRS III - SP
+353290,35033,Noroeste do DRS III - SP
+354650,35033,Noroeste do DRS III - SP
+355270,35033,Noroeste do DRS III - SP
+355370,35033,Noroeste do DRS III - SP
+350635,35041,Baixada Santista - SP
+351350,35041,Baixada Santista - SP
+351870,35041,Baixada Santista - SP
+352210,35041,Baixada Santista - SP
+353110,35041,Baixada Santista - SP
+353760,35041,Baixada Santista - SP
+354100,35041,Baixada Santista - SP
+354850,35041,Baixada Santista - SP
+355100,35041,Baixada Santista - SP
+350090,35051,Norte - Barretos - SP
+350550,35051,Norte - Barretos - SP
+350930,35051,Norte - Barretos - SP
+351200,35051,Norte - Barretos - SP
+351210,35051,Norte - Barretos - SP
+351740,35051,Norte - Barretos - SP
+351790,35051,Norte - Barretos - SP
+352420,35051,Norte - Barretos - SP
+353390,35051,Norte - Barretos - SP
+355190,35051,Norte - Barretos - SP
+350610,35052,Sul - Barretos - SP
+353150,35052,Sul - Barretos - SP
+355310,35052,Sul - Barretos - SP
+355320,35052,Sul - Barretos - SP
+355365,35052,Sul - Barretos - SP
+355440,35052,Sul - Barretos - SP
+355680,35052,Sul - Barretos - SP
+355690,35052,Sul - Barretos - SP
+350055,35061,Vale do Jurumirim - SP
+350310,35061,Vale do Jurumirim - SP
+350450,35061,Vale do Jurumirim - SP
+350500,35061,Vale do Jurumirim - SP
+351140,35061,Vale do Jurumirim - SP
+351260,35061,Vale do Jurumirim - SP
+351540,35061,Vale do Jurumirim - SP
+351925,35061,Vale do Jurumirim - SP
+352180,35061,Vale do Jurumirim - SP
+352280,35061,Vale do Jurumirim - SP
+352860,35061,Vale do Jurumirim - SP
+353580,35061,Vale do Jurumirim - SP
+353880,35061,Vale do Jurumirim - SP
+355120,35061,Vale do Jurumirim - SP
+355300,35061,Vale do Jurumirim - SP
+355380,35061,Vale do Jurumirim - SP
+355420,35061,Vale do Jurumirim - SP
+350070,35062,Bauru - SP
+350340,35062,Bauru - SP
+350430,35062,Bauru - SP
+350470,35062,Bauru - SP
+350600,35062,Bauru - SP
+350745,35062,Bauru - SP
+350830,35062,Bauru - SP
+351450,35062,Bauru - SP
+351910,35062,Bauru - SP
+352680,35062,Bauru - SP
+352750,35062,Bauru - SP
+352800,35062,Bauru - SP
+353657,35062,Bauru - SP
+353670,35062,Bauru - SP
+353890,35062,Bauru - SP
+353940,35062,Bauru - SP
+354110,35062,Bauru - SP
+354250,35062,Bauru - SP
+350230,35063,Polo Cuesta - SP
+350360,35063,Polo Cuesta - SP
+350690,35063,Polo Cuesta - SP
+350750,35063,Polo Cuesta - SP
+351230,35063,Polo Cuesta - SP
+352350,35063,Polo Cuesta - SP
+352640,35063,Polo Cuesta - SP
+353610,35063,Polo Cuesta - SP
+353750,35063,Polo Cuesta - SP
+354050,35063,Polo Cuesta - SP
+354105,35063,Polo Cuesta - SP
+355010,35063,Polo Cuesta - SP
+355465,35063,Polo Cuesta - SP
+350520,35064,JaÃº - SP
+350530,35064,JaÃº - SP
+350680,35064,JaÃº - SP
+350730,35064,JaÃº - SP
+350790,35064,JaÃº - SP
+351410,35064,JaÃº - SP
+352000,35064,JaÃº - SP
+352200,35064,JaÃº - SP
+352290,35064,JaÃº - SP
+352530,35064,JaÃº - SP
+352980,35064,JaÃº - SP
+355470,35064,JaÃº - SP
+350880,35065,Lins - SP
+351700,35065,Lins - SP
+351720,35065,Lins - SP
+352710,35065,Lins - SP
+354010,35065,Lins - SP
+354160,35065,Lins - SP
+354460,35065,Lins - SP
+355590,35065,Lins - SP
+350410,35071,BraganÃ§a - SP
+350710,35071,BraganÃ§a - SP
+350760,35071,BraganÃ§a - SP
+352550,35071,BraganÃ§a - SP
+353240,35071,BraganÃ§a - SP
+353680,35071,BraganÃ§a - SP
+353820,35071,BraganÃ§a - SP
+353860,35071,BraganÃ§a - SP
+355210,35071,BraganÃ§a - SP
+355495,35071,BraganÃ§a - SP
+355635,35071,BraganÃ§a - SP
+350160,35072,RegiÃ£o Metropolitana de Campinas - SP
+350380,35072,RegiÃ£o Metropolitana de Campinas - SP
+350950,35072,RegiÃ£o Metropolitana de Campinas - SP
+351280,35072,RegiÃ£o Metropolitana de Campinas - SP
+351905,35072,RegiÃ£o Metropolitana de Campinas - SP
+351907,35072,RegiÃ£o Metropolitana de Campinas - SP
+352050,35072,RegiÃ£o Metropolitana de Campinas - SP
+352340,35072,RegiÃ£o Metropolitana de Campinas - SP
+352470,35072,RegiÃ£o Metropolitana de Campinas - SP
+353180,35072,RegiÃ£o Metropolitana de Campinas - SP
+353200,35072,RegiÃ£o Metropolitana de Campinas - SP
+353340,35072,RegiÃ£o Metropolitana de Campinas - SP
+353650,35072,RegiÃ£o Metropolitana de Campinas - SP
+353710,35072,RegiÃ£o Metropolitana de Campinas - SP
+354580,35072,RegiÃ£o Metropolitana de Campinas - SP
+354800,35072,RegiÃ£o Metropolitana de Campinas - SP
+355240,35072,RegiÃ£o Metropolitana de Campinas - SP
+355620,35072,RegiÃ£o Metropolitana de Campinas - SP
+355670,35072,RegiÃ£o Metropolitana de Campinas - SP
+350840,35073,JundiaÃ­ - SP
+350960,35073,JundiaÃ­ - SP
+352400,35073,JundiaÃ­ - SP
+352520,35073,JundiaÃ­ - SP
+352590,35073,JundiaÃ­ - SP
+352730,35073,JundiaÃ­ - SP
+355650,35073,JundiaÃ­ - SP
+350050,35074,Circuito das Ãguas - SP
+350190,35074,Circuito das Ãguas - SP
+352700,35074,Circuito das Ãguas - SP
+353120,35074,Circuito das Ãguas - SP
+355160,35074,Circuito das Ãguas - SP
+351320,35081,TrÃªs Colinas - SP
+351620,35081,TrÃªs Colinas - SP
+352370,35081,TrÃªs Colinas - SP
+352540,35081,TrÃªs Colinas - SP
+353630,35081,TrÃªs Colinas - SP
+353700,35081,TrÃªs Colinas - SP
+354270,35081,TrÃªs Colinas - SP
+354310,35081,TrÃªs Colinas - SP
+354360,35081,TrÃªs Colinas - SP
+354950,35081,TrÃªs Colinas - SP
+352130,35082,Alta Anhanguera - SP
+353190,35082,Alta Anhanguera - SP
+353360,35082,Alta Anhanguera - SP
+353430,35082,Alta Anhanguera - SP
+354490,35082,Alta Anhanguera - SP
+354940,35082,Alta Anhanguera - SP
+350300,35083,Alta Mogiana - SP
+350820,35083,Alta Mogiana - SP
+351770,35083,Alta Mogiana - SP
+352010,35083,Alta Mogiana - SP
+352410,35083,Alta Mogiana - SP
+352970,35083,Alta Mogiana - SP
+350010,35091,Adamantina - SP
+351600,35091,Adamantina - SP
+352080,35091,Adamantina - SP
+352740,35091,Adamantina - SP
+352890,35091,Adamantina - SP
+353460,35091,Adamantina - SP
+353490,35091,Adamantina - SP
+354085,35091,Adamantina - SP
+354470,35091,Adamantina - SP
+354510,35091,Adamantina - SP
+350400,35092,Assis - SP
+350720,35092,Assis - SP
+351000,35092,Assis - SP
+351330,35092,Assis - SP
+351610,35092,Assis - SP
+352790,35092,Assis - SP
+352880,35092,Assis - SP
+353530,35092,Assis - SP
+353550,35092,Assis - SP
+353715,35092,Assis - SP
+353970,35092,Assis - SP
+355395,35092,Assis - SP
+350140,35093,MarÃ­lia - SP
+350150,35093,MarÃ­lia - SP
+350980,35093,MarÃ­lia - SP
+351470,35093,MarÃ­lia - SP
+351565,35093,MarÃ­lia - SP
+351660,35093,MarÃ­lia - SP
+351670,35093,MarÃ­lia - SP
+351730,35093,MarÃ­lia - SP
+351810,35093,MarÃ­lia - SP
+352580,35093,MarÃ­lia - SP
+352780,35093,MarÃ­lia - SP
+352900,35093,MarÃ­lia - SP
+353370,35093,MarÃ­lia - SP
+353410,35093,MarÃ­lia - SP
+353450,35093,MarÃ­lia - SP
+354000,35093,MarÃ­lia - SP
+354200,35093,MarÃ­lia - SP
+355550,35093,MarÃ­lia - SP
+355660,35093,MarÃ­lia - SP
+350630,35094,Ourinhos - SP
+351015,35094,Ourinhos - SP
+351519,35094,Ourinhos - SP
+351950,35094,Ourinhos - SP
+352090,35094,Ourinhos - SP
+353380,35094,Ourinhos - SP
+353470,35094,Ourinhos - SP
+354320,35094,Ourinhos - SP
+354540,35094,Ourinhos - SP
+354640,35094,Ourinhos - SP
+355050,35094,Ourinhos - SP
+355460,35094,Ourinhos - SP
+355720,35094,Ourinhos - SP
+350335,35095,TupÃ£ - SP
+350580,35095,TupÃ£ - SP
+351900,35095,TupÃ£ - SP
+351920,35095,TupÃ£ - SP
+353600,35095,TupÃ£ - SP
+354180,35095,TupÃ£ - SP
+354380,35095,TupÃ£ - SP
+355500,35095,TupÃ£ - SP
+350330,35101,Araras - SP
+351220,35101,Araras - SP
+352670,35101,Araras - SP
+353930,35101,Araras - SP
+354620,35101,Araras - SP
+351240,35102,Limeira - SP
+351515,35102,Limeira - SP
+352140,35102,Limeira - SP
+352690,35102,Limeira - SP
+350060,35103,Piracicaba - SP
+351040,35103,Piracicaba - SP
+351170,35103,Piracicaba - SP
+351490,35103,Piracicaba - SP
+353090,35103,Piracicaba - SP
+353870,35103,Piracicaba - SP
+354210,35103,Piracicaba - SP
+354400,35103,Piracicaba - SP
+354515,35103,Piracicaba - SP
+354700,35103,Piracicaba - SP
+355040,35103,Piracicaba - SP
+350200,35104,Rio Claro - SP
+351270,35104,Rio Claro - SP
+352110,35104,Rio Claro - SP
+352360,35104,Rio Claro - SP
+354390,35104,Rio Claro - SP
+354670,35104,Rio Claro - SP
+351440,35111,Alta Paulista - SP
+351580,35111,Alta Paulista - SP
+352160,35111,Alta Paulista - SP
+352600,35111,Alta Paulista - SP
+353160,35111,Alta Paulista - SP
+353310,35111,Alta Paulista - SP
+353480,35111,Alta Paulista - SP
+353540,35111,Alta Paulista - SP
+353640,35111,Alta Paulista - SP
+354710,35111,Alta Paulista - SP
+354930,35111,Alta Paulista - SP
+355510,35111,Alta Paulista - SP
+350080,35112,Alta Sorocabana - SP
+350130,35112,Alta Sorocabana - SP
+350240,35112,Alta Sorocabana - SP
+350890,35112,Alta Sorocabana - SP
+351512,35112,Alta Sorocabana - SP
+351530,35112,Alta Sorocabana - SP
+352060,35112,Alta Sorocabana - SP
+352920,35112,Alta Sorocabana - SP
+353220,35112,Alta Sorocabana - SP
+353920,35112,Alta Sorocabana - SP
+354120,35112,Alta Sorocabana - SP
+354140,35112,Alta Sorocabana - SP
+354240,35112,Alta Sorocabana - SP
+354323,35112,Alta Sorocabana - SP
+354550,35112,Alta Sorocabana - SP
+354770,35112,Alta Sorocabana - SP
+354830,35112,Alta Sorocabana - SP
+355290,35112,Alta Sorocabana - SP
+355390,35112,Alta Sorocabana - SP
+351990,35113,Alto Capivari - SP
+352560,35113,Alto Capivari - SP
+353215,35113,Alto Capivari - SP
+354170,35113,Alto Capivari - SP
+354220,35113,Alto Capivari - SP
+350910,35114,Extremo Oeste Paulista - SP
+352870,35114,Extremo Oeste Paulista - SP
+353830,35114,Extremo Oeste Paulista - SP
+354130,35114,Extremo Oeste Paulista - SP
+354150,35114,Extremo Oeste Paulista - SP
+351535,35115,Pontal do Paranapanema - SP
+353020,35115,Pontal do Paranapanema - SP
+354425,35115,Pontal do Paranapanema - SP
+355430,35115,Pontal do Paranapanema - SP
+350540,35121,Vale do Ribeira - SP
+350925,35121,Vale do Ribeira - SP
+350990,35121,Vale do Ribeira - SP
+351480,35121,Vale do Ribeira - SP
+352030,35121,Vale do Ribeira - SP
+352042,35121,Vale do Ribeira - SP
+352120,35121,Vale do Ribeira - SP
+352330,35121,Vale do Ribeira - SP
+352460,35121,Vale do Ribeira - SP
+352610,35121,Vale do Ribeira - SP
+352990,35121,Vale do Ribeira - SP
+353620,35121,Vale do Ribeira - SP
+353720,35121,Vale do Ribeira - SP
+354260,35121,Vale do Ribeira - SP
+355180,35121,Vale do Ribeira - SP
+350560,35131,Horizonte Verde - SP
+351460,35131,Horizonte Verde - SP
+351860,35131,Horizonte Verde - SP
+352430,35131,Horizonte Verde - SP
+353130,35131,Horizonte Verde - SP
+353950,35131,Horizonte Verde - SP
+354020,35131,Horizonte Verde - SP
+354090,35131,Horizonte Verde - SP
+355170,35131,Horizonte Verde - SP
+351310,35132,AquÃ­fero Guarani - SP
+351885,35132,AquÃ­fero Guarani - SP
+352510,35132,AquÃ­fero Guarani - SP
+352760,35132,AquÃ­fero Guarani - SP
+354340,35132,AquÃ­fero Guarani - SP
+354750,35132,AquÃ­fero Guarani - SP
+354760,35132,AquÃ­fero Guarani - SP
+355090,35132,AquÃ­fero Guarani - SP
+355140,35132,AquÃ­fero Guarani - SP
+355150,35132,AquÃ­fero Guarani - SP
+350100,35133,Vale das Cachoeiras - SP
+350590,35133,Vale das Cachoeiras - SP
+350780,35133,Vale das Cachoeiras - SP
+350940,35133,Vale das Cachoeiras - SP
+351090,35133,Vale das Cachoeiras - SP
+354625,35133,Vale das Cachoeiras - SP
+354790,35133,Vale das Cachoeiras - SP
+352260,35141,Baixa Mogiana - SP
+353070,35141,Baixa Mogiana - SP
+353080,35141,Baixa Mogiana - SP
+355730,35141,Baixa Mogiana - SP
+350030,35142,Mantiqueira - SP
+350040,35142,Mantiqueira - SP
+351518,35142,Mantiqueira - SP
+354630,35142,Mantiqueira - SP
+354810,35142,Mantiqueira - SP
+354910,35142,Mantiqueira - SP
+355330,35142,Mantiqueira - SP
+355640,35142,Mantiqueira - SP
+350870,35143,Rio Pardo - SP
+351080,35143,Rio Pardo - SP
+351390,35143,Rio Pardo - SP
+352380,35143,Rio Pardo - SP
+353050,35143,Rio Pardo - SP
+354970,35143,Rio Pardo - SP
+355080,35143,Rio Pardo - SP
+355360,35143,Rio Pardo - SP
+350370,35151,Catanduva - SP
+351110,35151,Catanduva - SP
+351120,35151,Catanduva - SP
+351492,35151,Catanduva - SP
+351495,35151,Catanduva - SP
+351560,35151,Catanduva - SP
+352150,35151,Catanduva - SP
+352190,35151,Catanduva - SP
+352885,35151,Catanduva - SP
+353325,35151,Catanduva - SP
+353350,35151,Catanduva - SP
+353510,35151,Catanduva - SP
+353570,35151,Catanduva - SP
+353810,35151,Catanduva - SP
+353900,35151,Catanduva - SP
+354480,35151,Catanduva - SP
+354560,35151,Catanduva - SP
+355260,35151,Catanduva - SP
+355600,35151,Catanduva - SP
+353284,35152,Santa FÃ© do Sul - SP
+354450,35152,Santa FÃ© do Sul - SP
+354610,35152,Santa FÃ© do Sul - SP
+354660,35152,Santa FÃ© do Sul - SP
+354740,35152,Santa FÃ© do Sul - SP
+355490,35152,Santa FÃ© do Sul - SP
+350260,35153,Jales - SP
+350395,35153,Jales - SP
+351385,35153,Jales - SP
+351420,35153,Jales - SP
+352480,35153,Jales - SP
+352910,35153,Jales - SP
+352965,35153,Jales - SP
+353520,35153,Jales - SP
+353590,35153,Jales - SP
+354025,35153,Jales - SP
+354570,35153,Jales - SP
+354720,35153,Jales - SP
+354765,35153,Jales - SP
+354900,35153,Jales - SP
+355580,35153,Jales - SP
+355695,35153,Jales - SP
+351520,35154,FernandÃ³polis - SP
+351550,35154,FernandÃ³polis - SP
+351800,35154,FernandÃ³polis - SP
+352070,35154,FernandÃ³polis - SP
+352820,35154,FernandÃ³polis - SP
+352960,35154,FernandÃ³polis - SP
+353000,35154,FernandÃ³polis - SP
+353475,35154,FernandÃ³polis - SP
+353690,35154,FernandÃ³polis - SP
+354040,35154,FernandÃ³polis - SP
+354920,35154,FernandÃ³polis - SP
+354925,35154,FernandÃ³polis - SP
+355530,35154,FernandÃ³polis - SP
+350460,35155,SÃ£o JosÃ© do Rio Preto - SP
+350480,35155,SÃ£o JosÃ© do Rio Preto - SP
+351130,35155,SÃ£o JosÃ© do Rio Preto - SP
+351750,35155,SÃ£o JosÃ© do Rio Preto - SP
+351940,35155,SÃ£o JosÃ© do Rio Preto - SP
+351980,35155,SÃ£o JosÃ© do Rio Preto - SP
+352115,35155,SÃ£o JosÃ© do Rio Preto - SP
+353030,35155,SÃ£o JosÃ© do Rio Preto - SP
+353040,35155,SÃ£o JosÃ© do Rio Preto - SP
+353250,35155,SÃ£o JosÃ© do Rio Preto - SP
+353280,35155,SÃ£o JosÃ© do Rio Preto - SP
+353300,35155,SÃ£o JosÃ© do Rio Preto - SP
+353400,35155,SÃ£o JosÃ© do Rio Preto - SP
+353420,35155,SÃ£o JosÃ© do Rio Preto - SP
+353500,35155,SÃ£o JosÃ© do Rio Preto - SP
+353660,35155,SÃ£o JosÃ© do Rio Preto - SP
+354080,35155,SÃ£o JosÃ© do Rio Preto - SP
+354980,35155,SÃ£o JosÃ© do Rio Preto - SP
+355340,35155,SÃ£o JosÃ© do Rio Preto - SP
+355560,35155,SÃ£o JosÃ© do Rio Preto - SP
+350020,35156,JosÃ© BonifÃ¡cio - SP
+352450,35156,JosÃ© BonifÃ¡cio - SP
+352570,35156,JosÃ© BonifÃ¡cio - SP
+352950,35156,JosÃ© BonifÃ¡cio - SP
+353140,35156,JosÃ© BonifÃ¡cio - SP
+353270,35156,JosÃ© BonifÃ¡cio - SP
+353960,35156,JosÃ© BonifÃ¡cio - SP
+353990,35156,JosÃ© BonifÃ¡cio - SP
+355535,35156,JosÃ© BonifÃ¡cio - SP
+355570,35156,JosÃ© BonifÃ¡cio - SP
+355715,35156,JosÃ© BonifÃ¡cio - SP
+350120,35157,Votuporanga - SP
+350180,35157,Votuporanga - SP
+351070,35157,Votuporanga - SP
+351290,35157,Votuporanga - SP
+351590,35157,Votuporanga - SP
+351680,35157,Votuporanga - SP
+351690,35157,Votuporanga - SP
+352810,35157,Votuporanga - SP
+352830,35157,Votuporanga - SP
+353100,35157,Votuporanga - SP
+353260,35157,Votuporanga - SP
+353625,35157,Votuporanga - SP
+354030,35157,Votuporanga - SP
+354420,35157,Votuporanga - SP
+355130,35157,Votuporanga - SP
+355610,35157,Votuporanga - SP
+355710,35157,Votuporanga - SP
+350075,35161,Itapetininga - SP
+350220,35161,Itapetininga - SP
+350945,35161,Itapetininga - SP
+351020,35161,Itapetininga - SP
+351150,35161,Itapetininga - SP
+351160,35161,Itapetininga - SP
+351850,35161,Itapetininga - SP
+352230,35161,Itapetininga - SP
+354165,35161,Itapetininga - SP
+354325,35161,Itapetininga - SP
+355020,35161,Itapetininga - SP
+355110,35161,Itapetininga - SP
+355400,35161,Itapetininga - SP
+350270,35162,Itapeva - SP
+350535,35162,Itapeva - SP
+350715,35162,Itapeva - SP
+350800,35162,Itapeva - SP
+351760,35162,Itapeva - SP
+352170,35162,Itapeva - SP
+352215,35162,Itapeva - SP
+352240,35162,Itapeva - SP
+352265,35162,Itapeva - SP
+352320,35162,Itapeva - SP
+353282,35162,Itapeva - SP
+354280,35162,Itapeva - SP
+354300,35162,Itapeva - SP
+354350,35162,Itapeva - SP
+355385,35162,Itapeva - SP
+350115,35163,Sorocaba - SP
+350275,35163,Sorocaba - SP
+350290,35163,Sorocaba - SP
+350700,35163,Sorocaba - SP
+351030,35163,Sorocaba - SP
+351970,35163,Sorocaba - SP
+352100,35163,Sorocaba - SP
+352390,35163,Sorocaba - SP
+352585,35163,Sorocaba - SP
+352840,35163,Sorocaba - SP
+353780,35163,Sorocaba - SP
+353790,35163,Sorocaba - SP
+354060,35163,Sorocaba - SP
+354520,35163,Sorocaba - SP
+354530,35163,Sorocaba - SP
+355060,35163,Sorocaba - SP
+355220,35163,Sorocaba - SP
+355350,35163,Sorocaba - SP
+355450,35163,Sorocaba - SP
+355700,35163,Sorocaba - SP
+350850,35171,Alto Vale do ParaÃ­ba - SP
+352020,35171,Alto Vale do ParaÃ­ba - SP
+352440,35171,Alto Vale do ParaÃ­ba - SP
+352490,35171,Alto Vale do ParaÃ­ba - SP
+353170,35171,Alto Vale do ParaÃ­ba - SP
+353560,35171,Alto Vale do ParaÃ­ba - SP
+354600,35171,Alto Vale do ParaÃ­ba - SP
+354990,35171,Alto Vale do ParaÃ­ba - SP
+350250,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+350315,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+350350,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+350490,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+350860,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+350995,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+351340,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+351360,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+351840,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+352660,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+352720,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+353850,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+354075,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+354190,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+354430,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+354960,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+355200,35172,Circuito da FÃ© e Vale HistÃ³rico - SP
+351050,35173,Litoral Norte - SP
+352040,35173,Litoral Norte - SP
+355070,35173,Litoral Norte - SP
+355540,35173,Litoral Norte - SP
+350970,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+352630,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+353230,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+353800,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+354230,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+354820,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+354860,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+355000,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+355410,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+355480,35174,Vale do ParaÃ­ba/RegiÃ£o Serrana - SP
+410120,41001,1Âª RS ParanaguÃ¡ - PR
+410950,41001,1Âª RS ParanaguÃ¡ - PR
+410960,41001,1Âª RS ParanaguÃ¡ - PR
+411570,41001,1Âª RS ParanaguÃ¡ - PR
+411620,41001,1Âª RS ParanaguÃ¡ - PR
+411820,41001,1Âª RS ParanaguÃ¡ - PR
+411995,41001,1Âª RS ParanaguÃ¡ - PR
+410020,41002,2Âª RS Metropolitana - PR
+410030,41002,2Âª RS Metropolitana - PR
+410040,41002,2Âª RS Metropolitana - PR
+410180,41002,2Âª RS Metropolitana - PR
+410230,41002,2Âª RS Metropolitana - PR
+410310,41002,2Âª RS Metropolitana - PR
+410400,41002,2Âª RS Metropolitana - PR
+410410,41002,2Âª RS Metropolitana - PR
+410420,41002,2Âª RS Metropolitana - PR
+410425,41002,2Âª RS Metropolitana - PR
+410520,41002,2Âª RS Metropolitana - PR
+410580,41002,2Âª RS Metropolitana - PR
+410620,41002,2Âª RS Metropolitana - PR
+410690,41002,2Âª RS Metropolitana - PR
+410765,41002,2Âª RS Metropolitana - PR
+411125,41002,2Âª RS Metropolitana - PR
+411320,41002,2Âª RS Metropolitana - PR
+411430,41002,2Âª RS Metropolitana - PR
+411910,41002,2Âª RS Metropolitana - PR
+411915,41002,2Âª RS Metropolitana - PR
+411950,41002,2Âª RS Metropolitana - PR
+412080,41002,2Âª RS Metropolitana - PR
+412120,41002,2Âª RS Metropolitana - PR
+412220,41002,2Âª RS Metropolitana - PR
+412230,41002,2Âª RS Metropolitana - PR
+412550,41002,2Âª RS Metropolitana - PR
+412760,41002,2Âª RS Metropolitana - PR
+412788,41002,2Âª RS Metropolitana - PR
+412863,41002,2Âª RS Metropolitana - PR
+410160,41003,3Âª RS Ponta Grossa - PR
+410465,41003,3Âª RS Ponta Grossa - PR
+410490,41003,3Âª RS Ponta Grossa - PR
+411050,41003,3Âª RS Ponta Grossa - PR
+411140,41003,3Âª RS Ponta Grossa - PR
+411200,41003,3Âª RS Ponta Grossa - PR
+411770,41003,3Âª RS Ponta Grossa - PR
+411940,41003,3Âª RS Ponta Grossa - PR
+411990,41003,3Âª RS Ponta Grossa - PR
+412010,41003,3Âª RS Ponta Grossa - PR
+412510,41003,3Âª RS Ponta Grossa - PR
+412630,41003,3Âª RS Ponta Grossa - PR
+410773,41004,4Âª RS Irati - PR
+410895,41004,4Âª RS Irati - PR
+411010,41004,4Âª RS Irati - PR
+411020,41004,4Âª RS Irati - PR
+411070,41004,4Âª RS Irati - PR
+411390,41004,4Âª RS Irati - PR
+412150,41004,4Âª RS Irati - PR
+412200,41004,4Âª RS Irati - PR
+412700,41004,4Âª RS Irati - PR
+410304,41005,5Âª RS Guarapuava - PR
+410395,41005,5Âª RS Guarapuava - PR
+410442,41005,5Âª RS Guarapuava - PR
+410445,41005,5Âª RS Guarapuava - PR
+410845,41005,5Âª RS Guarapuava - PR
+410865,41005,5Âª RS Guarapuava - PR
+410940,41005,5Âª RS Guarapuava - PR
+411325,41005,5Âª RS Guarapuava - PR
+411330,41005,5Âª RS Guarapuava - PR
+411545,41005,5Âª RS Guarapuava - PR
+411705,41005,5Âª RS Guarapuava - PR
+411780,41005,5Âª RS Guarapuava - PR
+411930,41005,5Âª RS Guarapuava - PR
+411960,41005,5Âª RS Guarapuava - PR
+412015,41005,5Âª RS Guarapuava - PR
+412060,41005,5Âª RS Guarapuava - PR
+412175,41005,5Âª RS Guarapuava - PR
+412215,41005,5Âª RS Guarapuava - PR
+412796,41005,5Âª RS Guarapuava - PR
+412865,41005,5Âª RS Guarapuava - PR
+410130,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+410290,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+410680,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+410850,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+411860,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+411870,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+412030,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+412560,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+412820,41006,6Âª RS UniÃ£o da VitÃ³ria - PR
+410322,41007,7Âª RS Pato Branco - PR
+410540,41007,7Âª RS Pato Branco - PR
+410570,41007,7Âª RS Pato Branco - PR
+410645,41007,7Âª RS Pato Branco - PR
+410650,41007,7Âª RS Pato Branco - PR
+410965,41007,7Âª RS Pato Branco - PR
+411120,41007,7Âª RS Pato Branco - PR
+411440,41007,7Âª RS Pato Branco - PR
+411530,41007,7Âª RS Pato Branco - PR
+411760,41007,7Âª RS Pato Branco - PR
+411850,41007,7Âª RS Pato Branco - PR
+412480,41007,7Âª RS Pato Branco - PR
+412627,41007,7Âª RS Pato Branco - PR
+412665,41007,7Âª RS Pato Branco - PR
+412870,41007,7Âª RS Pato Branco - PR
+410100,41008,8Âª RS Francisco BeltrÃ£o - PR
+410260,41008,8Âª RS Francisco BeltrÃ£o - PR
+410275,41008,8Âª RS Francisco BeltrÃ£o - PR
+410302,41008,8Âª RS Francisco BeltrÃ£o - PR
+410315,41008,8Âª RS Francisco BeltrÃ£o - PR
+410450,41008,8Âª RS Francisco BeltrÃ£o - PR
+410657,41008,8Âª RS Francisco BeltrÃ£o - PR
+410720,41008,8Âª RS Francisco BeltrÃ£o - PR
+410740,41008,8Âª RS Francisco BeltrÃ£o - PR
+410785,41008,8Âª RS Francisco BeltrÃ£o - PR
+410840,41008,8Âª RS Francisco BeltrÃ£o - PR
+411435,41008,8Âª RS Francisco BeltrÃ£o - PR
+411540,41008,8Âª RS Francisco BeltrÃ£o - PR
+411695,41008,8Âª RS Francisco BeltrÃ£o - PR
+411725,41008,8Âª RS Francisco BeltrÃ£o - PR
+411900,41008,8Âª RS Francisco BeltrÃ£o - PR
+411925,41008,8Âª RS Francisco BeltrÃ£o - PR
+411980,41008,8Âª RS Francisco BeltrÃ£o - PR
+412035,41008,8Âª RS Francisco BeltrÃ£o - PR
+412140,41008,8Âª RS Francisco BeltrÃ£o - PR
+412160,41008,8Âª RS Francisco BeltrÃ£o - PR
+412280,41008,8Âª RS Francisco BeltrÃ£o - PR
+412300,41008,8Âª RS Francisco BeltrÃ£o - PR
+412380,41008,8Âª RS Francisco BeltrÃ£o - PR
+412440,41008,8Âª RS Francisco BeltrÃ£o - PR
+412520,41008,8Âª RS Francisco BeltrÃ£o - PR
+412860,41008,8Âª RS Francisco BeltrÃ£o - PR
+410830,41009,9Âª RS Foz do IguaÃ§u - PR
+411095,41009,9Âª RS Foz do IguaÃ§u - PR
+411560,41009,9Âª RS Foz do IguaÃ§u - PR
+411580,41009,9Âª RS Foz do IguaÃ§u - PR
+411605,41009,9Âª RS Foz do IguaÃ§u - PR
+412125,41009,9Âª RS Foz do IguaÃ§u - PR
+412405,41009,9Âª RS Foz do IguaÃ§u - PR
+412570,41009,9Âª RS Foz do IguaÃ§u - PR
+412635,41009,9Âª RS Foz do IguaÃ§u - PR
+410105,41010,10Âª RS Cascavel - PR
+410305,41010,10Âª RS Cascavel - PR
+410335,41010,10Âª RS Cascavel - PR
+410345,41010,10Âª RS Cascavel - PR
+410405,41010,10Âª RS Cascavel - PR
+410460,41010,10Âª RS Cascavel - PR
+410480,41010,10Âª RS Cascavel - PR
+410500,41010,10Âª RS Cascavel - PR
+410530,41010,10Âª RS Cascavel - PR
+410630,41010,10Âª RS Cascavel - PR
+410712,41010,10Âª RS Cascavel - PR
+410754,41010,10Âª RS Cascavel - PR
+410820,41010,10Âª RS Cascavel - PR
+410930,41010,10Âª RS Cascavel - PR
+410975,41010,10Âª RS Cascavel - PR
+411005,41010,10Âª RS Cascavel - PR
+411065,41010,10Âª RS Cascavel - PR
+411275,41010,10Âª RS Cascavel - PR
+411345,41010,10Âª RS Cascavel - PR
+411670,41010,10Âª RS Cascavel - PR
+412090,41010,10Âª RS Cascavel - PR
+412382,41010,10Âª RS Cascavel - PR
+412402,41010,10Âª RS Cascavel - PR
+412785,41010,10Âª RS Cascavel - PR
+412855,41010,10Âª RS Cascavel - PR
+410045,41011,11Âª RS Campo MourÃ£o - PR
+410170,41011,11Âª RS Campo MourÃ£o - PR
+410250,41011,11Âª RS Campo MourÃ£o - PR
+410300,41011,11Âª RS Campo MourÃ£o - PR
+410390,41011,11Âª RS Campo MourÃ£o - PR
+410430,41011,11Âª RS Campo MourÃ£o - PR
+410655,41011,11Âª RS Campo MourÃ£o - PR
+410750,41011,11Âª RS Campo MourÃ£o - PR
+410755,41011,11Âª RS Campo MourÃ£o - PR
+410770,41011,11Âª RS Campo MourÃ£o - PR
+410860,41011,11Âª RS Campo MourÃ£o - PR
+411080,41011,11Âª RS Campo MourÃ£o - PR
+411220,41011,11Âª RS Campo MourÃ£o - PR
+411295,41011,11Âª RS Campo MourÃ£o - PR
+411373,41011,11Âª RS Campo MourÃ£o - PR
+411400,41011,11Âª RS Campo MourÃ£o - PR
+411610,41011,11Âª RS Campo MourÃ£o - PR
+411680,41011,11Âª RS Campo MourÃ£o - PR
+411880,41011,11Âª RS Campo MourÃ£o - PR
+412065,41011,11Âª RS Campo MourÃ£o - PR
+412110,41011,11Âª RS Campo MourÃ£o - PR
+412135,41011,11Âª RS Campo MourÃ£o - PR
+412250,41011,11Âª RS Campo MourÃ£o - PR
+412720,41011,11Âª RS Campo MourÃ£o - PR
+412800,41011,11Âª RS Campo MourÃ£o - PR
+410050,41012,12Âª RS Umuarama - PR
+410070,41012,12Âª RS Umuarama - PR
+410337,41012,12Âª RS Umuarama - PR
+410347,41012,12Âª RS Umuarama - PR
+410660,41012,12Âª RS Umuarama - PR
+410725,41012,12Âª RS Umuarama - PR
+410752,41012,12Âª RS Umuarama - PR
+410832,41012,12Âª RS Umuarama - PR
+410990,41012,12Âª RS Umuarama - PR
+411060,41012,12Âª RS Umuarama - PR
+411155,41012,12Âª RS Umuarama - PR
+411470,41012,12Âª RS Umuarama - PR
+411510,41012,12Âª RS Umuarama - PR
+411720,41012,12Âª RS Umuarama - PR
+411885,41012,12Âª RS Umuarama - PR
+411890,41012,12Âª RS Umuarama - PR
+412535,41012,12Âª RS Umuarama - PR
+412690,41012,12Âª RS Umuarama - PR
+412810,41012,12Âª RS Umuarama - PR
+412862,41012,12Âª RS Umuarama - PR
+412880,41012,12Âª RS Umuarama - PR
+410550,41013,13Âª RS Cianorte - PR
+410560,41013,13Âª RS Cianorte - PR
+410910,41013,13Âª RS Cianorte - PR
+411040,41013,13Âª RS Cianorte - PR
+411240,41013,13Âª RS Cianorte - PR
+411300,41013,13Âª RS Cianorte - PR
+412260,41013,13Âª RS Cianorte - PR
+412555,41013,13Âª RS Cianorte - PR
+412610,41013,13Âª RS Cianorte - PR
+412680,41013,13Âª RS Cianorte - PR
+412790,41013,13Âª RS Cianorte - PR
+410060,41014,14Âª RS ParanavaÃ­ - PR
+410090,41014,14Âª RS ParanavaÃ­ - PR
+410670,41014,14Âª RS ParanavaÃ­ - PR
+410710,41014,14Âª RS ParanavaÃ­ - PR
+410890,41014,14Âª RS ParanavaÃ­ - PR
+411030,41014,14Âª RS ParanavaÃ­ - PR
+411130,41014,14Âª RS ParanavaÃ­ - PR
+411260,41014,14Âª RS ParanavaÃ­ - PR
+411350,41014,14Âª RS ParanavaÃ­ - PR
+411500,41014,14Âª RS ParanavaÃ­ - PR
+411590,41014,14Âª RS ParanavaÃ­ - PR
+411650,41014,14Âª RS ParanavaÃ­ - PR
+411710,41014,14Âª RS ParanavaÃ­ - PR
+411800,41014,14Âª RS ParanavaÃ­ - PR
+411830,41014,14Âª RS ParanavaÃ­ - PR
+411840,41014,14Âª RS ParanavaÃ­ - PR
+411970,41014,14Âª RS ParanavaÃ­ - PR
+412020,41014,14Âª RS ParanavaÃ­ - PR
+412100,41014,14Âª RS ParanavaÃ­ - PR
+412330,41014,14Âª RS ParanavaÃ­ - PR
+412370,41014,14Âª RS ParanavaÃ­ - PR
+412395,41014,14Âª RS ParanavaÃ­ - PR
+412420,41014,14Âª RS ParanavaÃ­ - PR
+412460,41014,14Âª RS ParanavaÃ­ - PR
+412490,41014,14Âª RS ParanavaÃ­ - PR
+412590,41014,14Âª RS ParanavaÃ­ - PR
+412670,41014,14Âª RS ParanavaÃ­ - PR
+412730,41014,14Âª RS ParanavaÃ­ - PR
+410115,41015,15Âª RS MaringÃ¡ - PR
+410210,41015,15Âª RS MaringÃ¡ - PR
+410220,41015,15Âª RS MaringÃ¡ - PR
+410590,41015,15Âª RS MaringÃ¡ - PR
+410730,41015,15Âª RS MaringÃ¡ - PR
+410780,41015,15Âª RS MaringÃ¡ - PR
+410790,41015,15Âª RS MaringÃ¡ - PR
+410810,41015,15Âª RS MaringÃ¡ - PR
+411000,41015,15Âª RS MaringÃ¡ - PR
+411090,41015,15Âª RS MaringÃ¡ - PR
+411110,41015,15Âª RS MaringÃ¡ - PR
+411160,41015,15Âª RS MaringÃ¡ - PR
+411360,41015,15Âª RS MaringÃ¡ - PR
+411410,41015,15Âª RS MaringÃ¡ - PR
+411420,41015,15Âª RS MaringÃ¡ - PR
+411480,41015,15Âª RS MaringÃ¡ - PR
+411520,41015,15Âª RS MaringÃ¡ - PR
+411630,41015,15Âª RS MaringÃ¡ - PR
+411640,41015,15Âª RS MaringÃ¡ - PR
+411690,41015,15Âª RS MaringÃ¡ - PR
+411740,41015,15Âª RS MaringÃ¡ - PR
+411750,41015,15Âª RS MaringÃ¡ - PR
+411810,41015,15Âª RS MaringÃ¡ - PR
+412040,41015,15Âª RS MaringÃ¡ - PR
+412340,41015,15Âª RS MaringÃ¡ - PR
+412360,41015,15Âª RS MaringÃ¡ - PR
+412450,41015,15Âª RS MaringÃ¡ - PR
+412530,41015,15Âª RS MaringÃ¡ - PR
+412625,41015,15Âª RS MaringÃ¡ - PR
+412830,41015,15Âª RS MaringÃ¡ - PR
+410140,41016,16Âª RS Apucarana - PR
+410150,41016,16Âª RS Apucarana - PR
+410320,41016,16Âª RS Apucarana - PR
+410330,41016,16Âª RS Apucarana - PR
+410350,41016,16Âª RS Apucarana - PR
+410380,41016,16Âª RS Apucarana - PR
+410760,41016,16Âª RS Apucarana - PR
+410870,41016,16Âª RS Apucarana - PR
+411210,41016,16Âª RS Apucarana - PR
+411310,41016,16Âª RS Apucarana - PR
+411490,41016,16Âª RS Apucarana - PR
+411550,41016,16Âª RS Apucarana - PR
+411575,41016,16Âª RS Apucarana - PR
+411729,41016,16Âª RS Apucarana - PR
+412210,41016,16Âª RS Apucarana - PR
+412270,41016,16Âª RS Apucarana - PR
+412580,41016,16Âª RS Apucarana - PR
+410080,41017,17Âª RS Londrina - PR
+410190,41017,17Âª RS Londrina - PR
+410280,41017,17Âª RS Londrina - PR
+410340,41017,17Âª RS Londrina - PR
+410370,41017,17Âª RS Londrina - PR
+410510,41017,17Âª RS Londrina - PR
+410800,41017,17Âª RS Londrina - PR
+410920,41017,17Âª RS Londrina - PR
+410980,41017,17Âª RS Londrina - PR
+411190,41017,17Âª RS Londrina - PR
+411270,41017,17Âª RS Londrina - PR
+411370,41017,17Âª RS Londrina - PR
+411380,41017,17Âª RS Londrina - PR
+411600,41017,17Âª RS Londrina - PR
+411965,41017,17Âª RS Londrina - PR
+412000,41017,17Âª RS Londrina - PR
+412033,41017,17Âª RS Londrina - PR
+412050,41017,17Âª RS Londrina - PR
+412240,41017,17Âª RS Londrina - PR
+412650,41017,17Âª RS Londrina - PR
+412667,41017,17Âª RS Londrina - PR
+410010,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+410110,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+410240,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+410600,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+410640,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+411100,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+411340,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+411660,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+411700,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+411721,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412130,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412190,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412310,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412320,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412390,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412430,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412470,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412600,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412620,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412640,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+412840,41018,18Âª RS CornÃ©lio ProcÃ³pio - PR
+410270,41019,19Âª RS Jacarezinho - PR
+410360,41019,19Âª RS Jacarezinho - PR
+410470,41019,19Âª RS Jacarezinho - PR
+410610,41019,19Âª RS Jacarezinho - PR
+410775,41019,19Âª RS Jacarezinho - PR
+410900,41019,19Âª RS Jacarezinho - PR
+410970,41019,19Âª RS Jacarezinho - PR
+411170,41019,19Âª RS Jacarezinho - PR
+411180,41019,19Âª RS Jacarezinho - PR
+411230,41019,19Âª RS Jacarezinho - PR
+411280,41019,19Âª RS Jacarezinho - PR
+411290,41019,19Âª RS Jacarezinho - PR
+411920,41019,19Âª RS Jacarezinho - PR
+412070,41019,19Âª RS Jacarezinho - PR
+412180,41019,19Âª RS Jacarezinho - PR
+412290,41019,19Âª RS Jacarezinho - PR
+412400,41019,19Âª RS Jacarezinho - PR
+412410,41019,19Âª RS Jacarezinho - PR
+412540,41019,19Âª RS Jacarezinho - PR
+412660,41019,19Âª RS Jacarezinho - PR
+412780,41019,19Âª RS Jacarezinho - PR
+412850,41019,19Âª RS Jacarezinho - PR
+410200,41020,20Âª RS Toledo - PR
+410715,41020,20Âª RS Toledo - PR
+410753,41020,20Âª RS Toledo - PR
+410880,41020,20Âª RS Toledo - PR
+411460,41020,20Âª RS Toledo - PR
+411535,41020,20Âª RS Toledo - PR
+411585,41020,20Âª RS Toledo - PR
+411722,41020,20Âª RS Toledo - PR
+411745,41020,20Âª RS Toledo - PR
+411790,41020,20Âª RS Toledo - PR
+411845,41020,20Âª RS Toledo - PR
+412085,41020,20Âª RS Toledo - PR
+412350,41020,20Âª RS Toledo - PR
+412545,41020,20Âª RS Toledo - PR
+412575,41020,20Âª RS Toledo - PR
+412740,41020,20Âª RS Toledo - PR
+412770,41020,20Âª RS Toledo - PR
+412795,41020,20Âª RS Toledo - PR
+410700,41021,21Âª RS TelÃªmaco Borba - PR
+411007,41021,21Âª RS TelÃªmaco Borba - PR
+411730,41021,21Âª RS TelÃªmaco Borba - PR
+412170,41021,21Âª RS TelÃªmaco Borba - PR
+412710,41021,21Âª RS TelÃªmaco Borba - PR
+412750,41021,21Âª RS TelÃªmaco Borba - PR
+412853,41021,21Âª RS TelÃªmaco Borba - PR
+410165,41022,22Âª RS IvaiporÃ£ - PR
+410185,41022,22Âª RS IvaiporÃ£ - PR
+410440,41022,22Âª RS IvaiporÃ£ - PR
+410685,41022,22Âª RS IvaiporÃ£ - PR
+410855,41022,22Âª RS IvaiporÃ£ - PR
+411150,41022,22Âª RS IvaiporÃ£ - PR
+411250,41022,22Âª RS IvaiporÃ£ - PR
+411342,41022,22Âª RS IvaiporÃ£ - PR
+411375,41022,22Âª RS IvaiporÃ£ - PR
+411450,41022,22Âª RS IvaiporÃ£ - PR
+411573,41022,22Âª RS IvaiporÃ£ - PR
+411727,41022,22Âª RS IvaiporÃ£ - PR
+412217,41022,22Âª RS IvaiporÃ£ - PR
+412265,41022,22Âª RS IvaiporÃ£ - PR
+412385,41022,22Âª RS IvaiporÃ£ - PR
+412500,41022,22Âª RS IvaiporÃ£ - PR
+420080,42001,Extremo Oeste - SC
+420208,42001,Extremo Oeste - SC
+420209,42001,Extremo Oeste - SC
+420215,42001,Extremo Oeste - SC
+420257,42001,Extremo Oeste - SC
+420490,42001,Extremo Oeste - SC
+420500,42001,Extremo Oeste - SC
+420535,42001,Extremo Oeste - SC
+420640,42001,Extremo Oeste - SC
+420660,42001,Extremo Oeste - SC
+420765,42001,Extremo Oeste - SC
+420775,42001,Extremo Oeste - SC
+420840,42001,Extremo Oeste - SC
+421050,42001,Extremo Oeste - SC
+421090,42001,Extremo Oeste - SC
+421100,42001,Extremo Oeste - SC
+421200,42001,Extremo Oeste - SC
+421223,42001,Extremo Oeste - SC
+421415,42001,Extremo Oeste - SC
+421520,42001,Extremo Oeste - SC
+421535,42001,Extremo Oeste - SC
+421555,42001,Extremo Oeste - SC
+421568,42001,Extremo Oeste - SC
+421625,42001,Extremo Oeste - SC
+421670,42001,Extremo Oeste - SC
+421715,42001,Extremo Oeste - SC
+421720,42001,Extremo Oeste - SC
+421730,42001,Extremo Oeste - SC
+421795,42001,Extremo Oeste - SC
+421875,42001,Extremo Oeste - SC
+420050,42002,Oeste - SC
+420055,42002,Oeste - SC
+420165,42002,Oeste - SC
+420310,42002,Oeste - SC
+420410,42002,Oeste - SC
+420420,42002,Oeste - SC
+420435,42002,Oeste - SC
+420440,42002,Oeste - SC
+420470,42002,Oeste - SC
+420475,42002,Oeste - SC
+420543,42002,Oeste - SC
+420665,42002,Oeste - SC
+420785,42002,Oeste - SC
+420895,42002,Oeste - SC
+421140,42002,Oeste - SC
+421145,42002,Oeste - SC
+421187,42002,Oeste - SC
+421210,42002,Oeste - SC
+421290,42002,Oeste - SC
+421315,42002,Oeste - SC
+421420,42002,Oeste - SC
+421507,42002,Oeste - SC
+421569,42002,Oeste - SC
+421600,42002,Oeste - SC
+421755,42002,Oeste - SC
+421775,42002,Oeste - SC
+421885,42002,Oeste - SC
+420010,42003,XanxerÃª - SC
+420253,42003,XanxerÃª - SC
+420350,42003,XanxerÃª - SC
+420445,42003,XanxerÃª - SC
+420517,42003,XanxerÃª - SC
+420530,42003,XanxerÃª - SC
+420560,42003,XanxerÃª - SC
+420768,42003,XanxerÃª - SC
+420917,42003,XanxerÃª - SC
+420945,42003,XanxerÃª - SC
+421055,42003,XanxerÃª - SC
+421165,42003,XanxerÃª - SC
+421185,42003,XanxerÃª - SC
+421227,42003,XanxerÃª - SC
+421340,42003,XanxerÃª - SC
+421575,42003,XanxerÃª - SC
+421610,42003,XanxerÃª - SC
+421690,42003,XanxerÃª - SC
+421910,42003,XanxerÃª - SC
+421950,42003,XanxerÃª - SC
+421970,42003,XanxerÃª - SC
+420020,42004,Alto Vale do ItajaÃ­ - SC
+420030,42004,Alto Vale do ItajaÃ­ - SC
+420180,42004,Alto Vale do ItajaÃ­ - SC
+420190,42004,Alto Vale do ItajaÃ­ - SC
+420285,42004,Alto Vale do ItajaÃ­ - SC
+420419,42004,Alto Vale do ItajaÃ­ - SC
+420510,42004,Alto Vale do ItajaÃ­ - SC
+420690,42004,Alto Vale do ItajaÃ­ - SC
+420740,42004,Alto Vale do ItajaÃ­ - SC
+420850,42004,Alto Vale do ItajaÃ­ - SC
+420915,42004,Alto Vale do ItajaÃ­ - SC
+420950,42004,Alto Vale do ItajaÃ­ - SC
+420990,42004,Alto Vale do ItajaÃ­ - SC
+421085,42004,Alto Vale do ItajaÃ­ - SC
+421270,42004,Alto Vale do ItajaÃ­ - SC
+421370,42004,Alto Vale do ItajaÃ­ - SC
+421400,42004,Alto Vale do ItajaÃ­ - SC
+421410,42004,Alto Vale do ItajaÃ­ - SC
+421450,42004,Alto Vale do ItajaÃ­ - SC
+421460,42004,Alto Vale do ItajaÃ­ - SC
+421480,42004,Alto Vale do ItajaÃ­ - SC
+421530,42004,Alto Vale do ItajaÃ­ - SC
+421567,42004,Alto Vale do ItajaÃ­ - SC
+421780,42004,Alto Vale do ItajaÃ­ - SC
+421860,42004,Alto Vale do ItajaÃ­ - SC
+421920,42004,Alto Vale do ItajaÃ­ - SC
+421935,42004,Alto Vale do ItajaÃ­ - SC
+421940,42004,Alto Vale do ItajaÃ­ - SC
+420200,42005,Foz do Rio ItajaÃ­ - SC
+420245,42005,Foz do Rio ItajaÃ­ - SC
+420320,42005,Foz do Rio ItajaÃ­ - SC
+420710,42005,Foz do Rio ItajaÃ­ - SC
+420820,42005,Foz do Rio ItajaÃ­ - SC
+420830,42005,Foz do Rio ItajaÃ­ - SC
+421000,42005,Foz do Rio ItajaÃ­ - SC
+421130,42005,Foz do Rio ItajaÃ­ - SC
+421250,42005,Foz do Rio ItajaÃ­ - SC
+421280,42005,Foz do Rio ItajaÃ­ - SC
+421350,42005,Foz do Rio ItajaÃ­ - SC
+420125,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420170,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420220,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420240,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420270,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420290,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420515,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420590,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420630,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420750,42006,MÃ©dio Vale do ItajaÃ­ - SC
+421320,42006,MÃ©dio Vale do ItajaÃ­ - SC
+421470,42006,MÃ©dio Vale do ItajaÃ­ - SC
+421510,42006,MÃ©dio Vale do ItajaÃ­ - SC
+421820,42006,MÃ©dio Vale do ItajaÃ­ - SC
+420060,42007,Grande FlorianÃ³polis - SC
+420070,42007,Grande FlorianÃ³polis - SC
+420090,42007,Grande FlorianÃ³polis - SC
+420110,42007,Grande FlorianÃ³polis - SC
+420120,42007,Grande FlorianÃ³polis - SC
+420230,42007,Grande FlorianÃ³polis - SC
+420370,42007,Grande FlorianÃ³polis - SC
+420540,42007,Grande FlorianÃ³polis - SC
+420570,42007,Grande FlorianÃ³polis - SC
+420600,42007,Grande FlorianÃ³polis - SC
+420980,42007,Grande FlorianÃ³polis - SC
+421020,42007,Grande FlorianÃ³polis - SC
+421150,42007,Grande FlorianÃ³polis - SC
+421190,42007,Grande FlorianÃ³polis - SC
+421230,42007,Grande FlorianÃ³polis - SC
+421430,42007,Grande FlorianÃ³polis - SC
+421570,42007,Grande FlorianÃ³polis - SC
+421590,42007,Grande FlorianÃ³polis - SC
+421630,42007,Grande FlorianÃ³polis - SC
+421660,42007,Grande FlorianÃ³polis - SC
+421725,42007,Grande FlorianÃ³polis - SC
+421800,42007,Grande FlorianÃ³polis - SC
+420005,42008,Meio Oeste - SC
+420040,42008,Meio Oeste - SC
+420287,42008,Meio Oeste - SC
+420360,42008,Meio Oeste - SC
+420390,42008,Meio Oeste - SC
+420400,42008,Meio Oeste - SC
+420415,42008,Meio Oeste - SC
+420520,42008,Meio Oeste - SC
+420670,42008,Meio Oeste - SC
+420680,42008,Meio Oeste - SC
+420860,42008,Meio Oeste - SC
+420900,42008,Meio Oeste - SC
+420920,42008,Meio Oeste - SC
+421003,42008,Meio Oeste - SC
+421105,42008,Meio Oeste - SC
+421180,42008,Meio Oeste - SC
+421850,42008,Meio Oeste - SC
+421915,42008,Meio Oeste - SC
+421917,42008,Meio Oeste - SC
+421985,42008,Meio Oeste - SC
+420160,42009,Alto Vale do Rio do Peixe - SC
+420300,42009,Alto Vale do Rio do Peixe - SC
+420315,42009,Alto Vale do Rio do Peixe - SC
+420480,42009,Alto Vale do Rio do Peixe - SC
+420550,42009,Alto Vale do Rio do Peixe - SC
+420555,42009,Alto Vale do Rio do Peixe - SC
+420675,42009,Alto Vale do Rio do Peixe - SC
+420757,42009,Alto Vale do Rio do Peixe - SC
+420970,42009,Alto Vale do Rio do Peixe - SC
+421005,42009,Alto Vale do Rio do Peixe - SC
+421070,42009,Alto Vale do Rio do Peixe - SC
+421300,42009,Alto Vale do Rio do Peixe - SC
+421335,42009,Alto Vale do Rio do Peixe - SC
+421440,42009,Alto Vale do Rio do Peixe - SC
+421540,42009,Alto Vale do Rio do Peixe - SC
+421550,42009,Alto Vale do Rio do Peixe - SC
+421605,42009,Alto Vale do Rio do Peixe - SC
+421790,42009,Alto Vale do Rio do Peixe - SC
+421825,42009,Alto Vale do Rio do Peixe - SC
+421930,42009,Alto Vale do Rio do Peixe - SC
+420075,42010,Alto Uruguai Catarinense - SC
+420127,42010,Alto Uruguai Catarinense - SC
+420430,42010,Alto Uruguai Catarinense - SC
+420760,42010,Alto Uruguai Catarinense - SC
+420770,42010,Alto Uruguai Catarinense - SC
+420780,42010,Alto Uruguai Catarinense - SC
+420800,42010,Alto Uruguai Catarinense - SC
+420985,42010,Alto Uruguai Catarinense - SC
+421260,42010,Alto Uruguai Catarinense - SC
+421310,42010,Alto Uruguai Catarinense - SC
+421390,42010,Alto Uruguai Catarinense - SC
+421750,42010,Alto Uruguai Catarinense - SC
+421960,42010,Alto Uruguai Catarinense - SC
+420130,42011,Nordeste - SC
+420205,42011,Nordeste - SC
+420580,42011,Nordeste - SC
+420845,42011,Nordeste - SC
+420910,42011,Nordeste - SC
+421620,42011,Nordeste - SC
+420213,42012,Planalto Norte - SC
+420330,42012,Planalto Norte - SC
+420380,42012,Planalto Norte - SC
+420790,42012,Planalto Norte - SC
+420810,42012,Planalto Norte - SC
+421010,42012,Planalto Norte - SC
+421030,42012,Planalto Norte - SC
+421110,42012,Planalto Norte - SC
+421220,42012,Planalto Norte - SC
+421360,42012,Planalto Norte - SC
+421500,42012,Planalto Norte - SC
+421580,42012,Planalto Norte - SC
+421830,42012,Planalto Norte - SC
+420100,42013,Serra Catarinense - SC
+420243,42013,Serra Catarinense - SC
+420250,42013,Serra Catarinense - SC
+420260,42013,Serra Catarinense - SC
+420325,42013,Serra Catarinense - SC
+420340,42013,Serra Catarinense - SC
+420417,42013,Serra Catarinense - SC
+420455,42013,Serra Catarinense - SC
+420930,42013,Serra Catarinense - SC
+421175,42013,Serra Catarinense - SC
+421189,42013,Serra Catarinense - SC
+421205,42013,Serra Catarinense - SC
+421330,42013,Serra Catarinense - SC
+421505,42013,Serra Catarinense - SC
+421650,42013,Serra Catarinense - SC
+421680,42013,Serra Catarinense - SC
+421890,42013,Serra Catarinense - SC
+421895,42013,Serra Catarinense - SC
+420140,42014,Extremo Sul Catarinense - SC
+420195,42014,Extremo Sul Catarinense - SC
+420207,42014,Extremo Sul Catarinense - SC
+420519,42014,Extremo Sul Catarinense - SC
+420870,42014,Extremo Sul Catarinense - SC
+421040,42014,Extremo Sul Catarinense - SC
+421080,42014,Extremo Sul Catarinense - SC
+421125,42014,Extremo Sul Catarinense - SC
+421225,42014,Extremo Sul Catarinense - SC
+421380,42014,Extremo Sul Catarinense - SC
+421565,42014,Extremo Sul Catarinense - SC
+421640,42014,Extremo Sul Catarinense - SC
+421770,42014,Extremo Sul Catarinense - SC
+421810,42014,Extremo Sul Catarinense - SC
+421880,42014,Extremo Sul Catarinense - SC
+420425,42015,CarbonÃ­fera - SC
+420460,42015,CarbonÃ­fera - SC
+420545,42015,CarbonÃ­fera - SC
+420700,42015,CarbonÃ­fera - SC
+420960,42015,CarbonÃ­fera - SC
+421120,42015,CarbonÃ­fera - SC
+421160,42015,CarbonÃ­fera - SC
+421170,42015,CarbonÃ­fera - SC
+421760,42015,CarbonÃ­fera - SC
+421835,42015,CarbonÃ­fera - SC
+421900,42015,CarbonÃ­fera - SC
+422000,42015,CarbonÃ­fera - SC
+420150,42016,Laguna - SC
+420280,42016,Laguna - SC
+420395,42016,Laguna - SC
+420610,42016,Laguna - SC
+420620,42016,Laguna - SC
+420720,42016,Laguna - SC
+420730,42016,Laguna - SC
+420880,42016,Laguna - SC
+420940,42016,Laguna - SC
+421240,42016,Laguna - SC
+421265,42016,Laguna - SC
+421490,42016,Laguna - SC
+421545,42016,Laguna - SC
+421560,42016,Laguna - SC
+421700,42016,Laguna - SC
+421710,42016,Laguna - SC
+421840,42016,Laguna - SC
+421870,42016,Laguna - SC
+420210,42017,Vale do ItapocÃº - SC
+420450,42017,Vale do ItapocÃº - SC
+420650,42017,Vale do ItapocÃº - SC
+420890,42017,Vale do ItapocÃº - SC
+421060,42017,Vale do ItapocÃº - SC
+421635,42017,Vale do ItapocÃº - SC
+421740,42017,Vale do ItapocÃº - SC
+430010,43001,RegiÃ£o 01 - Verdes Campos - RS
+430637,43001,RegiÃ£o 01 - Verdes Campos - RS
+430670,43001,RegiÃ£o 01 - Verdes Campos - RS
+430800,43001,RegiÃ£o 01 - Verdes Campos - RS
+430840,43001,RegiÃ£o 01 - Verdes Campos - RS
+431053,43001,RegiÃ£o 01 - Verdes Campos - RS
+431075,43001,RegiÃ£o 01 - Verdes Campos - RS
+431120,43001,RegiÃ£o 01 - Verdes Campos - RS
+431310,43001,RegiÃ£o 01 - Verdes Campos - RS
+431402,43001,RegiÃ£o 01 - Verdes Campos - RS
+431447,43001,RegiÃ£o 01 - Verdes Campos - RS
+431532,43001,RegiÃ£o 01 - Verdes Campos - RS
+431550,43001,RegiÃ£o 01 - Verdes Campos - RS
+431690,43001,RegiÃ£o 01 - Verdes Campos - RS
+431843,43001,RegiÃ£o 01 - Verdes Campos - RS
+431912,43001,RegiÃ£o 01 - Verdes Campos - RS
+431940,43001,RegiÃ£o 01 - Verdes Campos - RS
+431960,43001,RegiÃ£o 01 - Verdes Campos - RS
+432065,43001,RegiÃ£o 01 - Verdes Campos - RS
+432149,43001,RegiÃ£o 01 - Verdes Campos - RS
+432220,43001,RegiÃ£o 01 - Verdes Campos - RS
+432345,43001,RegiÃ£o 01 - Verdes Campos - RS
+430290,43002,RegiÃ£o 02 - Entre Rios - RS
+430465,43002,RegiÃ£o 02 - Entre Rios - RS
+431055,43002,RegiÃ£o 02 - Entre Rios - RS
+431110,43002,RegiÃ£o 02 - Entre Rios - RS
+431113,43002,RegiÃ£o 02 - Entre Rios - RS
+431210,43002,RegiÃ£o 02 - Entre Rios - RS
+431303,43002,RegiÃ£o 02 - Entre Rios - RS
+431740,43002,RegiÃ£o 02 - Entre Rios - RS
+431810,43002,RegiÃ£o 02 - Entre Rios - RS
+431980,43002,RegiÃ£o 02 - Entre Rios - RS
+432237,43002,RegiÃ£o 02 - Entre Rios - RS
+430040,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+430187,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431060,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431171,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431175,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431530,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431640,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431697,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431710,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+431830,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+432240,43003,RegiÃ£o 03 - Fronteira Oeste - RS
+430105,43004,RegiÃ£o 04 - Belas Praias - RS
+430463,43004,RegiÃ£o 04 - Belas Praias - RS
+430655,43004,RegiÃ£o 04 - Belas Praias - RS
+431065,43004,RegiÃ£o 04 - Belas Praias - RS
+431173,43004,RegiÃ£o 04 - Belas Praias - RS
+431177,43004,RegiÃ£o 04 - Belas Praias - RS
+431244,43004,RegiÃ£o 04 - Belas Praias - RS
+432143,43004,RegiÃ£o 04 - Belas Praias - RS
+432150,43004,RegiÃ£o 04 - Belas Praias - RS
+432166,43004,RegiÃ£o 04 - Belas Praias - RS
+432183,43004,RegiÃ£o 04 - Belas Praias - RS
+432380,43004,RegiÃ£o 04 - Belas Praias - RS
+430163,43005,RegiÃ£o 05 - Bons Ventos - RS
+430467,43005,RegiÃ£o 05 - Bons Ventos - RS
+430471,43005,RegiÃ£o 05 - Bons Ventos - RS
+430545,43005,RegiÃ£o 05 - Bons Ventos - RS
+431033,43005,RegiÃ£o 05 - Bons Ventos - RS
+431250,43005,RegiÃ£o 05 - Bons Ventos - RS
+431350,43005,RegiÃ£o 05 - Bons Ventos - RS
+431365,43005,RegiÃ£o 05 - Bons Ventos - RS
+431760,43005,RegiÃ£o 05 - Bons Ventos - RS
+432135,43005,RegiÃ£o 05 - Bons Ventos - RS
+432160,43005,RegiÃ£o 05 - Bons Ventos - RS
+430360,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+431010,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+431405,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+431575,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+431600,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+431820,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+432120,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+432170,43006,RegiÃ£o 06 - Vale do Paranhana e Costa Serra - RS
+430087,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+430390,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+430640,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+430760,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431080,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431162,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431247,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431306,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431340,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431480,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431514,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431695,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431848,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431870,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+431990,43007,RegiÃ£o 07 - Vale dos Sinos - RS
+430165,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430265,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430460,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430468,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430770,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430955,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431179,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431240,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431337,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431403,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431650,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431861,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431935,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+431950,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+432000,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+432085,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+432200,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+432225,43008,RegiÃ£o 08 - Vale do CaÃ­ e Metropolitana - RS
+430085,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430110,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430175,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430190,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430270,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430350,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430517,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430535,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430544,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430605,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430650,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430676,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430880,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430930,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+431198,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+431225,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+431840,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+432035,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+432055,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+432110,43009,RegiÃ£o 09 - CarbonÃ­fera/Costa Doce - RS
+430060,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+430310,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+430905,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+430920,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+431490,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+432300,43010,RegiÃ£o 10 - Capital e Vale do GravataÃ­ - RS
+430250,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430330,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430520,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430635,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430693,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430783,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430865,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430950,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431217,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431455,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431510,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431595,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431630,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431647,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431750,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431770,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431800,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431890,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431915,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431920,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+431937,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+432057,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+432234,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+432375,43011,RegiÃ£o 11 - Sete Povos das MissÃµes - RS
+430222,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+430223,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+430560,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+430610,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+430845,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431000,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431087,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431535,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431643,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431645,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+431670,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+432030,43012,RegiÃ£o 12 - Portal das MissÃµes - RS
+430020,43013,RegiÃ£o 13 - Diversidade - RS
+430150,43013,RegiÃ£o 13 - Diversidade - RS
+430258,43013,RegiÃ£o 13 - Diversidade - RS
+430400,43013,RegiÃ£o 13 - Diversidade - RS
+430500,43013,RegiÃ£o 13 - Diversidade - RS
+430540,43013,RegiÃ£o 13 - Diversidade - RS
+430570,43013,RegiÃ£o 13 - Diversidade - RS
+430587,43013,RegiÃ£o 13 - Diversidade - RS
+430600,43013,RegiÃ£o 13 - Diversidade - RS
+430970,43013,RegiÃ£o 13 - Diversidade - RS
+431020,43013,RegiÃ£o 13 - Diversidade - RS
+431041,43013,RegiÃ£o 13 - Diversidade - RS
+431115,43013,RegiÃ£o 13 - Diversidade - RS
+431333,43013,RegiÃ£o 13 - Diversidade - RS
+431390,43013,RegiÃ£o 13 - Diversidade - RS
+431430,43013,RegiÃ£o 13 - Diversidade - RS
+431780,43013,RegiÃ£o 13 - Diversidade - RS
+431910,43013,RegiÃ£o 13 - Diversidade - RS
+431973,43013,RegiÃ£o 13 - Diversidade - RS
+432023,43013,RegiÃ£o 13 - Diversidade - RS
+430030,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430045,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430220,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430370,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430430,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430673,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430900,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430960,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431040,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431301,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431342,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431500,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431505,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431507,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431720,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431790,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431849,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+431930,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+432032,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+432180,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+432210,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+432230,43014,RegiÃ£o 14 - Fronteira Noroeste - RS
+430050,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430064,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430185,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430237,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430340,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430607,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430632,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430730,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430745,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430850,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431050,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431160,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431344,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431380,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431445,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431449,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431470,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+431590,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432020,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432132,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432140,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432147,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432190,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432310,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432350,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+432370,43015,RegiÃ£o 15 - Caminho das Ãguas - RS
+430090,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430155,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430170,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430192,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430205,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430380,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430485,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430511,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430537,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430613,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430695,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430697,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430700,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430720,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430755,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430805,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430825,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430870,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430890,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431046,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431070,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431090,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431190,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431200,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431270,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431413,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431478,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431531,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431555,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+431970,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+432060,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+432163,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+432290,43016,RegiÃ£o 16 - Alto Uruguai GaÃºcho - RS
+430047,43017,RegiÃ£o 17 - Planalto - RS
+430355,43017,RegiÃ£o 17 - Planalto - RS
+430470,43017,RegiÃ£o 17 - Planalto - RS
+430490,43017,RegiÃ£o 17 - Planalto - RS
+430550,43017,RegiÃ£o 17 - Planalto - RS
+430585,43017,RegiÃ£o 17 - Planalto - RS
+430597,43017,RegiÃ£o 17 - Planalto - RS
+430630,43017,RegiÃ£o 17 - Planalto - RS
+430705,43017,RegiÃ£o 17 - Planalto - RS
+430885,43017,RegiÃ£o 17 - Planalto - RS
+431127,43017,RegiÃ£o 17 - Planalto - RS
+431180,43017,RegiÃ£o 17 - Planalto - RS
+431213,43017,RegiÃ£o 17 - Planalto - RS
+431235,43017,RegiÃ£o 17 - Planalto - RS
+431262,43017,RegiÃ£o 17 - Planalto - RS
+431265,43017,RegiÃ£o 17 - Planalto - RS
+431267,43017,RegiÃ£o 17 - Planalto - RS
+431275,43017,RegiÃ£o 17 - Planalto - RS
+431410,43017,RegiÃ£o 17 - Planalto - RS
+431477,43017,RegiÃ£o 17 - Planalto - RS
+431755,43017,RegiÃ£o 17 - Planalto - RS
+431775,43017,RegiÃ£o 17 - Planalto - RS
+431805,43017,RegiÃ£o 17 - Planalto - RS
+432040,43017,RegiÃ£o 17 - Planalto - RS
+432050,43017,RegiÃ£o 17 - Planalto - RS
+432255,43017,RegiÃ£o 17 - Planalto - RS
+432320,43017,RegiÃ£o 17 - Planalto - RS
+432340,43017,RegiÃ£o 17 - Planalto - RS
+430005,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430066,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430180,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430320,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430462,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430495,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430980,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430990,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431130,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431170,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431220,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431360,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431660,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431673,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431795,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431842,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+431860,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+432090,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+432218,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+432335,43018,RegiÃ£o 18 - AraucÃ¡rias - RS
+430055,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430140,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430200,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430410,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430750,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430830,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430995,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+431057,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+431125,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+431242,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+432080,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+432100,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+432146,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+432215,43019,RegiÃ£o 19 - BotucaraÃ­ - RS
+430195,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430215,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430260,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430515,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430530,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430580,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430590,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430642,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430692,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430912,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431085,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431142,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431230,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431295,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431346,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431349,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431370,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431540,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431610,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431620,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431642,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431845,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+431936,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+432010,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+432185,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+432195,43020,RegiÃ£o 20 - Rota da ProduÃ§Ã£o - RS
+430063,43021,RegiÃ£o 21 - Sul - RS
+430107,43021,RegiÃ£o 21 - Sul - RS
+430130,43021,RegiÃ£o 21 - Sul - RS
+430450,43021,RegiÃ£o 21 - Sul - RS
+430466,43021,RegiÃ£o 21 - Sul - RS
+430512,43021,RegiÃ£o 21 - Sul - RS
+430543,43021,RegiÃ£o 21 - Sul - RS
+430710,43021,RegiÃ£o 21 - Sul - RS
+431100,43021,RegiÃ£o 21 - Sul - RS
+431245,43021,RegiÃ£o 21 - Sul - RS
+431417,43021,RegiÃ£o 21 - Sul - RS
+431420,43021,RegiÃ£o 21 - Sul - RS
+431440,43021,RegiÃ£o 21 - Sul - RS
+431450,43021,RegiÃ£o 21 - Sul - RS
+431460,43021,RegiÃ£o 21 - Sul - RS
+431560,43021,RegiÃ£o 21 - Sul - RS
+431700,43021,RegiÃ£o 21 - Sul - RS
+431730,43021,RegiÃ£o 21 - Sul - RS
+431850,43021,RegiÃ£o 21 - Sul - RS
+431880,43021,RegiÃ£o 21 - Sul - RS
+432232,43021,RegiÃ£o 21 - Sul - RS
+430003,43022,RegiÃ£o 22 - Pampa - RS
+430160,43022,RegiÃ£o 22 - Pampa - RS
+430435,43022,RegiÃ£o 22 - Pampa - RS
+430660,43022,RegiÃ£o 22 - Pampa - RS
+430965,43022,RegiÃ£o 22 - Pampa - RS
+431150,43022,RegiÃ£o 22 - Pampa - RS
+430440,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+430510,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+430910,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+431164,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+431320,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+431442,43023,RegiÃ£o 23 - Caxias e HortÃªnsias - RS
+430230,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+430367,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+430740,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+431112,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+431237,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+431261,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+431446,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+431862,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+432250,43024,RegiÃ£o 24 - Campos de Cima da Serra - RS
+430210,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430225,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430480,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430593,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430595,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430786,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430860,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430925,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430940,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431238,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431280,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431290,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431330,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431400,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431454,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431517,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431725,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+431844,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+432235,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+432280,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+432330,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+432360,43025,RegiÃ£o 25 - Vinhedos e Basalto - RS
+430057,43026,RegiÃ£o 26 - Uva Vale - RS
+430080,43026,RegiÃ£o 26 - Uva Vale - RS
+430235,43026,RegiÃ£o 26 - Uva Vale - RS
+430790,43026,RegiÃ£o 26 - Uva Vale - RS
+430810,43026,RegiÃ£o 26 - Uva Vale - RS
+430820,43026,RegiÃ£o 26 - Uva Vale - RS
+431043,43026,RegiÃ£o 26 - Uva Vale - RS
+431308,43026,RegiÃ£o 26 - Uva Vale - RS
+431335,43026,RegiÃ£o 26 - Uva Vale - RS
+431900,43026,RegiÃ£o 26 - Uva Vale - RS
+431975,43026,RegiÃ£o 26 - Uva Vale - RS
+432254,43026,RegiÃ£o 26 - Uva Vale - RS
+430120,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430280,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430300,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430513,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430690,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430781,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430975,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+431123,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+431339,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+431406,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+432026,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+432070,43027,RegiÃ£o 27 - JacuÃ­ Centro - RS
+430420,43028,RegiÃ£o 28 - Vinte e Oito - RS
+430915,43028,RegiÃ£o 28 - Vinte e Oito - RS
+430957,43028,RegiÃ£o 28 - Vinte e Oito - RS
+431215,43028,RegiÃ£o 28 - Vinte e Oito - RS
+431395,43028,RegiÃ£o 28 - Vinte e Oito - RS
+431407,43028,RegiÃ£o 28 - Vinte e Oito - RS
+431570,43028,RegiÃ£o 28 - Vinte e Oito - RS
+431680,43028,RegiÃ£o 28 - Vinte e Oito - RS
+432067,43028,RegiÃ£o 28 - Vinte e Oito - RS
+432252,43028,RegiÃ£o 28 - Vinte e Oito - RS
+432253,43028,RegiÃ£o 28 - Vinte e Oito - RS
+432260,43028,RegiÃ£o 28 - Vinte e Oito - RS
+432270,43028,RegiÃ£o 28 - Vinte e Oito - RS
+430070,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430100,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430245,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430461,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430469,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430583,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430620,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430645,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430675,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430680,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430843,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431030,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431140,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431205,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431260,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431300,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431513,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431515,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431520,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431545,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431580,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431675,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431846,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+431971,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+432045,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+432162,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+432285,43029,RegiÃ£o 29 - Vales e Montanhas - RS
+430240,43030,RegiÃ£o 30 - Vale da Luz - RS
+430558,43030,RegiÃ£o 30 - Vale da Luz - RS
+430780,43030,RegiÃ£o 30 - Vale da Luz - RS
+430807,43030,RegiÃ£o 30 - Vale da Luz - RS
+431036,43030,RegiÃ£o 30 - Vale da Luz - RS
+431415,43030,RegiÃ£o 30 - Vale da Luz - RS
+431475,43030,RegiÃ£o 30 - Vale da Luz - RS
+432130,43030,RegiÃ£o 30 - Vale da Luz - RS
+432145,43030,RegiÃ£o 30 - Vale da Luz - RS
+432377,43030,RegiÃ£o 30 - Vale da Luz - RS
+500025,50001,Campo Grande - MS
+500070,50001,Campo Grande - MS
+500110,50001,Campo Grande - MS
+500150,50001,Campo Grande - MS
+500210,50001,Campo Grande - MS
+500215,50001,Campo Grande - MS
+500220,50001,Campo Grande - MS
+500260,50001,Campo Grande - MS
+500270,50001,Campo Grande - MS
+500280,50001,Campo Grande - MS
+500295,50001,Campo Grande - MS
+500310,50001,Campo Grande - MS
+500325,50001,Campo Grande - MS
+500330,50001,Campo Grande - MS
+500348,50001,Campo Grande - MS
+500390,50001,Campo Grande - MS
+500410,50001,Campo Grande - MS
+500490,50001,Campo Grande - MS
+500500,50001,Campo Grande - MS
+500540,50001,Campo Grande - MS
+500560,50001,Campo Grande - MS
+500580,50001,Campo Grande - MS
+500600,50001,Campo Grande - MS
+500627,50001,Campo Grande - MS
+500640,50001,Campo Grande - MS
+500690,50001,Campo Grande - MS
+500710,50001,Campo Grande - MS
+500730,50001,Campo Grande - MS
+500740,50001,Campo Grande - MS
+500750,50001,Campo Grande - MS
+500769,50001,Campo Grande - MS
+500790,50001,Campo Grande - MS
+500793,50001,Campo Grande - MS
+500800,50001,Campo Grande - MS
+500320,50002,CorumbÃ¡ - MS
+500520,50002,CorumbÃ¡ - MS
+500060,50003,Dourados - MS
+500080,50003,Dourados - MS
+500085,50003,Dourados - MS
+500090,50003,Dourados - MS
+500124,50003,Dourados - MS
+500200,50003,Dourados - MS
+500240,50003,Dourados - MS
+500315,50003,Dourados - MS
+500345,50003,Dourados - MS
+500350,50003,Dourados - MS
+500370,50003,Dourados - MS
+500375,50003,Dourados - MS
+500380,50003,Dourados - MS
+500400,50003,Dourados - MS
+500430,50003,Dourados - MS
+500450,50003,Dourados - MS
+500460,50003,Dourados - MS
+500470,50003,Dourados - MS
+500480,50003,Dourados - MS
+500510,50003,Dourados - MS
+500515,50003,Dourados - MS
+500525,50003,Dourados - MS
+500568,50003,Dourados - MS
+500570,50003,Dourados - MS
+500620,50003,Dourados - MS
+500625,50003,Dourados - MS
+500635,50003,Dourados - MS
+500660,50003,Dourados - MS
+500720,50003,Dourados - MS
+500770,50003,Dourados - MS
+500795,50003,Dourados - MS
+500797,50003,Dourados - MS
+500840,50003,Dourados - MS
+500020,50004,TrÃªs Lagoas - MS
+500100,50004,TrÃªs Lagoas - MS
+500190,50004,TrÃªs Lagoas - MS
+500230,50004,TrÃªs Lagoas - MS
+500290,50004,TrÃªs Lagoas - MS
+500440,50004,TrÃªs Lagoas - MS
+500630,50004,TrÃªs Lagoas - MS
+500755,50004,TrÃªs Lagoas - MS
+500780,50004,TrÃªs Lagoas - MS
+500830,50004,TrÃªs Lagoas - MS
+510025,51001,Alto TapajÃ³s - MT
+510080,51001,Alto TapajÃ³s - MT
+510279,51001,Alto TapajÃ³s - MT
+510615,51001,Alto TapajÃ³s - MT
+510629,51001,Alto TapajÃ³s - MT
+510895,51001,Alto TapajÃ³s - MT
+510010,51002,Baixada Cuiabana - MT
+510160,51002,Baixada Cuiabana - MT
+510300,51002,Baixada Cuiabana - MT
+510340,51002,Baixada Cuiabana - MT
+510490,51002,Baixada Cuiabana - MT
+510610,51002,Baixada Cuiabana - MT
+510620,51002,Baixada Cuiabana - MT
+510645,51002,Baixada Cuiabana - MT
+510650,51002,Baixada Cuiabana - MT
+510780,51002,Baixada Cuiabana - MT
+510840,51002,Baixada Cuiabana - MT
+510269,51003,Araguaia Xingu - MT
+510335,51003,Araguaia Xingu - MT
+510677,51003,Araguaia Xingu - MT
+510735,51003,Araguaia Xingu - MT
+510774,51003,Araguaia Xingu - MT
+510777,51003,Araguaia Xingu - MT
+510860,51003,Araguaia Xingu - MT
+510050,51004,Centro Norte - MT
+510350,51004,Centro Norte - MT
+510590,51004,Centro Norte - MT
+510600,51004,Centro Norte - MT
+510730,51004,Centro Norte - MT
+510770,51004,Centro Norte - MT
+510890,51004,Centro Norte - MT
+510100,51005,GarÃ§as Araguaia - MT
+510180,51005,GarÃ§as Araguaia - MT
+510260,51005,GarÃ§as Araguaia - MT
+510390,51005,GarÃ§as Araguaia - MT
+510625,51005,GarÃ§as Araguaia - MT
+510628,51005,GarÃ§as Araguaia - MT
+510665,51005,GarÃ§as Araguaia - MT
+510670,51005,GarÃ§as Araguaia - MT
+510719,51005,GarÃ§as Araguaia - MT
+510820,51005,GarÃ§as Araguaia - MT
+510020,51006,MÃ©dio Araguaia - MT
+510185,51006,MÃ©dio Araguaia - MT
+510270,51006,MÃ©dio Araguaia - MT
+510310,51006,MÃ©dio Araguaia - MT
+510385,51006,MÃ©dio Araguaia - MT
+510617,51006,MÃ©dio Araguaia - MT
+510706,51006,MÃ©dio Araguaia - MT
+510718,51006,MÃ©dio Araguaia - MT
+510130,51007,MÃ©dio Norte Matogrossense - MT
+510170,51007,MÃ©dio Norte Matogrossense - MT
+510263,51007,MÃ©dio Norte Matogrossense - MT
+510345,51007,MÃ©dio Norte Matogrossense - MT
+510623,51007,MÃ©dio Norte Matogrossense - MT
+510685,51007,MÃ©dio Norte Matogrossense - MT
+510726,51007,MÃ©dio Norte Matogrossense - MT
+510787,51007,MÃ©dio Norte Matogrossense - MT
+510795,51007,MÃ©dio Norte Matogrossense - MT
+510885,51007,MÃ©dio Norte Matogrossense - MT
+510140,51008,Noroeste Matogrossense - MT
+510190,51008,Noroeste Matogrossense - MT
+510285,51008,Noroeste Matogrossense - MT
+510325,51008,Noroeste Matogrossense - MT
+510337,51008,Noroeste Matogrossense - MT
+510515,51008,Noroeste Matogrossense - MT
+510517,51008,Noroeste Matogrossense - MT
+510035,51009,Norte Araguaia KarajÃ¡ - MT
+510530,51009,Norte Araguaia KarajÃ¡ - MT
+510631,51009,Norte Araguaia KarajÃ¡ - MT
+510785,51009,Norte Araguaia KarajÃ¡ - MT
+510788,51009,Norte Araguaia KarajÃ¡ - MT
+510320,51010,Norte Matogrossense - MT
+510455,51010,Norte Matogrossense - MT
+510558,51010,Norte Matogrossense - MT
+510619,51010,Norte Matogrossense - MT
+510621,51010,Norte Matogrossense - MT
+510880,51010,Norte Matogrossense - MT
+510125,51011,Oeste Matogrossense - MT
+510250,51011,Oeste Matogrossense - MT
+510343,51011,Oeste Matogrossense - MT
+510395,51011,Oeste Matogrossense - MT
+510450,51011,Oeste Matogrossense - MT
+510523,51011,Oeste Matogrossense - MT
+510562,51011,Oeste Matogrossense - MT
+510682,51011,Oeste Matogrossense - MT
+510710,51011,Oeste Matogrossense - MT
+510715,51011,Oeste Matogrossense - MT
+510720,51011,Oeste Matogrossense - MT
+510775,51011,Oeste Matogrossense - MT
+510268,51012,Sudoeste Matogrossense - MT
+510330,51012,Sudoeste Matogrossense - MT
+510336,51012,Sudoeste Matogrossense - MT
+510380,51012,Sudoeste Matogrossense - MT
+510500,51012,Sudoeste Matogrossense - MT
+510550,51012,Sudoeste Matogrossense - MT
+510618,51012,Sudoeste Matogrossense - MT
+510675,51012,Sudoeste Matogrossense - MT
+510757,51012,Sudoeste Matogrossense - MT
+510835,51012,Sudoeste Matogrossense - MT
+510030,51013,Sul Matogrossense - MT
+510040,51013,Sul Matogrossense - MT
+510060,51013,Sul Matogrossense - MT
+510120,51013,Sul Matogrossense - MT
+510183,51013,Sul Matogrossense - MT
+510267,51013,Sul Matogrossense - MT
+510360,51013,Sul Matogrossense - MT
+510420,51013,Sul Matogrossense - MT
+510460,51013,Sul Matogrossense - MT
+510480,51013,Sul Matogrossense - MT
+510520,51013,Sul Matogrossense - MT
+510630,51013,Sul Matogrossense - MT
+510637,51013,Sul Matogrossense - MT
+510700,51013,Sul Matogrossense - MT
+510704,51013,Sul Matogrossense - MT
+510729,51013,Sul Matogrossense - MT
+510740,51013,Sul Matogrossense - MT
+510760,51013,Sul Matogrossense - MT
+510779,51013,Sul Matogrossense - MT
+510810,51013,Sul Matogrossense - MT
+510305,51014,Teles Pires - MT
+510370,51014,Teles Pires - MT
+510452,51014,Teles Pires - MT
+510454,51014,Teles Pires - MT
+510525,51014,Teles Pires - MT
+510622,51014,Teles Pires - MT
+510624,51014,Teles Pires - MT
+510724,51014,Teles Pires - MT
+510776,51014,Teles Pires - MT
+510790,51014,Teles Pires - MT
+510792,51014,Teles Pires - MT
+510800,51014,Teles Pires - MT
+510830,51014,Teles Pires - MT
+510850,51014,Teles Pires - MT
+510410,51015,Vale do Peixoto - MT
+510560,51015,Vale do Peixoto - MT
+510626,51015,Vale do Peixoto - MT
+510642,51015,Vale do Peixoto - MT
+510805,51015,Vale do Peixoto - MT
+510510,51016,Vale dos Arinos - MT
+510627,51016,Vale dos Arinos - MT
+510680,51016,Vale dos Arinos - MT
+510794,51016,Vale dos Arinos - MT
+520005,52001,Central - GO
+520130,52001,Central - GO
+520160,52001,Central - GO
+520280,52001,Central - GO
+520360,52001,Central - GO
+520460,52001,Central - GO
+520520,52001,Central - GO
+520680,52001,Central - GO
+520870,52001,Central - GO
+520880,52001,Central - GO
+520920,52001,Central - GO
+521000,52001,Central - GO
+521056,52001,Central - GO
+521140,52001,Central - GO
+521205,52001,Central - GO
+521440,52001,Central - GO
+521450,52001,Central - GO
+521500,52001,Central - GO
+521540,52001,Central - GO
+521680,52001,Central - GO
+521910,52001,Central - GO
+521950,52001,Central - GO
+521973,52001,Central - GO
+521990,52001,Central - GO
+522100,52001,Central - GO
+522140,52001,Central - GO
+520140,52002,Centro Sul - GO
+520180,52002,Centro Sul - GO
+520330,52002,Centro Sul - GO
+520355,52002,Centro Sul - GO
+520455,52002,Centro Sul - GO
+520545,52002,Centro Sul - GO
+520630,52002,Centro Sul - GO
+520650,52002,Centro Sul - GO
+520735,52002,Centro Sul - GO
+520740,52002,Centro Sul - GO
+520970,52002,Centro Sul - GO
+520995,52002,Centro Sul - GO
+521170,52002,Centro Sul - GO
+521230,52002,Centro Sul - GO
+521260,52002,Centro Sul - GO
+521530,52002,Centro Sul - GO
+521710,52002,Centro Sul - GO
+521770,52002,Centro Sul - GO
+521839,52002,Centro Sul - GO
+522026,52002,Centro Sul - GO
+522045,52002,Centro Sul - GO
+522060,52002,Centro Sul - GO
+522190,52002,Centro Sul - GO
+522200,52002,Centro Sul - GO
+522205,52002,Centro Sul - GO
+520017,52003,Entorno Norte - GO
+520060,52003,Entorno Norte - GO
+520400,52003,Entorno Norte - GO
+520790,52003,Entorno Norte - GO
+520800,52003,Entorno Norte - GO
+521760,52003,Entorno Norte - GO
+522000,52003,Entorno Norte - GO
+522220,52003,Entorno Norte - GO
+520025,52004,Entorno Sul - GO
+520549,52004,Entorno Sul - GO
+520620,52004,Entorno Sul - GO
+521250,52004,Entorno Sul - GO
+521523,52004,Entorno Sul - GO
+521975,52004,Entorno Sul - GO
+522185,52004,Entorno Sul - GO
+520120,52005,Estrada de Ferro - GO
+520450,52005,Estrada de Ferro - GO
+520480,52005,Estrada de Ferro - GO
+520510,52005,Estrada de Ferro - GO
+520590,52005,Estrada de Ferro - GO
+520660,52005,Estrada de Ferro - GO
+520690,52005,Estrada de Ferro - GO
+520850,52005,Estrada de Ferro - GO
+521010,52005,Estrada de Ferro - GO
+521290,52005,Estrada de Ferro - GO
+521480,52005,Estrada de Ferro - GO
+521550,52005,Estrada de Ferro - GO
+521580,52005,Estrada de Ferro - GO
+521740,52005,Estrada de Ferro - GO
+521878,52005,Estrada de Ferro - GO
+521920,52005,Estrada de Ferro - GO
+522130,52005,Estrada de Ferro - GO
+522180,52005,Estrada de Ferro - GO
+520490,52006,Nordeste I - GO
+520530,52006,Nordeste I - GO
+520830,52006,Nordeste I - GO
+521350,52006,Nordeste I - GO
+522108,52006,Nordeste I - GO
+520080,52007,Nordeste II - GO
+520396,52007,Nordeste II - GO
+520670,52007,Nordeste II - GO
+520940,52007,Nordeste II - GO
+520990,52007,Nordeste II - GO
+521270,52007,Nordeste II - GO
+521490,52007,Nordeste II - GO
+521830,52007,Nordeste II - GO
+521980,52007,Nordeste II - GO
+522068,52007,Nordeste II - GO
+522070,52007,Nordeste II - GO
+520357,52008,Norte - GO
+520465,52008,Norte - GO
+520750,52008,Norte - GO
+520810,52008,Norte - GO
+521308,52008,Norte - GO
+521377,52008,Norte - GO
+521405,52008,Norte - GO
+521410,52008,Norte - GO
+521525,52008,Norte - GO
+521800,52008,Norte - GO
+521960,52008,Norte - GO
+522020,52008,Norte - GO
+522145,52008,Norte - GO
+520090,52009,Oeste I - GO
+520170,52009,Oeste I - GO
+520235,52009,Oeste I - GO
+520310,52009,Oeste I - GO
+520340,52009,Oeste I - GO
+520710,52009,Oeste I - GO
+520760,52009,Oeste I - GO
+521020,52009,Oeste I - GO
+521030,52009,Oeste I - GO
+521160,52009,Oeste I - GO
+521200,52009,Oeste I - GO
+521340,52009,Oeste I - GO
+521370,52009,Oeste I - GO
+521520,52009,Oeste I - GO
+521565,52009,Oeste I - GO
+521720,52009,Oeste I - GO
+520015,52010,Oeste II - GO
+520260,52010,Oeste II - GO
+520393,52010,Oeste II - GO
+520420,52010,Oeste II - GO
+520570,52010,Oeste II - GO
+520780,52010,Oeste II - GO
+521570,52010,Oeste II - GO
+521590,52010,Oeste II - GO
+521640,52010,Oeste II - GO
+521900,52010,Oeste II - GO
+522005,52010,Oeste II - GO
+522010,52010,Oeste II - GO
+522150,52010,Oeste II - GO
+520010,52011,Pirineus - GO
+520030,52011,Pirineus - GO
+520110,52011,Pirineus - GO
+520485,52011,Pirineus - GO
+520551,52011,Pirineus - GO
+520580,52011,Pirineus - GO
+520815,52011,Pirineus - GO
+520840,52011,Pirineus - GO
+521730,52011,Pirineus - GO
+522119,52011,Pirineus - GO
+520085,52012,Rio Vermelho - GO
+520215,52012,Rio Vermelho - GO
+520250,52012,Rio Vermelho - GO
+520380,52012,Rio Vermelho - GO
+520753,52012,Rio Vermelho - GO
+520890,52012,Rio Vermelho - GO
+520929,52012,Rio Vermelho - GO
+520960,52012,Rio Vermelho - GO
+521040,52012,Rio Vermelho - GO
+521100,52012,Rio Vermelho - GO
+521120,52012,Rio Vermelho - GO
+521220,52012,Rio Vermelho - GO
+521295,52012,Rio Vermelho - GO
+521390,52012,Rio Vermelho - GO
+521400,52012,Rio Vermelho - GO
+521483,52012,Rio Vermelho - GO
+521925,52012,Rio Vermelho - GO
+520495,52013,SÃ£o PatrÃ­cio I - GO
+520500,52013,SÃ£o PatrÃ­cio I - GO
+520540,52013,SÃ£o PatrÃ­cio I - GO
+520640,52013,SÃ£o PatrÃ­cio I - GO
+520945,52013,SÃ£o PatrÃ­cio I - GO
+521015,52013,SÃ£o PatrÃ­cio I - GO
+521090,52013,SÃ£o PatrÃ­cio I - GO
+521385,52013,SÃ£o PatrÃ­cio I - GO
+521470,52013,SÃ£o PatrÃ­cio I - GO
+521486,52013,SÃ£o PatrÃ­cio I - GO
+521690,52013,SÃ£o PatrÃ­cio I - GO
+521860,52013,SÃ£o PatrÃ­cio I - GO
+521870,52013,SÃ£o PatrÃ­cio I - GO
+521890,52013,SÃ£o PatrÃ­cio I - GO
+521935,52013,SÃ£o PatrÃ­cio I - GO
+521970,52013,SÃ£o PatrÃ­cio I - GO
+522015,52013,SÃ£o PatrÃ­cio I - GO
+522028,52013,SÃ£o PatrÃ­cio I - GO
+522157,52013,SÃ£o PatrÃ­cio I - GO
+522170,52013,SÃ£o PatrÃ­cio I - GO
+520055,52014,Serra da Mesa - GO
+520082,52014,Serra da Mesa - GO
+520470,52014,Serra da Mesa - GO
+520552,52014,Serra da Mesa - GO
+520980,52014,Serra da Mesa - GO
+521280,52014,Serra da Mesa - GO
+521460,52014,Serra da Mesa - GO
+521487,52014,Serra da Mesa - GO
+522160,52014,Serra da Mesa - GO
+520013,52015,Sudoeste I - GO
+520145,52015,Sudoeste I - GO
+520410,52015,Sudoeste I - GO
+520430,52015,Sudoeste I - GO
+520505,52015,Sudoeste I - GO
+521080,52015,Sudoeste I - GO
+521130,52015,Sudoeste I - GO
+521225,52015,Sudoeste I - GO
+521300,52015,Sudoeste I - GO
+521375,52015,Sudoeste I - GO
+521630,52015,Sudoeste I - GO
+521805,52015,Sudoeste I - GO
+521850,52015,Sudoeste I - GO
+521880,52015,Sudoeste I - GO
+521930,52015,Sudoeste I - GO
+521971,52015,Sudoeste I - GO
+522040,52015,Sudoeste I - GO
+522155,52015,Sudoeste I - GO
+520150,52016,Sudoeste II - GO
+520440,52016,Sudoeste II - GO
+520547,52016,Sudoeste II - GO
+520725,52016,Sudoeste II - GO
+521190,52016,Sudoeste II - GO
+521310,52016,Sudoeste II - GO
+521645,52016,Sudoeste II - GO
+521810,52016,Sudoeste II - GO
+521940,52016,Sudoeste II - GO
+522050,52016,Sudoeste II - GO
+520020,52017,Sul - GO
+520050,52017,Sul - GO
+520350,52017,Sul - GO
+520390,52017,Sul - GO
+520425,52017,Sul - GO
+520910,52017,Sul - GO
+520915,52017,Sul - GO
+520993,52017,Sul - GO
+521150,52017,Sul - GO
+521210,52017,Sul - GO
+521380,52017,Sul - GO
+521600,52017,Sul - GO
+520320,52018,SÃ£o PatrÃ­cio II - GO
+520860,52018,SÃ£o PatrÃ­cio II - GO
+521060,52018,SÃ£o PatrÃ­cio II - GO
+521180,52018,SÃ£o PatrÃ­cio II - GO
+521305,52018,SÃ£o PatrÃ­cio II - GO
+521560,52018,SÃ£o PatrÃ­cio II - GO
+521945,52018,SÃ£o PatrÃ­cio II - GO
+522230,52018,SÃ£o PatrÃ­cio II - GO
+530000,53001,Distrito Federal - DF
+530010,53001,Distrito Federal - DF

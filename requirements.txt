@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+dbfread>=2.0
+h5netcdf
+h5py
+nbformat
+nbclient
+ipykernel

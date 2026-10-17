@@ -1,0 +1,189 @@
+{
+  "aggregate_trend": {
+    "draws_used": 8000,
+    "mu_b_hypermean": [
+      -0.008325317493386301,
+      -0.011284723210476537,
+      -0.005159255630195192
+    ],
+    "aggregate_rate_log_slope": [
+      -0.007162036401768902,
+      -0.00924466744261707,
+      -0.0050208175219358985
+    ],
+    "births_weighted_mean_region_slope": [
+      -0.007128238253231242,
+      -0.009296180623105275,
+      -0.004869270344981364
+    ],
+    "deaths_weighted_mean_region_slope": [
+      -0.007464604077305924,
+      -0.009537005267625881,
+      -0.005320009970698546
+    ],
+    "unweighted_mean_region_slope": [
+      -0.008395643625251562,
+      -0.010125846693705675,
+      -0.006594728519236954
+    ],
+    "observed_aggregate_log_rate_ols_slope": -0.006182197744348014,
+    "observed_aggregate_poisson_slope_with_robust_95ci": [
+      -0.006354725871204947,
+      -0.008303807015860904,
+      -0.0044056447265489905
+    ],
+    "pct_change_per_decade": {
+      "mu_b": -7.98818331270671,
+      "aggregate": -6.911577411393088,
+      "observed_ols": -5.994977796029277
+    },
+    "difference_aggregate_minus_mu_b": [
+      0.0011632810916173979,
+      -0.0016748521346406028,
+      0.004002002388105774
+    ]
+  },
+  "regional_stability": {
+    "classified_by_spec": {
+      "primary_three_level": 43,
+      "nopool": 46,
+      "exchangeable": 42,
+      "bym2_scaled": 61
+    },
+    "declines_by_spec": {
+      "primary_three_level": 43,
+      "nopool": 37,
+      "exchangeable": 42,
+      "bym2_scaled": 61
+    },
+    "increases_by_spec": {
+      "primary_three_level": 0,
+      "nopool": 9,
+      "exchangeable": 0,
+      "bym2_scaled": 0
+    },
+    "classified_in_all_four": 24,
+    "classified_in_at_least_one": 84,
+    "pairwise_overlap": {
+      "primary_three_level vs nopool": {
+        "n_x": 43,
+        "n_y": 46,
+        "both": 25,
+        "jaccard": 0.391,
+        "spearman_slope_means": 0.689
+      },
+      "primary_three_level vs exchangeable": {
+        "n_x": 43,
+        "n_y": 42,
+        "both": 41,
+        "jaccard": 0.932,
+        "spearman_slope_means": 1.0
+      },
+      "primary_three_level vs bym2_scaled": {
+        "n_x": 43,
+        "n_y": 61,
+        "both": 41,
+        "jaccard": 0.651,
+        "spearman_slope_means": 0.953
+      },
+      "nopool vs exchangeable": {
+        "n_x": 46,
+        "n_y": 42,
+        "both": 25,
+        "jaccard": 0.397,
+        "spearman_slope_means": 0.693
+      },
+      "nopool vs bym2_scaled": {
+        "n_x": 46,
+        "n_y": 61,
+        "both": 24,
+        "jaccard": 0.289,
+        "spearman_slope_means": 0.619
+      },
+      "exchangeable vs bym2_scaled": {
+        "n_x": 42,
+        "n_y": 61,
+        "both": 40,
+        "jaccard": 0.635,
+        "spearman_slope_means": 0.954
+      }
+    },
+    "primary_classified_by_state_top": [
+      {
+        "UF": "PI",
+        "regions": 19,
+        "classified": 9,
+        "share": 0.474
+      },
+      {
+        "UF": "BA",
+        "regions": 34,
+        "classified": 8,
+        "share": 0.235
+      },
+      {
+        "UF": "CE",
+        "regions": 18,
+        "classified": 8,
+        "share": 0.444
+      },
+      {
+        "UF": "MA",
+        "regions": 22,
+        "classified": 7,
+        "share": 0.318
+      },
+      {
+        "UF": "PA",
+        "regions": 21,
+        "classified": 5,
+        "share": 0.238
+      },
+      {
+        "UF": "PR",
+        "regions": 29,
+        "classified": 2,
+        "share": 0.069
+      },
+      {
+        "UF": "MG",
+        "regions": 70,
+        "classified": 2,
+        "share": 0.029
+      },
+      {
+        "UF": "AL",
+        "regions": 11,
+        "classified": 1,
+        "share": 0.091
+      },
+      {
+        "UF": "GO",
+        "regions": 22,
+        "classified": 1,
+        "share": 0.045
+      },
+      {
+        "UF": "SE",
+        "regions": 6,
+        "classified": 0,
+        "share": 0.0
+      }
+    ],
+    "states_with_any_primary_classified": 9,
+    "primary_pneg_ge_0.95": 102,
+    "primary_pneg_ge_0.90": 195,
+    "primary_pneg_le_0.5_regions_with_positive_mean": 11,
+    "median_interval_width": {
+      "primary_three_level": 0.0314,
+      "nopool": 0.0875,
+      "exchangeable": 0.0316,
+      "bym2_scaled": 0.0298
+    }
+  },
+  "completeness": {
+    "relation": "observed_slope = true_slope + g_D - g_B",
+    "death_capture_change_that_would_create_the_observed_slope_from_a_flat_truth": -0.00716,
+    "note": "improving death capture (g_D > 0) implies a STEEPER true decline; a deterioration of about 0.0072 per year in relative death capture could produce the observed decline from a flat truth."
+  }
+}
